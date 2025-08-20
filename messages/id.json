@@ -1,0 +1,378 @@
+{
+  "navigation": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "aboutUs": "Tentang Kami",
+    "team": "Tim",
+    "values": "Nilai",
+    "services": "Layanan",
+    "clients": "Klien",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "title": "Solusi HR Profesional",
+    "subtitle": "Transformasi Tenaga Kerja Anda",
+    "description": "PT. Sigma Solusi Servis menyediakan solusi HR komprehensif untuk mengoptimalkan kebutuhan man power dan meningkatkan efisiensi HRD.",
+    "cta": {
+      "primary": "Jelajahi Layanan",
+      "secondary": "Mulai Sekarang"
+    },
+    "features": {
+      "manPower": "Solusi Man Power",
+      "manPowerDesc": "Layanan staffing dan rekrutmen komprehensif",
+      "hrdEfficiency": "Efisiensi HRD",
+      "hrdEfficiencyDesc": "Streamline dan optimasi proses HR",
+      "trustedPartner": "Mitra Terpercaya",
+      "trustedPartnerDesc": "Konsultasi dan dukungan HR yang handal"
+    }
+  },
+  "services": {
+    "title": "Layanan Kami",
+    "subtitle": "Solusi HR komprehensif yang disesuaikan dengan kebutuhan bisnis Anda",
+    "hero": {
+      "title": "Layanan",
+      "subtitle": "Kami",
+      "description": "Temukan bagaimana solusi HR komprehensif kami dapat mentransformasi manajemen tenaga kerja Anda dan mendorong kesuksesan bisnis."
+    },
+    "page": {
+      "cta": {
+        "title": "Siap untuk Memulai?",
+        "subtitle": "Mari diskusikan bagaimana layanan kami dapat menguntungkan organisasi Anda",
+        "button": "Dapatkan Konsultasi Gratis"
+      }
+    },
+    "recruitment": {
+      "title": "Rekrutmen & Staffing",
+      "description": "Layanan rekrutmen komprehensif termasuk pencarian bakat, penyaringan, dan penempatan untuk semua tingkat posisi.",
+      "features": [
+        "Executive Search & Headhunting",
+        "Rekrutmen Teknis & Profesional",
+        "Contract & Temporary Staffing",
+        "Mass Recruitment Solutions",
+        "Employer Branding Support",
+        "Recruitment Process Optimization"
+      ],
+      "benefits": [
+        "Akses ke pool bakat terbaik",
+        "Mengurangi waktu-hire",
+        "Meningkatkan kualitas kandidat",
+        "Rekrutmen yang hemat biaya",
+        "Keahlian industri",
+        "Dukungan berkelanjutan"
+      ]
+    },
+    "hrProcess": {
+      "title": "Optimasi Proses HR",
+      "description": "Streamline operasi HR Anda dengan metodologi dan praktik terbaik yang telah terbukti.",
+      "features": [
+        "HR Process Mapping & Analysis",
+        "Workflow Automation",
+        "Performance Management Systems",
+        "Employee Engagement Programs",
+        "HR Technology Implementation",
+        "Process Efficiency Audits"
+      ],
+      "benefits": [
+        "Meningkatkan efisiensi operasional",
+        "Mengurangi beban administratif",
+        "Meningkatkan pengalaman karyawan",
+        "Manajemen kepatuhan yang lebih baik",
+        "Wawasan berbasis data",
+        "Proses yang dapat diskalakan"
+      ]
+    },
+    "training": {
+      "title": "Pelatihan & Pengembangan",
+      "description": "Program pelatihan yang disesuaikan untuk meningkatkan keterampilan karyawan dan mendorong pertumbuhan organisasi.",
+      "features": [
+        "Leadership Development Programs",
+        "Technical Skills Training",
+        "Soft Skills Enhancement",
+        "Team Building Workshops",
+        "Compliance Training",
+        "Custom Training Solutions"
+      ],
+      "benefits": [
+        "Meningkatkan kinerja karyawan",
+        "Meningkatkan tingkat retensi",
+        "Meningkatkan produktivitas",
+        "Kolaborasi tim yang lebih baik",
+        "Kepatuhan terhadap kepatuhan",
+        "Keunggulan kompetitif"
+      ]
+    },
+    "analytics": {
+      "title": "Analitik & Pelaporan HR",
+      "description": "Wawasan berbasis data untuk membuat keputusan HR yang tepat dan mengukur kinerja organisasi.",
+      "features": [
+        "KPI Dashboard Development",
+        "Employee Analytics & Metrics",
+        "Turnover Analysis & Prediction",
+        "Performance Analytics",
+        "Workforce Planning Tools",
+        "Custom Report Generation"
+      ],
+      "benefits": [
+        "Pengambilan keputusan berbasis data",
+        "Strategi HR yang lebih baik",
+        "Alokasi sumber daya yang lebih baik",
+        "Wawasan prediktif",
+        "Optimasi kinerja",
+        "Dukungan perencanaan strategis"
+      ]
+    },
+    "compliance": {
+      "title": "Kepatuhan & Dukungan Hukum",
+      "description": "Pastikan praktik HR Anda mematuhi peraturan lokal dan standar industri.",
+      "features": [
+        "Labor Law Compliance Audits",
+        "HR Policy Development",
+        "Employment Contract Review",
+        "Workplace Safety Compliance",
+        "Risk Assessment & Management",
+        "Legal Consultation Support"
+      ],
+      "benefits": [
+        "Mengurangi risiko hukum",
+        "Jaminan kepatuhan",
+        "Standardisasi kebijakan",
+        "Mitigasi risiko",
+        "Penghematan biaya hukum",
+        "Ketenangan pikiran"
+      ]
+    },
+    "consulting": {
+      "title": "Konsultasi HR Strategis",
+      "description": "Bimbingan ahli tentang strategi HR, desain organisasi, dan manajemen perubahan.",
+      "features": [
+        "HR Strategy Development",
+        "Organizational Design & Structure",
+        "Change Management Support",
+        "Merger & Acquisition HR",
+        "Culture Transformation",
+        "HR Technology Strategy"
+      ],
+      "benefits": [
+        "Kesejajaran HR strategis",
+        "Meningkatkan efektivitas organisasi",
+        "Implementasi perubahan yang berhasil",
+        "Meningkatkan budaya perusahaan",
+        "Dukungan pertumbuhan jangka panjang",
+        "Bimbingan ahli"
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Tentang",
+      "subtitle": "Penyedia solusi HR terkemuka yang berkomitmen untuk mentransformasi manajemen tenaga kerja dan mendorong kesuksesan bisnis"
+    },
+    "section": {
+      "title": "Mitra HR Terpercaya Anda",
+      "description": "PT. Sigma Solusi Servis telah berada di garda depan inovasi HR sejak 2017, menyediakan solusi komprehensif yang mengatasi kebutuhan bisnis yang terus berkembang. Kami memahami bahwa setiap organisasi unik, itulah mengapa kami menawarkan solusi HR yang disesuaikan untuk memaksimalkan efisiensi, produktivitas, dan kepuasan karyawan.",
+      "bullet1": "Track record sukses yang terbukti dengan 500+ klien puas",
+      "bullet2": "Keahlian industri dan best practice dari 7+ tahun pengalaman",
+      "bullet3": "Pendekatan personal untuk solusi dengan dukungan berkelanjutan",
+      "statsTitle": "Mengapa Memilih 3S?",
+      "stats": {
+        "clients": "Klien Puas",
+        "placements": "Penempatan Sukses",
+        "satisfaction": "Kepuasan Klien",
+        "years": "Tahun Pengalaman"
+      }
+    },
+    "values": {
+      "title": "Nilai Inti Kami",
+      "subtitle": "Prinsip yang memandu semua yang kami lakukan dan setiap hubungan yang kami bangun",
+      "excellence": {
+        "title": "Keunggulan",
+        "description": "Kami berusaha untuk keunggulan dalam setiap aspek layanan kami, memastikan standar kualitas tertinggi untuk klien kami."
+      },
+      "integrity": {
+        "title": "Integritas",
+        "description": "Kami mempertahankan standar etika tertinggi dan membangun kepercayaan melalui hubungan yang transparan dan jujur dengan klien kami."
+      },
+      "innovation": {
+        "title": "Inovasi",
+        "description": "Kami terus berinovasi solusi HR kami untuk memenuhi kebutuhan bisnis yang berkembang dan tantangan industri."
+      },
+      "partnership": {
+        "title": "Kemitraan",
+        "description": "Kami percaya dalam membangun kemitraan jangka panjang yang mendorong kesuksesan dan pertumbuhan bersama."
+      }
+    },
+    "gains": {
+      "title": "Yang Anda Dapatkan",
+      "subtitle": "Temukan manfaat dan peningkatan yang dapat diukur yang dialami klien kami",
+      "efficiency": "Peningkatan efisiensi HR hingga 40%",
+      "recruitment": "Pengurangan waktu rekrutmen hingga 60%",
+      "satisfaction": "Peningkatan skor kepuasan karyawan",
+      "compliance": "Peningkatan compliance dan manajemen risiko",
+      "processes": "Streamline proses dan workflow HR",
+      "expertise": "Akses ke best practice industri dan keahlian"
+    },
+    "team": {
+      "title": "Tim Kami",
+      "subtitle": "Kenali para ahli di balik kesuksesan kami",
+      "member1": {
+        "name": "Sarah Johnson",
+        "role": "Direktur HR",
+        "description": "15+ tahun pengalaman kepemimpinan HR"
+      },
+      "member2": {
+        "name": "Michael Chen",
+        "role": "Spesialis Rekrutmen",
+        "description": "Ahli strategi akuisisi talenta"
+      },
+      "member3": {
+        "name": "Lisa Rodriguez",
+        "role": "Koordinator Pelatihan",
+        "description": "Pelatih pengembangan profesional bersertifikat"
+      }
+    },
+    "testimonials": {
+      "title": "Testimoni Klien",
+      "subtitle": "Feedback nyata dari perusahaan yang telah mentransformasi HR mereka dengan solusi kami",
+      "client1": {
+        "name": "PT. Maju Bersama",
+        "industry": "Manufaktur",
+        "testimonial": "Sigma Solusi Servis mentransformasi proses HR kami dan membantu kami membangun tim yang lebih kuat dan efisien."
+      },
+      "client2": {
+        "name": "CV. Sukses Mandiri",
+        "industry": "Teknologi",
+        "testimonial": "Layanan rekrutmen mereka luar biasa. Kami menemukan talenta terbaik dengan cepat dan efisien."
+      },
+      "client3": {
+        "name": "PT. Global Solutions",
+        "industry": "Konsultasi",
+        "testimonial": "Profesional, handal, dan berorientasi hasil. Mereka benar-benar memahami kebutuhan bisnis kami."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Hubungi",
+      "subtitle": "Kami",
+      "description": "Siap untuk mengubah HR Anda? Mari diskusikan bagaimana kami dapat membantu bisnis Anda berhasil"
+    },
+    "form": {
+      "title": "Kirim Pesan",
+      "name": "Nama Lengkap",
+      "email": "Email",
+      "company": "Perusahaan",
+      "phone": "Nomor Telepon",
+      "service": "Layanan yang Diminati",
+      "message": "Pesan",
+      "submit": "Kirim Pesan",
+      "success": "Pesan berhasil dikirim! Kami akan menghubungi Anda segera."
+    },
+    "info": {
+      "title": "Informasi Kontak",
+      "officeAddress": "Alamat Kantor",
+      "phoneNumber": "Nomor Telepon",
+      "emailAddress": "Alamat Email",
+      "businessHours": "Jam Kerja"
+    },
+    "cta": {
+      "title": "Siap untuk Memulai?",
+      "subtitle": "Mari diskusikan bagaimana kami dapat membantu bisnis Anda berhasil",
+      "button": "Jadwalkan Konsultasi"
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "Portal",
+      "subtitle": "Klien",
+      "description": "Akses dashboard HR Anda dan kelola solusi tenaga kerja"
+    },
+    "form": {
+      "title": "Masuk",
+      "email": "Alamat Email",
+      "password": "Kata Sandi",
+      "submit": "Masuk",
+      "forgotPassword": "Lupa Kata Sandi?",
+      "noAccount": "Tidak punya akun?",
+      "contactUs": "Hubungi kami"
+    },
+    "features": {
+      "title": "Fitur Portal",
+      "secureAccess": {
+        "title": "Akses Aman",
+        "description": "Keamanan tingkat bank untuk melindungi data HR sensitif Anda"
+      },
+      "teamManagement": {
+        "title": "Manajemen Tim",
+        "description": "Kelola tim dan proses HR Anda secara efisien"
+      },
+      "analytics": {
+        "title": "Analitik Real-time",
+        "description": "Akses ke metrik kinerja dan wawasan"
+      }
+    },
+    "cta": {
+      "title": "Butuh Bantuan?",
+      "subtitle": "Tim dukungan kami siap membantu Anda dengan pertanyaan atau masalah teknis",
+      "button": "Dapatkan Dukungan"
+    }
+  },
+  "footer": {
+    "companyName": "Sigma Solusi Servis",
+    "tagline": "Solusi HR Profesional",
+    "description": "PT. Sigma Solusi Servis memberikan solusi untuk kebutuhan man power dan meningkatkan efisiensi hrd perusahaan anda.",
+    "quickLinks": "Tautan Cepat",
+    "ourServices": "Layanan Kami",
+    "clients": "Klien",
+    "contactInfo": "Info Kontak",
+    "copyright": "© Hak Cipta 2017-{year} oleh 3S. Semua Hak Dilindungi.",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfService": "Ketentuan Layanan",
+    "contactUs": "Hubungi Kami",
+    "aboutUs": "Tentang Kami",
+    "home": "Beranda",
+    "login": "Masuk"
+  },
+  "common": {
+    "learnMore": "Pelajari Lebih Lanjut",
+    "keyFeatures": "Fitur Utama",
+    "benefits": "Manfaat"
+  },
+  "notFound": {
+    "title": "Halaman Tidak Ditemukan",
+    "description": "Halaman yang Anda cari tidak ada atau telah dipindahkan.",
+    "backToHome": "Kembali ke Beranda",
+    "exploreServices": "Jelajahi Layanan",
+    "contactUs": "Hubungi Kami",
+    "supportMessagePart1": "Jika Anda yakin ini adalah kesalahan, silakan hubungi tim dukungan kami.",
+    "supportMessagePart2": "Kami akan membantu Anda menemukan apa yang Anda cari."
+  },
+  "clients": {
+    "hero": {
+      "title": "Klien",
+      "highlight": "Kami",
+      "description": "Temukan kisah sukses dan testimonial dari perusahaan yang telah mentransformasi HR mereka dengan solusi kami."
+    },
+    "section": {
+      "title": "Kisah Sukses Klien",
+      "description": "Kami bangga telah membantu banyak perusahaan di berbagai industri mencapai tujuan HR mereka dan meningkatkan manajemen tenaga kerja mereka."
+    },
+    "logos": {
+      "title": "Klien Berharga Kami",
+      "description": "Dipercaya oleh perusahaan di berbagai industri untuk solusi HR profesional kami dan layanan yang luar biasa."
+    },
+    "stats": {
+      "title": "Dampak Kami dalam Angka",
+      "description": "Lihat hasil terukur yang telah kami berikan untuk klien kami di berbagai industri."
+    },
+    "home": {
+      "title": "Dipercaya oleh Perusahaan Terkemuka",
+      "description": "Temukan bagaimana kami telah membantu bisnis mentransformasi operasi HR mereka dan mencapai hasil yang luar biasa.",
+      "viewAll": "Lihat Semua Klien"
+    },
+    "cta": {
+      "title": "Siap Bergabung dengan Kisah Sukses Kami?",
+      "description": "Mari diskusikan bagaimana layanan kami dapat menguntungkan organisasi Anda dan membantu Anda mencapai hasil yang serupa.",
+      "button": "Dapatkan Konsultasi Gratis"
+    }
+  }
+}

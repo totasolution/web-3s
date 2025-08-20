@@ -1,0 +1,378 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "aboutUs": "About Us",
+    "team": "Team",
+    "values": "Values",
+    "services": "Services",
+    "clients": "Clients",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Professional HR Solutions",
+    "subtitle": "Transform Your Workforce",
+    "description": "PT. Sigma Solusi Servis provides comprehensive HR solutions to optimize your manpower needs and enhance HRD efficiency.",
+    "cta": {
+      "primary": "Explore Services",
+      "secondary": "Get Started"
+    },
+    "features": {
+      "manPower": "Manpower Solutions",
+      "manPowerDesc": "Comprehensive staffing and recruitment services",
+      "hrdEfficiency": "HRD Efficiency",
+      "hrdEfficiencyDesc": "Streamline and optimize HR processes",
+      "trustedPartner": "Trusted Partner",
+      "trustedPartnerDesc": "Reliable HR consulting and support"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive HR solutions tailored to your business needs",
+    "hero": {
+      "title": "Our",
+      "subtitle": "Services",
+      "description": "Discover how our comprehensive HR solutions can transform your workforce management and drive business success."
+    },
+    "page": {
+      "cta": {
+        "title": "Ready to Get Started?",
+        "subtitle": "Let's discuss how our services can benefit your organization",
+        "button": "Get Free Consultation"
+      }
+    },
+    "recruitment": {
+      "title": "Recruitment & Staffing",
+      "description": "Comprehensive recruitment services including talent sourcing, screening, and placement for all levels of positions.",
+      "features": [
+        "Executive Search & Headhunting",
+        "Technical & Professional Recruitment",
+        "Contract & Temporary Staffing",
+        "Mass Recruitment Solutions",
+        "Employer Branding Support",
+        "Recruitment Process Optimization"
+      ],
+      "benefits": [
+        "Access to top talent pool",
+        "Reduced time-to-hire",
+        "Improved candidate quality",
+        "Cost-effective recruitment",
+        "Industry expertise",
+        "Ongoing support"
+      ]
+    },
+    "hrProcess": {
+      "title": "HR Process Optimization",
+      "description": "Streamline your HR operations with our proven methodologies and best practices.",
+      "features": [
+        "HR Process Mapping & Analysis",
+        "Workflow Automation",
+        "Performance Management Systems",
+        "Employee Engagement Programs",
+        "HR Technology Implementation",
+        "Process Efficiency Audits"
+      ],
+      "benefits": [
+        "Increased operational efficiency",
+        "Reduced administrative burden",
+        "Improved employee experience",
+        "Better compliance management",
+        "Data-driven insights",
+        "Scalable processes"
+      ]
+    },
+    "training": {
+      "title": "Training & Development",
+      "description": "Customized training programs to enhance employee skills and drive organizational growth.",
+      "features": [
+        "Leadership Development Programs",
+        "Technical Skills Training",
+        "Soft Skills Enhancement",
+        "Team Building Workshops",
+        "Compliance Training",
+        "Custom Training Solutions"
+      ],
+      "benefits": [
+        "Enhanced employee performance",
+        "Improved retention rates",
+        "Increased productivity",
+        "Better team collaboration",
+        "Compliance adherence",
+        "Competitive advantage"
+      ]
+    },
+    "analytics": {
+      "title": "HR Analytics & Reporting",
+      "description": "Data-driven insights to make informed HR decisions and measure organizational performance.",
+      "features": [
+        "KPI Dashboard Development",
+        "Employee Analytics & Metrics",
+        "Turnover Analysis & Prediction",
+        "Performance Analytics",
+        "Workforce Planning Tools",
+        "Custom Report Generation"
+      ],
+      "benefits": [
+        "Data-driven decision making",
+        "Improved HR strategy",
+        "Better resource allocation",
+        "Predictive insights",
+        "Performance optimization",
+        "Strategic planning support"
+      ]
+    },
+    "compliance": {
+      "title": "Compliance & Legal Support",
+      "description": "Ensure your HR practices comply with local regulations and industry standards.",
+      "features": [
+        "Labor Law Compliance Audits",
+        "HR Policy Development",
+        "Employment Contract Review",
+        "Workplace Safety Compliance",
+        "Risk Assessment & Management",
+        "Legal Consultation Support"
+      ],
+      "benefits": [
+        "Reduced legal risks",
+        "Compliance assurance",
+        "Policy standardization",
+        "Risk mitigation",
+        "Legal cost savings",
+        "Peace of mind"
+      ]
+    },
+    "consulting": {
+      "title": "Strategic HR Consulting",
+      "description": "Expert guidance on HR strategy, organizational design, and change management.",
+      "features": [
+        "HR Strategy Development",
+        "Organizational Design & Structure",
+        "Change Management Support",
+        "Merger & Acquisition HR",
+        "Culture Transformation",
+        "HR Technology Strategy"
+      ],
+      "benefits": [
+        "Strategic HR alignment",
+        "Improved organizational effectiveness",
+        "Successful change implementation",
+        "Enhanced company culture",
+        "Long-term growth support",
+        "Expert guidance"
+      ]
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in",
+      "subtitle": "Touch",
+      "description": "Ready to transform your HR? Let's discuss how we can help your business succeed"
+    },
+    "form": {
+      "title": "Send Message",
+      "name": "Full Name",
+      "email": "Email",
+      "company": "Company",
+      "phone": "Phone Number",
+      "service": "Service of Interest",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Message sent successfully! We'll get back to you soon."
+    },
+    "info": {
+      "title": "Contact Information",
+      "officeAddress": "Office Address",
+      "phoneNumber": "Phone Number",
+      "emailAddress": "Email Address",
+      "businessHours": "Business Hours"
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Let's discuss how we can help your business succeed",
+      "button": "Schedule Consultation"
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "Client",
+      "subtitle": "Portal",
+      "description": "Access your HR dashboard and manage your workforce solutions"
+    },
+    "form": {
+      "title": "Sign In",
+      "email": "Email Address",
+      "password": "Password",
+      "submit": "Sign In",
+      "forgotPassword": "Forgot Password?",
+      "noAccount": "Don't have an account?",
+      "contactUs": "Contact us"
+    },
+    "features": {
+      "title": "Portal Features",
+      "secureAccess": {
+        "title": "Secure Access",
+        "description": "Bank-level security to protect your sensitive HR data"
+      },
+      "teamManagement": {
+        "title": "Team Management",
+        "description": "Manage your team and HR processes efficiently"
+      },
+      "analytics": {
+        "title": "Real-time Analytics",
+        "description": "Access to performance metrics and insights"
+      }
+    },
+    "cta": {
+      "title": "Need Help?",
+      "subtitle": "Our support team is here to assist you with any questions or technical issues",
+      "button": "Get Support"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About",
+      "subtitle": "Leading HR solutions provider committed to transforming workforce management and driving business success"
+    },
+    "section": {
+      "title": "Your Trusted HR Partner",
+      "description": "PT. Sigma Solusi Servis has been at the forefront of HR innovation since 2017, providing comprehensive solutions that address the evolving needs of modern businesses. We understand that every organization is unique, which is why we offer customized HR solutions designed to maximize efficiency, productivity, and employee satisfaction.",
+      "bullet1": "Proven track record of success with 500+ satisfied clients",
+      "bullet2": "Industry expertise and best practices from 7+ years of experience",
+      "bullet3": "Personalized approach to solutions with ongoing support",
+      "statsTitle": "Why Choose 3S?",
+      "stats": {
+        "clients": "Happy Clients",
+        "placements": "Successful Placements",
+        "satisfaction": "Client Satisfaction",
+        "years": "Years Experience"
+      }
+    },
+    "values": {
+      "title": "Our Core Values",
+      "subtitle": "The principles that guide everything we do and every relationship we build",
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for excellence in every aspect of our service delivery, ensuring the highest quality standards for our clients."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "We maintain the highest ethical standards and build trust through transparent, honest relationships with our clients."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We continuously innovate our HR solutions to meet evolving business needs and industry challenges."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "We believe in building long-term partnerships that drive mutual success and growth."
+      }
+    },
+    "gains": {
+      "title": "What You Gain",
+      "subtitle": "Discover the measurable benefits and improvements our clients experience",
+      "efficiency": "Increased HR efficiency by up to 40%",
+      "recruitment": "Reduced recruitment time by 60%",
+      "satisfaction": "Improved employee satisfaction scores",
+      "compliance": "Enhanced compliance and risk management",
+      "processes": "Streamlined HR processes and workflows",
+      "expertise": "Access to industry best practices and expertise"
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Meet the experts behind our success",
+      "member1": {
+        "name": "Sarah Johnson",
+        "role": "HR Director",
+        "description": "15+ years of HR leadership experience"
+      },
+      "member2": {
+        "name": "Michael Chen",
+        "role": "Recruitment Specialist",
+        "description": "Expert in talent acquisition strategies"
+      },
+      "member3": {
+        "name": "Lisa Rodriguez",
+        "role": "Training Coordinator",
+        "description": "Certified professional development trainer"
+      }
+    },
+    "testimonials": {
+      "title": "Client Testimonials",
+      "subtitle": "Real feedback from companies that have transformed their HR with our solutions",
+      "client1": {
+        "name": "PT. Maju Bersama",
+        "industry": "Manufacturing",
+        "testimonial": "Sigma Solusi Servis transformed our HR processes and helped us build a stronger, more efficient team."
+      },
+      "client2": {
+        "name": "CV. Sukses Mandiri",
+        "industry": "Technology",
+        "testimonial": "Their recruitment services are exceptional. We found top talent quickly and efficiently."
+      },
+      "client3": {
+        "name": "PT. Global Solutions",
+        "industry": "Consulting",
+        "testimonial": "Professional, reliable, and results-driven. They truly understand our business needs."
+      }
+    }
+  },
+  "clients": {
+    "hero": {
+      "title": "Our",
+      "highlight": "Clients",
+      "description": "Discover the success stories and testimonials from companies that have transformed their HR with our solutions."
+    },
+    "section": {
+      "title": "Client Success Stories",
+      "description": "We're proud to have helped numerous companies across various industries achieve their HR goals and improve their workforce management."
+    },
+    "logos": {
+      "title": "Our Valued Clients",
+      "description": "Trusted by companies across various industries for our professional HR solutions and exceptional service delivery."
+    },
+    "stats": {
+      "title": "Our Impact in Numbers",
+      "description": "See the measurable results we've delivered for our clients across various industries."
+    },
+    "home": {
+      "title": "Trusted by Leading Companies",
+      "description": "Discover how we've helped businesses transform their HR operations and achieve remarkable results.",
+      "viewAll": "View All Clients"
+    },
+    "cta": {
+      "title": "Ready to Join Our Success Stories?",
+      "description": "Let's discuss how our services can benefit your organization and help you achieve similar results.",
+      "button": "Get Free Consultation"
+    }
+  },
+  "footer": {
+    "companyName": "Sigma Solusi Servis",
+    "tagline": "Professional HR Solutions",
+    "description": "PT. Sigma Solusi Servis provides solutions for manpower needs and increases your company's HRD efficiency.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "clients": "Clients",
+    "contactInfo": "Contact Info",
+    "copyright": "© Copyright 2017-{year} by 3S. All Rights Reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "contactUs": "Contact Us",
+    "aboutUs": "About Us",
+    "home": "Home",
+    "login": "Login"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "keyFeatures": "Key Features",
+    "benefits": "Benefits"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "backToHome": "Back to Home",
+    "exploreServices": "Explore Services",
+    "contactUs": "Contact Us",
+    "supportMessagePart1": "If you believe this is an error, please contact our support team.",
+    "supportMessagePart2": "We'll help you find what you're looking for."
+  }
+}
