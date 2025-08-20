@@ -1,36 +1,190 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PT. Sigma Solusi Servis - Modern HR Solutions Website
 
-## Getting Started
+A modern, elegant, and SEO-friendly website built with Next.js for PT. Sigma Solusi Servis, a leading HR solutions provider in Indonesia.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern Design**: Beautiful, responsive design with smooth animations
+- **SEO Optimized**: Built with Next.js for excellent search engine visibility
+- **Performance**: Fast loading times and optimized performance
+- **Mobile First**: Fully responsive design for all devices
+- **Interactive Elements**: Smooth animations and micro-interactions
+- **Professional UI**: Clean, modern interface suitable for business
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **UI Components**: Headless UI
+- **Deployment**: Ready for Vercel, Netlify, or any hosting platform
+
+## 📱 Pages
+
+- **Home**: Hero section, services overview, and company highlights
+- **About**: Company information, core values, and client testimonials
+- **Services**: Detailed service offerings with features and benefits
+- **Contact**: Contact form and company information
+- **Login**: Client portal access
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd web-profile
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📁 Project Structure
+
+```
+src/
+├── app/                    # Next.js App Router
+│   ├── page.tsx          # Home page
+│   ├── about/            # About page
+│   ├── services/         # Services page
+│   ├── contact/          # Contact page
+│   ├── login/            # Login page
+│   ├── layout.tsx        # Root layout
+│   └── globals.css       # Global styles
+├── components/            # Reusable components
+│   ├── Navigation.tsx    # Navigation component
+│   ├── HeroSection.tsx   # Hero section
+│   ├── ServicesSection.tsx # Services section
+│   └── Footer.tsx        # Footer component
+└── types/                 # TypeScript type definitions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Customization
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Colors
+The website uses a blue-to-purple gradient theme. You can customize colors in:
+- `tailwind.config.js` for Tailwind classes
+- Component files for specific color schemes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Content
+Update content in the respective page files:
+- Company information in `src/app/about/page.tsx`
+- Services in `src/app/services/page.tsx`
+- Contact details in `src/app/contact/page.tsx`
 
-## Learn More
+### Styling
+Modify styles in:
+- `src/app/globals.css` for global styles
+- Individual component files for component-specific styles
+- Tailwind classes for utility-based styling
 
-To learn more about Next.js, take a look at the following resources:
+## 📊 SEO Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Meta Tags**: Proper title, description, and keywords
+- **Open Graph**: Social media sharing optimization
+- **Structured Data**: Ready for schema markup
+- **Performance**: Fast loading for better search rankings
+- **Mobile Friendly**: Responsive design for mobile-first indexing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Deployment
 
-## Deploy on Vercel
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy automatically on every push
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Other Platforms
+- **Netlify**: Build command: `npm run build`, Publish directory: `out`
+- **AWS Amplify**: Build command: `npm run build`
+- **Traditional Hosting**: Build with `npm run build` and upload the `out` folder
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📈 Performance Optimization
+
+- **Image Optimization**: Next.js automatic image optimization
+- **Code Splitting**: Automatic route-based code splitting
+- **Lazy Loading**: Components load as needed
+- **Minification**: Automatic CSS and JS minification
+- **Caching**: Built-in caching strategies
+
+## 🔧 Development
+
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+- `npm run type-check` - Run TypeScript type checking
+
+### Adding New Pages
+
+1. Create a new folder in `src/app/`
+2. Add a `page.tsx` file
+3. Import and use existing components
+4. Add navigation links in `Navigation.tsx`
+
+### Adding New Components
+
+1. Create a new file in `src/components/`
+2. Export the component
+3. Import and use in your pages
+
+## 📱 Responsive Design
+
+The website is fully responsive with breakpoints:
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: > 1024px
+
+## 🌐 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## 📄 License
+
+This project is proprietary software for PT. Sigma Solusi Servis.
+
+## 🤝 Support
+
+For support or questions:
+- Email: info@sigmasolusiservis.com
+- Phone: +62 21 1234 5678
+
+## 🚀 Future Enhancements
+
+- **Blog System**: Add a blog for HR insights
+- **Client Portal**: Enhanced client dashboard
+- **Multi-language**: Indonesian and English support
+- **CMS Integration**: Content management system
+- **Analytics**: Advanced analytics and tracking
+- **Chat Support**: Live chat functionality
+
+---
+
+Built with ❤️ for PT. Sigma Solusi Servis
+# web-3s
