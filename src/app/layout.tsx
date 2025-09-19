@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'PT. Sigma Solusi Servis - HR Solutions & Manpower Services',
-  description: 'PT. Sigma Solusi Servis memberikan solusi untuk kebutuhan man power dan meningkatkan efisiensi hrd perusahaan anda. Professional HR solutions and manpower services.',
-  keywords: 'hrd,penyedia tenaga kerja,penyedia tenaga kerja indonesia,tenaga kerja murah',
+  description: 'PT. Sigma Solusi Servis memberikan solusi untuk kebutuhan man power dan meningkatkan efisiensi hrd perusahaan anda.',
+  keywords: 'hrd,penyedia tenaga kerja,penyedia tenaga kerja indonesia,tenaga kerja murah,cari kerja, loker,fresh graduate,lulusan kerja, head hunting, hiring',
   authors: [{ name: 'PT. Sigma Solusi Servis' }],
   openGraph: {
     title: 'PT. Sigma Solusi Servis - HR Solutions & Manpower Services',
