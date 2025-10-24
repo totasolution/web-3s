@@ -10,7 +10,7 @@
     "contact": "Kontak"
   },
   "hero": {
-    "badge": "Solusi HR Profesional Sejak 2017",
+    "badge": "Solusi HR Profesional Sejak 2015",
     "title": "Solusi HR Profesional",
     "subtitle": "Transformasi Tenaga Kerja Anda",
     "description": "PT. Sigma Solusi Servis menyediakan solusi HR komprehensif untuk mengoptimalkan kebutuhan man power dan meningkatkan efisiensi HRD.",
@@ -30,7 +30,7 @@
       "clients": "Klien Puas",
       "clientsDesc": "Dipercaya Secara Global",
       "experience": "Tahun Pengalaman",
-      "experienceDesc": "Sejak 2017"
+      "experienceDesc": "Sejak 2015"
     }
   },
   "services": {
@@ -149,12 +149,13 @@
   },
   "about": {
     "hero": {
+      "badge": "Tentang Kami",
       "title": "Tentang",
       "subtitle": "Penyedia solusi HR terkemuka yang berkomitmen untuk mentransformasi manajemen tenaga kerja dan mendorong kesuksesan bisnis"
     },
     "section": {
       "title": "Mitra HR Terpercaya Anda",
-      "description": "PT. Sigma Solusi Servis telah berada di garda depan inovasi HR sejak 2017, menyediakan solusi komprehensif yang mengatasi kebutuhan bisnis yang terus berkembang. Kami memahami bahwa setiap organisasi unik, itulah mengapa kami menawarkan solusi HR yang disesuaikan untuk memaksimalkan efisiensi, produktivitas, dan kepuasan karyawan.",
+      "description": "PT. Sigma Solusi Servis telah berada di garda depan inovasi HR sejak 2015, menyediakan solusi komprehensif yang mengatasi kebutuhan bisnis yang terus berkembang. Kami memahami bahwa setiap organisasi unik, itulah mengapa kami menawarkan solusi HR yang disesuaikan untuk memaksimalkan efisiensi, produktivitas, dan kepuasan karyawan.",
       "bullet1": "Track record sukses yang terbukti dengan 500+ klien puas",
       "bullet2": "Keahlian industri dan best practice dari 7+ tahun pengalaman",
       "bullet3": "Pendekatan personal untuk solusi dengan dukungan berkelanjutan",
@@ -167,6 +168,7 @@
       }
     },
     "values": {
+      "badge": "Nilai Kami",
       "title": "Nilai Inti Kami",
       "subtitle": "Prinsip yang memandu semua yang kami lakukan dan setiap hubungan yang kami bangun",
       "excellence": {
@@ -187,6 +189,7 @@
       }
     },
     "gains": {
+      "badge": "Mengapa Bermitra Dengan Kami",
       "title": "Yang Anda Dapatkan",
       "subtitle": "Temukan manfaat dan peningkatan yang dapat diukur yang dialami klien kami",
       "efficiency": "Peningkatan efisiensi HR hingga 40%",
@@ -225,6 +228,7 @@
       }
     },
     "testimonials": {
+      "badge": "Kisah Sukses Klien",
       "title": "Testimoni Klien",
       "subtitle": "Feedback nyata dari perusahaan yang telah mentransformasi HR mereka dengan solusi kami",
       "client1": {
@@ -324,7 +328,7 @@
     "ourServices": "Layanan Kami",
     "clients": "Klien",
     "contactInfo": "Info Kontak",
-    "copyright": "© Hak Cipta 2017-{year} oleh 3S. Semua Hak Dilindungi.",
+    "copyright": "© Hak Cipta 2015-{year} oleh 3S. Semua Hak Dilindungi.",
     "privacyPolicy": "Kebijakan Privasi",
     "termsOfService": "Ketentuan Layanan",
     "contactUs": "Hubungi Kami",
@@ -370,10 +374,12 @@
       "description": "Dipercaya oleh perusahaan di berbagai industri untuk solusi HR profesional kami dan layanan yang luar biasa."
     },
     "stats": {
+      "badge": "Rekam Jejak Kami",
       "title": "Dampak Kami dalam Angka",
       "description": "Lihat hasil terukur yang telah kami berikan untuk klien kami di berbagai industri."
     },
     "home": {
+      "badge": "Mitra Terpercaya",
       "title": "Dipercaya oleh Perusahaan Terkemuka",
       "description": "Temukan bagaimana kami telah membantu bisnis mentransformasi operasi HR mereka dan mencapai hasil yang luar biasa.",
       "viewAll": "Lihat Semua Klien"

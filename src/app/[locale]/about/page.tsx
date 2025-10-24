@@ -115,7 +115,7 @@ export default function AboutPage() {
             className="inline-block mb-6"
           >
             <span className="text-blue-600 font-bold text-sm uppercase tracking-wider bg-blue-50 px-4 py-2 rounded-full">
-              About Us
+              {t('about.hero.badge')}
             </span>
           </motion.div>
           <motion.h1
@@ -219,7 +219,7 @@ export default function AboutPage() {
           >
             <div className="inline-block mb-4">
               <span className="text-blue-600 font-bold text-sm uppercase tracking-wider bg-blue-50 px-4 py-2 rounded-full">
-                Our Values
+                {t('about.values.badge')}
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
@@ -263,7 +263,7 @@ export default function AboutPage() {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 border border-blue-100 mb-6">
               <Award className="w-4 h-4 text-blue-600" />
-              <span className="text-sm font-semibold text-blue-600">Why Partner With Us</span>
+              <span className="text-sm font-semibold text-blue-600">{t('about.gains.badge')}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
               {t('about.gains.title')}
@@ -441,7 +441,7 @@ export default function AboutPage() {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-50 border border-green-100 mb-6">
               <Quote className="w-4 h-4 text-green-600" />
-              <span className="text-sm font-semibold text-green-600">Client Success Stories</span>
+              <span className="text-sm font-semibold text-green-600">{t('about.testimonials.badge')}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
               {t('about.testimonials.title')}

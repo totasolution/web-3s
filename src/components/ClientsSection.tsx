@@ -78,7 +78,7 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
           >
             <div className="inline-block mb-4">
               <span className="text-blue-600 font-bold text-sm uppercase tracking-wider bg-blue-50 px-4 py-2 rounded-full">
-                Our Track Record
+{t('clients.stats.badge')}
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
@@ -131,7 +131,7 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
           >
             <div className="inline-block mb-4">
               <span className="text-blue-600 font-bold text-sm uppercase tracking-wider bg-blue-50 px-4 py-2 rounded-full">
-                Trusted Partners
+                {isHomePage ? t('clients.home.badge') : t('clients.hero.badge')}
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">

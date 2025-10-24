@@ -97,15 +97,12 @@ const Navigation = () => {
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -10 }}
-                    className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2 z-50"
+                    className="absolute top-full left-0 mt-2 w-48 bg-white rounded-xl shadow-xl py-2 z-50 border border-gray-100"
                   >
-                    <Link href={`/${locale}/about`} className="block px-4 py-2 text-brand-slate hover:bg-brand-cream hover:text-brand-muted">
+                    <Link href={`/${locale}/about`} className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors rounded-lg mx-2">
                       {t('navigation.aboutUs')}
                     </Link>
-                    <Link href={`/${locale}/about#team`} className="block px-4 py-2 text-brand-slate hover:bg-brand-cream hover:text-brand-muted">
-                      {t('navigation.team')}
-                    </Link>
-                    <Link href={`/${locale}/about#values`} className="block px-4 py-2 text-brand-slate hover:bg-brand-cream hover:text-brand-muted">
+                    <Link href={`/${locale}/about#values`} className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors rounded-lg mx-2">
                       {t('navigation.values')}
                     </Link>
                   </motion.div>
@@ -155,32 +152,46 @@ const Navigation = () => {
         </div>
       </div>
 
+      {/* Mobile Menu Backdrop */}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="md:hidden fixed inset-0 bg-black/20 backdrop-blur-sm z-40 top-[72px]"
+            onClick={() => setIsOpen(false)}
+          />
+        )}
+      </AnimatePresence>
+
       {/* Mobile Menu */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
             ref={menuRef}
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-white border-t border-brand-surface shadow-lg absolute top-16 left-0 right-0"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.2 }}
+            className="md:hidden bg-white border-t border-gray-100 shadow-2xl fixed top-[72px] left-0 right-0 z-50 max-h-[calc(100vh-72px)] overflow-y-auto"
           >
-            <div className="px-4 py-6 space-y-1">
+            <div className="px-4 py-6 space-y-2">
               <Link 
                 href={`/${locale}`} 
-                className="block text-brand-slate hover:text-brand-blue py-3 px-3 rounded-lg hover:bg-brand-cream transition-colors font-medium"
+                className="block text-gray-700 hover:text-blue-600 hover:bg-blue-50 py-3 px-4 rounded-xl transition-all font-semibold"
                 onClick={() => setIsOpen(false)}
               >
                 {t('navigation.home')}
               </Link>
               
-              <div className="border-t border-brand-surface pt-3 mt-3">
+              <div className="border-t border-gray-100 pt-3 mt-3">
                 <div 
-                  className="flex items-center justify-between cursor-pointer text-xs font-medium text-brand-muted uppercase tracking-wider px-3 py-2 mb-2 hover:text-brand-slate"
+                  className="flex items-center justify-between cursor-pointer text-gray-700 hover:text-blue-600 hover:bg-blue-50 px-4 py-3 rounded-xl transition-all font-semibold"
                   onClick={toggleAbout}
                 >
                   <span>{t('navigation.about')}</span>
-                  <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${isAboutOpen ? 'rotate-180' : ''}`} />
+                  <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${isAboutOpen ? 'rotate-180' : ''}`} />
                 </div>
                 
                 <AnimatePresence>
@@ -189,25 +200,19 @@ const Navigation = () => {
                       initial={{ opacity: 0, height: 0 }}
                       animate={{ opacity: 1, height: 'auto' }}
                       exit={{ opacity: 0, height: 0 }}
-                      className="space-y-1"
+                      transition={{ duration: 0.2 }}
+                      className="space-y-1 mt-2 ml-4 pl-4 border-l-2 border-blue-200"
                     >
                       <Link 
                         href={`/${locale}/about`} 
-                        className="block text-brand-slate hover:text-brand-blue py-2 px-6 rounded-lg hover:bg-brand-cream transition-colors"
+                        className="block text-gray-600 hover:text-blue-600 hover:bg-blue-50 py-2.5 px-4 rounded-lg transition-all"
                         onClick={() => setIsOpen(false)}
                       >
                         {t('navigation.aboutUs')}
                       </Link>
                       <Link 
-                        href={`/${locale}/about#team`} 
-                        className="block text-brand-slate hover:text-brand-blue py-2 px-6 rounded-lg hover:bg-brand-cream transition-colors"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        {t('navigation.team')}
-                      </Link>
-                      <Link 
                         href={`/${locale}/about#values`} 
-                        className="block text-brand-slate hover:text-brand-blue py-2 px-6 rounded-lg hover:bg-brand-cream transition-colors"
+                        className="block text-gray-600 hover:text-blue-600 hover:bg-blue-50 py-2.5 px-4 rounded-lg transition-all"
                         onClick={() => setIsOpen(false)}
                       >
                         {t('navigation.values')}
@@ -219,7 +224,7 @@ const Navigation = () => {
               
               <Link 
                 href={`/${locale}/services`} 
-                className="block text-brand-slate hover:text-brand-blue py-3 px-3 rounded-lg hover:bg-brand-cream transition-colors font-medium"
+                className="block text-gray-700 hover:text-blue-600 hover:bg-blue-50 py-3 px-4 rounded-xl transition-all font-semibold"
                 onClick={() => setIsOpen(false)}
               >
                 {t('navigation.services')}
@@ -227,19 +232,22 @@ const Navigation = () => {
               
               <Link 
                 href={`/${locale}/clients`} 
-                className="block text-brand-slate hover:text-brand-blue py-3 px-3 rounded-lg hover:bg-brand-cream transition-colors font-medium"
+                className="block text-gray-700 hover:text-blue-600 hover:bg-blue-50 py-3 px-4 rounded-xl transition-all font-semibold"
                 onClick={() => setIsOpen(false)}
               >
                 {t('navigation.clients')}
               </Link>
               
-              <Link 
-                href={`/${locale}/contact`} 
-                className="block text-brand-slate hover:text-brand-blue py-3 px-3 rounded-lg hover:bg-brand-cream transition-colors font-medium"
-                onClick={() => setIsOpen(false)}
-              >
-                {t('navigation.contact')}
-              </Link>
+              {/* Contact Button - Prominent */}
+              <div className="pt-4 mt-4 border-t border-gray-100">
+                <Link 
+                  href={`/${locale}/contact`} 
+                  className="block text-center bg-gradient-to-r from-blue-600 to-blue-700 text-white py-4 px-4 rounded-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all active:scale-95"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {t('navigation.contact')}
+                </Link>
+              </div>
             </div>
           </motion.div>
         )}

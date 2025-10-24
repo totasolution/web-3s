@@ -10,7 +10,14 @@ import {
   CheckCircle,
   ArrowRight,
   Star,
-  ChevronRight
+  ChevronRight,
+  UserCheck,
+  UserPlus,
+  Search,
+  GraduationCap,
+  ClipboardList,
+  DollarSign,
+  Clock
 } from 'lucide-react'
 import Link from 'next/link'
 import { useLocale } from '@/hooks/useLocale'
@@ -48,12 +55,16 @@ export default function ServicesPage() {
       benefits: t('services.manPowerSupply.benefits'),
       subServices: [
         {
+          icon: UserCheck,
           title: t('services.manPowerSupply.subServices.peo.title'),
-          description: t('services.manPowerSupply.subServices.peo.description')
+          description: t('services.manPowerSupply.subServices.peo.description'),
+          color: 'from-blue-500 to-blue-600'
         },
         {
+          icon: UserPlus,
           title: t('services.manPowerSupply.subServices.staffing.title'),
-          description: t('services.manPowerSupply.subServices.staffing.description')
+          description: t('services.manPowerSupply.subServices.staffing.description'),
+          color: 'from-cyan-500 to-blue-500'
         }
       ],
       color: 'from-brand-blue to-brand-blueDark',
@@ -68,16 +79,22 @@ export default function ServicesPage() {
       benefits: t('services.humanResource.benefits'),
       subServices: [
         {
+          icon: Search,
           title: t('services.humanResource.subServices.headhunting.title'),
-          description: t('services.humanResource.subServices.headhunting.description')
+          description: t('services.humanResource.subServices.headhunting.description'),
+          color: 'from-purple-500 to-purple-600'
         },
         {
+          icon: GraduationCap,
           title: t('services.humanResource.subServices.hrDevelopment.title'),
-          description: t('services.humanResource.subServices.hrDevelopment.description')
+          description: t('services.humanResource.subServices.hrDevelopment.description'),
+          color: 'from-indigo-500 to-purple-500'
         },
         {
+          icon: ClipboardList,
           title: t('services.humanResource.subServices.hrAdministration.title'),
-          description: t('services.humanResource.subServices.hrAdministration.description')
+          description: t('services.humanResource.subServices.hrAdministration.description'),
+          color: 'from-blue-500 to-indigo-500'
         }
       ],
       color: 'from-brand-blueDark to-brand-blue',
@@ -92,12 +109,16 @@ export default function ServicesPage() {
       benefits: t('services.bpo.benefits'),
       subServices: [
         {
+          icon: DollarSign,
           title: t('services.bpo.subServices.payroll.title'),
-          description: t('services.bpo.subServices.payroll.description')
+          description: t('services.bpo.subServices.payroll.description'),
+          color: 'from-emerald-500 to-green-600'
         },
         {
+          icon: Clock,
           title: t('services.bpo.subServices.timeAttendance.title'),
-          description: t('services.bpo.subServices.timeAttendance.description')
+          description: t('services.bpo.subServices.timeAttendance.description'),
+          color: 'from-orange-500 to-amber-500'
         }
       ],
       color: 'from-brand-blue to-brand-blueLight',
@@ -180,19 +201,25 @@ export default function ServicesPage() {
                           Included Services
                         </h3>
                         <div className="grid md:grid-cols-2 gap-6">
-                          {service.subServices.map((subService, subIndex) => (
-                            <div key={subIndex} className="bg-gray-50 rounded-2xl p-6 border border-gray-200 hover:border-blue-400 hover:shadow-lg transition-all duration-300">
-                              <div className="flex gap-4">
-                                <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center">
-                                  <ChevronRight className="w-5 h-5 text-blue-600" />
-                                </div>
-                                <div className="flex-1">
-                                  <h4 className="text-lg font-bold text-gray-900 mb-2">{subService.title}</h4>
-                                  <p className="text-sm text-gray-600 leading-relaxed">{subService.description}</p>
+                          {service.subServices.map((subService, subIndex) => {
+                            const SubServiceIcon = subService.icon
+                            return (
+                              <div key={subIndex} className="group bg-white rounded-2xl p-6 border border-gray-200 hover:border-blue-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                                <div className="flex gap-4">
+                                  <div className="relative flex-shrink-0">
+                                    <div className={`absolute inset-0 bg-gradient-to-br ${subService.color} rounded-xl blur-lg opacity-30 group-hover:opacity-50 transition-opacity`}></div>
+                                    <div className={`relative w-14 h-14 rounded-xl bg-gradient-to-br ${subService.color} flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform`}>
+                                      <SubServiceIcon className="w-7 h-7 text-white" />
+                                    </div>
+                                  </div>
+                                  <div className="flex-1">
+                                    <h4 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">{subService.title}</h4>
+                                    <p className="text-sm text-gray-600 leading-relaxed">{subService.description}</p>
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-                          ))}
+                            )
+                          })}
                         </div>
                       </div>
                     )}

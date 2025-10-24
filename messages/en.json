@@ -10,7 +10,7 @@
     "contact": "Contact"
   },
   "hero": {
-    "badge": "Professional HR Solutions Since 2017",
+    "badge": "Professional HR Solutions Since 2015",
     "title": "Professional HR Solutions",
     "subtitle": "Transform Your Workforce",
     "description": "PT. Sigma Solusi Servis provides comprehensive HR solutions to optimize your manpower needs and enhance HRD efficiency.",
@@ -30,7 +30,7 @@
       "clients": "Happy Clients",
       "clientsDesc": "Trusted Worldwide",
       "experience": "Years Experience",
-      "experienceDesc": "Since 2017"
+      "experienceDesc": "Since 2015"
     }
   },
   "services": {
@@ -216,12 +216,13 @@
   },
   "about": {
     "hero": {
+      "badge": "About Us",
       "title": "About",
       "subtitle": "Leading HR solutions provider committed to transforming workforce management and driving business success"
     },
     "section": {
       "title": "Your Trusted HR Partner",
-      "description": "PT. Sigma Solusi Servis has been at the forefront of HR innovation since 2017, providing comprehensive solutions that address the evolving needs of modern businesses. We understand that every organization is unique, which is why we offer customized HR solutions designed to maximize efficiency, productivity, and employee satisfaction.",
+      "description": "PT. Sigma Solusi Servis has been at the forefront of HR innovation since 2015, providing comprehensive solutions that address the evolving needs of modern businesses. We understand that every organization is unique, which is why we offer customized HR solutions designed to maximize efficiency, productivity, and employee satisfaction.",
       "bullet1": "Proven track record of success with 500+ satisfied clients",
       "bullet2": "Industry expertise and best practices from 7+ years of experience",
       "bullet3": "Personalized approach to solutions with ongoing support",
@@ -234,6 +235,7 @@
       }
     },
     "values": {
+      "badge": "Our Values",
       "title": "Our Core Values",
       "subtitle": "The principles that guide everything we do and every relationship we build",
       "excellence": {
@@ -254,6 +256,7 @@
       }
     },
     "gains": {
+      "badge": "Why Partner With Us",
       "title": "What You Gain",
       "subtitle": "Discover the measurable benefits and improvements our clients experience",
       "efficiency": "Increased HR efficiency by up to 40%",
@@ -292,6 +295,7 @@
       }
     },
     "testimonials": {
+      "badge": "Client Success Stories",
       "title": "Client Testimonials",
       "subtitle": "Real feedback from companies that have transformed their HR with our solutions",
       "client1": {
@@ -332,10 +336,12 @@
       "description": "Trusted by companies across various industries for our professional HR solutions and exceptional service delivery."
     },
     "stats": {
+      "badge": "Our Track Record",
       "title": "Our Impact in Numbers",
       "description": "See the measurable results we've delivered for our clients across various industries."
     },
     "home": {
+      "badge": "Trusted Partners",
       "title": "Trusted by Leading Companies",
       "description": "Discover how we've helped businesses transform their HR operations and achieve remarkable results.",
       "viewAll": "View All Clients"
@@ -354,7 +360,7 @@
     "ourServices": "Our Services",
     "clients": "Clients",
     "contactInfo": "Contact Info",
-    "copyright": "© Copyright 2017-{year} by 3S. All Rights Reserved.",
+    "copyright": "© Copyright 2015-{year} by 3S. All Rights Reserved.",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
     "contactUs": "Contact Us",
