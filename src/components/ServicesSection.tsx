@@ -40,30 +40,30 @@ const ServicesSection = () => {
       title: t('services.manPowerSupply.title'), 
       description: t('services.manPowerSupply.description'), 
       features: t('services.manPowerSupply.features') || [],
-      color: 'from-blue-500 to-blue-700'
+      color: 'from-brand-primary to-brand-light'
     },
     { 
       icon: Briefcase, 
       title: t('services.humanResource.title'), 
       description: t('services.humanResource.description'), 
       features: t('services.humanResource.features') || [],
-      color: 'from-indigo-500 to-purple-600'
+      color: 'from-brand-light to-brand-primary'
     },
     { 
       icon: Cog, 
       title: t('services.bpo.title'), 
       description: t('services.bpo.description'), 
       features: t('services.bpo.features') || [],
-      color: 'from-cyan-500 to-blue-600'
+      color: 'from-brand-primary to-brand-light'
     }
   ]
 
   return (
-    <section className="py-24 bg-gradient-to-b from-white via-gray-50/50 to-white relative overflow-hidden">
+    <section className="py-24 bg-gradient-to-b from-white via-brand-lighter/30 to-white relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-blue-200/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-200/20 rounded-full blur-3xl"></div>
+        <div className="absolute top-20 left-10 w-72 h-72 bg-brand-light/15 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-brand-primary/10 rounded-full blur-3xl"></div>
       </div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -75,7 +75,7 @@ const ServicesSection = () => {
             transition={{ duration: 0.5 }}
             className="inline-block mb-4"
           >
-            <span className="text-blue-600 font-bold text-sm uppercase tracking-wider bg-blue-50 px-4 py-2 rounded-full">
+            <span className="text-brand-primary font-bold text-sm uppercase tracking-wider bg-brand-lighter px-4 py-2 rounded-full">
 {t('services.badge')}
             </span>
           </motion.div>
@@ -84,7 +84,7 @@ const ServicesSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4"
+            className="text-4xl md:text-5xl font-extrabold text-brand-dark mb-4 font-headline"
           >
             {t('services.title')}
           </motion.h2>
@@ -110,9 +110,9 @@ const ServicesSection = () => {
               className="group relative"
             >
               {/* Card background with gradient border effect */}
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-400/20 via-purple-400/20 to-cyan-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/20 via-brand-light/20 to-brand-primary/15 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
-              <div className="relative bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100 hover:border-blue-200 transform hover:-translate-y-3">
+              <div className="relative bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100 hover:border-brand-light transform hover:-translate-y-3">
                 {/* Top accent bar */}
                 <div className={`h-1.5 bg-gradient-to-r ${service.color}`}></div>
                 
@@ -125,14 +125,14 @@ const ServicesSection = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-2xl font-bold text-gray-800 mb-3 group-hover:text-blue-600 transition-colors duration-300">{service.title}</h3>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-3 group-hover:text-brand-primary transition-colors duration-300">{service.title}</h3>
                   <p className="text-gray-600 mb-6 leading-relaxed text-sm line-clamp-3">{service.description}</p>
                   
                   <ul className="space-y-3 mb-8">
                     {Array.isArray(service.features) && service.features.slice(0, 3).map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-start space-x-3">
                         <div className="mt-0.5">
-                          <CheckCircle className="w-5 h-5 text-blue-500 flex-shrink-0" />
+                          <CheckCircle className="w-5 h-5 text-brand-primary flex-shrink-0" />
                         </div>
                         <span className="text-gray-700 text-sm leading-relaxed">{feature}</span>
                       </li>
@@ -141,7 +141,7 @@ const ServicesSection = () => {
                   
                   <Link
                     href={`/${locale}/services`}
-                    className="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-700 font-bold group/link"
+                    className="inline-flex items-center space-x-2 text-brand-primary hover:text-brand-light font-bold group/link"
                   >
                     <span>{t('common.learnMore')}</span>
                     <ArrowRight className="w-5 h-5 group-hover/link:translate-x-1 transition-transform duration-300" />
@@ -165,7 +165,7 @@ const ServicesSection = () => {
         >
           <Link
             href={`/${locale}/services`}
-            className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
+            className="inline-flex items-center space-x-2 bg-brand-primary hover:bg-brand-light text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
           >
             <span>{t('services.viewAll')}</span>
             <ArrowRight className="w-5 h-5" />

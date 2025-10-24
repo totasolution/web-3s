@@ -1,4 +1,25 @@
+/* 3S Brand Fonts - Per Graphic Standard Manual */
+/* Figtree for body text (modern, professional, approachable) */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Boldonse alternative: Using Montserrat as Boldonse is not widely available */
+/* Montserrat provides similar bold, modern characteristics */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
+
+@theme {
+  /* 3S Official Brand Colors from Graphic Standard Manual */
+  --color-brand-primary: #107BC7;      /* Primary Blue - Main brand color */
+  --color-brand-light: #6CBBF3;        /* Light Blue - Secondary accent */
+  --color-brand-lighter: #E8F5FF;      /* Very Light Blue - Background/subtle */
+  --color-brand-dark: #282828;         /* Dark Gray/Black - Text and contrast */
+  --color-brand-white: #FFFFFF;        /* White - Clean backgrounds */
+  
+  /* Font families */
+  --font-headline: 'Montserrat', sans-serif;
+  --font-body: 'Figtree', sans-serif;
+}
 
 @layer base {
   html {
@@ -7,6 +28,12 @@
   
   body {
     @apply antialiased;
+    font-family: 'Figtree', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
   }
 }
 
@@ -16,8 +43,19 @@
   }
   
   .gradient-text {
-    color: #1F78C8;
+    background: linear-gradient(135deg, #107BC7 0%, #6CBBF3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     font-weight: bold;
     display: inline-block;
+  }
+
+  .font-headline {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .font-body {
+    font-family: 'Figtree', sans-serif;
   }
 }

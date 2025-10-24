@@ -35,11 +35,11 @@ const Footer = () => {
   }
 
   return (
-    <footer className="relative isolate z-50 w-full overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
+    <footer className="relative isolate z-50 w-full overflow-hidden bg-brand-dark text-white">
       {/* Background decoration */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-brand-primary/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-brand-light/10 rounded-full blur-3xl"></div>
       </div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -64,13 +64,13 @@ const Footer = () => {
               {t('footer.description')}
             </p>
             <div className="flex flex-wrap gap-3">
-              <a href="#" className="w-11 h-11 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center hover:bg-blue-600 hover:scale-110 transition-all duration-300 shadow-lg" aria-label="LinkedIn">
+              <a href="#" className="w-11 h-11 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center hover:bg-brand-primary hover:scale-110 transition-all duration-300 shadow-lg" aria-label="LinkedIn">
                 <Linkedin className="w-5 h-5 text-white" />
               </a>
-              <a href="#" className="w-11 h-11 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center hover:bg-blue-600 hover:scale-110 transition-all duration-300 shadow-lg" aria-label="Facebook">
+              <a href="#" className="w-11 h-11 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center hover:bg-brand-primary hover:scale-110 transition-all duration-300 shadow-lg" aria-label="Facebook">
                 <Facebook className="w-5 h-5 text-white" />
               </a>
-              <a href="#" className="w-11 h-11 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center hover:bg-pink-600 hover:scale-110 transition-all duration-300 shadow-lg" aria-label="Instagram">
+              <a href="#" className="w-11 h-11 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center hover:bg-brand-light hover:scale-110 transition-all duration-300 shadow-lg" aria-label="Instagram">
                 <Instagram className="w-5 h-5 text-white" />
               </a>
             </div>

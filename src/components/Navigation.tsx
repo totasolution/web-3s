@@ -71,20 +71,20 @@ const Navigation = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <span className="text-lg md:text-xl font-bold text-brand-slate hidden sm:block">Sigma Solusi Servis</span>
+              <span className="text-lg md:text-xl font-bold text-brand-dark hidden sm:block">Sigma Solusi Servis</span>
             </Link>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
             <div className="relative group">
-              <Link href={`/${locale}`} className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+              <Link href={`/${locale}`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium">
                 {t('navigation.home')}
               </Link>
             </div>
 
             <div className="relative group">
               <div 
-                className="flex items-center space-x-1 cursor-pointer text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                className="flex items-center space-x-1 cursor-pointer text-gray-700 hover:text-brand-primary transition-colors font-medium"
                 onClick={toggleAbout}
               >
                 <span>{t('navigation.about')}</span>
@@ -99,10 +99,10 @@ const Navigation = () => {
                     exit={{ opacity: 0, y: -10 }}
                     className="absolute top-full left-0 mt-2 w-48 bg-white rounded-xl shadow-xl py-2 z-50 border border-gray-100"
                   >
-                    <Link href={`/${locale}/about`} className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors rounded-lg mx-2">
+                    <Link href={`/${locale}/about`} className="block px-4 py-3 text-gray-700 hover:bg-brand-lighter hover:text-brand-primary transition-colors rounded-lg mx-2">
                       {t('navigation.aboutUs')}
                     </Link>
-                    <Link href={`/${locale}/about#values`} className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors rounded-lg mx-2">
+                    <Link href={`/${locale}/about#values`} className="block px-4 py-3 text-gray-700 hover:bg-brand-lighter hover:text-brand-primary transition-colors rounded-lg mx-2">
                       {t('navigation.values')}
                     </Link>
                   </motion.div>
@@ -111,19 +111,19 @@ const Navigation = () => {
             </div>
 
             <div className="relative group">
-              <Link href={`/${locale}/services`} className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+              <Link href={`/${locale}/services`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium">
                 {t('navigation.services')}
               </Link>
             </div>
 
             <div className="relative group">
-              <Link href={`/${locale}/clients`} className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+              <Link href={`/${locale}/clients`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium">
                 {t('navigation.clients')}
               </Link>
             </div>
 
             <div className="relative group">
-              <Link href={`/${locale}/contact`} className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-2.5 rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300">
+              <Link href={`/${locale}/contact`} className="bg-brand-primary text-white px-6 py-2.5 rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 hover:bg-brand-light">
                 {t('navigation.contact')}
               </Link>
             </div>
@@ -138,7 +138,7 @@ const Navigation = () => {
               <LanguageSwitcher />
             </div>
             <button 
-              className="text-brand-slate hover:text-brand-blue transition-colors p-2 rounded-lg hover:bg-brand-cream"
+              className="text-brand-dark hover:text-brand-primary transition-colors p-2 rounded-lg hover:bg-brand-lighter"
               onClick={toggleMenu}
               aria-label="Toggle menu"
             >
@@ -179,7 +179,7 @@ const Navigation = () => {
             <div className="px-4 py-6 space-y-2">
               <Link 
                 href={`/${locale}`} 
-                className="block text-gray-700 hover:text-blue-600 hover:bg-blue-50 py-3 px-4 rounded-xl transition-all font-semibold"
+                className="block text-gray-700 hover:text-brand-primary hover:bg-brand-lighter py-3 px-4 rounded-xl transition-all font-semibold"
                 onClick={() => setIsOpen(false)}
               >
                 {t('navigation.home')}
@@ -187,7 +187,7 @@ const Navigation = () => {
               
               <div className="border-t border-gray-100 pt-3 mt-3">
                 <div 
-                  className="flex items-center justify-between cursor-pointer text-gray-700 hover:text-blue-600 hover:bg-blue-50 px-4 py-3 rounded-xl transition-all font-semibold"
+                  className="flex items-center justify-between cursor-pointer text-gray-700 hover:text-brand-primary hover:bg-brand-lighter px-4 py-3 rounded-xl transition-all font-semibold"
                   onClick={toggleAbout}
                 >
                   <span>{t('navigation.about')}</span>
@@ -201,18 +201,18 @@ const Navigation = () => {
                       animate={{ opacity: 1, height: 'auto' }}
                       exit={{ opacity: 0, height: 0 }}
                       transition={{ duration: 0.2 }}
-                      className="space-y-1 mt-2 ml-4 pl-4 border-l-2 border-blue-200"
+                      className="space-y-1 mt-2 ml-4 pl-4 border-l-2 border-brand-light"
                     >
                       <Link 
                         href={`/${locale}/about`} 
-                        className="block text-gray-600 hover:text-blue-600 hover:bg-blue-50 py-2.5 px-4 rounded-lg transition-all"
+                        className="block text-gray-600 hover:text-brand-primary hover:bg-brand-lighter py-2.5 px-4 rounded-lg transition-all"
                         onClick={() => setIsOpen(false)}
                       >
                         {t('navigation.aboutUs')}
                       </Link>
                       <Link 
                         href={`/${locale}/about#values`} 
-                        className="block text-gray-600 hover:text-blue-600 hover:bg-blue-50 py-2.5 px-4 rounded-lg transition-all"
+                        className="block text-gray-600 hover:text-brand-primary hover:bg-brand-lighter py-2.5 px-4 rounded-lg transition-all"
                         onClick={() => setIsOpen(false)}
                       >
                         {t('navigation.values')}
@@ -224,7 +224,7 @@ const Navigation = () => {
               
               <Link 
                 href={`/${locale}/services`} 
-                className="block text-gray-700 hover:text-blue-600 hover:bg-blue-50 py-3 px-4 rounded-xl transition-all font-semibold"
+                className="block text-gray-700 hover:text-brand-primary hover:bg-brand-lighter py-3 px-4 rounded-xl transition-all font-semibold"
                 onClick={() => setIsOpen(false)}
               >
                 {t('navigation.services')}
@@ -232,7 +232,7 @@ const Navigation = () => {
               
               <Link 
                 href={`/${locale}/clients`} 
-                className="block text-gray-700 hover:text-blue-600 hover:bg-blue-50 py-3 px-4 rounded-xl transition-all font-semibold"
+                className="block text-gray-700 hover:text-brand-primary hover:bg-brand-lighter py-3 px-4 rounded-xl transition-all font-semibold"
                 onClick={() => setIsOpen(false)}
               >
                 {t('navigation.clients')}
@@ -242,7 +242,7 @@ const Navigation = () => {
               <div className="pt-4 mt-4 border-t border-gray-100">
                 <Link 
                   href={`/${locale}/contact`} 
-                  className="block text-center bg-gradient-to-r from-blue-600 to-blue-700 text-white py-4 px-4 rounded-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all active:scale-95"
+                  className="block text-center bg-brand-primary text-white py-4 px-4 rounded-xl font-bold shadow-lg hover:shadow-xl hover:bg-brand-light transform hover:scale-[1.02] transition-all active:scale-95"
                   onClick={() => setIsOpen(false)}
                 >
                   {t('navigation.contact')}

@@ -61,11 +61,11 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
   return (
     <>
       {/* Stats Section */}
-      <section className="py-20 bg-gradient-to-b from-white to-gray-50/50 relative overflow-hidden">
+      <section className="py-20 bg-gradient-to-b from-white to-brand-lighter/30 relative overflow-hidden">
         {/* Background decoration */}
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-10 right-10 w-64 h-64 bg-blue-200/10 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-10 left-10 w-80 h-80 bg-purple-200/10 rounded-full blur-3xl"></div>
+          <div className="absolute top-10 right-10 w-64 h-64 bg-brand-light/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-10 left-10 w-80 h-80 bg-brand-primary/10 rounded-full blur-3xl"></div>
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -77,11 +77,11 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
             viewport={{ once: true }}
           >
             <div className="inline-block mb-4">
-              <span className="text-blue-600 font-bold text-sm uppercase tracking-wider bg-blue-50 px-4 py-2 rounded-full">
+              <span className="text-brand-primary font-bold text-sm uppercase tracking-wider bg-brand-lighter px-4 py-2 rounded-full">
 {t('clients.stats.badge')}
               </span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-brand-dark mb-4 font-headline">
               {t('clients.stats.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -100,7 +100,7 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
                 viewport={{ once: true }}
               >
                 <div className="bg-white rounded-2xl p-8 text-center border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-                  <div className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent mb-3">
+                  <div className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-brand-primary to-brand-light bg-clip-text text-transparent mb-3">
                     {stat.number}
                   </div>
                   <div className="text-gray-600 font-semibold text-sm">
@@ -108,7 +108,7 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
                   </div>
                   
                   {/* Accent line */}
-                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full transform scale-0 group-hover:scale-100 transition-transform duration-300"></div>
+                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-brand-primary to-brand-light rounded-full transform scale-0 group-hover:scale-100 transition-transform duration-300"></div>
                 </div>
               </motion.div>
             ))}
@@ -130,11 +130,11 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
             viewport={{ once: true }}
           >
             <div className="inline-block mb-4">
-              <span className="text-blue-600 font-bold text-sm uppercase tracking-wider bg-blue-50 px-4 py-2 rounded-full">
+              <span className="text-brand-primary font-bold text-sm uppercase tracking-wider bg-brand-lighter px-4 py-2 rounded-full">
                 {isHomePage ? t('clients.home.badge') : t('clients.hero.badge')}
               </span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-brand-dark mb-4 font-headline">
               {isHomePage ? t('clients.home.title') : t('clients.logos.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -146,7 +146,7 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
             {clientLogos.slice(0, isHomePage ? 6 : 12).map((client, index) => (
               <motion.div
                 key={index}
-                className="group bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex flex-col items-center justify-center border border-gray-100 hover:border-blue-200 min-h-[150px]"
+                className="group bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex flex-col items-center justify-center border border-gray-100 hover:border-brand-light min-h-[150px]"
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.4, delay: index * 0.05 }}
@@ -154,7 +154,7 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
               >
                 <div className="relative w-16 h-16 mb-4 flex items-center justify-center">
                   {/* Glow effect on hover */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/20 to-brand-light/20 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <img
                     src={client.logo}
                     alt={`${client.name} Logo`}
@@ -178,7 +178,7 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
             >
               <a
                 href={`/${locale}/clients`}
-                className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
+                className="inline-flex items-center space-x-2 bg-brand-primary hover:bg-brand-light text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
               >
                 <span>{t('clients.home.viewAll')}</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">

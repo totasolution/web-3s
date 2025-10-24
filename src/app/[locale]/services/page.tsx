@@ -58,13 +58,13 @@ export default function ServicesPage() {
           icon: UserCheck,
           title: t('services.manPowerSupply.subServices.peo.title'),
           description: t('services.manPowerSupply.subServices.peo.description'),
-          color: 'from-blue-500 to-blue-600'
+          color: 'from-brand-primary to-brand-primary'
         },
         {
           icon: UserPlus,
           title: t('services.manPowerSupply.subServices.staffing.title'),
           description: t('services.manPowerSupply.subServices.staffing.description'),
-          color: 'from-cyan-500 to-blue-500'
+          color: 'from-cyan-500 to-brand-primary'
         }
       ],
       color: 'from-brand-blue to-brand-blueDark',
@@ -94,7 +94,7 @@ export default function ServicesPage() {
           icon: ClipboardList,
           title: t('services.humanResource.subServices.hrAdministration.title'),
           description: t('services.humanResource.subServices.hrAdministration.description'),
-          color: 'from-blue-500 to-indigo-500'
+          color: 'from-brand-primary to-indigo-500'
         }
       ],
       color: 'from-brand-blueDark to-brand-blue',
@@ -131,11 +131,11 @@ export default function ServicesPage() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-gradient-to-br from-slate-50 via-blue-50/30 to-white relative overflow-hidden">
+      <section className="pt-32 pb-20 bg-gradient-to-br from-slate-50 via-brand-lighter/30 to-white relative overflow-hidden">
         {/* Background decoration */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-          <div className="absolute top-0 right-0 w-96 h-96 bg-blue-200/20 rounded-full blur-3xl"></div>
+          <div className="absolute top-0 right-0 w-96 h-96 bg-brand-light/20 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-200/20 rounded-full blur-3xl"></div>
         </div>
         
@@ -146,7 +146,7 @@ export default function ServicesPage() {
             transition={{ duration: 0.5 }}
             className="inline-block mb-6"
           >
-            <span className="text-blue-600 font-bold text-sm uppercase tracking-wider bg-blue-50 px-4 py-2 rounded-full">
+            <span className="text-brand-primary font-bold text-sm uppercase tracking-wider bg-brand-lighter px-4 py-2 rounded-full">
 {t('services.hero.badge')}
             </span>
           </motion.div>
@@ -156,7 +156,7 @@ export default function ServicesPage() {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="text-5xl md:text-6xl font-extrabold text-gray-800 mb-6"
           >
-            {t('services.hero.title')} <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">{t('services.hero.subtitle')}</span>
+            {t('services.hero.title')} <span className="bg-gradient-to-r from-brand-primary to-cyan-500 bg-clip-text text-transparent">{t('services.hero.subtitle')}</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -197,7 +197,7 @@ export default function ServicesPage() {
                     {service.subServices && service.subServices.length > 0 && (
                       <div>
                         <h3 className="text-xl font-bold text-gray-900 mb-6 flex items-center">
-                          <ChevronRight className="w-6 h-6 text-blue-600 mr-2" />
+                          <ChevronRight className="w-6 h-6 text-brand-primary mr-2" />
                           Included Services
                         </h3>
                         <div className="grid md:grid-cols-2 gap-6">
@@ -213,7 +213,7 @@ export default function ServicesPage() {
                                     </div>
                                   </div>
                                   <div className="flex-1">
-                                    <h4 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">{subService.title}</h4>
+                                    <h4 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">{subService.title}</h4>
                                     <p className="text-sm text-gray-600 leading-relaxed">{subService.description}</p>
                                   </div>
                                 </div>
@@ -232,7 +232,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-700 relative overflow-hidden">
+      <section className="py-24 bg-gradient-to-br from-brand-primary via-blue-700 to-indigo-700 relative overflow-hidden">
         {/* Background decoration */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
@@ -254,7 +254,7 @@ export default function ServicesPage() {
             </p>
             <Link
               href={`/${locale}/contact`}
-              className="inline-flex items-center space-x-2 bg-white text-blue-600 px-10 py-5 rounded-2xl font-bold text-lg shadow-2xl hover:shadow-3xl hover:bg-gray-50 transform hover:-translate-y-1 transition-all duration-300"
+              className="inline-flex items-center space-x-2 bg-white text-brand-primary px-10 py-5 rounded-2xl font-bold text-lg shadow-2xl hover:shadow-3xl hover:bg-gray-50 transform hover:-translate-y-1 transition-all duration-300"
             >
               <span>{t('services.page.cta.button')}</span>
               <ArrowRight className="w-5 h-5" />
