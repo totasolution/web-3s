@@ -28,102 +28,179 @@ const HeroSection = () => {
     return typeof value === 'string' ? value : key
   }
   
+  const ctaPrimary = t('hero.cta.primary') !== 'hero.cta.primary' ? t('hero.cta.primary') : (locale === 'en' ? 'Start Now' : 'Mulai Sekarang')
+  const ctaSecondary = t('hero.cta.secondary') !== 'hero.cta.secondary' ? t('hero.cta.secondary') : (locale === 'en' ? 'Contact Us' : 'Hubungi Kami')
+  
   const features = [
     {
       icon: Users,
-      title: t('hero.features.manPower'),
-      description: t('hero.features.manPowerDesc')
+      title: t('hero.features.manPower') !== 'hero.features.manPower' ? t('hero.features.manPower') : (locale === 'en' ? 'Man Power Solutions' : 'Solusi Man Power'),
+      description: t('hero.features.manPowerDesc') !== 'hero.features.manPowerDesc' ? t('hero.features.manPowerDesc') : (locale === 'en' ? 'Comprehensive staffing and recruitment' : 'Layanan staffing dan rekrutmen komprehensif')
     },
     {
       icon: TrendingUp,
-      title: t('hero.features.hrdEfficiency'),
-      description: t('hero.features.hrdEfficiencyDesc')
+      title: t('hero.features.hrdEfficiency') !== 'hero.features.hrdEfficiency' ? t('hero.features.hrdEfficiency') : (locale === 'en' ? 'HR Efficiency' : 'Efisiensi HRD'),
+      description: t('hero.features.hrdEfficiencyDesc') !== 'hero.features.hrdEfficiencyDesc' ? t('hero.features.hrdEfficiencyDesc') : (locale === 'en' ? 'Streamline HR processes' : 'Optimasi proses HR')
     },
     {
       icon: Shield,
-      title: t('hero.features.trustedPartner'),
-      description: t('hero.features.trustedPartnerDesc')
+      title: t('hero.features.trustedPartner') !== 'hero.features.trustedPartner' ? t('hero.features.trustedPartner') : (locale === 'en' ? 'Trusted Partner' : 'Mitra Terpercaya'),
+      description: t('hero.features.trustedPartnerDesc') !== 'hero.features.trustedPartnerDesc' ? t('hero.features.trustedPartnerDesc') : (locale === 'en' ? 'Reliable consulting and support' : 'Konsultasi dan dukungan yang handal')
     }
   ]
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#F7F3E9] via-white to-[#E2E8F0] overflow-hidden pt-16">
-      {/* Background Elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-[#8FA8C9]/20 rounded-full blur-3xl"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-[#E8B4A0]/20 rounded-full blur-3xl"></div>
+    <section className="relative flex items-center bg-gradient-to-br from-slate-50 via-blue-50/30 to-white overflow-hidden pt-24 pb-20 min-h-[90vh]">
+      {/* Decorative Background */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {/* Grid pattern */}
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+        
+        {/* Gradient orbs */}
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-br from-blue-400/20 via-cyan-400/20 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-purple-400/15 via-pink-400/15 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute top-1/3 left-1/4 w-[300px] h-[300px] bg-gradient-to-br from-indigo-400/10 to-transparent rounded-full blur-2xl animate-pulse"></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
-          {/* Main Heading */}
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#4F5D75] mb-6"
-          >
-            <span className="bg-gradient-to-r from-[#4F5D75] to-[#6B7A99] bg-clip-text text-transparent">
-              {t('hero.title')}
-            </span>
-            <br />
-            <span className="text-[#2D3748]">{t('hero.subtitle')}</span>
-          </motion.h1>
-
-          {/* Subtitle */}
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl md:text-2xl text-[#6B7A99] mb-8 max-w-3xl mx-auto leading-relaxed"
-          >
-            {t('hero.description')}
-          </motion.p>
-
-          {/* CTA Buttons */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
-          >
-            <Link
-              href={`/${locale}/services`}
-              className="inline-flex items-center space-x-2 bg-gradient-to-r from-[#4F5D75] to-[#6B7A99] hover:from-[#6B7A99] hover:to-[#4F5D75] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
+          {/* Left: Text */}
+          <div>
+            <motion.div
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="inline-flex items-center space-x-2 bg-gradient-to-r from-brand-blue/10 to-purple-500/10 px-4 py-2 rounded-full mb-6 border border-brand-blue/20"
             >
-              <span>{t('hero.cta.primary')}</span>
-              <ArrowRight className="w-5 h-5" />
-            </Link>
-            <Link
-              href={`/${locale}/contact`}
-              className="inline-flex items-center space-x-2 border-2 border-[#8FA8C9] text-[#4F5D75] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#8FA8C9] hover:text-white transition-all duration-300"
+              <span className="w-2 h-2 bg-brand-blue rounded-full animate-pulse"></span>
+              <span className="text-brand-blue font-semibold text-sm">{t('hero.badge')}</span>
+            </motion.div>
+            
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.1 }}
+              className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight"
             >
-              <span>{t('hero.cta.secondary')}</span>
-            </Link>
-          </motion.div>
+              <span className="block bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 bg-clip-text text-transparent">
+                {t('hero.title')}
+              </span>
+              <span className="block text-brand-slate mt-2">{t('hero.subtitle')}</span>
+            </motion.h1>
 
-          {/* Features Grid */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-            className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto"
-          >
-            {features.map((feature, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
-                className="text-center"
+            <motion.p
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl leading-relaxed font-medium"
+            >
+              {t('hero.description')}
+            </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="flex flex-col sm:flex-row gap-4 mb-16"
+            >
+              <Link
+                href={`/${locale}/services`}
+                className="group relative inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-10 py-5 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-500/50 overflow-hidden"
               >
-                <div className="w-16 h-16 bg-gradient-to-br from-[#4F5D75] to-[#8FA8C9] rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                  <feature.icon className="w-8 h-8 text-white" />
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <span className="relative z-10">{ctaPrimary}</span>
+                <ArrowRight className="relative z-10 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </Link>
+              <Link
+                href={`/${locale}/contact`}
+                className="group inline-flex items-center justify-center space-x-2 bg-white border-2 border-gray-300 text-gray-700 px-10 py-5 rounded-2xl font-bold text-lg hover:border-blue-600 hover:text-blue-600 shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                <span>{ctaSecondary}</span>
+              </Link>
+            </motion.div>
+
+            {/* Features */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="grid grid-cols-1 sm:grid-cols-3 gap-6"
+            >
+              {features.map((feature, index) => (
+                <motion.div 
+                  key={index} 
+                  className="group relative bg-white/60 backdrop-blur-sm rounded-2xl p-5 border border-gray-200/50 hover:border-blue-300 hover:bg-white transition-all duration-300"
+                  whileHover={{ y: -5 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                >
+                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 text-white flex items-center justify-center mb-4 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300">
+                    <feature.icon className="w-7 h-7" />
+                  </div>
+                  <h3 className="text-base font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition-colors">{feature.title}</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">{feature.description}</p>
+                </motion.div>
+              ))}
+            </motion.div>
+          </div>
+
+          {/* Right: Illustration */}
+          <motion.div
+            initial={{ opacity: 0, x: 40 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="relative"
+          >
+            {/* Floating decoration elements */}
+            <div className="absolute -top-8 -right-8 w-32 h-32 bg-gradient-to-br from-purple-400/30 to-pink-400/30 rounded-full blur-3xl"></div>
+            <div className="absolute -bottom-8 -left-8 w-40 h-40 bg-gradient-to-tr from-cyan-400/30 to-blue-400/30 rounded-full blur-3xl"></div>
+            
+            <div className="relative aspect-[4/3] w-full rounded-[2rem] overflow-hidden shadow-2xl border border-gray-200 bg-gradient-to-br from-gray-100 to-white">
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-transparent to-purple-500/5 z-10"></div>
+              <img
+                src="/brand/kolaborasi-tim-kantor-modern-untuk-outsourcing.jpg"
+                alt="Team collaboration illustration"
+                className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
+              />
+              
+              {/* Decorative corner accent */}
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-blue-500/20 to-transparent z-20"></div>
+              <div className="absolute bottom-0 left-0 w-32 h-32 bg-gradient-to-tr from-purple-500/20 to-transparent z-20"></div>
+            </div>
+            
+            {/* Stats badges - Enhanced */}
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.8, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.8, type: "spring" }}
+              className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-2xl p-5 border border-gray-100 hover:shadow-3xl transition-shadow duration-300"
+            >
+              <div className="flex items-center space-x-3">
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-emerald-400 to-green-600 flex items-center justify-center shadow-lg">
+                  <span className="text-white font-bold text-xl">500+</span>
                 </div>
-                <h3 className="text-xl font-semibold text-[#4F5D75] mb-2">{feature.title}</h3>
-                <p className="text-[#6B7A99]">{feature.description}</p>
-              </motion.div>
-            ))}
+                <div>
+                  <p className="text-gray-800 font-bold text-sm">{t('hero.stats.clients')}</p>
+                  <p className="text-gray-500 text-xs">{t('hero.stats.clientsDesc')}</p>
+                </div>
+              </div>
+            </motion.div>
+            
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.8, y: -20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 1, type: "spring" }}
+              className="absolute -top-6 -right-6 bg-white rounded-2xl shadow-2xl p-5 border border-gray-100 hover:shadow-3xl transition-shadow duration-300"
+            >
+              <div className="flex items-center space-x-3">
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center shadow-lg">
+                  <span className="text-white font-bold text-xl">7+</span>
+                </div>
+                <div>
+                  <p className="text-gray-800 font-bold text-sm">{t('hero.stats.experience')}</p>
+                  <p className="text-gray-500 text-xs">{t('hero.stats.experienceDesc')}</p>
+                </div>
+              </div>
+            </motion.div>
           </motion.div>
         </div>
       </div>

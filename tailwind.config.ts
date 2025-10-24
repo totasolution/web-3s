@@ -18,6 +18,17 @@ const config: Config = {
           dark: '#2D3748',         // Deep charcoal
           light: '#E2E8F0',        // Light gray-blue
         },
+        brand: {
+          blue: '#1F78C8',         // Logo blue
+          blueDark: '#155E99',     // Darker blue for hover/active
+          blueLight: '#8FC1EA',    // Light/tint
+          slate: '#4F5D75',        // Heading/body
+          muted: '#6B7A99',        // Secondary text
+          cream: '#F7F3E9',        // Warm surface
+          surface: '#E2E8F0',      // Subtle borders/surfaces
+          ink: '#2D3748',          // Strong on-dark text
+          warm: '#E8B4A0',         // Warm accent
+        },
       },
     },
   },

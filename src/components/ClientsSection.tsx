@@ -61,8 +61,14 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
   return (
     <>
       {/* Stats Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 bg-gradient-to-b from-white to-gray-50/50 relative overflow-hidden">
+        {/* Background decoration */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-10 right-10 w-64 h-64 bg-blue-200/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-10 left-10 w-80 h-80 bg-purple-200/10 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             className="text-center mb-16"
             initial={{ opacity: 0, y: 30 }}
@@ -70,10 +76,15 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold text-[#4F5D75] mb-4">
+            <div className="inline-block mb-4">
+              <span className="text-blue-600 font-bold text-sm uppercase tracking-wider bg-blue-50 px-4 py-2 rounded-full">
+                Our Track Record
+              </span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
               {t('clients.stats.title')}
             </h2>
-            <p className="text-xl text-[#6B7A99] max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               {t('clients.stats.description')}
             </p>
           </motion.div>
@@ -82,17 +93,22 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
             {stats.map((stat, index) => (
               <motion.div
                 key={index}
-                className="text-center"
+                className="relative group"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
               >
-                <div className="text-4xl md:text-5xl font-bold text-[#8FA8C9] mb-2">
-                  {stat.number}
-                </div>
-                <div className="text-[#6B7A99] font-medium">
-                  {stat.label}
+                <div className="bg-white rounded-2xl p-8 text-center border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                  <div className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent mb-3">
+                    {stat.number}
+                  </div>
+                  <div className="text-gray-600 font-semibold text-sm">
+                    {stat.label}
+                  </div>
+                  
+                  {/* Accent line */}
+                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full transform scale-0 group-hover:scale-100 transition-transform duration-300"></div>
                 </div>
               </motion.div>
             ))}
@@ -101,8 +117,11 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
       </section>
 
       {/* Clients Section */}
-      <section className="py-20 bg-[#F7F3E9]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 bg-white relative overflow-hidden">
+        {/* Background pattern */}
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px] pointer-events-none"></div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             className="text-center mb-16"
             initial={{ opacity: 0, y: 30 }}
@@ -110,32 +129,39 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold text-[#4F5D75] mb-4">
+            <div className="inline-block mb-4">
+              <span className="text-blue-600 font-bold text-sm uppercase tracking-wider bg-blue-50 px-4 py-2 rounded-full">
+                Trusted Partners
+              </span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
               {isHomePage ? t('clients.home.title') : t('clients.logos.title')}
             </h2>
-            <p className="text-xl text-[#6B7A99] max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               {isHomePage ? t('clients.home.description') : t('clients.logos.description')}
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
             {clientLogos.slice(0, isHomePage ? 6 : 12).map((client, index) => (
               <motion.div
                 key={index}
-                className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1 flex flex-col items-center justify-center border border-[#E2E8F0]"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.05 }}
+                className="group bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex flex-col items-center justify-center border border-gray-100 hover:border-blue-200 min-h-[150px]"
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.4, delay: index * 0.05 }}
                 viewport={{ once: true }}
               >
-                <div className="w-16 h-16 mb-3 flex items-center justify-center">
+                <div className="relative w-16 h-16 mb-4 flex items-center justify-center">
+                  {/* Glow effect on hover */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <img
                     src={client.logo}
                     alt={`${client.name} Logo`}
-                    className="w-full h-full object-contain"
+                    className="relative w-full h-full object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
                   />
                 </div>
-                <h3 className="text-sm font-medium text-[#4F5D75] text-center leading-tight">
+                <h3 className="text-xs font-semibold text-gray-600 group-hover:text-gray-800 text-center leading-tight transition-colors">
                   {client.name}
                 </h3>
               </motion.div>
@@ -152,7 +178,7 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
             >
               <a
                 href={`/${locale}/clients`}
-                className="inline-flex items-center space-x-2 text-[#4F5D75] hover:text-[#8FA8C9] font-semibold text-lg transition-colors duration-300"
+                className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
               >
                 <span>{t('clients.home.viewAll')}</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">

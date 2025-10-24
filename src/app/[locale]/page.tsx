@@ -2,6 +2,7 @@ import Navigation from '@/components/Navigation'
 import HeroSection from '@/components/HeroSection'
 import ServicesSection from '@/components/ServicesSection'
 import ClientsSection from '@/components/ClientsSection'
+import CompanyProfileSection from '@/components/CompanyProfileSection'
 import Footer from '@/components/Footer'
 
 export default function HomePage() {
@@ -11,6 +12,7 @@ export default function HomePage() {
       <HeroSection />
       <ServicesSection />
       <ClientsSection isHomePage={true} />
+      <CompanyProfileSection />
       <Footer />
     </main>
   )

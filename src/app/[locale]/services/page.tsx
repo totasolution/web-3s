@@ -6,13 +6,11 @@ import { motion } from 'framer-motion'
 import { 
   Users, 
   Briefcase, 
-  Target, 
-  BarChart3, 
-  FileText, 
-  Shield,
+  Cog,
   CheckCircle,
   ArrowRight,
-  Star
+  Star,
+  ChevronRight
 } from 'lucide-react'
 import Link from 'next/link'
 import { useLocale } from '@/hooks/useLocale'
@@ -42,64 +40,68 @@ export default function ServicesPage() {
 
   const services = [
     {
-      id: 'recruitment',
+      id: 'manPowerSupply',
       icon: Users,
-      title: t('services.recruitment.title'),
-      description: t('services.recruitment.description'),
-      features: t('services.recruitment.features'),
-      benefits: t('services.recruitment.benefits'),
-      color: 'from-[#4F5D75] to-[#6B7A99]',
-      bgColor: 'bg-[#F7F3E9]'
+      title: t('services.manPowerSupply.title'),
+      description: t('services.manPowerSupply.description'),
+      features: t('services.manPowerSupply.features'),
+      benefits: t('services.manPowerSupply.benefits'),
+      subServices: [
+        {
+          title: t('services.manPowerSupply.subServices.peo.title'),
+          description: t('services.manPowerSupply.subServices.peo.description')
+        },
+        {
+          title: t('services.manPowerSupply.subServices.staffing.title'),
+          description: t('services.manPowerSupply.subServices.staffing.description')
+        }
+      ],
+      color: 'from-brand-blue to-brand-blueDark',
+      bgColor: 'bg-brand-cream'
     },
     {
-      id: 'hr-process',
+      id: 'humanResource',
       icon: Briefcase,
-      title: t('services.hrProcess.title'),
-      description: t('services.hrProcess.description'),
-      features: t('services.hrProcess.features'),
-      benefits: t('services.hrProcess.benefits'),
-      color: 'from-[#6B7A99] to-[#8FA8C9]',
-      bgColor: 'bg-[#E2E8F0]'
+      title: t('services.humanResource.title'),
+      description: t('services.humanResource.description'),
+      features: t('services.humanResource.features'),
+      benefits: t('services.humanResource.benefits'),
+      subServices: [
+        {
+          title: t('services.humanResource.subServices.headhunting.title'),
+          description: t('services.humanResource.subServices.headhunting.description')
+        },
+        {
+          title: t('services.humanResource.subServices.hrDevelopment.title'),
+          description: t('services.humanResource.subServices.hrDevelopment.description')
+        },
+        {
+          title: t('services.humanResource.subServices.hrAdministration.title'),
+          description: t('services.humanResource.subServices.hrAdministration.description')
+        }
+      ],
+      color: 'from-brand-blueDark to-brand-blue',
+      bgColor: 'bg-white'
     },
     {
-      id: 'training',
-      icon: Target,
-      title: t('services.training.title'),
-      description: t('services.training.description'),
-      features: t('services.training.features'),
-      benefits: t('services.training.benefits'),
-      color: 'from-[#8FA8C9] to-[#4F5D75]',
-      bgColor: 'bg-[#F7F3E9]'
-    },
-    {
-      id: 'analytics',
-      icon: BarChart3,
-      title: t('services.analytics.title'),
-      description: t('services.analytics.description'),
-      features: t('services.analytics.features'),
-      benefits: t('services.analytics.benefits'),
-      color: 'from-[#4F5D75] to-[#E8B4A0]',
-      bgColor: 'bg-[#E2E8F0]'
-    },
-    {
-      id: 'compliance',
-      icon: FileText,
-      title: t('services.compliance.title'),
-      description: t('services.compliance.description'),
-      features: t('services.compliance.features'),
-      benefits: t('services.compliance.benefits'),
-      color: 'from-[#E8B4A0] to-[#6B7A99]',
-      bgColor: 'bg-[#F7F3E9]'
-    },
-    {
-      id: 'consulting',
-      icon: Shield,
-      title: t('services.consulting.title'),
-      description: t('services.consulting.description'),
-      features: t('services.consulting.features'),
-      benefits: t('services.consulting.benefits'),
-      color: 'from-[#6B7A99] to-[#8FA8C9]',
-      bgColor: 'bg-[#E2E8F0]'
+      id: 'bpo',
+      icon: Cog,
+      title: t('services.bpo.title'),
+      description: t('services.bpo.description'),
+      features: t('services.bpo.features'),
+      benefits: t('services.bpo.benefits'),
+      subServices: [
+        {
+          title: t('services.bpo.subServices.payroll.title'),
+          description: t('services.bpo.subServices.payroll.description')
+        },
+        {
+          title: t('services.bpo.subServices.timeAttendance.title'),
+          description: t('services.bpo.subServices.timeAttendance.description')
+        }
+      ],
+      color: 'from-brand-blue to-brand-blueLight',
+      bgColor: 'bg-brand-cream'
     }
   ]
 
@@ -108,21 +110,38 @@ export default function ServicesPage() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-gradient-to-br from-[#F7F3E9] via-white to-[#E2E8F0]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="pt-32 pb-20 bg-gradient-to-br from-slate-50 via-blue-50/30 to-white relative overflow-hidden">
+        {/* Background decoration */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+          <div className="absolute top-0 right-0 w-96 h-96 bg-blue-200/20 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-200/20 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="inline-block mb-6"
+          >
+            <span className="text-blue-600 font-bold text-sm uppercase tracking-wider bg-blue-50 px-4 py-2 rounded-full">
+{t('services.hero.badge')}
+            </span>
+          </motion.div>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-5xl md:text-6xl font-bold text-[#4F5D75] mb-6"
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="text-5xl md:text-6xl font-extrabold text-gray-800 mb-6"
           >
-            {t('services.hero.title')} <span className="bg-gradient-to-r from-[#4F5D75] to-[#8FA8C9] bg-clip-text text-transparent">{t('services.hero.subtitle')}</span>
+            {t('services.hero.title')} <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">{t('services.hero.subtitle')}</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl text-[#6B7A99] max-w-3xl mx-auto"
+            className="text-xl text-gray-600 max-w-3xl mx-auto"
           >
             {t('services.hero.description')}
           </motion.p>
@@ -130,53 +149,53 @@ export default function ServicesPage() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-20">
+      <section className="py-20 bg-gradient-to-b from-white via-gray-50/50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="space-y-16">
             {services.map((service, index) => (
               <motion.div
                 key={service.id}
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
-                className={`${service.bgColor} rounded-2xl p-8 border border-[#E2E8F0]`}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8 }}
               >
-                <div className={`w-16 h-16 bg-gradient-to-r ${service.color} rounded-xl flex items-center justify-center mb-6`}>
-                  <service.icon className="w-8 h-8 text-white" />
-                </div>
-                
-                <h2 className="text-3xl font-bold text-[#4F5D75] mb-4">{service.title}</h2>
-                <p className="text-lg text-[#6B7A99] mb-6">{service.description}</p>
-                
-                <div className="grid md:grid-cols-2 gap-8">
-                  <div>
-                    <h3 className="text-lg font-semibold text-[#4F5D75] mb-4 flex items-center">
-                      <CheckCircle className="w-5 h-5 text-[#8FA8C9] mr-2" />
-                      {t('common.keyFeatures')}
-                    </h3>
-                    <ul className="space-y-2">
-                      {Array.isArray(service.features) && service.features.map((feature, featureIndex) => (
-                        <li key={featureIndex} className="flex items-start">
-                          <CheckCircle className="w-4 h-4 text-[#8FA8C9] mt-1 mr-2 flex-shrink-0" />
-                          <span className="text-[#6B7A99]">{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+                {/* Service Card */}
+                <div className="bg-white rounded-3xl overflow-hidden border border-gray-200 shadow-xl hover:shadow-2xl transition-shadow duration-500">
+                  {/* Colored Top Bar */}
+                  <div className={`h-2 bg-gradient-to-r ${service.color}`}></div>
                   
-                  <div>
-                    <h3 className="text-lg font-semibold text-[#4F5D75] mb-4 flex items-center">
-                      <Star className="w-5 h-5 text-[#E8B4A0] mr-2" />
-                      {t('common.benefits')}
-                    </h3>
-                    <ul className="space-y-2">
-                      {Array.isArray(service.benefits) && service.benefits.map((benefit, benefitIndex) => (
-                        <li key={benefitIndex} className="flex items-start">
-                          <Star className="w-4 h-4 text-[#E8B4A0] mt-1 mr-2 flex-shrink-0" />
-                          <span className="text-[#6B7A99]">{benefit}</span>
-                        </li>
-                      ))}
-                    </ul>
+                  <div className="p-8 md:p-12">
+                    {/* Header Section */}
+                    <div className="mb-10">
+                      <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">{service.title}</h2>
+                      <p className="text-lg text-gray-600 leading-relaxed">{service.description}</p>
+                    </div>
+                    
+                    {/* Sub-services Grid */}
+                    {service.subServices && service.subServices.length > 0 && (
+                      <div>
+                        <h3 className="text-xl font-bold text-gray-900 mb-6 flex items-center">
+                          <ChevronRight className="w-6 h-6 text-blue-600 mr-2" />
+                          Included Services
+                        </h3>
+                        <div className="grid md:grid-cols-2 gap-6">
+                          {service.subServices.map((subService, subIndex) => (
+                            <div key={subIndex} className="bg-gray-50 rounded-2xl p-6 border border-gray-200 hover:border-blue-400 hover:shadow-lg transition-all duration-300">
+                              <div className="flex gap-4">
+                                <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center">
+                                  <ChevronRight className="w-5 h-5 text-blue-600" />
+                                </div>
+                                <div className="flex-1">
+                                  <h4 className="text-lg font-bold text-gray-900 mb-2">{subService.title}</h4>
+                                  <p className="text-sm text-gray-600 leading-relaxed">{subService.description}</p>
+                                </div>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
                   </div>
                 </div>
               </motion.div>
@@ -186,22 +205,29 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-[#4F5D75] to-[#6B7A99]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="py-24 bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-700 relative overflow-hidden">
+        {/* Background decoration */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold text-white mb-4">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6">
               {t('services.page.cta.title')}
             </h2>
-            <p className="text-xl text-[#E2E8F0] mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
               {t('services.page.cta.subtitle')}
             </p>
             <Link
               href={`/${locale}/contact`}
-              className="inline-flex items-center space-x-2 bg-white text-[#4F5D75] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#F7F3E9] transition-colors duration-300"
+              className="inline-flex items-center space-x-2 bg-white text-blue-600 px-10 py-5 rounded-2xl font-bold text-lg shadow-2xl hover:shadow-3xl hover:bg-gray-50 transform hover:-translate-y-1 transition-all duration-300"
             >
               <span>{t('services.page.cta.button')}</span>
               <ArrowRight className="w-5 h-5" />

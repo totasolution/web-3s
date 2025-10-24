@@ -14,4 +14,10 @@
   .text-balance {
     text-wrap: balance;
   }
+  
+  .gradient-text {
+    color: #1F78C8;
+    font-weight: bold;
+    display: inline-block;
+  }
 }

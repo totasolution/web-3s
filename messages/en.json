@@ -10,6 +10,7 @@
     "contact": "Contact"
   },
   "hero": {
+    "badge": "Professional HR Solutions Since 2017",
     "title": "Professional HR Solutions",
     "subtitle": "Transform Your Workforce",
     "description": "PT. Sigma Solusi Servis provides comprehensive HR solutions to optimize your manpower needs and enhance HRD efficiency.",
@@ -24,12 +25,22 @@
       "hrdEfficiencyDesc": "Streamline and optimize HR processes",
       "trustedPartner": "Trusted Partner",
       "trustedPartnerDesc": "Reliable HR consulting and support"
+    },
+    "stats": {
+      "clients": "Happy Clients",
+      "clientsDesc": "Trusted Worldwide",
+      "experience": "Years Experience",
+      "experienceDesc": "Since 2017"
     }
   },
   "services": {
     "title": "Our Services",
     "subtitle": "Comprehensive HR solutions tailored to your business needs",
+    "badge": "What We Offer",
+    "viewAll": "View All Services",
+    "learnMore": "Learn More",
     "hero": {
+      "badge": "What We Offer",
       "title": "Our",
       "subtitle": "Services",
       "description": "Discover how our comprehensive HR solutions can transform your workforce management and drive business success."
@@ -41,129 +52,104 @@
         "button": "Get Free Consultation"
       }
     },
-    "recruitment": {
-      "title": "Recruitment & Staffing",
-      "description": "Comprehensive recruitment services including talent sourcing, screening, and placement for all levels of positions.",
+    "manPowerSupply": {
+      "title": "Man Power Supply",
+      "description": "Managing many people could be burdensome to your company. We provide man power supply (Professional Employer Organization) that helps fulfill workforce requirement with less workload. We will be in charge of managing the workforce while you align their goals according to your business productivity.",
       "features": [
-        "Executive Search & Headhunting",
-        "Technical & Professional Recruitment",
-        "Contract & Temporary Staffing",
+        "Professional Employer Organization (PEO)",
+        "Workforce Management & Supervision",
+        "Contract & Permanent Staffing",
         "Mass Recruitment Solutions",
-        "Employer Branding Support",
-        "Recruitment Process Optimization"
+        "Flexible Staffing Models",
+        "On-site Workforce Coordination"
+      ],
+      "benefits": [
+        "Reduced management burden",
+        "Focus on core business",
+        "Flexible workforce scaling",
+        "Lower operational costs",
+        "Professional workforce management",
+        "Compliance handling"
+      ],
+      "subServices": {
+        "peo": {
+          "title": "Professional Employer Organization",
+          "description": "Full workforce management services"
+        },
+        "staffing": {
+          "title": "Contract Staffing",
+          "description": "Flexible staffing solutions"
+        }
+      }
+    },
+    "humanResource": {
+      "title": "Human Resource",
+      "description": "Comprehensive HR solutions to optimize your human capital and drive organizational excellence through strategic talent management and development.",
+      "features": [
+        "Talent Headhunting & Executive Search",
+        "HR Development Programs",
+        "HR Administration Services",
+        "Performance Management",
+        "Employee Engagement",
+        "Organizational Development"
       ],
       "benefits": [
         "Access to top talent pool",
-        "Reduced time-to-hire",
-        "Improved candidate quality",
-        "Cost-effective recruitment",
-        "Industry expertise",
-        "Ongoing support"
-      ]
-    },
-    "hrProcess": {
-      "title": "HR Process Optimization",
-      "description": "Streamline your HR operations with our proven methodologies and best practices.",
-      "features": [
-        "HR Process Mapping & Analysis",
-        "Workflow Automation",
-        "Performance Management Systems",
-        "Employee Engagement Programs",
-        "HR Technology Implementation",
-        "Process Efficiency Audits"
-      ],
-      "benefits": [
-        "Increased operational efficiency",
-        "Reduced administrative burden",
-        "Improved employee experience",
-        "Better compliance management",
-        "Data-driven insights",
-        "Scalable processes"
-      ]
-    },
-    "training": {
-      "title": "Training & Development",
-      "description": "Customized training programs to enhance employee skills and drive organizational growth.",
-      "features": [
-        "Leadership Development Programs",
-        "Technical Skills Training",
-        "Soft Skills Enhancement",
-        "Team Building Workshops",
-        "Compliance Training",
-        "Custom Training Solutions"
-      ],
-      "benefits": [
+        "Strategic HR alignment",
         "Enhanced employee performance",
         "Improved retention rates",
-        "Increased productivity",
-        "Better team collaboration",
-        "Compliance adherence",
-        "Competitive advantage"
-      ]
+        "Professional HR administration",
+        "Long-term growth support"
+      ],
+      "subServices": {
+        "headhunting": {
+          "title": "Talent Headhunting",
+          "description": "Talented employees will ease you in achieving company goals. We help you find talents that you need with our extended experience in talent seeking. Just simply tell us the specification and requirement, then we will give you a shortlist of potential talent that you can hire."
+        },
+        "hrDevelopment": {
+          "title": "HR Development",
+          "description": "Investing in good employees will benefit your company in mid-long term. We assist you in making the strategy to develop your Human Resources and implementing the strategy through training and courses that they need."
+        },
+        "hrAdministration": {
+          "title": "HR Administration",
+          "description": "Doing administrative works and applying permits need loads of energy and time. We will reduce the burden you had by taking over the job and you can use the energy to push the company forward."
+        }
+      }
     },
-    "analytics": {
-      "title": "HR Analytics & Reporting",
-      "description": "Data-driven insights to make informed HR decisions and measure organizational performance.",
+    "bpo": {
+      "title": "BPO - Business Process Outsourcing",
+      "description": "Streamline your business operations by outsourcing non-core HR processes to us. We handle the complexities so you can focus on growing your business.",
       "features": [
-        "KPI Dashboard Development",
-        "Employee Analytics & Metrics",
-        "Turnover Analysis & Prediction",
-        "Performance Analytics",
-        "Workforce Planning Tools",
-        "Custom Report Generation"
+        "Payroll Management & Processing",
+        "BPJS & Insurance Administration",
+        "Time & Attendance Systems",
+        "HR Process Automation",
+        "Compliance & Documentation",
+        "Integrated Online Platform"
       ],
       "benefits": [
-        "Data-driven decision making",
-        "Improved HR strategy",
-        "Better resource allocation",
-        "Predictive insights",
-        "Performance optimization",
-        "Strategic planning support"
-      ]
-    },
-    "compliance": {
-      "title": "Compliance & Legal Support",
-      "description": "Ensure your HR practices comply with local regulations and industry standards.",
-      "features": [
-        "Labor Law Compliance Audits",
-        "HR Policy Development",
-        "Employment Contract Review",
-        "Workplace Safety Compliance",
-        "Risk Assessment & Management",
-        "Legal Consultation Support"
-      ],
-      "benefits": [
-        "Reduced legal risks",
+        "Eliminate error risks",
+        "Real-time monitoring",
+        "Reduced administrative burden",
+        "Cost-effective solutions",
         "Compliance assurance",
-        "Policy standardization",
-        "Risk mitigation",
-        "Legal cost savings",
-        "Peace of mind"
-      ]
-    },
-    "consulting": {
-      "title": "Strategic HR Consulting",
-      "description": "Expert guidance on HR strategy, organizational design, and change management.",
-      "features": [
-        "HR Strategy Development",
-        "Organizational Design & Structure",
-        "Change Management Support",
-        "Merger & Acquisition HR",
-        "Culture Transformation",
-        "HR Technology Strategy"
+        "Improved productivity"
       ],
-      "benefits": [
-        "Strategic HR alignment",
-        "Improved organizational effectiveness",
-        "Successful change implementation",
-        "Enhanced company culture",
-        "Long-term growth support",
-        "Expert guidance"
-      ]
+      "subServices": {
+        "payroll": {
+          "title": "Payroll Services",
+          "description": "Eliminate error risk by using our payroll services. We will not only help you calculate the salary, we also help you manage the insurance and local regulation (BPJS). In addition, we will provide assistance to apply reimbursement to insurance & BPJS if needed."
+        },
+        "timeAttendance": {
+          "title": "Time & Attendance",
+          "description": "Improve your company productivity by using our services. We will apply time & attendance system that suits your company needs and condition. The benefit of our services is the integration of time & attendance system with our online platform, allowing us to monitor our employee status in real time."
+        }
+      }
     }
   },
   "contact": {
     "hero": {
+      "badge": "Contact Us",
       "title": "Get in",
       "subtitle": "Touch",
       "description": "Ready to transform your HR? Let's discuss how we can help your business succeed"
@@ -277,6 +263,15 @@
       "processes": "Streamlined HR processes and workflows",
       "expertise": "Access to industry best practices and expertise"
     },
+    "companyProfile": {
+      "badge": "Company Profile",
+      "title": "Learn More About 3S",
+      "subtitle": "Download our comprehensive company profile to discover our complete range of services, achievements, and success stories.",
+      "cardTitle": "Sigma Solusi Servis Company Profile",
+      "cardDescription": "Access detailed information about our company, services, expertise, and how we can help transform your business operations.",
+      "viewButton": "View Profile",
+      "downloadButton": "Download PDF"
+    },
     "team": {
       "title": "Our Team",
       "subtitle": "Meet the experts behind our success",
@@ -314,10 +309,16 @@
         "industry": "Consulting",
         "testimonial": "Professional, reliable, and results-driven. They truly understand our business needs."
       }
+    },
+    "cta": {
+      "title": "Ready to Transform Your HR Strategy?",
+      "subtitle": "Partner with 3S and experience the difference that professional HR solutions can make for your business.",
+      "button": "Get Started Today"
     }
   },
   "clients": {
     "hero": {
+      "badge": "Trusted Partners",
       "title": "Our",
       "highlight": "Clients",
       "description": "Discover the success stories and testimonials from companies that have transformed their HR with our solutions."
@@ -365,6 +366,14 @@
     "learnMore": "Learn More",
     "keyFeatures": "Key Features",
     "benefits": "Benefits"
+  },
+  "companyProfile": {
+    "badge": "Company Profile",
+    "title": "Get to Know",
+    "highlight": "Sigma Solusi Servis",
+    "description": "Download our comprehensive company profile to learn more about our services, expertise, and how we can help transform your business.",
+    "viewButton": "View Profile",
+    "downloadButton": "Download PDF"
   },
   "notFound": {
     "title": "Page Not Found",
