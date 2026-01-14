@@ -86,8 +86,8 @@ export default function CompanyProfileSection() {
                 </h3>
                 <p className="text-gray-600 mb-6">
                   {locale === 'en' 
-                    ? 'Your trusted HR solutions partner since 2017' 
-                    : 'Mitra solusi HR terpercaya Anda sejak 2017'}
+                    ? 'Your trusted HR solutions partner since 2015' 
+                    : 'Mitra solusi HR terpercaya Anda sejak 2015'}
                 </p>
                 
                 {/* Buttons */}

@@ -193,7 +193,7 @@ const HeroSection = () => {
             >
               <div className="flex items-center space-x-3">
                 <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-brand-primary to-brand-light flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold text-xl">7+</span>
+                  <span className="text-white font-bold text-xl">10+</span>
                 </div>
                 <div>
                   <p className="text-gray-800 font-bold text-sm">{t('hero.stats.experience')}</p>

@@ -25,18 +25,9 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
   }
 
   const clientLogos = [
-    { name: 'PT. Maju Bersama', logo: '/logo-sigma.png' },
-    { name: 'CV. Sukses Mandiri', logo: '/logo-sigma.png' },
-    { name: 'PT. Global Solutions', logo: '/logo-sigma.png' },
-    { name: 'PT. Inovasi Digital', logo: '/logo-sigma.png' },
-    { name: 'CV. Prima Sejahtera', logo: '/logo-sigma.png' },
-    { name: 'PT. Energi Bersih', logo: '/logo-sigma.png' },
-    { name: 'PT. Teknologi Maju', logo: '/logo-sigma.png' },
-    { name: 'CV. Sukses Bersama', logo: '/logo-sigma.png' },
-    { name: 'PT. Solusi Digital', logo: '/logo-sigma.png' },
-    { name: 'PT. Inovasi Teknologi', logo: '/logo-sigma.png' },
-    { name: 'CV. Prima Digital', logo: '/logo-sigma.png' },
-    { name: 'PT. Energi Terbarukan', logo: '/logo-sigma.png' }
+    { name: 'Biznet', logo: '/biznet.png' },
+    { name: 'Klikit', logo: '/klikit.png' },
+    { name: 'BangChurros', logo: '/bang_churros.png' },
   ]
 
   const stats = [
@@ -53,7 +44,7 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
       label: locale === 'en' ? 'Client Satisfaction' : 'Kepuasan Klien'
     },
     {
-      number: '5+',
+      number: '10+',
       label: locale === 'en' ? 'Years Experience' : 'Tahun Pengalaman'
     }
   ]
@@ -146,13 +137,13 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
             {clientLogos.slice(0, isHomePage ? 6 : 12).map((client, index) => (
               <motion.div
                 key={index}
-                className="group bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex flex-col items-center justify-center border border-gray-100 hover:border-brand-light min-h-[150px]"
+                className="group bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex items-center justify-center border border-gray-100 hover:border-brand-light min-h-[150px] aspect-square"
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.4, delay: index * 0.05 }}
                 viewport={{ once: true }}
               >
-                <div className="relative w-16 h-16 mb-4 flex items-center justify-center">
+                <div className="relative w-full h-full flex items-center justify-center">
                   {/* Glow effect on hover */}
                   <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/20 to-brand-light/20 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <img
@@ -161,9 +152,6 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
                     className="relative w-full h-full object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
                   />
                 </div>
-                <h3 className="text-xs font-semibold text-gray-600 group-hover:text-gray-800 text-center leading-tight transition-colors">
-                  {client.name}
-                </h3>
               </motion.div>
             ))}
           </div>

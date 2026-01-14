@@ -100,8 +100,8 @@ const Footer = () => {
               <h4 className="text-lg font-semibold mb-4">{t('footer.contactUs')}</h4>
               <ul className="space-y-3 text-white/80">
                 <li className="flex items-center space-x-3"><MapPin className="w-5 h-5" /><span>Jakarta, Indonesia</span></li>
-                <li className="flex items-center space-x-3"><Phone className="w-5 h-5" /><span>+62 21 1234 5678</span></li>
-                <li className="flex items-center space-x-3"><Mail className="w-5 h-5" /><span>info@sigmasolusiservis.com</span></li>
+                <li className="flex items-center space-x-3"><Phone className="w-5 h-5" /><span>0217986083, 0217986183</span></li>
+                <li className="flex items-center space-x-3"><Mail className="w-5 h-5" /><span>external@sigmasolusiservis.com</span></li>
               </ul>
             </div>
           </div>

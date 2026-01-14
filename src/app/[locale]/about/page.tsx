@@ -179,11 +179,11 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-bold mb-6 text-center" style={{color: 'white'}}>Why Choose 3S?</h3>
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center">
-                    <div className="text-3xl font-bold mb-2" style={{color: 'white'}}>500+</div>
+                    <div className="text-3xl font-bold mb-2" style={{color: 'white'}}>50+</div>
                     <div className="text-sm" style={{color: 'rgba(255, 255, 255, 0.9)'}}>Happy Clients</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold mb-2" style={{color: 'white'}}>1000+</div>
+                    <div className="text-3xl font-bold mb-2" style={{color: 'white'}}>5000+</div>
                     <div className="text-sm" style={{color: 'rgba(255, 255, 255, 0.9)'}}>Successful Placements</div>
                   </div>
                   <div className="text-center">
@@ -191,7 +191,7 @@ export default function AboutPage() {
                     <div className="text-sm" style={{color: 'rgba(255, 255, 255, 0.9)'}}>Client Satisfaction</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold mb-2" style={{color: 'white'}}>7+</div>
+                    <div className="text-3xl font-bold mb-2" style={{color: 'white'}}>10+</div>
                     <div className="text-sm" style={{color: 'rgba(255, 255, 255, 0.9)'}}>Years Experience</div>
                   </div>
                 </div>
