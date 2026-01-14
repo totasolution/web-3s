@@ -32,21 +32,38 @@ const ClientsPage = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-gradient-to-br from-[#F7F3E9] via-white to-[#E2E8F0]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="pt-32 pb-20 bg-gradient-to-br from-slate-50 via-brand-lighter/30 to-white relative overflow-hidden">
+        {/* Background decoration */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+          <div className="absolute top-0 right-0 w-96 h-96 bg-brand-light/20 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-200/20 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="inline-block mb-6"
+          >
+            <span className="text-brand-primary font-bold text-sm uppercase tracking-wider bg-brand-lighter px-4 py-2 rounded-full">
+{t('clients.hero.badge')}
+            </span>
+          </motion.div>
           <motion.h1 
-            className="text-5xl md:text-6xl font-bold text-[#4F5D75] mb-6"
+            className="text-5xl md:text-6xl font-extrabold text-gray-800 mb-6"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.8, delay: 0.1 }}
           >
-            {t('clients.hero.title')} <span className="bg-gradient-to-r from-[#4F5D75] to-[#8FA8C9] bg-clip-text text-transparent">{t('clients.hero.highlight')}</span>
+            {t('clients.hero.title')} <span className="bg-gradient-to-r from-brand-primary to-cyan-500 bg-clip-text text-transparent">{t('clients.hero.highlight')}</span>
           </motion.h1>
           <motion.p 
-            className="text-xl text-[#6B7A99] max-w-3xl mx-auto"
+            className="text-xl text-gray-600 max-w-3xl mx-auto"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
           >
             {t('clients.hero.description')}
           </motion.p>
@@ -57,24 +74,35 @@ const ClientsPage = () => {
       <ClientsSection />
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-[#4F5D75] to-[#6B7A99]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="py-24 bg-gradient-to-br from-brand-primary via-blue-700 to-indigo-700 relative overflow-hidden">
+        {/* Background decoration */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold text-white mb-4">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6">
               {t('clients.cta.title')}
             </h2>
-            <p className="text-xl text-[#E2E8F0] mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
               {t('clients.cta.description')}
             </p>
             <a
               href={`/${locale}/contact`}
-              className="inline-flex items-center space-x-2 bg-white text-[#4F5D75] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#F7F3E9] transition-colors duration-300"
+              className="inline-flex items-center space-x-2 bg-white text-brand-primary px-10 py-5 rounded-2xl font-bold text-lg shadow-2xl hover:shadow-3xl hover:bg-gray-50 transform hover:-translate-y-1 transition-all duration-300"
             >
               <span>{t('clients.cta.button')}</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
+                <path d="M5 12h14"/>
+                <path d="m12 5 7 7-7 7"/>
+              </svg>
             </a>
           </motion.div>
         </div>

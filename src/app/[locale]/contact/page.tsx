@@ -10,7 +10,8 @@ import {
   Mail, 
   Clock,
   Send,
-  CheckCircle
+  CheckCircle,
+  ArrowRight
 } from 'lucide-react'
 import { useLocale } from '@/hooks/useLocale'
 import Link from 'next/link'
@@ -57,7 +58,6 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Here you would typically send the form data to your backend
     console.log('Form submitted:', formData)
     setIsSubmitted(true)
     setFormData({
@@ -102,21 +102,38 @@ export default function ContactPage() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-gradient-to-br from-[#F7F3E9] via-white to-[#E2E8F0]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="pt-32 pb-20 bg-gradient-to-br from-slate-50 via-brand-lighter/30 to-white relative overflow-hidden">
+        {/* Background decoration */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+          <div className="absolute top-0 right-0 w-96 h-96 bg-brand-light/20 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-200/20 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="inline-block mb-6"
+          >
+            <span className="text-brand-primary font-bold text-sm uppercase tracking-wider bg-brand-lighter px-4 py-2 rounded-full">
+{t('contact.hero.badge')}
+            </span>
+          </motion.div>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-5xl md:text-6xl font-bold text-[#4F5D75] mb-6"
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="text-5xl md:text-6xl font-extrabold text-gray-800 mb-6"
           >
-            {t('contact.hero.title')} <span className="bg-gradient-to-r from-[#4F5D75] to-[#8FA8C9] bg-clip-text text-transparent">{t('contact.hero.subtitle')}</span>
+            {t('contact.hero.title')} <span className="bg-gradient-to-r from-brand-primary to-cyan-500 bg-clip-text text-transparent">{t('contact.hero.subtitle')}</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl text-[#6B7A99] max-w-3xl mx-auto"
+            className="text-xl text-gray-600 max-w-3xl mx-auto"
           >
             {t('contact.hero.description')}
           </motion.p>
@@ -132,9 +149,9 @@ export default function ContactPage() {
               initial={{ opacity: 0, x: -30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="bg-white rounded-2xl shadow-lg p-8 border border-[#E2E8F0]"
+              className="bg-white rounded-2xl shadow-lg p-8 border border-brand-surface"
             >
-              <h2 className="text-3xl font-bold text-[#4F5D75] mb-6">{t('contact.form.title')}</h2>
+              <h2 className="text-3xl font-extrabold text-gray-800 mb-6">{t('contact.form.title')}</h2>
               
               {isSubmitted ? (
                 <motion.div
@@ -142,14 +159,14 @@ export default function ContactPage() {
                   animate={{ opacity: 1, scale: 1 }}
                   className="text-center py-8"
                 >
-                  <CheckCircle className="w-16 h-16 text-[#8FA8C9] mx-auto mb-4" />
-                  <h3 className="text-xl font-semibold text-[#4F5D75] mb-2">{t('contact.form.success')}</h3>
+                  <CheckCircle className="w-16 h-16 text-brand-blueLight mx-auto mb-4" />
+                  <h3 className="text-xl font-semibold text-brand-slate mb-2">{t('contact.form.success')}</h3>
                 </motion.div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-[#4F5D75] mb-2">
+                      <label htmlFor="name" className="block text-sm font-medium text-brand-slate mb-2">
                         {t('contact.form.name')}
                       </label>
                       <input
@@ -159,11 +176,11 @@ export default function ContactPage() {
                         value={formData.name}
                         onChange={handleChange}
                         required
-                        className="w-full px-4 py-3 border border-[#E2E8F0] rounded-lg focus:ring-2 focus:ring-[#8FA8C9] focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-brand-primary focus:border-brand-primary transition-all duration-200"
                       />
                     </div>
                     <div>
-                      <label htmlFor="email" className="block text-sm font-medium text-[#4F5D75] mb-2">
+                      <label htmlFor="email" className="block text-sm font-medium text-brand-slate mb-2">
                         {t('contact.form.email')}
                       </label>
                       <input
@@ -173,14 +190,14 @@ export default function ContactPage() {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        className="w-full px-4 py-3 border border-[#E2E8F0] rounded-lg focus:ring-2 focus:ring-[#8FA8C9] focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-brand-primary focus:border-brand-primary transition-all duration-200"
                       />
                     </div>
                   </div>
                   
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
-                      <label htmlFor="company" className="block text-sm font-medium text-[#4F5D75] mb-2">
+                      <label htmlFor="company" className="block text-sm font-medium text-brand-slate mb-2">
                         {t('contact.form.company')}
                       </label>
                       <input
@@ -189,11 +206,11 @@ export default function ContactPage() {
                         name="company"
                         value={formData.company}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 border border-[#E2E8F0] rounded-lg focus:ring-2 focus:ring-[#8FA8C9] focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-brand-primary focus:border-brand-primary transition-all duration-200"
                       />
                     </div>
                     <div>
-                      <label htmlFor="phone" className="block text-sm font-medium text-[#4F5D75] mb-2">
+                      <label htmlFor="phone" className="block text-sm font-medium text-brand-slate mb-2">
                         {t('contact.form.phone')}
                       </label>
                       <input
@@ -202,13 +219,13 @@ export default function ContactPage() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 border border-[#E2E8F0] rounded-lg focus:ring-2 focus:ring-[#8FA8C9] focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-brand-primary focus:border-brand-primary transition-all duration-200"
                       />
                     </div>
                   </div>
                   
                   <div>
-                    <label htmlFor="service" className="block text-sm font-medium text-[#4F5D75] mb-2">
+                    <label htmlFor="service" className="block text-sm font-medium text-brand-slate mb-2">
                       {t('contact.form.service')}
                     </label>
                     <select
@@ -216,7 +233,7 @@ export default function ContactPage() {
                       name="service"
                       value={formData.service}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-[#E2E8F0] rounded-lg focus:ring-2 focus:ring-[#8FA8C9] focus:border-transparent"
+                      className="w-full px-4 py-3 border border-brand-surface rounded-lg focus:ring-2 focus:ring-brand-blueLight focus:border-transparent"
                     >
                       <option value="">{locale === 'en' ? 'Select a service' : 'Pilih layanan'}</option>
                       <option value="recruitment">{locale === 'en' ? 'Recruitment & Staffing' : 'Rekrutmen & Staffing'}</option>
@@ -229,7 +246,7 @@ export default function ContactPage() {
                   </div>
                   
                   <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-[#4F5D75] mb-2">
+                    <label htmlFor="message" className="block text-sm font-medium text-brand-slate mb-2">
                       {t('contact.form.message')}
                     </label>
                     <textarea
@@ -239,13 +256,13 @@ export default function ContactPage() {
                       onChange={handleChange}
                       required
                       rows={4}
-                      className="w-full px-4 py-3 border border-[#E2E8F0] rounded-lg focus:ring-2 focus:ring-[#8FA8C9] focus:border-transparent"
+                      className="w-full px-4 py-3 border border-brand-surface rounded-lg focus:ring-2 focus:ring-brand-blueLight focus:border-transparent"
                     />
                   </div>
                   
                   <button
                     type="submit"
-                    className="w-full bg-gradient-to-r from-[#4F5D75] to-[#6B7A99] text-white py-3 px-6 rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center space-x-2"
+                    className="w-full bg-gradient-to-r from-brand-primary to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white py-4 px-6 rounded-xl font-bold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center space-x-2"
                   >
                     <Send className="w-5 h-5" />
                     <span>{t('contact.form.submit')}</span>
@@ -261,7 +278,7 @@ export default function ContactPage() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="space-y-6"
             >
-              <h2 className="text-3xl font-bold text-[#4F5D75] mb-8">{t('contact.info.title')}</h2>
+              <h2 className="text-3xl font-extrabold text-gray-800 mb-8">{t('contact.info.title')}</h2>
               
               {contactInfo.map((info, index) => (
                 <motion.div
@@ -269,15 +286,15 @@ export default function ContactPage() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.5 + index * 0.1 }}
-                  className="flex items-start space-x-4 p-6 bg-[#F7F3E9] rounded-xl border border-[#E2E8F0]"
+                  className="group flex items-start space-x-4 p-6 bg-white rounded-2xl border border-gray-100 shadow-md hover:shadow-xl transition-all duration-300 hover:border-brand-light hover:-translate-y-1"
                 >
-                  <div className="w-12 h-12 bg-gradient-to-r from-[#4F5D75] to-[#8FA8C9] rounded-lg flex items-center justify-center flex-shrink-0">
-                    <info.icon className="w-6 h-6 text-white" />
+                  <div className="w-14 h-14 bg-gradient-to-br from-brand-primary to-brand-primary rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    <info.icon className="w-7 h-7 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-[#4F5D75] mb-2">{info.title}</h3>
-                    <p className="text-lg font-medium text-[#6B7A99] mb-1">{info.details}</p>
-                    <p className="text-[#6B7A99]">{info.description}</p>
+                    <h3 className="text-lg font-bold text-gray-800 mb-2 group-hover:text-brand-primary transition-colors">{info.title}</h3>
+                    <p className="text-lg font-semibold text-gray-700 mb-1">{info.details}</p>
+                    <p className="text-gray-600 text-sm">{info.description}</p>
                   </div>
                 </motion.div>
               ))}
@@ -287,24 +304,31 @@ export default function ContactPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-[#4F5D75] to-[#6B7A99]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="py-24 bg-gradient-to-br from-brand-primary via-blue-700 to-indigo-700 relative overflow-hidden">
+        {/* Background decoration */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <h2 className="text-4xl font-bold text-white mb-4">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6">
               {t('contact.cta.title')}
             </h2>
-            <p className="text-xl text-[#E2E8F0] mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
               {t('contact.cta.subtitle')}
             </p>
             <Link
               href={`/${locale}/services`}
-              className="inline-flex items-center space-x-2 bg-white text-[#4F5D75] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#F7F3E9] transition-colors duration-300"
+              className="inline-flex items-center space-x-2 bg-white text-brand-primary px-10 py-5 rounded-2xl font-bold text-lg shadow-2xl hover:shadow-3xl hover:bg-gray-50 transform hover:-translate-y-1 transition-all duration-300"
             >
               <span>{t('contact.cta.button')}</span>
+              <ArrowRight className="w-5 h-5" />
             </Link>
           </motion.div>
         </div>

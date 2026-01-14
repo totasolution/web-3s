@@ -54,7 +54,7 @@ export default function NotFound() {
           <div className="space-y-4">
             <Link
               href={text.base}
-              className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
+              className="inline-flex items-center space-x-2 bg-gradient-to-r from-brand-primary to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
             >
               <Home className="w-5 h-5" />
               <span>{text.backHome}</span>
@@ -63,7 +63,7 @@ export default function NotFound() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href={`${text.base}/services`}
-                className="inline-flex items-center space-x-2 border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:border-blue-600 hover:text-blue-600 transition-all duration-300"
+                className="inline-flex items-center space-x-2 border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:border-brand-primary hover:text-brand-primary transition-all duration-300"
               >
                 <Search className="w-5 h-5" />
                 <span>{text.explore}</span>
@@ -71,7 +71,7 @@ export default function NotFound() {
               
               <Link
                 href={`${text.base}/contact`}
-                className="inline-flex items-center space-x-2 border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:border-blue-600 hover:text-blue-600 transition-all duration-300"
+                className="inline-flex items-center space-x-2 border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:border-brand-primary hover:text-brand-primary transition-all duration-300"
               >
                 <ArrowLeft className="w-5 h-5" />
                 <span>{text.contact}</span>

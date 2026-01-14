@@ -59,9 +59,9 @@ const Navigation = () => {
   }
 
   return (
-    <nav className="bg-white/95 backdrop-blur-md shadow-lg fixed w-full top-0 z-50">
+    <nav className="bg-white/95 backdrop-blur-xl shadow-sm border-b border-gray-100 fixed w-full top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-18">
           <div className="flex-shrink-0">
             <Link href={`/${locale}`} className="flex items-center space-x-2">
               <div className="w-10 h-10 flex items-center justify-center overflow-hidden">
@@ -71,24 +71,24 @@ const Navigation = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <span className="text-lg md:text-xl font-bold text-[#4F5D75] hidden sm:block">Sigma Solusi Servis</span>
+              <span className="text-lg md:text-xl font-bold text-brand-dark hidden sm:block">Sigma Solusi Servis</span>
             </Link>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
             <div className="relative group">
-              <Link href={`/${locale}`} className="text-[#4F5D75] hover:text-[#8FA8C9] transition-colors ">
+              <Link href={`/${locale}`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium">
                 {t('navigation.home')}
               </Link>
             </div>
 
             <div className="relative group">
               <div 
-                className="flex items-center space-x-1 cursor-pointer text-[#4F5D75] hover:text-[#8FA8C9] transition-colors"
+                className="flex items-center space-x-1 cursor-pointer text-gray-700 hover:text-brand-primary transition-colors font-medium"
                 onClick={toggleAbout}
               >
                 <span>{t('navigation.about')}</span>
-                <ChevronDown className="w-4 h-4" />
+                <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180 duration-300" />
               </div>
               
               <AnimatePresence>
@@ -97,15 +97,12 @@ const Navigation = () => {
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -10 }}
-                    className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2 z-50"
+                    className="absolute top-full left-0 mt-2 w-48 bg-white rounded-xl shadow-xl py-2 z-50 border border-gray-100"
                   >
-                    <Link href={`/${locale}/about`} className="block px-4 py-2 text-[#4F5D75] hover:bg-[#F7F3E9] hover:text-[#6B7A99]">
+                    <Link href={`/${locale}/about`} className="block px-4 py-3 text-gray-700 hover:bg-brand-lighter hover:text-brand-primary transition-colors rounded-lg mx-2">
                       {t('navigation.aboutUs')}
                     </Link>
-                    <Link href={`/${locale}/about#team`} className="block px-4 py-2 text-[#4F5D75] hover:bg-[#F7F3E9] hover:text-[#6B7A99]">
-                      {t('navigation.team')}
-                    </Link>
-                    <Link href={`/${locale}/about#values`} className="block px-4 py-2 text-[#4F5D75] hover:bg-[#F7F3E9] hover:text-[#6B7A99]">
+                    <Link href={`/${locale}/about#values`} className="block px-4 py-3 text-gray-700 hover:bg-brand-lighter hover:text-brand-primary transition-colors rounded-lg mx-2">
                       {t('navigation.values')}
                     </Link>
                   </motion.div>
@@ -114,24 +111,22 @@ const Navigation = () => {
             </div>
 
             <div className="relative group">
-              <Link href={`/${locale}/services`} className="text-[#4F5D75] hover:text-[#8FA8C9] transition-colors ">
+              <Link href={`/${locale}/services`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium">
                 {t('navigation.services')}
               </Link>
             </div>
 
             <div className="relative group">
-              <Link href={`/${locale}/clients`} className="text-[#4F5D75] hover:text-[#8FA8C9] transition-colors ">
+              <Link href={`/${locale}/clients`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium">
                 {t('navigation.clients')}
               </Link>
             </div>
 
             <div className="relative group">
-              <Link href={`/${locale}/contact`} className="text-[#4F5D75] hover:text-[#8FA8C9] transition-colors ">
+              <Link href={`/${locale}/contact`} className="bg-brand-primary text-white px-6 py-2.5 rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 hover:bg-brand-light">
                 {t('navigation.contact')}
               </Link>
             </div>
-
-            
 
             <div className="relative">
               <LanguageSwitcher />
@@ -143,7 +138,7 @@ const Navigation = () => {
               <LanguageSwitcher />
             </div>
             <button 
-              className="text-[#4F5D75] hover:text-[#8FA8C9] transition-colors p-2 rounded-lg hover:bg-[#F7F3E9]"
+              className="text-brand-dark hover:text-brand-primary transition-colors p-2 rounded-lg hover:bg-brand-lighter"
               onClick={toggleMenu}
               aria-label="Toggle menu"
             >
@@ -157,32 +152,46 @@ const Navigation = () => {
         </div>
       </div>
 
+      {/* Mobile Menu Backdrop */}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="md:hidden fixed inset-0 bg-black/20 backdrop-blur-sm z-40 top-[72px]"
+            onClick={() => setIsOpen(false)}
+          />
+        )}
+      </AnimatePresence>
+
       {/* Mobile Menu */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
             ref={menuRef}
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-white border-t border-[#E2E8F0] shadow-lg absolute top-16 left-0 right-0"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.2 }}
+            className="md:hidden bg-white border-t border-gray-100 shadow-2xl fixed top-[72px] left-0 right-0 z-50 max-h-[calc(100vh-72px)] overflow-y-auto"
           >
-            <div className="px-4 py-6 space-y-1">
+            <div className="px-4 py-6 space-y-2">
               <Link 
                 href={`/${locale}`} 
-                className="block text-[#4F5D75] hover:text-[#8FA8C9] py-3 px-3 rounded-lg hover:bg-[#F7F3E9] transition-colors font-medium"
+                className="block text-gray-700 hover:text-brand-primary hover:bg-brand-lighter py-3 px-4 rounded-xl transition-all font-semibold"
                 onClick={() => setIsOpen(false)}
               >
                 {t('navigation.home')}
               </Link>
               
-              <div className="border-t border-[#E2E8F0] pt-3 mt-3">
+              <div className="border-t border-gray-100 pt-3 mt-3">
                 <div 
-                  className="flex items-center justify-between cursor-pointer text-xs font-medium text-[#6B7A99] uppercase tracking-wider px-3 py-2 mb-2 hover:text-[#4F5D75]"
+                  className="flex items-center justify-between cursor-pointer text-gray-700 hover:text-brand-primary hover:bg-brand-lighter px-4 py-3 rounded-xl transition-all font-semibold"
                   onClick={toggleAbout}
                 >
                   <span>{t('navigation.about')}</span>
-                  <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${isAboutOpen ? 'rotate-180' : ''}`} />
+                  <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${isAboutOpen ? 'rotate-180' : ''}`} />
                 </div>
                 
                 <AnimatePresence>
@@ -191,25 +200,19 @@ const Navigation = () => {
                       initial={{ opacity: 0, height: 0 }}
                       animate={{ opacity: 1, height: 'auto' }}
                       exit={{ opacity: 0, height: 0 }}
-                      className="space-y-1"
+                      transition={{ duration: 0.2 }}
+                      className="space-y-1 mt-2 ml-4 pl-4 border-l-2 border-brand-light"
                     >
                       <Link 
                         href={`/${locale}/about`} 
-                        className="block text-[#4F5D75] hover:text-[#8FA8C9] py-2 px-6 rounded-lg hover:bg-[#F7F3E9] transition-colors"
+                        className="block text-gray-600 hover:text-brand-primary hover:bg-brand-lighter py-2.5 px-4 rounded-lg transition-all"
                         onClick={() => setIsOpen(false)}
                       >
                         {t('navigation.aboutUs')}
                       </Link>
                       <Link 
-                        href={`/${locale}/about#team`} 
-                        className="block text-[#4F5D75] hover:text-[#8FA8C9] py-2 px-6 rounded-lg hover:bg-[#F7F3E9] transition-colors"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        {t('navigation.team')}
-                      </Link>
-                      <Link 
                         href={`/${locale}/about#values`} 
-                        className="block text-[#4F5D75] hover:text-[#8FA8C9] py-2 px-6 rounded-lg hover:bg-[#F7F3E9] transition-colors"
+                        className="block text-gray-600 hover:text-brand-primary hover:bg-brand-lighter py-2.5 px-4 rounded-lg transition-all"
                         onClick={() => setIsOpen(false)}
                       >
                         {t('navigation.values')}
@@ -221,7 +224,7 @@ const Navigation = () => {
               
               <Link 
                 href={`/${locale}/services`} 
-                className="block text-[#4F5D75] hover:text-[#8FA8C9] py-3 px-3 rounded-lg hover:bg-[#F7F3E9] transition-colors font-medium"
+                className="block text-gray-700 hover:text-brand-primary hover:bg-brand-lighter py-3 px-4 rounded-xl transition-all font-semibold"
                 onClick={() => setIsOpen(false)}
               >
                 {t('navigation.services')}
@@ -229,19 +232,22 @@ const Navigation = () => {
               
               <Link 
                 href={`/${locale}/clients`} 
-                className="block text-[#4F5D75] hover:text-[#8FA8C9] py-3 px-3 rounded-lg hover:bg-[#F7F3E9] transition-colors font-medium"
+                className="block text-gray-700 hover:text-brand-primary hover:bg-brand-lighter py-3 px-4 rounded-xl transition-all font-semibold"
                 onClick={() => setIsOpen(false)}
               >
                 {t('navigation.clients')}
               </Link>
               
-              <Link 
-                href={`/${locale}/contact`} 
-                className="block text-[#4F5D75] hover:text-[#8FA8C9] py-3 px-3 rounded-lg hover:bg-[#F7F3E9] transition-colors font-medium"
-                onClick={() => setIsOpen(false)}
-              >
-                {t('navigation.contact')}
-              </Link>
+              {/* Contact Button - Prominent */}
+              <div className="pt-4 mt-4 border-t border-gray-100">
+                <Link 
+                  href={`/${locale}/contact`} 
+                  className="block text-center bg-brand-primary text-white py-4 px-4 rounded-xl font-bold shadow-lg hover:shadow-xl hover:bg-brand-light transform hover:scale-[1.02] transition-all active:scale-95"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {t('navigation.contact')}
+                </Link>
+              </div>
             </div>
           </motion.div>
         )}
