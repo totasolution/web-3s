@@ -80,7 +80,7 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: t('contact.info.phoneNumber'),
-      details: '+62 21 1234 5678',
+      details: '0217986083 & 0217986183',
       description: locale === 'en' ? 'Available Monday to Friday, 9 AM - 6 PM' : 'Tersedia Senin hingga Jumat, 9 AM - 6 PM'
     },
     {
