@@ -3,10 +3,21 @@ import { NextRequest, NextResponse } from 'next/server'
 const locales = ['en', 'id']
 const defaultLocale = 'id'
 
+/** Paths served at site root by Next.js (MetadataRoute); must not get /id/ prefix. */
+const SKIP_LOCALE_PREFIX = new Set(['/sitemap.xml', '/robots.txt'])
+
+function shouldSkipLocalePrefix(pathname: string): boolean {
+  const normalized = pathname !== '/' && pathname.endsWith('/') ? pathname.slice(0, -1) : pathname
+  return SKIP_LOCALE_PREFIX.has(normalized)
+}
+
 export function middleware(request: NextRequest) {
-  // Check if there is any supported locale in the pathname
   const pathname = request.nextUrl.pathname
-  
+
+  if (shouldSkipLocalePrefix(pathname)) {
+    return NextResponse.next()
+  }
+
   // Check if the pathname has a locale
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
@@ -30,7 +41,7 @@ export function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    // Skip all internal paths (_next), api routes, static files, and favicon
-    '/((?!_next|api|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|css|js|woff|woff2|ttf|eot|pdf)).*)',
+    // Skip _next, api, favicon, MetadataRoute URLs, and static asset extensions
+    '/((?!_next|api|favicon\\.ico|sitemap\\.xml|robots\\.txt|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|css|js|woff|woff2|ttf|eot|pdf)).*)',
   ],
 }
