@@ -8,6 +8,7 @@ import {
   Facebook, 
   Instagram
 } from 'lucide-react'
+import Image from 'next/image'
 import { useLocale } from '../hooks/useLocale'
 import Link from 'next/link'
 
@@ -48,11 +49,13 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-5">
             <div className="flex items-center space-x-3 mb-5">
-              <div className="w-12 h-12 flex items-center justify-center overflow-hidden">
-                <img
+              <div className="relative w-12 h-12 flex items-center justify-center overflow-hidden">
+                <Image
                   src="/logo-sigma.png"
-                  alt="Sigma Solusi Servis Logo"
-                  className="w-full h-full object-contain"
+                  alt="Sigma Solusi Servis logo"
+                  width={48}
+                  height={48}
+                  className="object-contain"
                 />
               </div>
               <div>
@@ -85,6 +88,7 @@ const Footer = () => {
                 <li><Link href={`/${locale}/about`} className="hover:text-white transition-colors">{t('footer.aboutUs')}</Link></li>
                 <li><Link href={`/${locale}/services`} className="hover:text-white transition-colors">{t('footer.ourServices')}</Link></li>
                 <li><Link href={`/${locale}/clients`} className="hover:text-white transition-colors">{t('footer.clients')}</Link></li>
+                <li><Link href={`/${locale}/insights`} className="hover:text-white transition-colors">{t('navigation.insights')}</Link></li>
                 <li><Link href={`/${locale}/contact`} className="hover:text-white transition-colors">{t('footer.contactUs')}</Link></li>
               </ul>
             </div>

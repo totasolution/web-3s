@@ -12,9 +12,17 @@ export function middleware(request: NextRequest) {
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   )
 
-  if (pathnameHasLocale) return
+  if (pathnameHasLocale) {
+    const locale = pathname.split('/')[1]
+    if (locales.includes(locale)) {
+      const requestHeaders = new Headers(request.headers)
+      requestHeaders.set('x-next-locale', locale)
+      return NextResponse.next({
+        request: { headers: requestHeaders },
+      })
+    }
+  }
 
-  // Redirect if there is no locale
   const locale = defaultLocale
   request.nextUrl.pathname = `/${locale}${pathname}`
   return NextResponse.redirect(request.nextUrl)

@@ -1,23 +1,40 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
+import { headers } from 'next/headers'
+import { SITE_URL, DEFAULT_OG_IMAGE_PATH } from '@/lib/site'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'PT. Sigma Solusi Servis - HR Solutions & Manpower Services',
-  description: 'PT. Sigma Solusi Servis memberikan solusi untuk kebutuhan man power dan meningkatkan efisiensi hrd perusahaan anda.',
-  keywords: 'hrd,penyedia tenaga kerja,penyedia tenaga kerja indonesia,tenaga kerja murah,cari kerja, loker,fresh graduate,lulusan kerja, head hunting, hiring',
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: 'PT. Sigma Solusi Servis — Tenaga Kerja, HR & BPO',
+    template: '%s | PT. Sigma Solusi Servis',
+  },
+  description:
+    'Penyedia layanan tenaga kerja dan business process outsourcing (BPO) di Indonesia, dengan solusi HR untuk mendukung operasional perusahaan Anda.',
   authors: [{ name: 'PT. Sigma Solusi Servis' }],
   openGraph: {
-    title: 'PT. Sigma Solusi Servis - HR Solutions & Manpower Services',
-    description: 'Professional HR solutions and manpower services for your company',
-    url: 'https://sigmasolusiservis.com',
     siteName: 'Sigma Solusi Servis',
-    locale: 'id_ID',
     type: 'website',
+    images: [
+      {
+        url: DEFAULT_OG_IMAGE_PATH,
+        width: 1200,
+        height: 630,
+        alt: 'Sigma Solusi Servis — layanan tenaga kerja, HR dan BPO',
+      },
+    ],
   },
-  robots: 'index, follow',
+  twitter: {
+    card: 'summary_large_image',
+    images: [DEFAULT_OG_IMAGE_PATH],
+  },
+  robots: { index: true, follow: true },
+  verification: {
+    google: 'CHPve82O1hY_HtCAFdnGcid61EhuFxDCTxavt7gQUsc',
+  },
 }
 
 export const viewport: Viewport = {
@@ -25,13 +42,17 @@ export const viewport: Viewport = {
   initialScale: 1,
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+  const headersList = await headers()
+  const localeHeader = headersList.get('x-next-locale')
+  const lang = localeHeader === 'en' ? 'en' : 'id'
+
   return (
-    <html>
+    <html lang={lang} suppressHydrationWarning>
       <body className={inter.className}>{children}</body>
     </html>
   )

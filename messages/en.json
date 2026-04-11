@@ -7,13 +7,14 @@
     "values": "Values",
     "services": "Services",
     "clients": "Clients",
-    "contact": "Contact"
+    "contact": "Contact",
+    "insights": "Insights"
   },
   "hero": {
-    "badge": "Professional HR Solutions Since 2015",
-    "title": "Professional HR Solutions",
-    "subtitle": "Transform Your Workforce",
-    "description": "PT. Sigma Solusi Servis provides comprehensive HR solutions to optimize your manpower needs and enhance HRD efficiency.",
+    "badge": "Workforce & BPO Since 2015",
+    "title": "Workforce, HR & BPO Solutions",
+    "subtitle": "Transform Your Workforce and Operations",
+    "description": "PT. Sigma Solusi Servis provides workforce services and business process outsourcing (BPO) in Indonesia, backed by HR solutions that optimize your people and operational efficiency.",
     "cta": {
       "primary": "Explore Services",
       "secondary": "Get Started"
@@ -23,8 +24,8 @@
       "manPowerDesc": "Comprehensive staffing and recruitment services",
       "hrdEfficiency": "HRD Efficiency",
       "hrdEfficiencyDesc": "Streamline and optimize HR processes",
-      "trustedPartner": "Trusted Partner",
-      "trustedPartnerDesc": "Reliable HR consulting and support"
+      "trustedPartner": "Business Process Outsourcing",
+      "trustedPartnerDesc": "BPO for payroll, administration, and operational processes—stay focused on your core business"
     },
     "stats": {
       "clients": "Happy Clients",
@@ -35,7 +36,7 @@
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Comprehensive HR solutions tailored to your business needs",
+    "subtitle": "Man power supply, HR solutions, and BPO—aligned with your business needs",
     "badge": "What We Offer",
     "viewAll": "View All Services",
     "learnMore": "Learn More",
@@ -43,7 +44,7 @@
       "badge": "What We Offer",
       "title": "Our",
       "subtitle": "Services",
-      "description": "Discover how our comprehensive HR solutions can transform your workforce management and drive business success."
+      "description": "Explore our man power supply, HR services, and business process outsourcing (BPO) to support your workforce, people processes, and operations."
     },
     "page": {
       "cta": {
@@ -118,7 +119,7 @@
     },
     "bpo": {
       "title": "BPO - Business Process Outsourcing",
-      "description": "Streamline your business operations by outsourcing non-core HR processes to us. We handle the complexities so you can focus on growing your business.",
+      "description": "Streamline operations with business process outsourcing (BPO): we run people-related business and administrative processes—from payroll to compliance—so your teams can focus on growth.",
       "features": [
         "Payroll Management & Processing",
         "BPJS & Insurance Administration",
@@ -152,7 +153,7 @@
       "badge": "Contact Us",
       "title": "Get in",
       "subtitle": "Touch",
-      "description": "Ready to transform your HR? Let's discuss how we can help your business succeed"
+      "description": "Discuss your workforce, BPO, and HR needs—we're here to help your business succeed"
     },
     "form": {
       "title": "Send Message",
@@ -218,11 +219,11 @@
     "hero": {
       "badge": "About Us",
       "title": "About",
-      "subtitle": "Leading HR solutions provider committed to transforming workforce management and driving business success"
+      "subtitle": "Workforce and BPO provider in Indonesia, committed to HR and operational solutions that drive your business forward"
     },
     "section": {
-      "title": "Your Trusted HR Partner",
-      "description": "PT. Sigma Solusi Servis has been at the forefront of HR innovation since 2015, providing comprehensive solutions that address the evolving needs of modern businesses. We understand that every organization is unique, which is why we offer customized HR solutions designed to maximize efficiency, productivity, and employee satisfaction.",
+      "title": "Your Partner for Workforce, HR & BPO",
+      "description": "Since 2015, PT. Sigma Solusi Servis has helped companies meet workforce needs, simplify operations through business process outsourcing (BPO), and strengthen HR. Every organization is unique, so our services are tailored to efficiency, productivity, and employee satisfaction.",
       "bullet1": "Proven track record of success with 500+ satisfied clients",
       "bullet2": "Industry expertise and best practices from 10+ years of experience",
       "bullet3": "Personalized approach to solutions with ongoing support",
@@ -248,7 +249,7 @@
       },
       "innovation": {
         "title": "Innovation",
-        "description": "We continuously innovate our HR solutions to meet evolving business needs and industry challenges."
+        "description": "We continuously evolve our workforce, BPO, and HR services to meet changing business needs and industry challenges."
       },
       "partnership": {
         "title": "Partnership",
@@ -269,9 +270,9 @@
     "companyProfile": {
       "badge": "Company Profile",
       "title": "Learn More About 3S",
-      "subtitle": "Download our comprehensive company profile to discover our complete range of services, achievements, and success stories.",
+      "subtitle": "Download our company profile for man power supply, BPO, and HR services—including achievements and client success stories.",
       "cardTitle": "Sigma Solusi Servis Company Profile",
-      "cardDescription": "Access detailed information about our company, services, expertise, and how we can help transform your business operations.",
+      "cardDescription": "Detailed information on workforce services, business process outsourcing (BPO), and HR—and how we support your operational transformation.",
       "viewButton": "View Profile",
       "downloadButton": "Download PDF"
     },
@@ -315,8 +316,8 @@
       }
     },
     "cta": {
-      "title": "Ready to Transform Your HR Strategy?",
-      "subtitle": "Partner with 3S and experience the difference that professional HR solutions can make for your business.",
+      "title": "Ready to Grow Your Workforce and Operations?",
+      "subtitle": "Partner with 3S for professional workforce services, BPO, and HR solutions that support your business growth.",
       "button": "Get Started Today"
     }
   },
@@ -354,8 +355,8 @@
   },
   "footer": {
     "companyName": "Sigma Solusi Servis",
-    "tagline": "Professional HR Solutions",
-    "description": "PT. Sigma Solusi Servis provides solutions for manpower needs and increases your company's HRD efficiency.",
+    "tagline": "Workforce, HR & BPO",
+    "description": "PT. Sigma Solusi Servis—workforce services and business process outsourcing (BPO) in Indonesia, with HR solutions to support your operations.",
     "quickLinks": "Quick Links",
     "ourServices": "Our Services",
     "clients": "Clients",
@@ -368,6 +369,14 @@
     "home": "Home",
     "login": "Login"
   },
+  "insightsPage": {
+    "badge": "Insights",
+    "title": "Articles & Insights",
+    "intro": "Short reads on workforce, BPO, HR, and operations—to support better decisions for your team.",
+    "readMore": "Read article",
+    "backToInsights": "Back to Insights",
+    "published": "Published"
+  },
   "common": {
     "learnMore": "Learn More",
     "keyFeatures": "Key Features",
@@ -377,7 +386,7 @@
     "badge": "Company Profile",
     "title": "Get to Know",
     "highlight": "Sigma Solusi Servis",
-    "description": "Download our comprehensive company profile to learn more about our services, expertise, and how we can help transform your business.",
+    "description": "Download our company profile to learn about workforce services, BPO, HR solutions, and how we support your operational transformation.",
     "viewButton": "View Profile",
     "downloadButton": "Download PDF"
   },
@@ -389,5 +398,33 @@
     "contactUs": "Contact Us",
     "supportMessagePart1": "If you believe this is an error, please contact our support team.",
     "supportMessagePart2": "We'll help you find what you're looking for."
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Workforce, HR & BPO Services",
+        "description": "PT. Sigma Solusi Servis—workforce services and business process outsourcing (BPO) in Indonesia, with HR solutions and operational efficiency. Trusted partner since 2015."
+      },
+      "about": {
+        "title": "About Us",
+        "description": "About PT. Sigma Solusi Servis: workforce services, BPO, HR solutions, values, company profile, and client testimonials in Indonesia."
+      },
+      "contact": {
+        "title": "Contact",
+        "description": "Contact PT. Sigma Solusi Servis in Jakarta: phone, email, and business hours. Consultations for workforce, BPO, and HR services."
+      },
+      "services": {
+        "title": "Services",
+        "description": "Man power supply, HR services, and BPO (payroll, administration, time & attendance) from PT. Sigma Solusi Servis—workforce and process outsourcing in Indonesia."
+      },
+      "clients": {
+        "title": "Clients",
+        "description": "Clients that trust PT. Sigma Solusi Servis for workforce services, BPO, and HR solutions in Indonesia—logos, results, and success stories."
+      },
+      "insights": {
+        "title": "Insights",
+        "description": "Short articles on BPO, workforce, payroll, BPJS, and operational productivity from PT. Sigma Solusi Servis."
+      }
+    }
   }
 }

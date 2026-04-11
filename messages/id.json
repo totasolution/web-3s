@@ -7,13 +7,14 @@
     "values": "Nilai",
     "services": "Layanan",
     "clients": "Klien",
-    "contact": "Kontak"
+    "contact": "Kontak",
+    "insights": "Wawasan"
   },
   "hero": {
-    "badge": "Solusi HR Profesional Sejak 2015",
-    "title": "Solusi HR Profesional",
-    "subtitle": "Transformasi Tenaga Kerja Anda",
-    "description": "PT. Sigma Solusi Servis menyediakan solusi HR komprehensif untuk mengoptimalkan kebutuhan man power dan meningkatkan efisiensi HRD.",
+    "badge": "Tenaga Kerja & BPO Sejak 2015",
+    "title": "Solusi Tenaga Kerja, HR & BPO",
+    "subtitle": "Transformasi Tenaga Kerja dan Operasional Anda",
+    "description": "PT. Sigma Solusi Servis adalah penyedia layanan tenaga kerja dan business process outsourcing (BPO) di Indonesia, dengan solusi HR yang mengoptimalkan SDM dan efisiensi operasional Anda.",
     "cta": {
       "primary": "Jelajahi Layanan",
       "secondary": "Mulai Sekarang"
@@ -23,8 +24,8 @@
       "manPowerDesc": "Layanan staffing dan rekrutmen komprehensif",
       "hrdEfficiency": "Efisiensi HRD",
       "hrdEfficiencyDesc": "Streamline dan optimasi proses HR",
-      "trustedPartner": "Mitra Terpercaya",
-      "trustedPartnerDesc": "Konsultasi dan dukungan HR yang handal"
+      "trustedPartner": "Business Process Outsourcing",
+      "trustedPartnerDesc": "BPO untuk payroll, administrasi, dan proses operasional—fokus pada bisnis inti Anda"
     },
     "stats": {
       "clients": "Klien Puas",
@@ -35,7 +36,7 @@
   },
   "services": {
     "title": "Layanan Kami",
-    "subtitle": "Solusi HR komprehensif yang disesuaikan dengan kebutuhan bisnis Anda",
+    "subtitle": "Man power supply, solusi HR, dan BPO—diselaraskan dengan kebutuhan bisnis Anda",
     "badge": "Yang Kami Tawarkan",
     "viewAll": "Lihat Semua Layanan",
     "learnMore": "Pelajari Lebih Lanjut",
@@ -43,7 +44,7 @@
       "badge": "Yang Kami Tawarkan",
       "title": "Layanan",
       "subtitle": "Kami",
-      "description": "Temukan bagaimana solusi HR komprehensif kami dapat mentransformasi manajemen tenaga kerja Anda dan mendorong kesuksesan bisnis."
+      "description": "Temukan man power supply, layanan HR, dan business process outsourcing (BPO) kami untuk mendukung tenaga kerja, proses SDM, dan operasional Anda."
     },
     "page": {
       "cta": {
@@ -118,7 +119,7 @@
     },
     "bpo": {
       "title": "BPO - Business Process Outsourcing",
-      "description": "Streamline operasi bisnis Anda dengan outsourcing proses HR non-inti kepada kami. Kami menangani kompleksitas sehingga Anda dapat fokus pada pertumbuhan bisnis Anda.",
+      "description": "Efisienkan operasional melalui business process outsourcing (BPO): kami mengelola proses bisnis dan administrasi terkait SDM—mulai dari payroll hingga kepatuhan—agar tim Anda fokus pada pertumbuhan.",
       "features": [
         "Manajemen & Pemrosesan Payroll",
         "Administrasi BPJS & Asuransi",
@@ -151,11 +152,11 @@
     "hero": {
       "badge": "Tentang Kami",
       "title": "Tentang",
-      "subtitle": "Penyedia solusi HR terkemuka yang berkomitmen untuk mentransformasi manajemen tenaga kerja dan mendorong kesuksesan bisnis"
+      "subtitle": "Penyedia layanan tenaga kerja dan BPO di Indonesia, berkomitmen pada solusi HR dan operasional yang mendorong kesuksesan bisnis Anda"
     },
     "section": {
-      "title": "Mitra HR Terpercaya Anda",
-      "description": "PT. Sigma Solusi Servis telah berada di garda depan inovasi HR sejak 2015, menyediakan solusi komprehensif yang mengatasi kebutuhan bisnis yang terus berkembang. Kami memahami bahwa setiap organisasi unik, itulah mengapa kami menawarkan solusi HR yang disesuaikan untuk memaksimalkan efisiensi, produktivitas, dan kepuasan karyawan.",
+      "title": "Mitra Tenaga Kerja, HR & BPO Anda",
+      "description": "Sejak 2015, PT. Sigma Solusi Servis membantu perusahaan memenuhi kebutuhan tenaga kerja, menyederhanakan proses melalui business process outsourcing (BPO), dan memperkuat fungsi HR. Kami memahami setiap organisasi unik, sehingga layanan kami disesuaikan untuk efisiensi, produktivitas, dan kepuasan karyawan.",
       "bullet1": "Track record sukses yang terbukti dengan 500+ klien puas",
       "bullet2": "Keahlian industri dan best practice dari 10+ tahun pengalaman",
       "bullet3": "Pendekatan personal untuk solusi dengan dukungan berkelanjutan",
@@ -181,7 +182,7 @@
       },
       "innovation": {
         "title": "Inovasi",
-        "description": "Kami terus berinovasi solusi HR kami untuk memenuhi kebutuhan bisnis yang berkembang dan tantangan industri."
+        "description": "Kami terus mengembangkan layanan tenaga kerja, BPO, dan solusi HR untuk memenuhi kebutuhan bisnis yang berkembang dan tantangan industri."
       },
       "partnership": {
         "title": "Kemitraan",
@@ -202,9 +203,9 @@
     "companyProfile": {
       "badge": "Profil Perusahaan",
       "title": "Pelajari Lebih Lanjut Tentang 3S",
-      "subtitle": "Unduh profil perusahaan kami yang komprehensif untuk mengetahui rangkaian layanan lengkap, pencapaian, dan kisah sukses kami.",
+      "subtitle": "Unduh profil perusahaan kami untuk man power supply, BPO, dan solusi HR—termasuk pencapaian dan kisah sukses klien.",
       "cardTitle": "Profil Perusahaan Sigma Solusi Servis",
-      "cardDescription": "Akses informasi detail tentang perusahaan kami, layanan, keahlian, dan bagaimana kami dapat membantu transformasi operasi bisnis Anda.",
+      "cardDescription": "Informasi lengkap tentang layanan tenaga kerja, business process outsourcing (BPO), dan HR—serta bagaimana kami mendukung transformasi operasional bisnis Anda.",
       "viewButton": "Lihat Profil",
       "downloadButton": "Unduh PDF"
     },
@@ -248,8 +249,8 @@
       }
     },
     "cta": {
-      "title": "Siap Mentransformasi Strategi HR Anda?",
-      "subtitle": "Bermitra dengan 3S dan rasakan perbedaan yang dapat dibuat oleh solusi HR profesional untuk bisnis Anda.",
+      "title": "Siap Mengembangkan Tenaga Kerja & Operasional Anda?",
+      "subtitle": "Bermitra dengan 3S untuk layanan tenaga kerja, BPO, dan solusi HR profesional yang mendukung pertumbuhan bisnis Anda.",
       "button": "Mulai Hari Ini"
     }
   },
@@ -258,7 +259,7 @@
       "badge": "Hubungi Kami",
       "title": "Hubungi",
       "subtitle": "Kami",
-      "description": "Siap untuk mengubah HR Anda? Mari diskusikan bagaimana kami dapat membantu bisnis Anda berhasil"
+      "description": "Diskusikan kebutuhan tenaga kerja, BPO, dan HR Anda—kami siap membantu bisnis Anda berkembang"
     },
     "form": {
       "title": "Kirim Pesan",
@@ -322,8 +323,8 @@
   },
   "footer": {
     "companyName": "Sigma Solusi Servis",
-    "tagline": "Solusi HR Profesional",
-    "description": "PT. Sigma Solusi Servis memberikan solusi untuk kebutuhan man power dan meningkatkan efisiensi hrd perusahaan anda.",
+    "tagline": "Tenaga Kerja, HR & BPO",
+    "description": "PT. Sigma Solusi Servis—penyedia layanan tenaga kerja dan business process outsourcing (BPO) di Indonesia, dengan solusi HR untuk mendukung operasional Anda.",
     "quickLinks": "Tautan Cepat",
     "ourServices": "Layanan Kami",
     "clients": "Klien",
@@ -336,6 +337,14 @@
     "home": "Beranda",
     "login": "Masuk"
   },
+  "insightsPage": {
+    "badge": "Wawasan",
+    "title": "Artikel & Wawasan",
+    "intro": "Tulisan ringkas seputar tenaga kerja, BPO, HR, dan operasional—untuk membantu tim Anda mengambil keputusan yang lebih tepat.",
+    "readMore": "Baca artikel",
+    "backToInsights": "Kembali ke Wawasan",
+    "published": "Dipublikasikan"
+  },
   "common": {
     "learnMore": "Pelajari Lebih Lanjut",
     "keyFeatures": "Fitur Utama",
@@ -345,7 +354,7 @@
     "badge": "Profil Perusahaan",
     "title": "Kenali Lebih Dekat",
     "highlight": "Sigma Solusi Servis",
-    "description": "Unduh profil perusahaan kami yang komprehensif untuk mempelajari lebih lanjut tentang layanan, keahlian kami, dan bagaimana kami dapat membantu transformasi bisnis Anda.",
+    "description": "Unduh profil perusahaan kami untuk mempelajari layanan tenaga kerja, BPO, solusi HR, dan bagaimana kami mendukung transformasi operasional bisnis Anda.",
     "viewButton": "Lihat Profil",
     "downloadButton": "Unduh PDF"
   },
@@ -388,6 +397,34 @@
       "title": "Siap Bergabung dengan Kisah Sukses Kami?",
       "description": "Mari diskusikan bagaimana layanan kami dapat menguntungkan organisasi Anda dan membantu Anda mencapai hasil yang serupa.",
       "button": "Dapatkan Konsultasi Gratis"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Layanan Tenaga Kerja, HR & BPO",
+        "description": "PT. Sigma Solusi Servis—penyedia layanan tenaga kerja dan business process outsourcing (BPO) di Indonesia, dengan solusi HR dan efisiensi operasional. Mitra terpercaya sejak 2015."
+      },
+      "about": {
+        "title": "Tentang Kami",
+        "description": "Tentang PT. Sigma Solusi Servis: layanan tenaga kerja, BPO, solusi HR, nilai perusahaan, profil, dan testimoni klien di Indonesia."
+      },
+      "contact": {
+        "title": "Kontak",
+        "description": "Hubungi PT. Sigma Solusi Servis di Jakarta: telepon, email, dan jam operasional. Konsultasi untuk tenaga kerja, BPO, dan layanan HR."
+      },
+      "services": {
+        "title": "Layanan",
+        "description": "Man power supply, solusi HR, dan BPO (payroll, administrasi, time & attendance) dari PT. Sigma Solusi Servis—penyedia tenaga kerja dan outsourcing proses di Indonesia."
+      },
+      "clients": {
+        "title": "Klien",
+        "description": "Klien yang mempercayai PT. Sigma Solusi Servis untuk layanan tenaga kerja, BPO, dan solusi HR di Indonesia—logo, hasil, dan kisah sukses."
+      },
+      "insights": {
+        "title": "Wawasan",
+        "description": "Artikel singkat tentang BPO, tenaga kerja, payroll, BPJS, dan produktivitas operasional dari PT. Sigma Solusi Servis."
+      }
     }
   }
 }

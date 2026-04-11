@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { ArrowRight, Users, TrendingUp, Shield } from 'lucide-react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useLocale } from '../hooks/useLocale'
 
@@ -44,8 +45,8 @@ const HeroSection = () => {
     },
     {
       icon: Shield,
-      title: t('hero.features.trustedPartner') !== 'hero.features.trustedPartner' ? t('hero.features.trustedPartner') : (locale === 'en' ? 'Trusted Partner' : 'Mitra Terpercaya'),
-      description: t('hero.features.trustedPartnerDesc') !== 'hero.features.trustedPartnerDesc' ? t('hero.features.trustedPartnerDesc') : (locale === 'en' ? 'Reliable consulting and support' : 'Konsultasi dan dukungan yang handal')
+      title: t('hero.features.trustedPartner') !== 'hero.features.trustedPartner' ? t('hero.features.trustedPartner') : (locale === 'en' ? 'Business Process Outsourcing' : 'Outsourcing Proses Bisnis (BPO)'),
+      description: t('hero.features.trustedPartnerDesc') !== 'hero.features.trustedPartnerDesc' ? t('hero.features.trustedPartnerDesc') : (locale === 'en' ? 'BPO for payroll, admin, and operations' : 'BPO untuk payroll, administrasi, dan operasional')
     }
   ]
 
@@ -156,10 +157,17 @@ const HeroSection = () => {
             
             <div className="relative aspect-[4/3] w-full rounded-[2rem] overflow-hidden shadow-2xl border border-gray-200 bg-gradient-to-br from-gray-100 to-white">
               <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/5 via-transparent to-brand-light/5 z-10"></div>
-              <img
+              <Image
                 src="/brand/kolaborasi-tim-kantor-modern-untuk-outsourcing.jpg"
-                alt="Team collaboration illustration"
-                className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
+                alt={
+                  locale === 'en'
+                    ? 'Professional team collaboration in a modern office setting'
+                    : 'Kolaborasi tim profesional di lingkungan kantor modern'
+                }
+                fill
+                className="object-cover transform hover:scale-105 transition-transform duration-700"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                priority
               />
               
               {/* Decorative corner accent */}

@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, ChevronDown, X } from 'lucide-react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useLocale } from '../hooks/useLocale'
 import LanguageSwitcher from './LanguageSwitcher'
@@ -61,30 +62,33 @@ const Navigation = () => {
   return (
     <nav className="bg-white/95 backdrop-blur-xl shadow-sm border-b border-gray-100 fixed w-full top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-18">
-          <div className="flex-shrink-0">
+        <div className="flex justify-between items-center min-h-[4.5rem] gap-3 min-w-0">
+          <div className="flex-shrink-0 min-w-0">
             <Link href={`/${locale}`} className="flex items-center space-x-2">
-              <div className="w-10 h-10 flex items-center justify-center overflow-hidden">
-                <img
+              <div className="relative w-10 h-10 flex items-center justify-center overflow-hidden">
+                <Image
                   src="/logo-sigma.png"
-                  alt="Sigma Solusi Servis Logo"
-                  className="w-full h-full object-contain"
+                  alt="Sigma Solusi Servis logo"
+                  width={40}
+                  height={40}
+                  className="object-contain"
+                  priority
                 />
               </div>
               <span className="text-lg md:text-xl font-bold text-brand-dark hidden sm:block">Sigma Solusi Servis</span>
             </Link>
           </div>
 
-          <div className="hidden md:flex items-center space-x-8">
-            <div className="relative group">
-              <Link href={`/${locale}`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium">
+          <div className="hidden md:flex flex-1 min-w-0 items-center justify-end flex-wrap gap-x-3 gap-y-2 sm:gap-x-4 lg:gap-x-5">
+            <div className="relative group shrink-0">
+              <Link href={`/${locale}`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium whitespace-nowrap">
                 {t('navigation.home')}
               </Link>
             </div>
 
-            <div className="relative group">
+            <div className="relative group shrink-0">
               <div 
-                className="flex items-center space-x-1 cursor-pointer text-gray-700 hover:text-brand-primary transition-colors font-medium"
+                className="flex items-center space-x-1 cursor-pointer text-gray-700 hover:text-brand-primary transition-colors font-medium whitespace-nowrap"
                 onClick={toggleAbout}
               >
                 <span>{t('navigation.about')}</span>
@@ -105,30 +109,39 @@ const Navigation = () => {
                     <Link href={`/${locale}/about#values`} className="block px-4 py-3 text-gray-700 hover:bg-brand-lighter hover:text-brand-primary transition-colors rounded-lg mx-2">
                       {t('navigation.values')}
                     </Link>
+                    <Link href={`/${locale}/insights`} className="block px-4 py-3 text-gray-700 hover:bg-brand-lighter hover:text-brand-primary transition-colors rounded-lg mx-2">
+                      {t('navigation.insights')}
+                    </Link>
                   </motion.div>
                 )}
               </AnimatePresence>
             </div>
 
-            <div className="relative group">
-              <Link href={`/${locale}/services`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium">
+            <div className="relative group shrink-0">
+              <Link href={`/${locale}/services`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium whitespace-nowrap">
                 {t('navigation.services')}
               </Link>
             </div>
 
-            <div className="relative group">
-              <Link href={`/${locale}/clients`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium">
+            <div className="relative group shrink-0">
+              <Link href={`/${locale}/insights`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium whitespace-nowrap">
+                {t('navigation.insights')}
+              </Link>
+            </div>
+
+            <div className="relative group shrink-0">
+              <Link href={`/${locale}/clients`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium whitespace-nowrap">
                 {t('navigation.clients')}
               </Link>
             </div>
 
-            <div className="relative group">
-              <Link href={`/${locale}/contact`} className="bg-brand-primary text-white px-6 py-2.5 rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 hover:bg-brand-light">
+            <div className="relative group shrink-0">
+              <Link href={`/${locale}/contact`} className="bg-brand-primary text-white px-4 py-2 sm:px-5 sm:py-2.5 lg:px-6 rounded-xl text-sm sm:text-base font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 hover:bg-brand-light whitespace-nowrap">
                 {t('navigation.contact')}
               </Link>
             </div>
 
-            <div className="relative">
+            <div className="relative shrink-0">
               <LanguageSwitcher />
             </div>
           </div>
@@ -228,6 +241,14 @@ const Navigation = () => {
                 onClick={() => setIsOpen(false)}
               >
                 {t('navigation.services')}
+              </Link>
+
+              <Link 
+                href={`/${locale}/insights`} 
+                className="block text-gray-700 hover:text-brand-primary hover:bg-brand-lighter py-3 px-4 rounded-xl transition-all font-semibold"
+                onClick={() => setIsOpen(false)}
+              >
+                {t('navigation.insights')}
               </Link>
               
               <Link 

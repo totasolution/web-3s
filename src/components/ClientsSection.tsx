@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import { useLocale } from '../hooks/useLocale'
 
 const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
@@ -143,13 +144,14 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
                 transition={{ duration: 0.4, delay: index * 0.05 }}
                 viewport={{ once: true }}
               >
-                <div className="relative w-full h-full flex items-center justify-center">
-                  {/* Glow effect on hover */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/20 to-brand-light/20 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <img
+                <div className="relative w-full h-full min-h-[100px] flex items-center justify-center">
+                  <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/20 to-brand-light/20 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <Image
                     src={client.logo}
-                    alt={`${client.name} Logo`}
-                    className="relative w-full h-full object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
+                    alt={`${client.name} company logo`}
+                    width={180}
+                    height={100}
+                    className="relative z-[1] w-auto max-h-[72px] h-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
                   />
                 </div>
               </motion.div>
