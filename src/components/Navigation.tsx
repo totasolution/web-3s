@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, ChevronDown, X } from 'lucide-react'
+import { ArrowRight, Menu, ChevronDown, MessageCircle, X } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useLocale } from '../hooks/useLocale'
@@ -58,6 +58,11 @@ const Navigation = () => {
     
     return typeof value === 'string' ? value : key
   }
+
+  const contactCtaLabel =
+    t('navigation.contactCta') !== 'navigation.contactCta'
+      ? t('navigation.contactCta')
+      : t('navigation.contact')
 
   return (
     <nav className="bg-white/95 backdrop-blur-xl shadow-sm border-b border-gray-100 fixed w-full top-0 z-50">
@@ -135,9 +140,24 @@ const Navigation = () => {
               </Link>
             </div>
 
-            <div className="relative group shrink-0">
-              <Link href={`/${locale}/contact`} className="bg-brand-primary text-white px-4 py-2 sm:px-5 sm:py-2.5 lg:px-6 rounded-xl text-sm sm:text-base font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 hover:bg-brand-light whitespace-nowrap">
-                {t('navigation.contact')}
+            <div className="relative shrink-0">
+              <Link
+                href={`/${locale}/contact`}
+                className="group/cta relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-brand-primary via-brand-primary to-brand-light px-4 py-2 sm:px-5 sm:py-2.5 text-sm sm:text-base font-bold text-white shadow-md shadow-brand-primary/25 ring-1 ring-white/25 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-brand-primary/35 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary focus-visible:ring-offset-2 whitespace-nowrap"
+              >
+                <span
+                  className="pointer-events-none absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 transition-opacity duration-500 group-hover/cta:opacity-100"
+                  aria-hidden
+                />
+                <MessageCircle
+                  className="relative z-10 h-4 w-4 shrink-0 opacity-95"
+                  aria-hidden
+                />
+                <span className="relative z-10">{contactCtaLabel}</span>
+                <ArrowRight
+                  className="relative z-10 h-4 w-4 shrink-0 transition-transform duration-300 group-hover/cta:translate-x-0.5"
+                  aria-hidden
+                />
               </Link>
             </div>
 
@@ -146,12 +166,30 @@ const Navigation = () => {
             </div>
           </div>
 
-          <div className="md:hidden flex items-center space-x-4">
-            <div className="relative">
+          <div className="md:hidden flex min-w-0 flex-1 items-center justify-end gap-1.5 sm:gap-3">
+            <div className="relative shrink-0">
               <LanguageSwitcher />
             </div>
-            <button 
-              className="text-brand-dark hover:text-brand-primary transition-colors p-2 rounded-lg hover:bg-brand-lighter"
+            <Link
+              href={`/${locale}/contact`}
+              aria-label={contactCtaLabel}
+              title={contactCtaLabel}
+              className="group/mh relative inline-flex max-w-full shrink items-center justify-center gap-1.5 overflow-hidden rounded-full bg-gradient-to-r from-brand-primary via-brand-primary to-brand-light px-2.5 py-2 min-[360px]:px-3 min-[360px]:gap-2 text-[11px] min-[360px]:text-xs font-bold text-white shadow-md shadow-brand-primary/25 ring-1 ring-white/25 transition-all duration-300 active:scale-[0.98] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary focus-visible:ring-offset-2"
+            >
+              <span
+                className="pointer-events-none absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 transition-opacity duration-500 group-hover/mh:opacity-100"
+                aria-hidden
+              />
+              <MessageCircle
+                className="relative z-10 h-3.5 w-3.5 min-[360px]:h-4 min-[360px]:w-4 shrink-0"
+                aria-hidden
+              />
+              <span className="relative z-10 hidden min-[360px]:inline whitespace-nowrap">
+                {contactCtaLabel}
+              </span>
+            </Link>
+            <button
+              className="shrink-0 text-brand-dark hover:text-brand-primary transition-colors p-2 rounded-lg hover:bg-brand-lighter"
               onClick={toggleMenu}
               aria-label="Toggle menu"
             >
@@ -258,17 +296,14 @@ const Navigation = () => {
               >
                 {t('navigation.clients')}
               </Link>
-              
-              {/* Contact Button - Prominent */}
-              <div className="pt-4 mt-4 border-t border-gray-100">
-                <Link 
-                  href={`/${locale}/contact`} 
-                  className="block text-center bg-brand-primary text-white py-4 px-4 rounded-xl font-bold shadow-lg hover:shadow-xl hover:bg-brand-light transform hover:scale-[1.02] transition-all active:scale-95"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {t('navigation.contact')}
-                </Link>
-              </div>
+
+              <Link
+                href={`/${locale}/contact`}
+                className="block text-gray-700 hover:text-brand-primary hover:bg-brand-lighter py-3 px-4 rounded-xl transition-all font-semibold"
+                onClick={() => setIsOpen(false)}
+              >
+                {contactCtaLabel}
+              </Link>
             </div>
           </motion.div>
         )}
