@@ -19,14 +19,6 @@
       "primary": "Explore Services",
       "secondary": "Get Started"
     },
-    "features": {
-      "manPower": "Manpower Solutions",
-      "manPowerDesc": "Comprehensive staffing and recruitment services",
-      "hrdEfficiency": "HRD Efficiency",
-      "hrdEfficiencyDesc": "Streamline and optimize HR processes",
-      "trustedPartner": "Business Process Outsourcing",
-      "trustedPartnerDesc": "BPO for payroll, administration, and operational processes—stay focused on your core business"
-    },
     "stats": {
       "clients": "Happy Clients",
       "clientsDesc": "Trusted Worldwide",

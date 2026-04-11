@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ArrowRight, Users, TrendingUp, Shield } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useLocale } from '../hooks/useLocale'
@@ -31,27 +31,9 @@ const HeroSection = () => {
   
   const ctaPrimary = t('hero.cta.primary') !== 'hero.cta.primary' ? t('hero.cta.primary') : (locale === 'en' ? 'Start Now' : 'Mulai Sekarang')
   const ctaSecondary = t('hero.cta.secondary') !== 'hero.cta.secondary' ? t('hero.cta.secondary') : (locale === 'en' ? 'Contact Us' : 'Hubungi Kami')
-  
-  const features = [
-    {
-      icon: Users,
-      title: t('hero.features.manPower') !== 'hero.features.manPower' ? t('hero.features.manPower') : (locale === 'en' ? 'Man Power Solutions' : 'Solusi Man Power'),
-      description: t('hero.features.manPowerDesc') !== 'hero.features.manPowerDesc' ? t('hero.features.manPowerDesc') : (locale === 'en' ? 'Comprehensive staffing and recruitment' : 'Layanan staffing dan rekrutmen komprehensif')
-    },
-    {
-      icon: TrendingUp,
-      title: t('hero.features.hrdEfficiency') !== 'hero.features.hrdEfficiency' ? t('hero.features.hrdEfficiency') : (locale === 'en' ? 'HR Efficiency' : 'Efisiensi HRD'),
-      description: t('hero.features.hrdEfficiencyDesc') !== 'hero.features.hrdEfficiencyDesc' ? t('hero.features.hrdEfficiencyDesc') : (locale === 'en' ? 'Streamline HR processes' : 'Optimasi proses HR')
-    },
-    {
-      icon: Shield,
-      title: t('hero.features.trustedPartner') !== 'hero.features.trustedPartner' ? t('hero.features.trustedPartner') : (locale === 'en' ? 'Business Process Outsourcing' : 'Outsourcing Proses Bisnis (BPO)'),
-      description: t('hero.features.trustedPartnerDesc') !== 'hero.features.trustedPartnerDesc' ? t('hero.features.trustedPartnerDesc') : (locale === 'en' ? 'BPO for payroll, admin, and operations' : 'BPO untuk payroll, administrasi, dan operasional')
-    }
-  ]
 
   return (
-    <section className="relative flex items-center bg-gradient-to-br from-brand-lighter via-white to-brand-white overflow-hidden pt-24 pb-20 min-h-[90vh]">
+    <section className="relative flex items-center bg-gradient-to-br from-brand-lighter via-white to-brand-white overflow-hidden pt-24 pb-16 md:pb-20 min-h-[85vh] md:min-h-[90vh]">
       {/* Decorative Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Grid pattern */}
@@ -102,7 +84,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="flex flex-col sm:flex-row gap-4 mb-16"
+              className="flex flex-col sm:flex-row gap-4 mb-10 md:mb-0"
             >
               <Link
                 href={`/${locale}/services`}
@@ -118,29 +100,6 @@ const HeroSection = () => {
               >
                 <span>{ctaSecondary}</span>
               </Link>
-            </motion.div>
-
-            {/* Features */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
-              className="grid grid-cols-1 sm:grid-cols-3 gap-6"
-            >
-              {features.map((feature, index) => (
-                <motion.div 
-                  key={index} 
-                  className="group relative bg-white/60 backdrop-blur-sm rounded-2xl p-5 border border-gray-200/50 hover:border-brand-light hover:bg-white transition-all duration-300"
-                  whileHover={{ y: -5 }}
-                  transition={{ type: "spring", stiffness: 300 }}
-                >
-                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-brand-primary to-brand-light text-white flex items-center justify-center mb-4 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300">
-                    <feature.icon className="w-7 h-7" />
-                  </div>
-                  <h3 className="text-base font-bold text-gray-800 mb-2 group-hover:text-brand-primary transition-colors">{feature.title}</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">{feature.description}</p>
-                </motion.div>
-              ))}
             </motion.div>
           </div>
 
