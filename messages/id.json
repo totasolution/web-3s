@@ -9,7 +9,8 @@
     "clients": "Klien",
     "contact": "Kontak",
     "contactCta": "Hubungi kami",
-    "insights": "Wawasan"
+    "insights": "Wawasan",
+    "careers": "Karir"
   },
   "hero": {
     "badge": "Tenaga Kerja & BPO Sejak 2015",
@@ -417,6 +418,10 @@
       "insights": {
         "title": "Wawasan",
         "description": "Artikel singkat tentang BPO, tenaga kerja, payroll, BPJS, dan produktivitas operasional dari PT. Sigma Solusi Servis."
+      },
+      "careers": {
+        "title": "Karir",
+        "description": "Informasi karir dan lowongan kerja di PT. Sigma Solusi Servis untuk layanan tenaga kerja, HR, dan BPO."
       }
     }
   }

@@ -1,0 +1,64 @@
+{
+  "heroBadge": "Careers",
+  "title": "Join",
+  "highlight": "Sigma Solusi Servis",
+  "description": "We are hiring people who want to grow with us in workforce services, HR, and BPO.",
+  "sectionTitle": "Open Positions",
+  "sectionDescription": "",
+  "emptyStateTitle": "No Active Openings Yet",
+  "emptyStateDescription": "There are currently no published vacancies. Please check again soon.",
+  "applyLabel": "Send your CV to",
+  "email": "info@sigmasolusiservis.com",
+  "vacancies": [
+    {
+      "title": "Staff Accounting",
+      "department": "Finance & Accounting",
+      "level": "Staff",
+      "location": "Jakarta",
+      "employmentType": "Full-time",
+      "workModel": "On-site",
+      "experience": "Minimum 1-2 years in Accounting",
+      "salaryRange": "Competitive (based on experience)",
+      "postedDate": "2026-04-14",
+      "applicationDeadline": "2026-05-15",
+      "summary": "Handle daily transaction records, reconciliation, and support monthly financial reporting to keep company finance operations accurate and on schedule.",
+      "responsibilities": [
+        "Record daily financial transactions (AR/AP, cash, bank) accurately and on time.",
+        "Perform bank reconciliation and ensure balance consistency in books.",
+        "Support monthly financial report preparation and audit documents.",
+        "Prepare basic tax administration documents and supporting files.",
+        "Collaborate with internal teams to maintain finance process compliance."
+      ],
+      "requirements": [
+        "Minimum D3/S1 in Accounting or related field.",
+        "Solid understanding of basic accounting principles and bookkeeping cycle.",
+        "Proficient in Microsoft Excel (lookup, pivot, basic formulas).",
+        "Detail-oriented and able to work with deadlines.",
+        "Experience with accounting software is a plus."
+      ],
+      "benefits": [
+        "Competitive base salary.",
+        "BPJS Health and BPJS Employment coverage.",
+        "Collaborative and supportive work environment.",
+        "Career growth opportunities in the finance function."
+      ],
+      "application": {
+        "method": "Send your updated CV and supporting documents by email.",
+        "email": "info@sigmasolusiservis.com",
+        "subject": "Application Staff Accounting - [Full Name]",
+        "documents": [
+          "Updated CV",
+          "Portfolio / experience summary (optional)",
+          "Recent photo"
+        ],
+        "steps": [
+          "Send your application email using the requested subject format.",
+          "Our HR team will run an initial document screening.",
+          "Shortlisted candidates will be contacted for interviews."
+        ]
+      },
+      "slug": "staff-accounting",
+      "isActive": true
+    }
+  ]
+}

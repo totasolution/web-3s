@@ -9,7 +9,8 @@
     "clients": "Clients",
     "contact": "Contact",
     "contactCta": "Contact us",
-    "insights": "Insights"
+    "insights": "Insights",
+    "careers": "Careers"
   },
   "hero": {
     "badge": "Workforce & BPO Since 2015",
@@ -417,6 +418,10 @@
       "insights": {
         "title": "Insights",
         "description": "Short articles on BPO, workforce, payroll, BPJS, and operational productivity from PT. Sigma Solusi Servis."
+      },
+      "careers": {
+        "title": "Careers",
+        "description": "Career information and job openings at PT. Sigma Solusi Servis for workforce, HR, and BPO services."
       }
     }
   }

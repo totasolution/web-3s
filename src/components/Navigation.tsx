@@ -135,6 +135,12 @@ const Navigation = () => {
             </div>
 
             <div className="relative group shrink-0">
+              <Link href={`/${locale}/careers`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium whitespace-nowrap">
+                {t('navigation.careers')}
+              </Link>
+            </div>
+
+            <div className="relative group shrink-0">
               <Link href={`/${locale}/clients`} className="text-gray-700 hover:text-brand-primary transition-colors font-medium whitespace-nowrap">
                 {t('navigation.clients')}
               </Link>
@@ -295,6 +301,14 @@ const Navigation = () => {
                 onClick={() => setIsOpen(false)}
               >
                 {t('navigation.clients')}
+              </Link>
+
+              <Link
+                href={`/${locale}/careers`}
+                className="block text-gray-700 hover:text-brand-primary hover:bg-brand-lighter py-3 px-4 rounded-xl transition-all font-semibold"
+                onClick={() => setIsOpen(false)}
+              >
+                {t('navigation.careers')}
               </Link>
 
               <Link

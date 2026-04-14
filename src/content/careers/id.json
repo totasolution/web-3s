@@ -1,0 +1,64 @@
+{
+  "heroBadge": "Karir",
+  "title": "Bergabung Dengan",
+  "highlight": "Sigma Solusi Servis",
+  "description": "Kami membuka kesempatan untuk talenta yang ingin berkembang bersama kami di layanan tenaga kerja, HR, dan BPO.",
+  "sectionTitle": "Lowongan Tersedia",
+  "sectionDescription": "",
+  "emptyStateTitle": "Belum Ada Lowongan Aktif",
+  "emptyStateDescription": "Saat ini belum ada lowongan yang dipublikasikan. Silakan cek kembali dalam waktu dekat.",
+  "applyLabel": "Kirim CV ke",
+  "email": "info@sigmasolusiservis.com",
+  "vacancies": [
+    {
+      "title": "Staff Accounting",
+      "department": "Finance & Accounting",
+      "level": "Staff",
+      "location": "Jakarta",
+      "employmentType": "Full-time",
+      "workModel": "On-site",
+      "experience": "Minimal 1-2 tahun di bidang Accounting",
+      "salaryRange": "Kompetitif (disesuaikan pengalaman)",
+      "postedDate": "2026-04-14",
+      "applicationDeadline": "2026-05-15",
+      "summary": "Menangani pencatatan transaksi harian, rekonsiliasi, serta dukungan penyusunan laporan keuangan agar proses finansial perusahaan berjalan akurat dan tepat waktu.",
+      "responsibilities": [
+        "Mencatat transaksi keuangan harian (AR/AP, kas, bank) secara tepat waktu.",
+        "Melakukan rekonsiliasi bank dan memastikan kesesuaian saldo dengan pembukuan.",
+        "Membantu penyusunan laporan keuangan bulanan dan dokumen pendukung audit.",
+        "Menyiapkan dokumen perpajakan dasar dan memastikan kelengkapan administrasi.",
+        "Berkolaborasi dengan tim internal untuk memastikan kepatuhan proses keuangan."
+      ],
+      "requirements": [
+        "Pendidikan minimal D3/S1 Akuntansi atau bidang terkait.",
+        "Memahami prinsip dasar akuntansi dan siklus pembukuan.",
+        "Terbiasa menggunakan Microsoft Excel (lookup, pivot, formula dasar).",
+        "Teliti, rapi, dan mampu bekerja dengan tenggat waktu.",
+        "Memiliki pengalaman menggunakan software akuntansi menjadi nilai tambah."
+      ],
+      "benefits": [
+        "Gaji pokok kompetitif.",
+        "BPJS Kesehatan dan BPJS Ketenagakerjaan.",
+        "Lingkungan kerja kolaboratif dan suportif.",
+        "Kesempatan pengembangan karir di bidang finance."
+      ],
+      "application": {
+        "method": "Kirim CV terbaru dan dokumen pendukung melalui email.",
+        "email": "info@sigmasolusiservis.com",
+        "subject": "Lamaran Staff Accounting - [Nama Lengkap]",
+        "documents": [
+          "CV terbaru",
+          "Portofolio / ringkasan pengalaman (opsional)",
+          "Pas foto terbaru"
+        ],
+        "steps": [
+          "Kirim email lamaran sesuai subject yang ditentukan.",
+          "Tim HR akan melakukan screening awal dokumen.",
+          "Kandidat terpilih akan dihubungi untuk tahap interview."
+        ]
+      },
+      "slug": "staff-accounting",
+      "isActive": true
+    }
+  ]
+}
