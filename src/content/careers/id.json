@@ -59,6 +59,159 @@
       },
       "slug": "staff-accounting",
       "isActive": true
+    },
+    {
+      "slug": "sales-provider-internet",
+      "title": "Sales Provider Internet",
+      "department": "Sales",
+      "level": "Staff",
+      "location": "Jakarta",
+      "employmentType": "Full-time",
+      "workModel": "Field-based",
+      "experience": "Berpengalaman sebagai marketing/sales lapangan",
+      "salaryRange": "Gaji pokok + insentif penjualan",
+      "summary": "Membuka peluang pelanggan baru untuk layanan internet provider melalui aktivitas canvassing, presentasi produk, dan follow-up penjualan hingga closing.",
+      "responsibilities": [
+        "Mencari prospek pelanggan baru di area yang ditentukan.",
+        "Melakukan presentasi produk dan edukasi paket layanan internet kepada calon pelanggan.",
+        "Menjaga pipeline penjualan dari tahap prospek hingga closing.",
+        "Menyusun laporan aktivitas harian dan pencapaian target.",
+        "Berkoordinasi dengan tim operasional untuk proses instalasi pelanggan baru."
+      ],
+      "requirements": [
+        "Pria/Wanita, usia maksimal 30 tahun.",
+        "Pendidikan minimal D3 dengan IPK minimal 3.00.",
+        "Memiliki pengalaman sebagai marketing/sales.",
+        "Komunikatif dan memiliki kemampuan negosiasi yang baik.",
+        "Mampu bekerja secara team maupun individual.",
+        "Siap bekerja lapangan dan berorientasi target."
+      ],
+      "benefits": [
+        "Gaji pokok kompetitif.",
+        "Insentif dan bonus berdasarkan pencapaian target.",
+        "BPJS Kesehatan dan Ketenagakerjaan.",
+        "Kesempatan pengembangan karir di bidang sales."
+      ],
+      "application": {
+        "method": "Kirim CV terbaru melalui email dengan subject sesuai format.",
+        "email": "info@sigmasolusiservis.com",
+        "subject": "Lamaran Sales Provider Internet - [Nama Lengkap]",
+        "documents": [
+          "CV terbaru",
+          "Pas foto terbaru",
+          "Transkrip nilai"
+        ],
+        "steps": [
+          "Kirim lamaran sesuai subject yang ditentukan.",
+          "Tim HR melakukan screening dokumen.",
+          "Kandidat terpilih mengikuti interview dan user interview."
+        ]
+      },
+      "postedDate": "2026-04-15",
+      "applicationDeadline": "2026-05-31",
+      "isActive": true
+    },
+    {
+      "slug": "store-specialist",
+      "title": "Store Specialist",
+      "department": "Store Operations",
+      "level": "Staff",
+      "location": "Jakarta",
+      "employmentType": "Full-time",
+      "workModel": "On-site",
+      "experience": "Berpengalaman sebagai Customer Service/Receptionist",
+      "salaryRange": "Kompetitif (disesuaikan pengalaman)",
+      "summary": "Menjadi garda depan pelayanan store, memastikan pengalaman pelanggan berjalan baik, serta mendukung administrasi operasional harian termasuk laporan petty cash.",
+      "responsibilities": [
+        "Melayani kebutuhan pelanggan di area store dengan ramah dan profesional.",
+        "Menangani pertanyaan dan keluhan pelanggan secara cepat dan tepat.",
+        "Mengoperasikan Microsoft Office untuk administrasi harian.",
+        "Menyusun dan merekap laporan keuangan sederhana (petty cash).",
+        "Berkolaborasi dengan tim store untuk memastikan operasional berjalan lancar."
+      ],
+      "requirements": [
+        "Wanita, usia maksimal 27 tahun.",
+        "Pendidikan minimal D3 dengan IPK minimal 3.00.",
+        "Memiliki pengalaman sebagai Customer Service/Receptionist.",
+        "Mampu mengoperasikan Microsoft Office dengan baik.",
+        "Mampu menyusun laporan keuangan sederhana (petty cash).",
+        "Komunikatif, teliti, dan berorientasi pada pelayanan."
+      ],
+      "benefits": [
+        "Gaji pokok kompetitif.",
+        "BPJS Kesehatan dan Ketenagakerjaan.",
+        "Lingkungan kerja suportif dan customer-focused.",
+        "Peluang pengembangan karir di operasional store."
+      ],
+      "application": {
+        "method": "Kirim CV terbaru dan dokumen pendukung melalui email.",
+        "email": "info@sigmasolusiservis.com",
+        "subject": "Lamaran Store Specialist - [Nama Lengkap]",
+        "documents": [
+          "CV terbaru",
+          "Pas foto terbaru",
+          "Transkrip nilai"
+        ],
+        "steps": [
+          "Kirim lamaran sesuai format subject.",
+          "Tim HR melakukan seleksi administrasi.",
+          "Kandidat terpilih diproses ke tahap interview."
+        ]
+      },
+      "postedDate": "2026-04-15",
+      "applicationDeadline": "2026-05-31",
+      "isActive": true
+    },
+    {
+      "slug": "teknisi-jaringan",
+      "title": "Teknisi Jaringan",
+      "department": "Technical Operations",
+      "level": "Staff",
+      "location": "Jakarta",
+      "employmentType": "Full-time",
+      "workModel": "Field-based",
+      "experience": "Berpengalaman sebagai teknisi Fiber Optic",
+      "salaryRange": "Kompetitif + tunjangan operasional",
+      "summary": "Bertanggung jawab pada instalasi, troubleshooting, dan pemeliharaan jaringan Fiber Optic untuk memastikan kualitas layanan internet tetap optimal di lapangan.",
+      "responsibilities": [
+        "Melakukan instalasi dan aktivasi jaringan Fiber Optic di lokasi pelanggan.",
+        "Melakukan troubleshooting gangguan jaringan secara cepat dan akurat.",
+        "Melakukan pemeliharaan berkala perangkat jaringan.",
+        "Membuat laporan hasil pekerjaan dan dokumentasi teknis.",
+        "Bekerja sama dengan tim NOC/operasional dalam penanganan eskalasi gangguan."
+      ],
+      "requirements": [
+        "Pria, usia maksimal 30 tahun.",
+        "Pendidikan minimal SMK jurusan TKJ/RPL atau D3 terkait.",
+        "Memiliki pengalaman sebagai teknisi Fiber Optic.",
+        "Mampu bekerja secara team maupun individual.",
+        "Siap bekerja shifting.",
+        "Tidak takut bekerja di ketinggian."
+      ],
+      "benefits": [
+        "Gaji pokok kompetitif.",
+        "Tunjangan operasional lapangan.",
+        "BPJS Kesehatan dan Ketenagakerjaan.",
+        "Kesempatan pengembangan skill teknis dan sertifikasi internal."
+      ],
+      "application": {
+        "method": "Kirim CV terbaru melalui email dengan subject sesuai format.",
+        "email": "info@sigmasolusiservis.com",
+        "subject": "Lamaran Teknisi Jaringan - [Nama Lengkap]",
+        "documents": [
+          "CV terbaru",
+          "Pas foto terbaru",
+          "Sertifikat pendukung (jika ada)"
+        ],
+        "steps": [
+          "Kirim berkas lamaran melalui email.",
+          "Tim HR dan user melakukan screening dokumen.",
+          "Kandidat terpilih mengikuti tes teknis dan interview."
+        ]
+      },
+      "postedDate": "2026-04-15",
+      "applicationDeadline": "2026-05-31",
+      "isActive": true
     }
   ]
 }

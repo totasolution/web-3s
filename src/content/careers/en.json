@@ -59,6 +59,159 @@
       },
       "slug": "staff-accounting",
       "isActive": true
+    },
+    {
+      "slug": "sales-provider-internet",
+      "title": "Internet Provider Sales",
+      "department": "Sales",
+      "level": "Staff",
+      "location": "Jakarta",
+      "employmentType": "Full-time",
+      "workModel": "Field-based",
+      "experience": "Hands-on experience in marketing/field sales",
+      "salaryRange": "Base salary + sales incentive",
+      "summary": "Drive new customer acquisition for internet provider services through field prospecting, product pitching, and disciplined follow-up until closing.",
+      "responsibilities": [
+        "Identify and approach new prospects in assigned areas.",
+        "Present product packages and explain service benefits clearly.",
+        "Manage sales pipeline from lead generation to closing.",
+        "Prepare daily activity reports and target achievement updates.",
+        "Coordinate with operations team for smooth new-customer installation process."
+      ],
+      "requirements": [
+        "Male/Female, maximum 30 years old.",
+        "Minimum D3 degree with minimum GPA 3.00.",
+        "Proven experience in marketing/sales.",
+        "Strong communication and negotiation skills.",
+        "Able to work independently and collaboratively in a team.",
+        "Ready for fieldwork and target-driven environment."
+      ],
+      "benefits": [
+        "Competitive base salary.",
+        "Incentives and performance bonus.",
+        "BPJS Health and BPJS Employment coverage.",
+        "Career development opportunities in sales track."
+      ],
+      "application": {
+        "method": "Send your updated CV by email with the required subject format.",
+        "email": "info@sigmasolusiservis.com",
+        "subject": "Application Internet Provider Sales - [Full Name]",
+        "documents": [
+          "Updated CV",
+          "Recent photo",
+          "Academic transcript"
+        ],
+        "steps": [
+          "Submit your application email using the required subject format.",
+          "HR team performs document screening.",
+          "Shortlisted candidates proceed to HR and user interviews."
+        ]
+      },
+      "postedDate": "2026-04-15",
+      "applicationDeadline": "2026-05-31",
+      "isActive": true
+    },
+    {
+      "slug": "store-specialist",
+      "title": "Store Specialist",
+      "department": "Store Operations",
+      "level": "Staff",
+      "location": "Jakarta",
+      "employmentType": "Full-time",
+      "workModel": "On-site",
+      "experience": "Experience as Customer Service/Receptionist",
+      "salaryRange": "Competitive (based on experience)",
+      "summary": "Serve as the frontliner in store operations, ensure excellent customer experience, and support daily administration including petty cash reporting.",
+      "responsibilities": [
+        "Provide professional and friendly customer service at store.",
+        "Handle customer questions and complaints effectively.",
+        "Use Microsoft Office for daily administrative tasks.",
+        "Prepare and recap basic financial reports (petty cash).",
+        "Collaborate with store team to maintain smooth operations."
+      ],
+      "requirements": [
+        "Female, maximum 27 years old.",
+        "Minimum D3 degree with minimum GPA 3.00.",
+        "Experience as Customer Service/Receptionist.",
+        "Good command of Microsoft Office.",
+        "Able to prepare simple financial reports (petty cash).",
+        "Communicative, detail-oriented, and service-minded."
+      ],
+      "benefits": [
+        "Competitive base salary.",
+        "BPJS Health and BPJS Employment coverage.",
+        "Supportive and customer-focused work culture.",
+        "Career growth opportunities in store operations."
+      ],
+      "application": {
+        "method": "Send your updated CV and supporting documents by email.",
+        "email": "info@sigmasolusiservis.com",
+        "subject": "Application Store Specialist - [Full Name]",
+        "documents": [
+          "Updated CV",
+          "Recent photo",
+          "Academic transcript"
+        ],
+        "steps": [
+          "Submit your application with the required email subject.",
+          "HR team conducts administrative screening.",
+          "Shortlisted candidates will be invited for interviews."
+        ]
+      },
+      "postedDate": "2026-04-15",
+      "applicationDeadline": "2026-05-31",
+      "isActive": true
+    },
+    {
+      "slug": "teknisi-jaringan",
+      "title": "Network Technician",
+      "department": "Technical Operations",
+      "level": "Staff",
+      "location": "Jakarta",
+      "employmentType": "Full-time",
+      "workModel": "Field-based",
+      "experience": "Experience as Fiber Optic technician",
+      "salaryRange": "Competitive + field allowance",
+      "summary": "Handle installation, troubleshooting, and maintenance of Fiber Optic network infrastructure to ensure stable and high-quality internet service delivery.",
+      "responsibilities": [
+        "Install and activate Fiber Optic network at customer locations.",
+        "Troubleshoot network issues quickly and accurately.",
+        "Perform preventive maintenance for network devices.",
+        "Prepare technical work reports and documentation.",
+        "Collaborate with NOC/operations team for escalation handling."
+      ],
+      "requirements": [
+        "Male, maximum 30 years old.",
+        "Minimum SMK (TKJ/RPL) or related D3 background.",
+        "Proven experience as Fiber Optic technician.",
+        "Able to work independently and in team setting.",
+        "Willing to work in shifts.",
+        "Comfortable working at heights."
+      ],
+      "benefits": [
+        "Competitive base salary.",
+        "Field operational allowance.",
+        "BPJS Health and BPJS Employment coverage.",
+        "Opportunity for technical skill growth and internal certification."
+      ],
+      "application": {
+        "method": "Send your updated CV by email with the required subject format.",
+        "email": "info@sigmasolusiservis.com",
+        "subject": "Application Network Technician - [Full Name]",
+        "documents": [
+          "Updated CV",
+          "Recent photo",
+          "Supporting certificates (if any)"
+        ],
+        "steps": [
+          "Submit required documents via email.",
+          "HR and user teams conduct initial document screening.",
+          "Shortlisted candidates proceed to technical test and interview."
+        ]
+      },
+      "postedDate": "2026-04-15",
+      "applicationDeadline": "2026-05-31",
+      "isActive": true
     }
   ]
 }
