@@ -43,18 +43,16 @@
         "Career growth opportunities in the finance function."
       ],
       "application": {
-        "method": "Send your updated CV and supporting documents by email.",
-        "email": "info@sigmasolusiservis.com",
-        "subject": "Application Staff Accounting - [Full Name]",
+        "method": "Submit your latest CV and supporting documents through the link below.",
+        "url": "https://forms.gle/yqKFquuc6mBpbRqi7",
         "documents": [
-          "Updated CV",
+          "Latest CV",
           "Portfolio / experience summary (optional)",
           "Recent photo"
         ],
         "steps": [
-          "Send your application email using the requested subject format.",
-          "Our HR team will run an initial document screening.",
-          "Shortlisted candidates will be contacted for interviews."
+          "Our HR team will conduct initial document screening.",
+          "Shortlisted candidates will be contacted for interview stage."
         ]
       },
       "slug": "staff-accounting",
@@ -93,18 +91,16 @@
         "Career development opportunities in sales track."
       ],
       "application": {
-        "method": "Send your updated CV by email with the required subject format.",
-        "email": "info@sigmasolusiservis.com",
-        "subject": "Application Internet Provider Sales - [Full Name]",
+        "method": "Submit your latest CV and supporting documents through the link below.",
+        "url": "https://forms.gle/yqKFquuc6mBpbRqi7",
         "documents": [
-          "Updated CV",
-          "Recent photo",
-          "Academic transcript"
+          "Latest CV",
+          "Portfolio / experience summary (optional)",
+          "Recent photo"
         ],
         "steps": [
-          "Submit your application email using the required subject format.",
-          "HR team performs document screening.",
-          "Shortlisted candidates proceed to HR and user interviews."
+          "Our HR team will conduct initial document screening.",
+          "Shortlisted candidates will be contacted for interview stage."
         ]
       },
       "postedDate": "2026-04-15",
@@ -144,18 +140,16 @@
         "Career growth opportunities in store operations."
       ],
       "application": {
-        "method": "Send your updated CV and supporting documents by email.",
-        "email": "info@sigmasolusiservis.com",
-        "subject": "Application Store Specialist - [Full Name]",
+        "method": "Submit your latest CV and supporting documents through the link below.",
+        "url": "https://forms.gle/yqKFquuc6mBpbRqi7",
         "documents": [
-          "Updated CV",
-          "Recent photo",
-          "Academic transcript"
+          "Latest CV",
+          "Portfolio / experience summary (optional)",
+          "Recent photo"
         ],
         "steps": [
-          "Submit your application with the required email subject.",
-          "HR team conducts administrative screening.",
-          "Shortlisted candidates will be invited for interviews."
+          "Our HR team will conduct initial document screening.",
+          "Shortlisted candidates will be contacted for interview stage."
         ]
       },
       "postedDate": "2026-04-15",
@@ -195,18 +189,16 @@
         "Opportunity for technical skill growth and internal certification."
       ],
       "application": {
-        "method": "Send your updated CV by email with the required subject format.",
-        "email": "info@sigmasolusiservis.com",
-        "subject": "Application Network Technician - [Full Name]",
+        "method": "Submit your latest CV and supporting documents through the link below.",
+        "url": "https://forms.gle/yqKFquuc6mBpbRqi7",
         "documents": [
-          "Updated CV",
-          "Recent photo",
-          "Supporting certificates (if any)"
+          "Latest CV",
+          "Portfolio / experience summary (optional)",
+          "Recent photo"
         ],
         "steps": [
-          "Submit required documents via email.",
-          "HR and user teams conduct initial document screening.",
-          "Shortlisted candidates proceed to technical test and interview."
+          "Our HR team will conduct initial document screening.",
+          "Shortlisted candidates will be contacted for interview stage."
         ]
       },
       "postedDate": "2026-04-15",

@@ -43,16 +43,14 @@
         "Kesempatan pengembangan karir di bidang finance."
       ],
       "application": {
-        "method": "Kirim CV terbaru dan dokumen pendukung melalui email.",
-        "email": "info@sigmasolusiservis.com",
-        "subject": "Lamaran Staff Accounting - [Nama Lengkap]",
+        "method": "Kirim CV terbaru dan dokumen pendukung melalui link dibawah.",
+        "url": "https://forms.gle/yqKFquuc6mBpbRqi7",
         "documents": [
           "CV terbaru",
           "Portofolio / ringkasan pengalaman (opsional)",
           "Pas foto terbaru"
         ],
         "steps": [
-          "Kirim email lamaran sesuai subject yang ditentukan.",
           "Tim HR akan melakukan screening awal dokumen.",
           "Kandidat terpilih akan dihubungi untuk tahap interview."
         ]
@@ -93,18 +91,16 @@
         "Kesempatan pengembangan karir di bidang sales."
       ],
       "application": {
-        "method": "Kirim CV terbaru melalui email dengan subject sesuai format.",
-        "email": "info@sigmasolusiservis.com",
-        "subject": "Lamaran Sales Provider Internet - [Nama Lengkap]",
+        "method": "Kirim CV terbaru dan dokumen pendukung melalui link dibawah.",
+        "url": "https://forms.gle/yqKFquuc6mBpbRqi7",
         "documents": [
           "CV terbaru",
-          "Pas foto terbaru",
-          "Transkrip nilai"
+          "Portofolio / ringkasan pengalaman (opsional)",
+          "Pas foto terbaru"
         ],
         "steps": [
-          "Kirim lamaran sesuai subject yang ditentukan.",
-          "Tim HR melakukan screening dokumen.",
-          "Kandidat terpilih mengikuti interview dan user interview."
+          "Tim HR akan melakukan screening awal dokumen.",
+          "Kandidat terpilih akan dihubungi untuk tahap interview."
         ]
       },
       "postedDate": "2026-04-15",
@@ -144,18 +140,16 @@
         "Peluang pengembangan karir di operasional store."
       ],
       "application": {
-        "method": "Kirim CV terbaru dan dokumen pendukung melalui email.",
-        "email": "info@sigmasolusiservis.com",
-        "subject": "Lamaran Store Specialist - [Nama Lengkap]",
+        "method": "Kirim CV terbaru dan dokumen pendukung melalui link dibawah.",
+        "url": "https://forms.gle/yqKFquuc6mBpbRqi7",
         "documents": [
           "CV terbaru",
-          "Pas foto terbaru",
-          "Transkrip nilai"
+          "Portofolio / ringkasan pengalaman (opsional)",
+          "Pas foto terbaru"
         ],
         "steps": [
-          "Kirim lamaran sesuai format subject.",
-          "Tim HR melakukan seleksi administrasi.",
-          "Kandidat terpilih diproses ke tahap interview."
+          "Tim HR akan melakukan screening awal dokumen.",
+          "Kandidat terpilih akan dihubungi untuk tahap interview."
         ]
       },
       "postedDate": "2026-04-15",
@@ -195,18 +189,16 @@
         "Kesempatan pengembangan skill teknis dan sertifikasi internal."
       ],
       "application": {
-        "method": "Kirim CV terbaru melalui email dengan subject sesuai format.",
-        "email": "info@sigmasolusiservis.com",
-        "subject": "Lamaran Teknisi Jaringan - [Nama Lengkap]",
+        "method": "Kirim CV terbaru dan dokumen pendukung melalui link dibawah.",
+        "url": "https://forms.gle/yqKFquuc6mBpbRqi7",
         "documents": [
           "CV terbaru",
-          "Pas foto terbaru",
-          "Sertifikat pendukung (jika ada)"
+          "Portofolio / ringkasan pengalaman (opsional)",
+          "Pas foto terbaru"
         ],
         "steps": [
-          "Kirim berkas lamaran melalui email.",
-          "Tim HR dan user melakukan screening dokumen.",
-          "Kandidat terpilih mengikuti tes teknis dan interview."
+          "Tim HR akan melakukan screening awal dokumen.",
+          "Kandidat terpilih akan dihubungi untuk tahap interview."
         ]
       },
       "postedDate": "2026-04-15",

@@ -3,9 +3,11 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
-import { getActiveVacancies, getVacancyBySlug } from '@/content/careers'
+import { getActiveVacancies, getVacancyBySlug } from '@/content/careers/query'
 import { canonicalUrl, languageAlternates } from '@/lib/seo'
 import { SITE_URL } from '@/lib/site'
+
+export const dynamic = 'force-dynamic'
 
 const locales = ['id', 'en'] as const
 
@@ -205,18 +207,31 @@ export default async function CareerDetailPage({
           <div className="rounded-3xl bg-gray-50 border border-gray-200 p-6">
             <h2 className="text-2xl font-bold text-gray-900">{t.howToApply}</h2>
             {vacancy.application?.method ? <p className="text-gray-700 mt-2">{vacancy.application.method}</p> : null}
-            <p className="text-gray-700 mt-2">
-              <a
-                href={`mailto:${vacancy.application?.email || 'info@sigmasolusiservis.com'}${
-                  vacancy.application?.subject
-                    ? `?subject=${encodeURIComponent(vacancy.application.subject)}`
-                    : ''
-                }`}
-                className="font-semibold text-brand-primary hover:underline"
-              >
-                {vacancy.application?.email || 'info@sigmasolusiservis.com'}
-              </a>
-            </p>
+            {vacancy.application?.url ? (
+              <p className="text-gray-700 mt-2">
+                <a
+                  href={vacancy.application.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-brand-primary hover:underline break-all"
+                >
+                  {vacancy.application.url}
+                </a>
+              </p>
+            ) : (
+              <p className="text-gray-700 mt-2">
+                <a
+                  href={`mailto:${vacancy.application?.email || 'info@sigmasolusiservis.com'}${
+                    vacancy.application?.subject
+                      ? `?subject=${encodeURIComponent(vacancy.application.subject)}`
+                      : ''
+                  }`}
+                  className="font-semibold text-brand-primary hover:underline"
+                >
+                  {vacancy.application?.email || 'info@sigmasolusiservis.com'}
+                </a>
+              </p>
+            )}
             {vacancy.application?.documents?.length ? (
               <p className="text-gray-600 mt-2">
                 {t.requiredDocuments}: {vacancy.application.documents.join(', ')}

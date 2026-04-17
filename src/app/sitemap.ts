@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { getAllSlugs } from '@/content/articles/posts'
-import { getActiveVacancies } from '@/content/careers'
+import { getActiveVacancies } from '@/content/careers/query'
 import { SITE_URL } from '@/lib/site'
 
 const locales = ['id', 'en'] as const
