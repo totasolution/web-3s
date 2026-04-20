@@ -3,7 +3,8 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
-import { getActiveVacancies, getVacancyBySlug } from '@/content/careers/query'
+import { getActiveVacancies, getCareerContent, getVacancyBySlug } from '@/content/careers/query'
+import { buildSigmaJobPostingSchema } from '@/lib/jobPostingSchema'
 import { canonicalUrl, languageAlternates } from '@/lib/seo'
 import { SITE_URL } from '@/lib/site'
 
@@ -98,32 +99,18 @@ export default async function CareerDetailPage({
   }
 
   const t = labels(locale)
-
-  const jobPostingSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'JobPosting',
-    title: vacancy.title,
-    description: vacancy.summary,
-    datePosted: vacancy.postedDate,
-    validThrough: vacancy.applicationDeadline
-      ? `${vacancy.applicationDeadline}T23:59:59+07:00`
-      : undefined,
-    employmentType: vacancy.employmentType,
+  const career = getCareerContent(locale)
+  const jobPageUrl = canonicalUrl(locale, `careers/${slug}`)
+  const jobPostingSchema = buildSigmaJobPostingSchema({
+    vacancy,
+    career,
     hiringOrganization: {
-      '@type': 'Organization',
       name: 'PT. Sigma Solusi Servis',
       sameAs: SITE_URL,
       logo: `${SITE_URL}/logo-sigma.png`,
     },
-    jobLocation: {
-      '@type': 'Place',
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: vacancy.location,
-        addressCountry: 'ID',
-      },
-    },
-  }
+    jobPageUrl,
+  })
 
   return (
     <main className="min-h-screen bg-white">
