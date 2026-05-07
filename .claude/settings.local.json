@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/user/workspace/glassbox/projects/glassbox-web/app/services/\\\\[slug\\\\])",
+      "Bash(mkdir -p /Users/user/workspace/glassbox/projects/glassbox-web/app/articles/\\\\[slug\\\\])",
+      "Bash(mkdir -p /Users/user/workspace/glassbox/projects/glassbox-web/app/careers/\\\\[slug\\\\])",
+      "Bash(npm install *)"
+    ]
+  }
+}

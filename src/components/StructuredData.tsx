@@ -20,7 +20,12 @@ const graph = {
         addressLocality: 'Jakarta',
         addressCountry: 'ID',
       },
-      logo: `${SITE_URL}/logo-sigma.png`,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${SITE_URL}/logo-sigma.png`,
+        width: 512,
+        height: 512,
+      },
     },
     {
       '@type': 'WebSite',

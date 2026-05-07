@@ -2,6 +2,748 @@ import type { Article } from './types'
 
 export const articles: Article[] = [
   {
+    slug: 'k3-keselamatan-kesehatan-kerja-perusahaan',
+    datePublished: '2026-05-07',
+    title: {
+      id: 'K3 di Tempat Kerja: Kewajiban Hukum dan Langkah Praktis bagi Perusahaan',
+      en: 'Workplace Safety (K3): Legal Obligations and Practical Steps for Employers',
+    },
+    description: {
+      id: 'Ringkasan kewajiban K3 perusahaan berdasarkan UU No. 1/1970 dan PP No. 50/2012—APD, P2K3, pelaporan kecelakaan, dan kaitannya dengan program JKK BPJS Ketenagakerjaan.',
+      en: 'Key employer obligations under Indonesian occupational safety law—PPE, safety committees, accident reporting, and the link to BPJS Ketenagakerjaan JKK coverage.',
+    },
+    body: {
+      id: [
+        {
+          type: 'p',
+          text: 'K3 (Keselamatan dan Kesehatan Kerja) adalah kewajiban hukum sekaligus investasi jangka panjang. Insiden kerja tidak hanya merugikan karyawan—biaya penanganan, gangguan operasional, dan potensi sengketa hukum bisa jauh melebihi biaya pencegahannya.',
+        },
+        {
+          type: 'h2',
+          text: 'Dasar hukum K3 di Indonesia',
+        },
+        {
+          type: 'p',
+          text: 'Kerangka utama K3 diatur dalam Undang-Undang Nomor 1 Tahun 1970 tentang Keselamatan Kerja dan diperkuat PP Nomor 50 Tahun 2012 tentang Sistem Manajemen Keselamatan dan Kesehatan Kerja (SMK3). Perusahaan dengan 100 karyawan atau lebih, atau yang beroperasi di sektor risiko tinggi, wajib menerapkan SMK3 dan diaudit secara berkala.',
+        },
+        {
+          type: 'h2',
+          text: 'Kewajiban utama perusahaan',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Menyediakan Alat Pelindung Diri (APD) sesuai jenis pekerjaan dan tingkat risiko.',
+            'Membentuk Panitia Pembina K3 (P2K3) untuk perusahaan dengan 100 karyawan atau lebih.',
+            'Melaporkan setiap kecelakaan kerja ke Dinas Ketenagakerjaan setempat dalam 2×24 jam.',
+            'Mendaftarkan seluruh karyawan ke program Jaminan Kecelakaan Kerja (JKK) BPJS Ketenagakerjaan.',
+            'Melakukan identifikasi bahaya dan penilaian risiko secara berkala.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'K3 dan program JKK BPJS Ketenagakerjaan',
+        },
+        {
+          type: 'p',
+          text: 'Jaminan Kecelakaan Kerja (JKK) menanggung biaya pengobatan akibat kecelakaan kerja dan penyakit akibat kerja, serta santunan sementara tidak mampu bekerja. Iuran JKK sepenuhnya ditanggung perusahaan, dengan tarif 0,24%–1,74% dari upah tergantung tingkat risiko pekerjaan. Keterlambatan pelaporan kecelakaan dapat mempersulit klaim dan menjadi risiko kepatuhan tersendiri.',
+        },
+        {
+          type: 'h2',
+          text: 'Langkah praktis membangun budaya K3',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Jalankan safety induction untuk setiap karyawan baru sebelum mulai bekerja.',
+            'Jadwalkan inspeksi rutin dan dokumentasikan temuan untuk tindak lanjut terukur.',
+            'Buat prosedur tanggap darurat yang dipahami seluruh tim, bukan sekadar dokumen tersimpan.',
+            'Investigasi setiap insiden—termasuk near miss—untuk mencegah pengulangan.',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'PT Sigma Solusi Servis memastikan tenaga kerja yang ditempatkan terdaftar dalam program jaminan sosial yang sesuai, termasuk JKK—bagian dari komitmen kami terhadap praktik ketenagakerjaan yang profesional dan patuh regulasi.',
+        },
+      ],
+      en: [
+        {
+          type: 'p',
+          text: 'Occupational health and safety (K3) is both a legal obligation and a long-term investment. Workplace incidents harm employees directly—but response costs, operational disruption, and legal exposure often far exceed the cost of prevention.',
+        },
+        {
+          type: 'h2',
+          text: 'Legal framework',
+        },
+        {
+          type: 'p',
+          text: 'The primary framework is Law No. 1 of 1970 on Occupational Safety, reinforced by Government Regulation No. 50 of 2012 on the Occupational Safety and Health Management System (SMK3). Companies with 100 or more employees, or those in high-risk sectors, must implement SMK3 and undergo periodic audits.',
+        },
+        {
+          type: 'h2',
+          text: 'Core employer obligations',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Provide Personal Protective Equipment (PPE) appropriate to the work type and risk level.',
+            'Establish an Occupational Safety Committee (P2K3) for companies with 100 or more employees.',
+            'Report every workplace accident to the local Manpower Office within 48 hours.',
+            'Register all workers under BPJS Ketenagakerjaan\'s Workplace Accident Insurance (JKK) program.',
+            'Conduct periodic hazard identification and risk assessment.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'K3 and BPJS Ketenagakerjaan JKK',
+        },
+        {
+          type: 'p',
+          text: 'The JKK program covers medical costs for work-related accidents and occupational diseases, plus temporary disability benefits. Contributions are borne entirely by the employer, ranging from 0.24% to 1.74% of wages depending on job risk category. Delayed accident reporting can complicate claims and create a compliance liability of its own.',
+        },
+        {
+          type: 'h2',
+          text: 'Practical steps toward a safety culture',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Run safety inductions for every new worker before their first day on the job.',
+            'Schedule regular inspections and document findings for measurable follow-up.',
+            'Build emergency response procedures the whole team actually understands—not just documents filed away.',
+            'Investigate every incident, including near misses, to prevent recurrence.',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'Sigma Solusi Servis ensures placed workers are enrolled in the appropriate social insurance programs—including JKK—as part of our commitment to professional and compliant workforce practices.',
+        },
+      ],
+    },
+  },
+  {
+    slug: 'ump-2026-kenaikan-dan-dampak-payroll',
+    datePublished: '2026-05-05',
+    title: {
+      id: 'UMP 2026: Formula Baru, Angka Terbaru, dan Dampaknya ke Payroll',
+      en: 'UMP 2026: New Formula, Updated Figures, and What It Means for Payroll',
+    },
+    description: {
+      id: 'UMP 2026 berlaku 1 Januari 2026 dengan formula baru berbasis PP No. 49/2025. Ringkasan angka provinsi utama, cara formula dihitung, dan yang perlu disiapkan tim HR dan keuangan.',
+      en: 'Indonesia\'s 2026 minimum wage is in effect from 1 January under the new PP No. 49/2025 formula. Key provincial figures, how the formula works, and what HR and finance teams should prepare.',
+    },
+    body: {
+      id: [
+        {
+          type: 'p',
+          text: 'Per 1 Januari 2026, Upah Minimum Provinsi (UMP) di seluruh Indonesia resmi berlaku berdasarkan formula baru yang ditetapkan PP Nomor 49 Tahun 2025 tentang Pengupahan. Kenaikan rata-rata nasional berkisar 5–8%, dengan perhitungan berbasis inflasi dan pertumbuhan ekonomi daerah.',
+        },
+        {
+          type: 'h2',
+          text: 'Formula baru penetapan UMP',
+        },
+        {
+          type: 'p',
+          text: 'PP No. 49/2025 mengubah formula menjadi: Inflasi + (Pertumbuhan Ekonomi × Indeks Alfa). Indeks alfa kini ditetapkan dalam rentang 0,5–0,9—naik signifikan dari rentang sebelumnya 0,1–0,3. Perubahan ini bertujuan mengurangi disparitas upah antarprovinsi dan memberikan kontribusi pertumbuhan ekonomi yang lebih besar kepada pekerja.',
+        },
+        {
+          type: 'h2',
+          text: 'UMP 2026 beberapa provinsi utama',
+        },
+        {
+          type: 'ul',
+          items: [
+            'DKI Jakarta: Rp5.729.876 (naik 6,17%) — tertinggi secara nasional.',
+            'Banten: Rp3.100.881',
+            'Jawa Timur: Rp2.446.880',
+            'Jawa Barat: Rp2.317.601',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'UMK (Upah Minimum Kabupaten/Kota) ditetapkan oleh masing-masing gubernur dan umumnya lebih tinggi dari UMP. Selalu verifikasi UMK yang berlaku di lokasi operasional spesifik Anda, karena perbedaannya bisa signifikan antarwilayah dalam satu provinsi.',
+        },
+        {
+          type: 'h2',
+          text: 'Dampak langsung ke payroll',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Karyawan dengan upah di bawah UMP/UMK baru wajib disesuaikan sejak 1 Januari 2026.',
+            'Perubahan upah pokok berdampak pada basis perhitungan iuran BPJS Ketenagakerjaan dan BPJS Kesehatan.',
+            'Tunjangan tetap yang dihitung sebagai persentase dari upah pokok juga ikut berubah.',
+            'Sistem payroll dan slip gaji harus diperbarui sejak awal periode—bukan menyusul di bulan berikutnya.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Yang perlu disiapkan tim HR dan keuangan',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Audit posisi dengan upah di sekitar batas UMP/UMK—termasuk karyawan kontrak dan yang ditempatkan melalui mitra outsourcing.',
+            'Simulasikan dampak total ke biaya tenaga kerja dan sesuaikan proyeksi anggaran.',
+            'Koordinasikan dengan vendor payroll atau mitra BPO untuk memastikan update berjalan tepat waktu.',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'Sigma Solusi Servis mendukung klien dalam pengelolaan payroll yang akurat dan patuh—termasuk memastikan penyesuaian upah minimum diterapkan tepat waktu setiap kali regulasi baru berlaku.',
+        },
+      ],
+      en: [
+        {
+          type: 'p',
+          text: 'From 1 January 2026, the Provincial Minimum Wage (UMP) across Indonesia is in effect under a new formula established by Government Regulation No. 49 of 2025 on Wages. The national average increase ranges from 5–8%, calculated on inflation plus regional economic growth.',
+        },
+        {
+          type: 'h2',
+          text: 'The new UMP formula',
+        },
+        {
+          type: 'p',
+          text: 'PP No. 49/2025 changes the formula to: Inflation + (Economic Growth × Alpha Index). The alpha index now ranges from 0.5–0.9—up significantly from the previous 0.1–0.3 range. The change aims to narrow wage gaps across provinces and give workers a larger share of regional economic growth.',
+        },
+        {
+          type: 'h2',
+          text: '2026 UMP in key provinces',
+        },
+        {
+          type: 'ul',
+          items: [
+            'DKI Jakarta: Rp 5,729,876 (up 6.17%) — highest nationally.',
+            'Banten: Rp 3,100,881',
+            'East Java: Rp 2,446,880',
+            'West Java: Rp 2,317,601',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'District/City Minimum Wages (UMK) are set by each provincial governor and generally exceed the UMP. Always verify the UMK applicable at your specific operating location, as the difference within a single province can be significant.',
+        },
+        {
+          type: 'h2',
+          text: 'Direct payroll impact',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Workers earning below the new UMP/UMK must be adjusted from 1 January 2026.',
+            'Changes to base wages affect BPJS Ketenagakerjaan and BPJS Kesehatan contribution bases.',
+            'Fixed allowances calculated as a percentage of base wages change accordingly.',
+            'Payroll systems and payslips must be updated from the start of the period—not corrected the following month.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'What HR and finance teams should prepare',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Audit positions with wages near the UMP/UMK threshold—including contract staff and workers placed through outsourcing partners.',
+            'Model the total labor cost impact and update budget projections.',
+            'Coordinate with your payroll vendor or BPO partner to ensure updates run on schedule.',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'Sigma Solusi Servis supports clients with accurate, compliant payroll management—including ensuring minimum wage adjustments are applied on time whenever new regulations take effect.',
+        },
+      ],
+    },
+  },
+  {
+    slug: 'cara-menghitung-pesangon-pp-35-2021',
+    datePublished: '2026-04-28',
+    title: {
+      id: 'Cara Menghitung Pesangon Berdasarkan PP No. 35 Tahun 2021',
+      en: 'How to Calculate Severance Pay Under PP No. 35 of 2021',
+    },
+    description: {
+      id: 'Panduan ringkas komponen pesangon—UP, UPMK, UPH—beserta tabel masa kerja dan faktor pengali berdasarkan alasan PHK sesuai PP 35/2021 turunan UU Cipta Kerja.',
+      en: 'A concise guide to Indonesia\'s severance components—UP, UPMK, UPH—with length-of-service tables and multipliers by termination reason under PP 35/2021.',
+    },
+    body: {
+      id: [
+        {
+          type: 'p',
+          text: 'Ketika terjadi pemutusan hubungan kerja (PHK), perusahaan wajib membayar kompensasi sesuai PP Nomor 35 Tahun 2021—peraturan pelaksana UU Cipta Kerja. Ada tiga komponen utama: Uang Pesangon (UP), Uang Penghargaan Masa Kerja (UPMK), dan Uang Penggantian Hak (UPH). Artikel ini merangkum kerangkanya—selalu konsultasikan situasi spesifik dengan konsultan hukum ketenagakerjaan.',
+        },
+        {
+          type: 'h2',
+          text: 'Uang Pesangon (UP) berdasarkan masa kerja',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Kurang dari 1 tahun: 1 bulan upah',
+            '1 – kurang dari 2 tahun: 2 bulan upah',
+            '2 – kurang dari 3 tahun: 3 bulan upah',
+            '3 – kurang dari 4 tahun: 4 bulan upah',
+            '4 – kurang dari 5 tahun: 5 bulan upah',
+            '5 – kurang dari 6 tahun: 6 bulan upah',
+            '6 – kurang dari 7 tahun: 7 bulan upah',
+            '7 – kurang dari 8 tahun: 8 bulan upah',
+            '8 tahun atau lebih: 9 bulan upah (maksimum)',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Uang Penghargaan Masa Kerja (UPMK)',
+        },
+        {
+          type: 'ul',
+          items: [
+            '3 – kurang dari 6 tahun: 2 bulan upah',
+            '6 – kurang dari 9 tahun: 3 bulan upah',
+            '9 – kurang dari 12 tahun: 4 bulan upah',
+            '12 – kurang dari 15 tahun: 5 bulan upah',
+            '15 – kurang dari 18 tahun: 6 bulan upah',
+            '18 – kurang dari 21 tahun: 7 bulan upah',
+            '21 – kurang dari 24 tahun: 8 bulan upah',
+            '24 tahun atau lebih: 10 bulan upah',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Faktor pengali berdasarkan alasan PHK',
+        },
+        {
+          type: 'p',
+          text: 'Total kompensasi dihitung dari UP dan UPMK dikalikan faktor pengali sesuai alasan PHK:',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Meninggal dunia: UP 2×, UPMK 1×, UPH dibayarkan.',
+            'Cacat tetap atau sakit berkepanjangan akibat kerja (≥12 bulan): UP 2×, UPMK 1×, UPH dibayarkan.',
+            'Pensiun usia pensiun: UP 1,75×, UPMK 1×, UPH dibayarkan.',
+            'Perusahaan tutup bukan karena rugi, atau merger dan pekerja menolak melanjutkan: UP 1×, UPMK 1×, UPH dibayarkan.',
+            'Efisiensi untuk mencegah kerugian, atau force majeure perusahaan tutup: UP 0,5×, UPMK 1×, UPH dibayarkan.',
+            'Pengunduran diri (resign) atau mangkir: hanya uang pisah sesuai perjanjian kerja—tanpa UP dan UPMK.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Uang Penggantian Hak (UPH)',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Cuti tahunan yang belum diambil dan belum gugur (dibayar tunai).',
+            'Ongkos pulang pekerja dan keluarga ke tempat asal diterima bekerja.',
+            'Hak lain yang diatur dalam Perjanjian Kerja, Peraturan Perusahaan, atau PKB.',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'Catatan penting: PP 35/2021 menghapus ketentuan penggantian perumahan, pengobatan, dan perawatan sebesar 15% dari UP+UPMK yang berlaku di UU No. 13 Tahun 2003. Pastikan tim HR dan legal menggunakan ketentuan yang berlaku saat ini, bukan versi lama.',
+        },
+        {
+          type: 'p',
+          text: 'Sigma Solusi Servis membantu perusahaan dalam administrasi ketenagakerjaan dan BPO—termasuk dokumentasi yang diperlukan untuk proses PHK yang sesuai prosedur. Untuk keputusan legal spesifik, libatkan konsultan hukum ketenagakerjaan.',
+        },
+      ],
+      en: [
+        {
+          type: 'p',
+          text: 'When terminating employment (PHK), companies must pay statutory compensation under Government Regulation No. 35 of 2021—the implementing regulation for the Job Creation Law (Cipta Kerja). There are three main components: Severance Pay (UP), Long Service Award (UPMK), and Rights Compensation (UPH). This article summarizes the framework—always consult an employment lawyer for specific situations.',
+        },
+        {
+          type: 'h2',
+          text: 'Severance Pay (UP) by length of service',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Less than 1 year: 1 month\'s wages',
+            '1 – less than 2 years: 2 months\' wages',
+            '2 – less than 3 years: 3 months\' wages',
+            '3 – less than 4 years: 4 months\' wages',
+            '4 – less than 5 years: 5 months\' wages',
+            '5 – less than 6 years: 6 months\' wages',
+            '6 – less than 7 years: 7 months\' wages',
+            '7 – less than 8 years: 8 months\' wages',
+            '8 years or more: 9 months\' wages (maximum)',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Long Service Award (UPMK)',
+        },
+        {
+          type: 'ul',
+          items: [
+            '3 – less than 6 years: 2 months\' wages',
+            '6 – less than 9 years: 3 months\' wages',
+            '9 – less than 12 years: 4 months\' wages',
+            '12 – less than 15 years: 5 months\' wages',
+            '15 – less than 18 years: 6 months\' wages',
+            '18 – less than 21 years: 7 months\' wages',
+            '21 – less than 24 years: 8 months\' wages',
+            '24 years or more: 10 months\' wages',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Multipliers by termination reason',
+        },
+        {
+          type: 'p',
+          text: 'Total compensation is calculated by multiplying UP and UPMK by the applicable factor:',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Death: UP 2×, UPMK 1×, UPH paid.',
+            'Permanent disability or extended illness from work (≥12 months): UP 2×, UPMK 1×, UPH paid.',
+            'Retirement at retirement age: UP 1.75×, UPMK 1×, UPH paid.',
+            'Company closure not due to losses, or merger where worker declines to continue: UP 1×, UPMK 1×, UPH paid.',
+            'Efficiency to prevent losses, or force majeure company closure: UP 0.5×, UPMK 1×, UPH paid.',
+            'Resignation or prolonged absence: separation pay per employment agreement only—no UP or UPMK.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Rights Compensation (UPH)',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Unused, unexpired annual leave (paid out in cash).',
+            'Return travel costs for the worker and family to their place of origin at time of hiring.',
+            'Other rights stipulated in the Employment Agreement, Company Regulations, or Collective Labor Agreement.',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'Important: PP 35/2021 removed the previous housing, medical, and treatment allowance of 15% of UP+UPMK that existed under Law No. 13 of 2003. Ensure your HR and legal teams are working from current rules, not the old version.',
+        },
+        {
+          type: 'p',
+          text: 'Sigma Solusi Servis supports companies with workforce administration and BPO—including documentation needed for procedurally sound employment terminations. For specific legal decisions, engage an employment lawyer.',
+        },
+      ],
+    },
+  },
+  {
+    slug: 'permenaker-penting-2025-untuk-perusahaan',
+    datePublished: '2026-04-21',
+    title: {
+      id: 'Permenaker Penting 2025 yang Perlu Diketahui Perusahaan',
+      en: 'Key 2025 Ministerial Regulations Every Employer Should Know',
+    },
+    description: {
+      id: 'Ringkasan Permenaker No. 1 dan No. 2 Tahun 2025 serta PP No. 49/2025—perubahan jaminan sosial, manfaat JKP, dan formula UMP baru yang berdampak langsung pada kewajiban perusahaan.',
+      en: 'A summary of Permenaker No. 1 and No. 2 of 2025 and PP No. 49/2025—social insurance changes, JKP benefits, and the new UMP formula that directly affect employer obligations.',
+    },
+    body: {
+      id: [
+        {
+          type: 'p',
+          text: 'Sepanjang 2025, beberapa peraturan ketenagakerjaan baru diterbitkan yang berdampak langsung pada kewajiban perusahaan—mulai dari administrasi jaminan sosial hingga mekanisme perlindungan pekerja yang kehilangan pekerjaan. Berikut ringkasan yang perlu diketahui tim HR dan operasional.',
+        },
+        {
+          type: 'h2',
+          text: 'Permenaker No. 1 Tahun 2025 — Jaminan Sosial Pekerja Non-ASN',
+        },
+        {
+          type: 'p',
+          text: 'Berlaku sejak 24 Februari 2025, regulasi ini mewajibkan instansi pemerintah mendaftarkan pegawai non-ASN (tenaga honorer dan kontrak pemerintah) ke program JKK (Jaminan Kecelakaan Kerja), JKM (Jaminan Kematian), dan JHT (Jaminan Hari Tua) melalui BPJS Ketenagakerjaan. Bagi perusahaan swasta yang menempatkan tenaga kerja di lingkungan pemerintahan, ini menjadi perhatian penting terkait status kepesertaan tenaga yang ditempatkan.',
+        },
+        {
+          type: 'h2',
+          text: 'Permenaker No. 2 Tahun 2025 — Manfaat Jaminan Kehilangan Pekerjaan (JKP)',
+        },
+        {
+          type: 'p',
+          text: 'Diundangkan 26 Maret 2025, regulasi ini memperbarui tata cara pemberian manfaat Jaminan Kehilangan Pekerjaan—program yang memberikan dukungan tunai, akses pelatihan, dan informasi pasar kerja bagi pekerja yang mengalami PHK. Perusahaan yang melakukan PHK perlu memahami prosedur pelaporan yang diperbarui agar hak manfaat JKP pekerja dapat segera diproses.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Manfaat uang tunai: 45% dari upah untuk bulan 1–3, kemudian 25% untuk bulan 4–6.',
+            'Akses pelatihan vokasi melalui platform yang ditunjuk pemerintah.',
+            'Informasi dan akses bursa kerja selama masa klaim aktif.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'PP No. 49 Tahun 2025 — Formula UMP Baru',
+        },
+        {
+          type: 'p',
+          text: 'Ditandatangani Desember 2025 dan berlaku efektif 1 Januari 2026, PP ini mengubah formula penetapan Upah Minimum menjadi berbasis inflasi ditambah pertumbuhan ekonomi daerah dikalikan indeks alfa (0,5–0,9). Hasilnya adalah kenaikan UMP 2026 rata-rata 5–8% di seluruh provinsi—perubahan yang berdampak langsung pada struktur biaya tenaga kerja dan perencanaan anggaran.',
+        },
+        {
+          type: 'h2',
+          text: 'Yang perlu dilakukan perusahaan',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Audit kepesertaan BPJS seluruh tenaga kerja—termasuk yang berstatus kontrak atau ditempatkan melalui mitra outsourcing.',
+            'Pahami prosedur pelaporan PHK yang diperbarui agar proses pencairan JKP tidak terhambat.',
+            'Perbarui sistem payroll dan anggaran SDM untuk mengakomodasi UMP/UMK 2026 yang berlaku di lokasi operasional.',
+            'Konsultasikan dengan konsultan hukum ketenagakerjaan jika ada ketidakpastian terkait kewajiban spesifik.',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'Artikel ini bersifat informatif dan bukan pengganti nasihat hukum. Untuk kepatuhan spesifik, tinjau teks regulasi resmi dan libatkan konsultan yang tepat.',
+        },
+        {
+          type: 'p',
+          text: 'Sigma Solusi Servis membantu perusahaan memantau perubahan regulasi dan memastikan administrasi ketenagakerjaan—dari kepesertaan BPJS hingga payroll—tetap akurat dan patuh di setiap periode.',
+        },
+      ],
+      en: [
+        {
+          type: 'p',
+          text: 'Through 2025, several new labor regulations were issued with direct impact on employer obligations—from social insurance administration to protections for workers facing job loss. Here is a summary HR and operations teams should know.',
+        },
+        {
+          type: 'h2',
+          text: 'Permenaker No. 1 of 2025 — Social Insurance for Non-Civil-Servant Workers',
+        },
+        {
+          type: 'p',
+          text: 'Effective 24 February 2025, this regulation requires government agencies to enroll non-civil-servant staff (contract and honorary workers) in JKK (Workplace Accident Insurance), JKM (Life Insurance), and JHT (Old Age Savings) through BPJS Ketenagakerjaan. For private companies placing workers in government environments, this has implications for the enrollment status of placed staff.',
+        },
+        {
+          type: 'h2',
+          text: 'Permenaker No. 2 of 2025 — Employment Loss Insurance (JKP) Benefits',
+        },
+        {
+          type: 'p',
+          text: 'Enacted 26 March 2025, this regulation updates the procedures for delivering Job Loss Insurance (JKP) benefits—the program providing cash support, vocational training access, and job market information for workers facing termination. Companies conducting layoffs need to understand the updated reporting procedures so workers can access JKP benefits promptly.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Cash benefit: 45% of wages for months 1–3, then 25% for months 4–6.',
+            'Access to vocational training through government-designated platforms.',
+            'Job market information and employment exchange access during the active claim period.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'PP No. 49 of 2025 — New UMP Formula',
+        },
+        {
+          type: 'p',
+          text: 'Signed in December 2025 and effective 1 January 2026, this regulation changes the minimum wage formula to inflation plus regional economic growth multiplied by an alpha index (0.5–0.9). The result is a national average UMP increase of 5–8% across all provinces—a direct impact on labor cost structure and budget planning.',
+        },
+        {
+          type: 'h2',
+          text: 'What companies should do',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Audit BPJS enrollment for all workers—including those on contracts or placed through outsourcing partners.',
+            'Understand the updated PHK reporting procedures so JKP processing is not delayed.',
+            'Update payroll systems and HR budgets to reflect the UMP/UMK applicable at each operating location.',
+            'Consult employment counsel if specific compliance obligations are unclear.',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'This article is informational and not a substitute for legal advice. For specific compliance, review official regulatory texts and engage appropriate consultants.',
+        },
+        {
+          type: 'p',
+          text: 'Sigma Solusi Servis helps companies track regulatory changes and ensures workforce administration—from BPJS enrollment to payroll—stays accurate and compliant every period.',
+        },
+      ],
+    },
+  },
+  {
+    slug: 'permenaker-7-tahun-2026-outsourcing',
+    datePublished: '2026-05-06',
+    title: {
+      id: 'Permenaker Nomor 7 Tahun 2026: Apa yang Perlu Diketahui Perusahaan tentang Alih Daya',
+      en: 'Permenaker No. 7 of 2026: What Companies Need to Know About Outsourcing',
+    },
+    description: {
+      id: 'Ringkasan Peraturan Menteri Ketenagakerjaan Nomor 7 Tahun 2026 tentang Pekerjaan Alih Daya—bidang yang diizinkan, kewajiban perusahaan, dan masa transisi yang perlu disiapkan.',
+      en: 'A summary of Permenaker No. 7 of 2026 on outsourced work—permitted categories, employer obligations, and the transition period companies should prepare for.',
+    },
+    body: {
+      id: [
+        {
+          type: 'p',
+          text: 'Pada 30 April 2026—sehari menjelang Hari Buruh Internasional—Menteri Ketenagakerjaan menandatangani Peraturan Menteri Ketenagakerjaan (Permenaker) Nomor 7 Tahun 2026 tentang Pekerjaan Alih Daya. Regulasi ini merupakan tindak lanjut Putusan Mahkamah Konstitusi Nomor 168/PUU-XXI/2023 yang memerintahkan pembatasan sistem outsourcing di Indonesia.',
+        },
+        {
+          type: 'h2',
+          text: 'Latar belakang regulasi',
+        },
+        {
+          type: 'p',
+          text: 'Putusan MK 168/PUU-XXI/2023 menilai bahwa praktik outsourcing yang terlalu luas berpotensi merugikan hak pekerja. Permenaker No. 7/2026 mengoperasionalkan putusan tersebut dengan menetapkan batasan yang lebih konkret: outsourcing hanya boleh dilakukan untuk kegiatan penunjang, bukan pekerjaan inti (core business) perusahaan pengguna.',
+        },
+        {
+          type: 'h2',
+          text: 'Bidang pekerjaan yang diizinkan',
+        },
+        {
+          type: 'p',
+          text: 'Permenaker ini membatasi outsourcing pada enam kategori pekerjaan penunjang:',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Layanan kebersihan (cleaning service)',
+            'Penyediaan makanan dan minuman (catering)',
+            'Keamanan (security)',
+            'Penyediaan pengemudi dan transportasi pekerja',
+            'Layanan penunjang operasional umum',
+            'Pekerjaan penunjang di sektor pertambangan',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Kewajiban perusahaan penyedia outsourcing',
+        },
+        {
+          type: 'p',
+          text: 'Perusahaan penyedia alih daya wajib memenuhi seluruh hak pekerja yang ditempatkan, mencakup:',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Upah sesuai ketentuan dan tunjangan hari raya',
+            'Pembayaran lembur dan pengaturan jam kerja',
+            'Cuti tahunan dan hak istirahat',
+            'Keselamatan dan kesehatan kerja (K3)',
+            'Pendaftaran dan iuran jaminan sosial (BPJS Ketenagakerjaan dan Kesehatan)',
+            'Hak terkait pengakhiran hubungan kerja',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Tanggung jawab perusahaan pengguna',
+        },
+        {
+          type: 'p',
+          text: 'Outsourcing hanya dapat dilakukan melalui perjanjian tertulis antara perusahaan pengguna dan perusahaan penyedia. Perusahaan pengguna turut bertanggung jawab memastikan hak dan perlindungan pekerja outsource terpenuhi sesuai regulasi—termasuk melakukan pemantauan terhadap kepatuhan mitra penyedia.',
+        },
+        {
+          type: 'h2',
+          text: 'Masa transisi dan langkah yang perlu disiapkan',
+        },
+        {
+          type: 'p',
+          text: 'Permenaker memberikan masa transisi maksimal dua tahun sejak regulasi berlaku. Perusahaan yang saat ini menggunakan skema outsourcing di luar enam kategori tersebut perlu mengevaluasi apakah perlu mengubah pola hubungan kerja—misalnya beralih ke rekrutmen langsung atau menyesuaikan cakupan perjanjian dengan mitra penyedia.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Audit posisi yang saat ini dioutsource: apakah masuk kategori yang diizinkan?',
+            'Tinjau ulang kontrak dengan perusahaan penyedia dan pastikan klausul pemenuhan hak pekerja tertulis jelas.',
+            'Koordinasi dengan tim legal atau konsultan ketenagakerjaan untuk strategi transisi.',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'Artikel ini bersifat informatif dan bukan pengganti nasihat hukum. Untuk keputusan kepatuhan spesifik, libatkan konsultan hukum ketenagakerjaan dan tinjau teks resmi Permenaker No. 7/2026.',
+        },
+        {
+          type: 'p',
+          text: 'PT Sigma Solusi Servis bergerak di bidang penyediaan tenaga kerja dan layanan BPO yang mencakup kategori yang diizinkan dalam regulasi ini. Diskusikan kebutuhan alih daya Anda bersama kami untuk memastikan skema yang dijalankan tetap patuh dan profesional.',
+        },
+      ],
+      en: [
+        {
+          type: 'p',
+          text: 'On 30 April 2026—one day before International Labour Day—the Minister of Manpower signed Ministerial Regulation (Permenaker) No. 7 of 2026 on Outsourced Work. The regulation implements Constitutional Court Decision No. 168/PUU-XXI/2023, which required the Indonesian government to place tighter limits on the outsourcing system.',
+        },
+        {
+          type: 'h2',
+          text: 'Background',
+        },
+        {
+          type: 'p',
+          text: 'The Constitutional Court ruling found that overly broad outsourcing practices risked undermining worker rights. Permenaker No. 7/2026 operationalizes that decision with concrete limits: outsourcing is permitted only for supporting activities, not for a user company\'s core business functions.',
+        },
+        {
+          type: 'h2',
+          text: 'Permitted categories',
+        },
+        {
+          type: 'p',
+          text: 'The regulation restricts outsourcing to six supporting service categories:',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Cleaning services',
+            'Food and beverage provision (catering)',
+            'Security services',
+            'Driver and employee transportation services',
+            'General operational support services',
+            'Supporting work in the mining sector',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Obligations of outsourcing providers',
+        },
+        {
+          type: 'p',
+          text: 'Outsourcing companies must fulfill all statutory rights of placed workers, including:',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Wages and religious holiday allowances (THR)',
+            'Overtime pay and working hour rules',
+            'Annual leave and rest entitlements',
+            'Occupational health and safety (K3)',
+            'Social security registration and contributions (BPJS)',
+            'Rights related to employment termination',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Responsibilities of user companies',
+        },
+        {
+          type: 'p',
+          text: 'Outsourcing arrangements must be formalized through a written agreement between the user company and the provider. The user company shares responsibility for ensuring outsourced workers\' rights and protections are met—including monitoring provider compliance.',
+        },
+        {
+          type: 'h2',
+          text: 'Transition period and what to prepare',
+        },
+        {
+          type: 'p',
+          text: 'The regulation grants a transition period of up to two years from the date it takes effect. Companies currently outsourcing roles outside the six permitted categories will need to reassess—either moving to direct employment or restructuring agreements with their providers.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Audit currently outsourced positions: do they fall within a permitted category?',
+            'Review provider contracts and ensure worker-rights clauses are explicit.',
+            'Engage legal or employment consultants to plan a compliant transition.',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'This article is informational and not a substitute for legal advice. For specific compliance decisions, involve an employment lawyer and review the official text of Permenaker No. 7/2026.',
+        },
+        {
+          type: 'p',
+          text: 'PT Sigma Solusi Servis operates in workforce supply and BPO services that fall within categories permitted under this regulation. Discuss your outsourcing needs with us to ensure your arrangement remains compliant and professionally managed.',
+        },
+      ],
+    },
+  },
+  {
     slug: 'manfaat-bpo-hr-untuk-operasional',
     datePublished: '2025-11-08',
     title: {

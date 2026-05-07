@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(node -e \"const r = require\\('./node_modules/react/package.json'\\); console.log\\('React:', r.version\\)\")",
+      "Bash(node -e \"const r = require\\('./node_modules/framer-motion/package.json'\\); console.log\\('FM:', r.version\\)\")",
+      "Bash(node -e \"const r = require\\('./node_modules/react-i18next/package.json'\\); console.log\\('r18n:', r.version\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(xargs sed *)",
+      "Bash(identify /Users/user/workspace/glassbox/projects/glassbox-web/public/images/banner-glassbox-scaled-e1737130421875.webp)",
+      "Bash(python3 -c ' *)",
+      "Bash(node)",
+      "WebSearch",
+      "Bash(npx tsc *)",
+      "Bash(npx vite *)",
+      "Bash(./node_modules/.bin/vite build *)"
+    ]
+  }
+}

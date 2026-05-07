@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 import ArticleBody from '@/components/ArticleBody'
 import { getAllSlugs, getArticleBySlug } from '@/content/articles/posts'
 import { articlePageMetadata } from '@/lib/seo'
-import { SITE_URL } from '@/lib/site'
+import { SITE_URL, DEFAULT_OG_IMAGE_PATH } from '@/lib/site'
 import idMessages from '../../../../../messages/id.json'
 import enMessages from '../../../../../messages/en.json'
 
@@ -50,12 +50,23 @@ export default async function InsightArticlePage({
   const description = locale === 'en' ? article.description.en : article.description.id
   const blocks = locale === 'en' ? article.body.en : article.body.id
 
+  const articleUrl = `${SITE_URL}/${locale}/insights/${slug}`
+  const insightsLabel = locale === 'en' ? 'Insights' : 'Wawasan'
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: title,
     description,
+    url: articleUrl,
     datePublished: `${article.datePublished}T08:00:00.000Z`,
+    dateModified: `${article.datePublished}T08:00:00.000Z`,
+    image: {
+      '@type': 'ImageObject',
+      url: `${SITE_URL}${DEFAULT_OG_IMAGE_PATH}`,
+      width: 1200,
+      height: 630,
+    },
     author: {
       '@type': 'Organization',
       name: 'PT. Sigma Solusi Servis',
@@ -68,12 +79,39 @@ export default async function InsightArticlePage({
       logo: {
         '@type': 'ImageObject',
         url: `${SITE_URL}/logo-sigma.png`,
+        width: 512,
+        height: 512,
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `${SITE_URL}/${locale}/insights/${slug}`,
+      '@id': articleUrl,
     },
+  }
+
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Sigma Solusi Servis',
+        item: `${SITE_URL}/${locale}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: insightsLabel,
+        item: `${SITE_URL}/${locale}/insights`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: title,
+        item: articleUrl,
+      },
+    ],
   }
 
   return (
@@ -81,6 +119,10 @@ export default async function InsightArticlePage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
       <Navigation />
       <article className="pt-28 pb-20 bg-gradient-to-b from-brand-lighter/40 to-white">

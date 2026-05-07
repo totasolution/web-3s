@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next'
-import { getAllSlugs } from '@/content/articles/posts'
+import { getAllArticles } from '@/content/articles/posts'
 import { getActiveVacancies } from '@/content/careers/query'
 import { SITE_URL } from '@/lib/site'
 
@@ -9,7 +9,7 @@ const paths = ['', 'about', 'contact', 'services', 'clients', 'insights', 'caree
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = []
   const now = new Date()
-  const articleSlugs = getAllSlugs()
+  const articles = getAllArticles()
 
   for (const locale of locales) {
     const vacancySlugs = getActiveVacancies(locale).map((vacancy) => vacancy.slug)
@@ -24,10 +24,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: path === '' ? 1 : isInsights ? 0.85 : 0.8,
       })
     }
-    for (const slug of articleSlugs) {
+    for (const article of articles) {
       entries.push({
-        url: `${SITE_URL}/${locale}/insights/${slug}`,
-        lastModified: now,
+        url: `${SITE_URL}/${locale}/insights/${article.slug}`,
+        lastModified: new Date(article.datePublished),
         changeFrequency: 'monthly',
         priority: 0.65,
       })
