@@ -48,6 +48,11 @@ export function middleware(request: NextRequest) {
     return NextResponse.next()
   }
 
+  // 410 Gone for legacy PHP paths — tells crawlers these never existed here
+  if (pathname.endsWith('.php')) {
+    return new NextResponse(null, { status: 410 })
+  }
+
   const cleaned = request.nextUrl.clone()
   if (stripDiscardableSearchParams(cleaned) && cleaned.href !== request.nextUrl.href) {
     return NextResponse.redirect(cleaned, 308)
