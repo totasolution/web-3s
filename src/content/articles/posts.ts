@@ -2,6 +2,194 @@ import type { Article } from './types'
 
 export const articles: Article[] = [
   {
+    slug: 'kriteria-memilih-vendor-outsourcing-indonesia',
+    datePublished: '2026-05-07',
+    title: {
+      id: 'Kriteria Memilih Vendor Outsourcing Tenaga Kerja di Indonesia',
+      en: 'How to Choose a Workforce Outsourcing Vendor in Indonesia',
+    },
+    description: {
+      id: 'Panduan praktis memilih vendor outsourcing Indonesia yang tepat—legalitas, rekam jejak, kejelasan kontrak, dan pertanyaan penting sebelum menandatangani perjanjian.',
+      en: 'A practical guide to choosing the right outsourcing vendor in Indonesia—legal standing, track record, contract clarity, and questions to ask before signing.',
+    },
+    body: {
+      id: [
+        {
+          type: 'p',
+          text: 'Memilih vendor outsourcing tenaga kerja di Indonesia bukan sekadar soal harga. Keputusan ini berdampak langsung pada kepatuhan regulasi, kualitas tenaga kerja di lapangan, dan reputasi perusahaan Anda di mata karyawan yang ditempatkan. Artikel ini merangkum kriteria yang perlu dievaluasi sebelum menandatangani perjanjian.',
+        },
+        {
+          type: 'h2',
+          text: 'Legalitas dan izin usaha',
+        },
+        {
+          type: 'p',
+          text: 'Vendor outsourcing yang sah wajib memiliki izin usaha yang relevan dan terdaftar sebagai perusahaan penyedia jasa tenaga kerja sesuai ketentuan yang berlaku. Sejak Permenaker No. 7 Tahun 2026, ruang lingkup outsourcing juga dibatasi pada kategori tertentu—pastikan vendor yang Anda pilih beroperasi sesuai regulasi terkini.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Cek status badan hukum dan nomor induk berusaha (NIB) vendor.',
+            'Pastikan vendor terdaftar dan memiliki izin yang masih aktif sebagai penyedia tenaga kerja.',
+            'Verifikasi kepatuhan terhadap Permenaker No. 7/2026 terkait bidang pekerjaan yang boleh dioutsource.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Rekam jejak dan portofolio klien',
+        },
+        {
+          type: 'p',
+          text: 'Vendor outsourcing Indonesia yang kredibel biasanya memiliki portofolio klien lintas industri dan bersedia memberikan referensi yang bisa dihubungi. Pengalaman di sektor yang relevan dengan bisnis Anda menjadi nilai tambah—proses onboarding, karakteristik tenaga kerja, dan pola kepatuhan berbeda antar industri.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Tanyakan berapa lama vendor beroperasi dan di industri apa saja mereka aktif.',
+            'Minta referensi klien aktif yang bisa dikonfirmasi—bukan sekadar logo di brosur.',
+            'Cek apakah pernah ada sengketa ketenagakerjaan yang melibatkan vendor tersebut.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Kejelasan kontrak dan SLA',
+        },
+        {
+          type: 'p',
+          text: 'Kontrak yang baik mendefinisikan ruang lingkup dengan tepat: siapa yang mengelola kontrak kerja, onboarding, penggajian, administrasi BPJS, evaluasi kinerja, dan offboarding. Service Level Agreement (SLA) yang jelas—misalnya tenggat payroll, waktu respons eskalasi, dan prosedur penggantian tenaga—melindungi kedua belah pihak.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Pastikan ruang lingkup tanggung jawab masing-masing pihak tertulis eksplisit.',
+            'Cermati klausul SLA untuk payroll, pelaporan BPJS, dan penanganan keluhan.',
+            'Perhatikan ketentuan pengakhiran kontrak dan prosedur jika terjadi sengketa.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Kemampuan administrasi dan kepatuhan regulasi',
+        },
+        {
+          type: 'p',
+          text: 'Vendor outsourcing yang andal memiliki sistem dan proses untuk memastikan akurasi penggajian, ketepatan pelaporan BPJS, dan pembaruan kepatuhan regulasi secara berkala. Tanyakan bagaimana mereka mengelola perubahan regulasi—seperti penyesuaian UMP atau perubahan aturan jaminan sosial—agar tidak ada risiko yang bergeser ke perusahaan Anda.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Tanyakan sistem atau platform apa yang digunakan untuk payroll dan time & attendance.',
+            'Cek apakah ada proses maker-checker untuk akurasi data penggajian.',
+            'Pastikan vendor memperbarui proses mereka setiap kali ada perubahan regulasi ketenagakerjaan.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Pertanyaan penting sebelum memilih vendor outsourcing',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Siapa penanggung jawab hukum atas kontrak kerja tenaga yang ditempatkan?',
+            'Bagaimana prosedur jika ada tenaga kerja yang bermasalah atau perlu diganti?',
+            'Apakah vendor memiliki asuransi atau mekanisme mitigasi jika terjadi sengketa PHK?',
+            'Berapa lama rata-rata waktu pengisian posisi jika ada kekosongan mendadak?',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'PT Sigma Solusi Servis adalah vendor outsourcing tenaga kerja di Indonesia yang beroperasi sejak 2015—melayani man power supply, BPO, dan solusi HR dengan proses yang terdokumentasi dan kepatuhan regulasi yang terjaga. Diskusikan kebutuhan Anda bersama kami untuk menemukan skema yang paling sesuai.',
+        },
+      ],
+      en: [
+        {
+          type: 'p',
+          text: 'Choosing a workforce outsourcing vendor in Indonesia is not just about price. The decision directly affects regulatory compliance, the quality of placed workers, and your company\'s standing with the people working under your roof. This article outlines the criteria worth evaluating before you sign.',
+        },
+        {
+          type: 'h2',
+          text: 'Legal standing and business permits',
+        },
+        {
+          type: 'p',
+          text: 'A legitimate outsourcing vendor must hold the relevant business licenses and be registered as a workforce provider under applicable regulations. Since Permenaker No. 7 of 2026, the scope of outsourcing is also limited to specific categories—make sure any vendor you consider operates within current rules.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Check the vendor\'s legal entity status and business identification number (NIB).',
+            'Confirm their workforce provider license is active and current.',
+            'Verify compliance with Permenaker No. 7/2026 on permitted outsourcing categories.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Track record and client portfolio',
+        },
+        {
+          type: 'p',
+          text: 'A credible outsourcing vendor in Indonesia typically has a cross-industry client portfolio and is willing to provide reachable references. Experience in your sector is a plus—onboarding processes, workforce profiles, and compliance patterns differ by industry.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Ask how long the vendor has been operating and which industries they actively serve.',
+            'Request references from active clients you can actually contact—not just logos in a brochure.',
+            'Check whether the vendor has been involved in any labour disputes.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Contract clarity and SLAs',
+        },
+        {
+          type: 'p',
+          text: 'A well-written contract defines scope precisely: who manages employment contracts, onboarding, payroll, BPJS administration, performance reviews, and offboarding. Clear Service Level Agreements—payroll cutoffs, escalation response times, replacement procedures—protect both parties.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Ensure each party\'s responsibilities are written explicitly, not left to verbal understanding.',
+            'Review SLA clauses for payroll, BPJS reporting, and complaint handling.',
+            'Note the contract termination terms and dispute resolution procedures.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Administration capability and regulatory compliance',
+        },
+        {
+          type: 'p',
+          text: 'A reliable outsourcing vendor has systems and processes to ensure payroll accuracy, timely BPJS reporting, and regular compliance updates. Ask how they handle regulatory changes—such as minimum wage adjustments or social insurance rule changes—so that risk does not quietly shift back to your company.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Ask what platform or system they use for payroll and time & attendance.',
+            'Check whether they run maker-checker controls for payroll data accuracy.',
+            'Confirm they update their processes each time labour regulations change.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Key questions before choosing a vendor',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Who is the legal employer on the employment contract for placed workers?',
+            'What is the process if a placed worker underperforms or needs to be replaced?',
+            'Does the vendor carry insurance or a mitigation mechanism for termination disputes?',
+            'What is the average fill time if a position becomes vacant unexpectedly?',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'PT Sigma Solusi Servis is a workforce outsourcing vendor in Indonesia operating since 2015—providing man power supply, BPO, and HR solutions with documented processes and consistent regulatory compliance. Talk to us about your needs to find the right arrangement for your business.',
+        },
+      ],
+    },
+  },
+  {
     slug: 'k3-keselamatan-kesehatan-kerja-perusahaan',
     datePublished: '2026-05-07',
     title: {
