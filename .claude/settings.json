@@ -13,7 +13,16 @@
       "WebSearch",
       "Bash(npx tsc *)",
       "Bash(npx vite *)",
-      "Bash(./node_modules/.bin/vite build *)"
+      "Bash(./node_modules/.bin/vite build *)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d['articlesPage']['slugs'], indent=2\\)\\)\")",
+      "WebFetch(domain:unsplash.com)",
+      "Bash(curl -s -o /tmp/test1.jpg -w \"%{http_code}\" -L \"https://images.unsplash.com/photo-1723811559655-805c7bb449f7?w=1200&h=630&fit=crop&auto=format&q=80\")",
+      "Bash(curl -s -o /tmp/test2.jpg -w \"%{http_code}\" -L \"https://images.unsplash.com/photo-dWwZBcjw3GE?w=1200&h=630&fit=crop&auto=format&q=80\")",
+      "Bash(curl -s -o /tmp/test3.jpg -w \"%{http_code}\" -L \"https://images.unsplash.com/photo-JKUTrJ4vK00?w=1200&h=630&fit=crop&auto=format&q=80\")",
+      "Bash(curl -s -o /tmp/test4.jpg -w \"%{http_code}\" -L \"https://images.unsplash.com/photo-YY3Q2IkeX84?w=1200&h=630&fit=crop&auto=format&q=80\")",
+      "Bash(curl -s -o /tmp/test5.jpg -w \"%{http_code}\" -L \"https://images.unsplash.com/photo-dgTzAvblPw4?w=1200&h=630&fit=crop&auto=format&q=80\")",
+      "WebFetch(domain:images.unsplash.com)",
+      "WebFetch(domain:plus.unsplash.com)"
     ]
   }
 }
