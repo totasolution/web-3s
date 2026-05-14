@@ -33,6 +33,19 @@ export default function ArticleBody({ blocks }: { blocks: ArticleBlock[] }) {
             </ul>
           )
         }
+        if (block.type === 'cta') {
+          return (
+            <div key={i} className="my-8 p-6 bg-brand-lighter rounded-xl border border-brand-light">
+              <a
+                href={block.href}
+                className="inline-flex items-center gap-2 bg-brand-primary text-white font-semibold px-6 py-3 rounded-lg hover:bg-brand-dark transition-colors"
+              >
+                {block.text}
+                <span aria-hidden>→</span>
+              </a>
+            </div>
+          )
+        }
         return null
       })}
     </div>

@@ -2,6 +2,122 @@ import type { Article } from './types'
 
 export const articles: Article[] = [
   {
+    slug: 'vendor-bpo-indonesia-panduan-lengkap',
+    datePublished: '2026-05-14',
+    title: {
+      id: 'Apa itu Vendor BPO? Panduan Memilih Mitra Outsourcing Terpercaya di Indonesia',
+      en: 'What is a BPO Vendor? A Guide to Choosing a Trusted Outsourcing Partner in Indonesia',
+    },
+    description: {
+      id: 'Panduan lengkap memahami vendor BPO di Indonesia: definisi, jenis layanan, kriteria seleksi, dan pertanyaan penting sebelum menandatangani kontrak outsourcing.',
+      en: 'A complete guide to BPO vendors in Indonesia: definition, service types, selection criteria, and key questions before signing an outsourcing contract.',
+    },
+    body: {
+      id: [
+        {
+          type: 'p',
+          text: 'Vendor BPO (Business Process Outsourcing) adalah perusahaan yang mengambil alih pengelolaan satu atau beberapa proses bisnis non-inti dari perusahaan klien—paling umum di area HR, payroll, administrasi BPJS, dan man power supply. Dengan menggunakan vendor BPO, perusahaan dapat fokus pada aktivitas utama yang menghasilkan nilai, sementara proses pendukung dikelola oleh mitra yang berspesialisasi.',
+        },
+        {
+          type: 'h2',
+          text: 'Jenis layanan yang ditawarkan vendor BPO HR',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Man power supply & staffing — penyediaan tenaga kerja kontrak atau permanen beserta pengelolaan administrasinya',
+            'Payroll outsourcing — perhitungan gaji, potongan pajak PPh 21, dan transfer ke rekening karyawan',
+            'Administrasi BPJS Ketenagakerjaan & Kesehatan — pendaftaran, pembayaran iuran, dan pengurusan klaim',
+            'Time & attendance management — pencatatan kehadiran, lembur, dan integrasi dengan sistem payroll',
+            'HR administration — pengurusan kontrak, dokumen ketenagakerjaan, dan kepatuhan regulasi',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Kriteria memilih vendor BPO yang tepat',
+        },
+        {
+          type: 'p',
+          text: 'Tidak semua vendor BPO menawarkan kualitas yang sama. Tiga kriteria paling kritis: pertama, legalitas usaha—pastikan vendor memiliki izin dari Kemnaker dan terdaftar sebagai perusahaan alih daya yang sah. Kedua, rekam jejak dan portofolio klien—vendor BPO dengan pengalaman di industri Anda akan lebih memahami tantangan spesifik yang dihadapi. Ketiga, sistem teknologi—vendor BPO modern menggunakan platform digital terintegrasi untuk payroll, absensi, dan pelaporan real-time, bukan spreadsheet manual.',
+        },
+        {
+          type: 'p',
+          text: 'Selain tiga kriteria utama, perhatikan juga kejelasan kontrak (SLA, penalti keterlambatan, prosedur terminasi), kemampuan vendor menangani perubahan regulasi ketenagakerjaan seperti Permenaker terbaru, dan responsivitas tim mereka dalam menangani isu operasional harian. Vendor BPO yang baik bukan sekadar eksekutor—mereka mitra strategis yang memberikan masukan proaktif tentang efisiensi dan kepatuhan.',
+        },
+        {
+          type: 'h2',
+          text: 'Pertanyaan penting sebelum menandatangani kontrak vendor BPO',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Apakah vendor memiliki izin alih daya resmi dari Kementerian Ketenagakerjaan?',
+            'Bagaimana SOP penanganan jika ada kesalahan penghitungan payroll atau keterlambatan BPJS?',
+            'Sistem teknologi apa yang digunakan, dan apakah klien mendapat akses real-time ke data?',
+            'Berapa lama rata-rata waktu respons untuk permintaan operasional?',
+            'Bagaimana mekanisme pemutusan kontrak jika kinerja tidak sesuai?',
+          ],
+        },
+        {
+          type: 'cta',
+          text: 'Konsultasikan kebutuhan vendor BPO Anda dengan Sigma Solusi Servis',
+          href: '/id/services',
+        },
+      ],
+      en: [
+        {
+          type: 'p',
+          text: 'A BPO vendor (Business Process Outsourcing) is a company that takes over the management of one or more non-core business processes from the client—most commonly in HR, payroll, BPJS administration, and man power supply. By using a BPO vendor, companies can focus on core activities that create value, while support processes are managed by a specialized partner.',
+        },
+        {
+          type: 'h2',
+          text: 'Types of services offered by HR BPO vendors',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Man power supply & staffing — providing contract or permanent workers with administrative management',
+            'Payroll outsourcing — salary calculation, PPh 21 tax deductions, and transfer to employee accounts',
+            'BPJS Ketenagakerjaan & Kesehatan administration — registration, premium payments, and claims processing',
+            'Time & attendance management — recording attendance, overtime, and payroll system integration',
+            'HR administration — contract management, employment documents, and regulatory compliance',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Criteria for choosing the right BPO vendor',
+        },
+        {
+          type: 'p',
+          text: 'Not all BPO vendors offer the same quality. Three most critical criteria: first, legal standing—ensure the vendor holds a permit from Kemnaker and is registered as a legitimate outsourcing company. Second, track record and client portfolio—a BPO vendor experienced in your industry will better understand the specific challenges you face. Third, technology systems—modern BPO vendors use integrated digital platforms for payroll, attendance, and real-time reporting, not manual spreadsheets.',
+        },
+        {
+          type: 'p',
+          text: "Beyond the three main criteria, also consider contract clarity (SLA, late penalties, termination procedures), the vendor's ability to handle changes in employment regulations such as the latest Permenaker, and their team's responsiveness in handling daily operational issues. A good BPO vendor is not just an executor—they are a strategic partner who proactively advises on efficiency and compliance.",
+        },
+        {
+          type: 'h2',
+          text: 'Important questions before signing a BPO vendor contract',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Does the vendor hold an official outsourcing permit from the Ministry of Manpower?',
+            'What is the SOP for handling payroll calculation errors or BPJS payment delays?',
+            'What technology system is used, and do clients get real-time access to data?',
+            'What is the average response time for operational requests?',
+            'What is the contract termination mechanism if performance does not meet expectations?',
+          ],
+        },
+        {
+          type: 'cta',
+          text: 'Discuss your BPO vendor needs with Sigma Solusi Servis',
+          href: '/en/services',
+        },
+      ],
+    },
+  },
+  {
     slug: 'kriteria-memilih-vendor-outsourcing-indonesia',
     datePublished: '2026-05-07',
     title: {
@@ -99,6 +215,11 @@ export const articles: Article[] = [
           type: 'p',
           text: 'PT Sigma Solusi Servis adalah vendor outsourcing tenaga kerja di Indonesia yang beroperasi sejak 2015—melayani man power supply, BPO, dan solusi HR dengan proses yang terdokumentasi dan kepatuhan regulasi yang terjaga. Diskusikan kebutuhan Anda bersama kami untuk menemukan skema yang paling sesuai.',
         },
+        {
+          type: 'cta',
+          text: 'Lihat layanan vendor BPO kami',
+          href: '/id/services',
+        },
       ],
       en: [
         {
@@ -185,6 +306,11 @@ export const articles: Article[] = [
         {
           type: 'p',
           text: 'PT Sigma Solusi Servis is a workforce outsourcing vendor in Indonesia operating since 2015—providing man power supply, BPO, and HR solutions with documented processes and consistent regulatory compliance. Talk to us about your needs to find the right arrangement for your business.',
+        },
+        {
+          type: 'cta',
+          text: 'Explore our BPO vendor services',
+          href: '/en/services',
         },
       ],
     },
@@ -972,6 +1098,11 @@ export const articles: Article[] = [
           type: 'p',
           text: 'PT. Sigma Solusi Servis mendukung perusahaan melalui layanan tenaga kerja, solusi HR, dan BPO—termasuk payroll dan time & attendance—agar operasional Anda tetap terukur dan patuh regulasi.',
         },
+        {
+          type: 'cta',
+          text: 'Lihat layanan vendor BPO kami',
+          href: '/id/services',
+        },
       ],
       en: [
         {
@@ -1001,6 +1132,11 @@ export const articles: Article[] = [
         {
           type: 'p',
           text: 'Sigma Solusi Servis supports organizations with workforce services, HR solutions, and BPO—including payroll and time & attendance—so operations stay measurable and compliant.',
+        },
+        {
+          type: 'cta',
+          text: 'Explore our BPO vendor services',
+          href: '/en/services',
         },
       ],
     },
@@ -1582,6 +1718,11 @@ export const articles: Article[] = [
           type: 'p',
           text: 'Sigma Solusi Servis mendukung perusahaan dengan kombinasi layanan tenaga kerja, HR, dan BPO—diskusikan kebutuhan Anda agar skema yang dipilih selaras dengan operasional.',
         },
+        {
+          type: 'cta',
+          text: 'Lihat layanan vendor BPO kami',
+          href: '/id/services',
+        },
       ],
       en: [
         {
@@ -1623,6 +1764,11 @@ export const articles: Article[] = [
         {
           type: 'p',
           text: 'Sigma Solusi Servis supports employers with workforce, HR, and BPO services—talk through your needs so the model fits your operations.',
+        },
+        {
+          type: 'cta',
+          text: 'Explore our BPO vendor services',
+          href: '/en/services',
         },
       ],
     },
@@ -1876,6 +2022,11 @@ export const articles: Article[] = [
           type: 'p',
           text: 'Sigma Solusi Servis berkomitmen pada praktik penempatan yang profesional; jika Anda melamar melalui kanal resmi kami, ajukan pertanyaan di setiap tahap agar keputusan Anda terinformasi.',
         },
+        {
+          type: 'cta',
+          text: 'Lihat layanan vendor BPO kami',
+          href: '/id/services',
+        },
       ],
       en: [
         {
@@ -1917,6 +2068,11 @@ export const articles: Article[] = [
         {
           type: 'p',
           text: 'Sigma Solusi Servis is committed to professional placement practices; if you apply through our official channels, ask questions at each stage so your decision is informed.',
+        },
+        {
+          type: 'cta',
+          text: 'Explore our BPO vendor services',
+          href: '/en/services',
         },
       ],
     },

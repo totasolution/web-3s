@@ -2,6 +2,7 @@ export type ArticleBlock =
   | { type: 'h2'; text: string }
   | { type: 'p'; text: string }
   | { type: 'ul'; items: string[] }
+  | { type: 'cta'; text: string; href: string }
 
 export type Article = {
   slug: string
