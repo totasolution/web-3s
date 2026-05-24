@@ -59,7 +59,8 @@
       "isActive": true,
       "salaryMin": 5500000,
       "salaryMax": 12000000,
-      "salaryCurrency": "IDR"
+      "salaryCurrency": "IDR",
+      "image": "/jobs/lowongan-kerja-staff-accounting-jakarta.jpeg"
     },
     {
       "slug": "sales-provider-internet",
@@ -111,7 +112,8 @@
       "isActive": true,
       "salaryMin": 5000000,
       "salaryMax": 9500000,
-      "salaryCurrency": "IDR"
+      "salaryCurrency": "IDR",
+      "image": "/jobs/lowongan-kerja-sales-provider-internet-jakarta.jpeg"
     },
     {
       "slug": "store-specialist",
@@ -163,7 +165,8 @@
       "isActive": true,
       "salaryMin": 5000000,
       "salaryMax": 9000000,
-      "salaryCurrency": "IDR"
+      "salaryCurrency": "IDR",
+      "image": "/jobs/lowongan-kerja-store-specialist-jakarta.jpeg"
     },
     {
       "slug": "teknisi-jaringan",
@@ -215,7 +218,8 @@
       "isActive": true,
       "salaryMin": 5500000,
       "salaryMax": 11500000,
-      "salaryCurrency": "IDR"
+      "salaryCurrency": "IDR",
+      "image": "/jobs/lowongan-kerja-teknisi-jaringan-jakarta.jpeg"
     }
   ],
   "jobPostingAddress": {

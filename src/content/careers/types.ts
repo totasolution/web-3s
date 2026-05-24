@@ -24,6 +24,7 @@ export type Vacancy = {
   salaryCurrency?: string
   postedDate?: string
   applicationDeadline?: string
+  image?: string
   summary: string
   responsibilities?: string[]
   requirements?: string[]

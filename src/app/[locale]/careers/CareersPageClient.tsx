@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import Link from 'next/link'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
@@ -14,16 +15,19 @@ type Props = {
 
 export default function CareersPageClient({ locale, content, vacancies }: Props) {
   const viewDetailLabel = locale === 'en' ? 'View Details' : 'Lihat Detail'
+  const activeWithImage = vacancies.filter((v) => v.image)
+  const activeWithoutImage = vacancies.filter((v) => !v.image)
 
   return (
     <main className="min-h-screen">
       <Navigation />
 
+      {/* ─── Hero ─── */}
       <section className="pt-32 pb-20 bg-gradient-to-br from-slate-50 via-brand-lighter/30 to-white relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-          <div className="absolute top-0 right-0 w-96 h-96 bg-brand-light/20 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-200/20 rounded-full blur-3xl"></div>
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]" />
+          <div className="absolute top-0 right-0 w-96 h-96 bg-brand-light/20 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-200/20 rounded-full blur-3xl" />
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -57,57 +61,112 @@ export default function CareersPageClient({ locale, content, vacancies }: Props)
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-b from-white via-gray-50/50 to-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">{content.sectionTitle}</h2>
-            {content.sectionDescription ? <p className="text-gray-600">{content.sectionDescription}</p> : null}
-          </div>
-
-          {vacancies.length === 0 ? (
-            <div className="rounded-3xl border border-gray-200 bg-white p-10 text-center shadow-sm">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">{content.emptyStateTitle}</h3>
-              <p className="text-gray-600 mb-6">{content.emptyStateDescription}</p>
-              <p className="text-gray-700">
-                {content.applyLabel}{' '}
-                <a href={`mailto:${content.email}`} className="font-semibold text-brand-primary hover:underline">
-                  {content.email}
-                </a>
-              </p>
+      {/* ─── Job flyer image grid ─── */}
+      {activeWithImage.length > 0 && (
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">
+                {content.sectionTitle}
+              </h2>
+              {content.sectionDescription ? (
+                <p className="text-gray-600">{content.sectionDescription}</p>
+              ) : null}
             </div>
-          ) : (
-            <div className="grid gap-6">
-              {vacancies.map((vacancy) => (
-                <article key={vacancy.slug} className="rounded-3xl border border-gray-200 bg-white p-7 shadow-sm">
-                  <h3 className="text-2xl font-bold text-gray-900">{vacancy.title}</h3>
-                  <div className="mt-2 flex flex-wrap gap-2 text-xs">
-                    {vacancy.department ? (
-                      <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">{vacancy.department}</span>
-                    ) : null}
-                    {vacancy.level ? (
-                      <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">{vacancy.level}</span>
-                    ) : null}
-                    <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">{vacancy.location}</span>
-                    <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">{vacancy.employmentType}</span>
-                    {vacancy.workModel ? (
-                      <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">{vacancy.workModel}</span>
-                    ) : null}
-                  </div>
-                  <p className="text-gray-700 mt-4">{vacancy.summary}</p>
-                  <div className="mt-6">
-                    <Link
-                      href={`/${locale}/careers/${vacancy.slug}`}
-                      className="inline-flex items-center rounded-full bg-brand-primary px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-primary/90 transition-colors"
-                    >
-                      {viewDetailLabel}
-                    </Link>
-                  </div>
-                </article>
+
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6">
+              {activeWithImage.map((vacancy, index) => (
+                <motion.div
+                  key={vacancy.slug}
+                  initial={{ opacity: 0, y: 24 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: index * 0.08 }}
+                >
+                  <Link
+                    href={`/${locale}/careers/${vacancy.slug}`}
+                    className="group block rounded-2xl overflow-hidden border border-gray-100 hover:border-brand-primary/30 hover:shadow-lg transition-all duration-300"
+                  >
+                    {/* Flyer image */}
+                    <div className="relative aspect-[2/3] bg-gray-100">
+                      <Image
+                        src={vacancy.image!}
+                        alt={`Lowongan kerja ${vacancy.title} - Sigma Solusi Servis Jakarta`}
+                        fill
+                        sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 20vw"
+                        className="object-cover group-hover:scale-[1.03] transition-transform duration-500"
+                      />
+                    </div>
+
+                    {/* Card footer */}
+                    <div className="p-4 bg-white">
+                      <p className="font-bold text-gray-900 text-sm leading-snug group-hover:text-brand-primary transition-colors">
+                        {vacancy.title}
+                      </p>
+                      <div className="flex flex-wrap gap-1 mt-2">
+                        {[vacancy.location, vacancy.employmentType].filter(Boolean).map((tag) => (
+                          <span
+                            key={tag}
+                            className="text-[10px] font-semibold text-brand-primary bg-brand-lighter px-2 py-0.5 rounded-full"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                      <p className="mt-2 text-xs font-semibold text-brand-primary flex items-center gap-1">
+                        {viewDetailLabel} →
+                      </p>
+                    </div>
+                  </Link>
+                </motion.div>
               ))}
             </div>
-          )}
-        </div>
-      </section>
+          </div>
+        </section>
+      )}
+
+      {/* ─── Vacancy detail cards (text-only or no-image fallback) ─── */}
+      {(activeWithoutImage.length > 0 || vacancies.length === 0) && (
+        <section className="py-20 bg-gradient-to-b from-white via-gray-50/50 to-white">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            {vacancies.length === 0 ? (
+              <div className="rounded-3xl border border-gray-200 bg-white p-10 text-center shadow-sm">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">{content.emptyStateTitle}</h3>
+                <p className="text-gray-600 mb-6">{content.emptyStateDescription}</p>
+                <p className="text-gray-700">
+                  {content.applyLabel}{' '}
+                  <a href={`mailto:${content.email}`} className="font-semibold text-brand-primary hover:underline">
+                    {content.email}
+                  </a>
+                </p>
+              </div>
+            ) : (
+              <div className="grid gap-6">
+                {activeWithoutImage.map((vacancy) => (
+                  <article key={vacancy.slug} className="rounded-3xl border border-gray-200 bg-white p-7 shadow-sm">
+                    <h3 className="text-2xl font-bold text-gray-900">{vacancy.title}</h3>
+                    <div className="mt-2 flex flex-wrap gap-2 text-xs">
+                      {[vacancy.department, vacancy.level, vacancy.location, vacancy.employmentType, vacancy.workModel]
+                        .filter(Boolean)
+                        .map((tag) => (
+                          <span key={tag} className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">{tag}</span>
+                        ))}
+                    </div>
+                    <p className="text-gray-700 mt-4">{vacancy.summary}</p>
+                    <div className="mt-6">
+                      <Link
+                        href={`/${locale}/careers/${vacancy.slug}`}
+                        className="inline-flex items-center rounded-full bg-brand-primary px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-primary/90 transition-colors"
+                      >
+                        {viewDetailLabel}
+                      </Link>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            )}
+          </div>
+        </section>
+      )}
 
       <Footer />
     </main>
