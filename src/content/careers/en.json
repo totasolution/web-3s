@@ -59,8 +59,7 @@
       "isActive": true,
       "salaryMin": 5500000,
       "salaryMax": 12000000,
-      "salaryCurrency": "IDR",
-      "image": "/jobs/lowongan-kerja-staff-accounting-jakarta.jpeg"
+      "salaryCurrency": "IDR"
     },
     {
       "slug": "sales-provider-internet",
@@ -112,8 +111,7 @@
       "isActive": true,
       "salaryMin": 5000000,
       "salaryMax": 9500000,
-      "salaryCurrency": "IDR",
-      "image": "/jobs/lowongan-kerja-sales-provider-internet-jakarta.jpeg"
+      "salaryCurrency": "IDR"
     },
     {
       "slug": "store-specialist",
@@ -165,8 +163,7 @@
       "isActive": true,
       "salaryMin": 5000000,
       "salaryMax": 9000000,
-      "salaryCurrency": "IDR",
-      "image": "/jobs/lowongan-kerja-store-specialist-jakarta.jpeg"
+      "salaryCurrency": "IDR"
     },
     {
       "slug": "teknisi-jaringan",
@@ -218,8 +215,212 @@
       "isActive": true,
       "salaryMin": 5500000,
       "salaryMax": 11500000,
+      "salaryCurrency": "IDR"
+    },
+    {
+      "slug": "retail-sales-executive",
+      "title": "Retail Sales Executive (Canvassing)",
+      "department": "Sales",
+      "level": "Staff",
+      "location": "Jabodetabek, West Java, East Java, Central Java, Sulawesi, Sumatra",
+      "employmentType": "Full-time",
+      "workModel": "Field-based",
+      "experience": "Minimum 1 year in sales canvassing",
+      "salaryRange": "Rp5,730,000 + Transport Rp500,000 + Phone Allowance Rp100,000",
+      "summary": "Conduct retail product sales and merchant canvassing, educate merchants on QRIS & Soundbox usage, and achieve a daily visit target of 20 stores across assigned areas.",
+      "responsibilities": [
+        "Conduct retail product sales and canvassing in assigned territory.",
+        "Educate and offer merchants on QRIS & Soundbox products.",
+        "Maintain ongoing relationships with merchant partners.",
+        "Achieve sales targets and 20-store daily visit targets.",
+        "Prepare daily activity reports and target achievement summaries."
+      ],
+      "requirements": [
+        "Maximum age 45 years.",
+        "Minimum high school (SMA) or equivalent.",
+        "Minimum 1 year of sales canvassing experience.",
+        "QRIS/EDC/Retail experience is an advantage.",
+        "Communicative, target-oriented, and ready for fieldwork.",
+        "Own an Android phone and personal vehicle."
+      ],
+      "benefits": [
+        "Base salary Rp5,730,000 (Jabodetabek), above regional minimum wage for other areas.",
+        "Transport allowance Rp500,000.",
+        "Phone allowance Rp100,000.",
+        "Target achievement bonus.",
+        "Growing career with increasing income."
+      ],
+      "application": {
+        "method": "Send your latest CV to email or contact via WhatsApp.",
+        "email": "radiet@sigmasolusiservis.com",
+        "documents": [
+          "Latest CV",
+          "Recent photo"
+        ],
+        "steps": [
+          "Our HR team will conduct initial document screening.",
+          "Shortlisted candidates will be contacted for interview stage."
+        ]
+      },
+      "postedDate": "2026-05-24",
+      "applicationDeadline": "2026-06-30",
+      "isActive": true,
+      "salaryMin": 5730000,
+      "salaryMax": 7000000,
       "salaryCurrency": "IDR",
-      "image": "/jobs/lowongan-kerja-teknisi-jaringan-jakarta.jpeg"
+      "image": "/jobs/lowongan-kerja-retail-sales-executive-canvassing.jpeg"
+    },
+    {
+      "slug": "store-specialist-admin",
+      "title": "Store Specialist (Admin)",
+      "department": "Store Operations",
+      "level": "Staff",
+      "location": "Kalibata & Kelapa Gading",
+      "employmentType": "Full-time",
+      "workModel": "On-site",
+      "experience": "Minimum 1 year in administration/sales",
+      "salaryRange": "Base salary UMK 2026 + Allowance",
+      "summary": "Manage store operations including petty cash administration, stock opname, and walk-in customer service at Kalibata and Kelapa Gading branches.",
+      "responsibilities": [
+        "Manage overall store operations.",
+        "Handle petty cash administration and reporting.",
+        "Conduct periodic stock opname.",
+        "Maintain sales counter and ensure neat product display.",
+        "Serve and assist walk-in customers with product and service information."
+      ],
+      "requirements": [
+        "Female, maximum 30 years old.",
+        "Minimum D3 in a relevant field with minimum GPA 3.00.",
+        "Neat appearance and professional demeanor.",
+        "Minimum 1 year of experience in administration or sales.",
+        "Detail-oriented with strong communication skills."
+      ],
+      "benefits": [
+        "Base salary UMK 2026 + Allowance.",
+        "Overtime pay.",
+        "BPJS Health and Employment coverage.",
+        "Annual religious holiday bonus (THR).",
+        "PKWT compensation.",
+        "5-day work week + 2 days off."
+      ],
+      "application": {
+        "method": "Send your latest CV to email or contact via WhatsApp.",
+        "email": "radit@sigmasolusiservis.com",
+        "documents": [
+          "Latest CV",
+          "Recent photo"
+        ],
+        "steps": [
+          "Our HR team will conduct initial document screening.",
+          "Shortlisted candidates will be contacted for interview stage."
+        ]
+      },
+      "postedDate": "2026-05-24",
+      "applicationDeadline": "2026-06-30",
+      "isActive": true,
+      "salaryMin": 5067000,
+      "salaryMax": 7000000,
+      "salaryCurrency": "IDR",
+      "image": "/jobs/lowongan-kerja-store-specialist-admin-kalibata-kelapa-gading.jpeg"
+    },
+    {
+      "slug": "desk-collection",
+      "title": "Desk Collection",
+      "department": "Finance & Collection",
+      "level": "Staff",
+      "location": "Jakarta (SCBD)",
+      "employmentType": "Full-time",
+      "workModel": "On-site",
+      "experience": "Experience as Desk Collection",
+      "salaryRange": "Base salary + Incentive",
+      "summary": "Responsible for phone-based debt collection, reminding customers of payment due dates, and providing payment solutions in compliance with OJK ethical standards.",
+      "responsibilities": [
+        "Conduct phone-based debt collection professionally.",
+        "Remind customers of upcoming and overdue payment deadlines.",
+        "Provide appropriate payment solutions to customers.",
+        "Prepare accurate daily collection reports."
+      ],
+      "requirements": [
+        "Male/Female, maximum 35 years old.",
+        "Minimum SMA/SMK or equivalent.",
+        "Previous experience as Desk Collection.",
+        "Understanding of OJK collection ethics and compliance.",
+        "Communicative and target-oriented.",
+        "Comfortable using a computer/laptop.",
+        "Willing to follow company SOP."
+      ],
+      "benefits": [
+        "Competitive base salary.",
+        "Performance-based incentives.",
+        "Professional and supportive work environment.",
+        "Solid team with clear career development path."
+      ],
+      "application": {
+        "method": "Send your application now via WhatsApp.",
+        "documents": [
+          "Latest CV",
+          "Recent photo"
+        ],
+        "steps": [
+          "Our HR team will conduct initial document screening.",
+          "Shortlisted candidates will be contacted for interview stage."
+        ]
+      },
+      "postedDate": "2026-05-24",
+      "applicationDeadline": "2026-06-30",
+      "isActive": true,
+      "salaryCurrency": "IDR",
+      "image": "/jobs/lowongan-kerja-desk-collection-jakarta-scbd.jpeg"
+    },
+    {
+      "slug": "sales-isp-muaro-jambi",
+      "title": "Sales Internet Service Provider",
+      "department": "Sales",
+      "level": "Staff",
+      "location": "Muaro Jambi, Sengeti",
+      "employmentType": "Full-time",
+      "workModel": "Field-based",
+      "experience": "Minimum 1 year in sales",
+      "salaryRange": "Base salary UMK 2026 (location-based)",
+      "summary": "Join as a Sales Internet Service Provider in the Muaro Jambi and Sengeti area, acquiring new customers and building long-term relationships backed by comprehensive benefits.",
+      "responsibilities": [
+        "Sell Internet Service Provider services in the assigned area.",
+        "Identify and acquire new customers across Muaro Jambi and Sengeti.",
+        "Build and maintain customer relationships to drive loyalty.",
+        "Consistently meet assigned sales targets.",
+        "Prepare regular activity and sales achievement reports."
+      ],
+      "requirements": [
+        "Minimum D3/S1 in Management, Communication, Public Relations, Information Technology, Computer Science, Telecommunications, Marketing, International Relations, Information Systems, Business, or Development Economics — minimum GPA 3.0.",
+        "Maximum age 30 years.",
+        "Minimum 1 year of sales experience.",
+        "Presentable appearance with strong communication skills.",
+        "Ready for fieldwork."
+      ],
+      "benefits": [
+        "Base salary UMK 2026 based on placement area.",
+        "BPJS Health and Employment coverage.",
+        "Annual religious holiday bonus (THR).",
+        "Education allowance (for D3/S1 graduates).",
+        "Sales incentive.",
+        "Clear career path."
+      ],
+      "application": {
+        "method": "Contact PIC Murni or send your application via WhatsApp.",
+        "documents": [
+          "Latest CV",
+          "Recent photo"
+        ],
+        "steps": [
+          "Our HR team will conduct initial document screening.",
+          "Shortlisted candidates will be contacted for interview stage."
+        ]
+      },
+      "postedDate": "2026-05-24",
+      "applicationDeadline": "2026-06-30",
+      "isActive": true,
+      "salaryCurrency": "IDR",
+      "image": "/jobs/lowongan-kerja-sales-isp-muaro-jambi-sengeti.jpeg"
     }
   ],
   "jobPostingAddress": {
