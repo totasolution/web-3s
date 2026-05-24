@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 import { getActiveVacancies, getCareerContent, getVacancyBySlug } from '@/content/careers/query'
 import { buildSigmaJobPostingSchema } from '@/lib/jobPostingSchema'
 import { canonicalUrl, languageAlternates } from '@/lib/seo'
-import { SITE_URL } from '@/lib/site'
+import { DEFAULT_OG_IMAGE_PATH, SITE_URL } from '@/lib/site'
 
 export const dynamic = 'force-dynamic'
 
@@ -49,11 +49,20 @@ export async function generateMetadata({
       description: vacancy.summary,
       url: canonical,
       type: 'website',
+      images: [
+        {
+          url: `${SITE_URL}${vacancy.image ?? DEFAULT_OG_IMAGE_PATH}`,
+          width: vacancy.image ? 1080 : 1200,
+          height: vacancy.image ? 1620 : 630,
+          alt: vacancy.title,
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description: vacancy.summary,
+      images: [`${SITE_URL}${vacancy.image ?? DEFAULT_OG_IMAGE_PATH}`],
     },
   }
 }
