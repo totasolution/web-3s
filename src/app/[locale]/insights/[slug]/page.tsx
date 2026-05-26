@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Navigation from '@/components/Navigation'
@@ -26,7 +27,10 @@ export async function generateMetadata({
   if (!article) return {}
   const title = locale === 'en' ? article.title.en : article.title.id
   const description = locale === 'en' ? article.description.en : article.description.id
-  return articlePageMetadata(locale, slug, title, description, article.datePublished)
+  const imageOverride = article.image
+    ? { src: article.image.src, alt: locale === 'en' ? article.image.alt.en : article.image.alt.id }
+    : undefined
+  return articlePageMetadata(locale, slug, title, description, article.datePublished, imageOverride)
 }
 
 function formatArticleDate(iso: string, locale: string) {
@@ -52,6 +56,12 @@ export default async function InsightArticlePage({
 
   const articleUrl = `${SITE_URL}/${locale}/insights/${slug}`
   const insightsLabel = locale === 'en' ? 'Insights' : 'Wawasan'
+  const heroImageSrc = article.image?.src ?? DEFAULT_OG_IMAGE_PATH
+  const heroImageAlt = article.image
+    ? locale === 'en'
+      ? article.image.alt.en
+      : article.image.alt.id
+    : title
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -63,7 +73,7 @@ export default async function InsightArticlePage({
     dateModified: `${article.datePublished}T08:00:00.000Z`,
     image: {
       '@type': 'ImageObject',
-      url: `${SITE_URL}${DEFAULT_OG_IMAGE_PATH}`,
+      url: `${SITE_URL}${heroImageSrc}`,
       width: 1200,
       height: 630,
     },
@@ -137,6 +147,18 @@ export default async function InsightArticlePage({
             {p.backToInsights}
           </Link>
           <header className="mb-10">
+            {article.image && (
+              <div className="relative aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100 mb-8">
+                <Image
+                  src={heroImageSrc}
+                  alt={heroImageAlt}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 768px"
+                  priority
+                />
+              </div>
+            )}
             <time
               dateTime={article.datePublished}
               className="text-sm font-medium text-brand-primary block mb-4"

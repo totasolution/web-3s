@@ -4,10 +4,16 @@ export type ArticleBlock =
   | { type: 'ul'; items: string[] }
   | { type: 'cta'; text: string; href: string }
 
+export type ArticleImage = {
+  src: string
+  alt: { id: string; en: string }
+}
+
 export type Article = {
   slug: string
   datePublished: string
   title: { id: string; en: string }
   description: { id: string; en: string }
+  image?: ArticleImage
   body: { id: ArticleBlock[]; en: ArticleBlock[] }
 }

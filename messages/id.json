@@ -13,10 +13,10 @@
     "careers": "Karir"
   },
   "hero": {
-    "badge": "Vendor BPO & Tenaga Kerja Sejak 2015",
-    "title": "Solusi Tenaga Kerja, HR & BPO",
-    "subtitle": "Transformasi Tenaga Kerja dan Operasional Anda",
-    "description": "PT. Sigma Solusi Servis adalah vendor BPO dan penyedia layanan tenaga kerja di Indonesia—dengan solusi HR, payroll, dan man power supply yang mengoptimalkan SDM dan efisiensi operasional Anda.",
+    "badge": "Penyedia Tenaga Kerja & Perusahaan Alih Daya Sejak 2015",
+    "title": "Penyedia Tenaga Kerja Indonesia",
+    "subtitle": "Perusahaan Alih Daya & Jasa Outsourcing Terpercaya",
+    "description": "PT. Sigma Solusi Servis adalah penyedia tenaga kerja Indonesia, perusahaan alih daya, dan penyedia jasa outsourcing—dengan solusi HR, payroll, dan man power supply yang mengoptimalkan SDM dan efisiensi operasional Anda.",
     "cta": {
       "primary": "Jelajahi Layanan",
       "secondary": "Mulai Sekarang"
@@ -30,7 +30,7 @@
   },
   "services": {
     "title": "Layanan Kami",
-    "subtitle": "Man power supply, solusi HR, dan BPO—diselaraskan dengan kebutuhan bisnis Anda",
+    "subtitle": "Jasa outsourcing, man power supply, solusi HR, dan BPO dari perusahaan alih daya tepercaya—diselaraskan dengan kebutuhan bisnis Anda",
     "badge": "Yang Kami Tawarkan",
     "viewAll": "Lihat Semua Layanan",
     "learnMore": "Pelajari Lebih Lanjut",
@@ -396,8 +396,8 @@
   "seo": {
     "pages": {
       "home": {
-        "title": "Vendor BPO & Outsourcing Indonesia — Tenaga Kerja dan HR",
-        "description": "PT. Sigma Solusi Servis adalah vendor BPO dan outsourcing tenaga kerja Indonesia terpercaya sejak 2015—payroll, BPJS, man power supply, dan solusi HR untuk efisiensi dan kepatuhan operasional perusahaan Anda."
+        "title": "Penyedia Tenaga Kerja Indonesia | Perusahaan Alih Daya & Jasa Outsourcing",
+        "description": "PT. Sigma Solusi Servis — penyedia tenaga kerja Indonesia, perusahaan alih daya, dan jasa outsourcing terpercaya sejak 2015. Man power supply, payroll, BPJS, dan solusi HR untuk efisiensi dan kepatuhan operasional perusahaan Anda."
       },
       "about": {
         "title": "Tentang Kami",
@@ -408,8 +408,8 @@
         "description": "Hubungi PT. Sigma Solusi Servis di Jakarta: telepon, email, dan jam operasional. Konsultasi untuk tenaga kerja, BPO, dan layanan HR."
       },
       "services": {
-        "title": "Layanan Vendor BPO & Outsourcing Tenaga Kerja Indonesia",
-        "description": "Vendor BPO Indonesia: man power supply, payroll, administrasi BPJS, time & attendance, dan solusi HR komprehensif dari PT. Sigma Solusi Servis. Terpercaya sejak 2015."
+        "title": "Jasa Outsourcing & Penyedia Tenaga Kerja — Perusahaan Alih Daya Indonesia",
+        "description": "Jasa outsourcing dari perusahaan alih daya dan penyedia tenaga kerja Indonesia: man power supply, payroll, administrasi BPJS, time & attendance, dan solusi HR komprehensif dari PT. Sigma Solusi Servis. Terpercaya sejak 2015."
       },
       "clients": {
         "title": "Klien",

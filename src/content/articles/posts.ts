@@ -2,6 +2,185 @@ import type { Article } from './types'
 
 export const articles: Article[] = [
   {
+    slug: 'penyedia-tenaga-kerja-perusahaan-alih-daya-jasa-outsourcing',
+    datePublished: '2026-05-26',
+    title: {
+      id: 'Penyedia Tenaga Kerja, Perusahaan Alih Daya, dan Jasa Outsourcing: Apa Bedanya?',
+      en: 'Manpower Provider, Outsourcing Company, and Outsourcing Services: What\'s the Difference?',
+    },
+    description: {
+      id: 'Tiga istilah yang sering tertukar—penyedia tenaga kerja Indonesia, perusahaan alih daya, dan jasa outsourcing—punya peran dan kewajiban hukum yang berbeda. Panduan praktis untuk memilih model yang tepat.',
+      en: 'Three terms that often get confused—Indonesian manpower provider, outsourcing company, and outsourcing services—carry different roles and legal obligations. A practical guide to choosing the right model.',
+    },
+    image: {
+      src: '/brand/kolaborasi-tim-kantor-modern-untuk-outsourcing.jpg',
+      alt: {
+        id: 'Tim profesional berkolaborasi di kantor modern, ilustrasi layanan penyedia tenaga kerja dan jasa outsourcing di Indonesia',
+        en: 'Professional team collaborating in a modern office, illustrating manpower provider and outsourcing services in Indonesia',
+      },
+    },
+    body: {
+      id: [
+        {
+          type: 'p',
+          text: 'Di lapangan, tiga istilah ini sering dipakai bergantian: "penyedia tenaga kerja Indonesia", "perusahaan alih daya", dan "jasa outsourcing". Secara teknis, ketiganya merujuk pada lanskap yang sama—tetapi cakupan layanan, tanggung jawab hukum, dan model komersialnya berbeda. Memahami perbedaannya membantu Anda memilih mitra yang tepat dan menyusun kontrak yang melindungi kedua belah pihak.',
+        },
+        {
+          type: 'h2',
+          text: 'Penyedia tenaga kerja Indonesia: fokus pada supply orang',
+        },
+        {
+          type: 'p',
+          text: 'Penyedia tenaga kerja adalah perusahaan yang fokus utamanya menyalurkan SDM ke perusahaan pengguna—baik untuk posisi kontrak, permanen, maupun proyek. Lingkup tanggung jawabnya umumnya mencakup rekrutmen, screening, kontrak kerja, dan administrasi ketenagakerjaan dasar. Hubungan hukum: tenaga kerja yang ditempatkan tetap menjadi karyawan penyedia, bukan perusahaan pengguna.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Cocok untuk: pemenuhan headcount cepat, posisi musiman, atau peran penunjang yang tidak ingin ditangani internal.',
+            'Tanggung jawab utama: rekrutmen, kontrak, payroll, BPJS, dan kepatuhan ketenagakerjaan tenaga yang ditempatkan.',
+            'Yang perlu diverifikasi: izin sebagai perusahaan penyedia jasa pekerja/buruh dan rekam jejak penanganan sengketa ketenagakerjaan.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Perusahaan alih daya: payung legal untuk outsourcing',
+        },
+        {
+          type: 'p',
+          text: '"Perusahaan alih daya" adalah istilah resmi dalam regulasi Indonesia—paling jelas dirujuk dalam Permenaker Nomor 7 Tahun 2026 tentang Pekerjaan Alih Daya. Secara hukum, perusahaan alih daya adalah badan usaha yang menerima pekerjaan dari perusahaan pengguna dan menjalankannya melalui tenaga kerja yang dikelolanya sendiri. Sejak Permenaker 7/2026, ruang lingkup pekerjaan yang dapat dialihdayakan dibatasi pada enam kategori penunjang (kebersihan, catering, keamanan, transportasi pekerja, penunjang operasional umum, dan penunjang sektor pertambangan).',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Cocok untuk: penyerahan pekerjaan penunjang ke mitra agar tim internal fokus pada bisnis inti.',
+            'Tanggung jawab utama: pemenuhan seluruh hak pekerja (upah, THR, lembur, cuti, K3, BPJS, hak PHK).',
+            'Yang perlu diverifikasi: kepatuhan terhadap Permenaker 7/2026 dan kategori pekerjaan yang dialihdayakan.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Jasa outsourcing: cakupan komersial yang lebih luas',
+        },
+        {
+          type: 'p',
+          text: '"Jasa outsourcing" adalah istilah komersial yang lebih luas. Selain mencakup model alih daya tenaga kerja, istilah ini juga digunakan untuk Business Process Outsourcing (BPO) di area seperti payroll, administrasi BPJS, time & attendance, talent headhunting, dan HR administration. Pada BPO, yang dialihkan bukan pekerja, melainkan proses—mitra mengeksekusi proses tersebut dengan tenaga kerja mereka sendiri di tempat mereka sendiri.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Cocok untuk: efisiensi proses HR/administrasi tanpa harus menempatkan tenaga di lokasi Anda.',
+            'Tanggung jawab utama: SLA proses (akurasi payroll, ketepatan pelaporan, waktu respons), bukan supply tenaga.',
+            'Yang perlu diverifikasi: sistem teknologi yang digunakan, kontrol kualitas, dan akses real-time ke data.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Memilih model yang tepat untuk kebutuhan Anda',
+        },
+        {
+          type: 'p',
+          text: 'Sederhanakan keputusan dengan tiga pertanyaan: (1) Apakah Anda butuh orang atau butuh proses berjalan? Jika butuh orang ditempatkan di lokasi Anda, pertimbangkan penyedia tenaga kerja atau perusahaan alih daya. Jika butuh proses berjalan tanpa harus mengelola orangnya, pilih jasa outsourcing/BPO. (2) Apakah pekerjaan tersebut termasuk kategori yang diizinkan untuk dialihdayakan menurut Permenaker 7/2026? Jika tidak, model alih daya mungkin tidak tepat dan rekrutmen langsung lebih sesuai. (3) Seberapa kritis kepatuhan dan auditabilitas? Untuk fungsi yang sensitif terhadap regulasi—payroll, BPJS, pelaporan PHK—mitra dengan proses terdokumentasi dan platform digital memberikan jejak audit yang lebih kuat.',
+        },
+        {
+          type: 'h2',
+          text: 'Catatan kepatuhan: Permenaker 7/2026',
+        },
+        {
+          type: 'p',
+          text: 'Sejak berlakunya Permenaker Nomor 7 Tahun 2026, perusahaan pengguna ikut bertanggung jawab memastikan hak pekerja outsource terpenuhi. Pastikan kontrak dengan mitra memuat klausul eksplisit tentang pemenuhan hak pekerja, prosedur audit kepatuhan, dan mekanisme penyelesaian jika ditemukan ketidaksesuaian. Untuk konteks lengkap, lihat artikel kami tentang Permenaker 7/2026.',
+        },
+        {
+          type: 'p',
+          text: 'PT Sigma Solusi Servis adalah penyedia tenaga kerja Indonesia, perusahaan alih daya, dan penyedia jasa outsourcing yang beroperasi sejak 2015—dengan layanan man power supply, BPO HR, payroll, dan administrasi BPJS yang dijalankan sesuai regulasi terkini. Diskusikan kebutuhan Anda bersama kami untuk menemukan model yang paling tepat.',
+        },
+        {
+          type: 'cta',
+          text: 'Konsultasikan kebutuhan outsourcing Anda',
+          href: '/id/services',
+        },
+      ],
+      en: [
+        {
+          type: 'p',
+          text: 'In practice, three terms get used interchangeably: "Indonesian manpower provider," "outsourcing company," and "outsourcing services." Technically they refer to the same broad landscape—but the scope of work, legal obligations, and commercial model differ. Understanding the distinction helps you choose the right partner and write a contract that protects both sides.',
+        },
+        {
+          type: 'h2',
+          text: 'Indonesian manpower provider: focused on supplying people',
+        },
+        {
+          type: 'p',
+          text: 'A manpower provider is a company whose primary focus is supplying human resources to a user company—on contract, permanent, or project terms. Scope typically covers recruitment, screening, employment contracts, and basic workforce administration. Legal relationship: placed workers remain employees of the provider, not the user company.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Best for: fast headcount fulfilment, seasonal roles, or support functions you do not want to manage in-house.',
+            'Core responsibility: recruitment, contracts, payroll, BPJS, and labour compliance for placed workers.',
+            'What to verify: the provider holds a license as a workforce provider and has a clean record handling labour disputes.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Outsourcing company: the legal umbrella for alih daya',
+        },
+        {
+          type: 'p',
+          text: '"Perusahaan alih daya" (outsourcing company) is a formal term in Indonesian regulation—most clearly defined in Permenaker No. 7 of 2026 on Outsourced Work. Legally, an outsourcing company is a business entity that accepts work from a user company and executes it using workers it manages itself. Since Permenaker 7/2026, the scope of work that may be outsourced is limited to six support categories (cleaning, catering, security, employee transportation, general operational support, and mining-sector support).',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Best for: handing off support functions so internal teams can focus on core business.',
+            'Core responsibility: fulfilling all worker rights (wages, holiday allowance, overtime, leave, safety, BPJS, severance).',
+            'What to verify: compliance with Permenaker 7/2026 and that the outsourced work falls within a permitted category.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Outsourcing services: a broader commercial scope',
+        },
+        {
+          type: 'p',
+          text: '"Outsourcing services" is a broader commercial term. Beyond workforce outsourcing, it covers Business Process Outsourcing (BPO) in areas like payroll, BPJS administration, time & attendance, talent headhunting, and HR administration. In BPO, what is outsourced is not people—it is a process. The partner executes that process with their own workforce, often from their own premises.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Best for: streamlining HR/admin processes without placing staff at your location.',
+            'Core responsibility: process SLAs (payroll accuracy, reporting timeliness, response times), not headcount supply.',
+            'What to verify: the technology platform used, quality controls, and real-time access to data.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Choosing the right model',
+        },
+        {
+          type: 'p',
+          text: 'Simplify the decision with three questions: (1) Do you need people, or do you need a process to run? If you need people placed at your site, look at a manpower provider or outsourcing company. If you need a process to run without managing the people, choose outsourcing services / BPO. (2) Is the work within the categories permitted for outsourcing under Permenaker 7/2026? If not, outsourcing may not fit and direct hiring is the cleaner path. (3) How critical is compliance and auditability? For regulation-sensitive functions—payroll, BPJS, termination reporting—a partner with documented processes and a digital platform gives you a stronger audit trail.',
+        },
+        {
+          type: 'h2',
+          text: 'Compliance note: Permenaker 7/2026',
+        },
+        {
+          type: 'p',
+          text: 'Since Permenaker No. 7 of 2026 took effect, the user company shares responsibility for ensuring outsourced workers\' rights are met. Make sure your contract with the partner includes explicit clauses on worker-rights fulfilment, compliance audit procedures, and a remedy mechanism if gaps are found. For the full picture, see our article on Permenaker 7/2026.',
+        },
+        {
+          type: 'p',
+          text: 'PT Sigma Solusi Servis is an Indonesian manpower provider, outsourcing company, and outsourcing services partner operating since 2015—with man power supply, HR BPO, payroll, and BPJS administration delivered under current regulations. Talk to us about your needs to find the right model for your business.',
+        },
+        {
+          type: 'cta',
+          text: 'Discuss your outsourcing needs with us',
+          href: '/en/services',
+        },
+      ],
+    },
+  },
+  {
     slug: 'vendor-bpo-indonesia-panduan-lengkap',
     datePublished: '2026-05-14',
     title: {

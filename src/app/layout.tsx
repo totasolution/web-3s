@@ -14,6 +14,11 @@ export const metadata: Metadata = {
   },
   description:
     'Penyedia layanan tenaga kerja dan business process outsourcing (BPO) di Indonesia, dengan solusi HR untuk mendukung operasional perusahaan Anda.',
+  keywords: [
+    'Penyedia Tenaga Kerja Indonesia',
+    'Perusahaan Alih daya',
+    'Jasa Outsourcing',
+  ],
   authors: [{ name: 'PT. Sigma Solusi Servis' }],
   openGraph: {
     siteName: 'Sigma Solusi Servis',

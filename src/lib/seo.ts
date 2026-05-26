@@ -60,11 +60,15 @@ export function articlePageMetadata(
   slug: string,
   title: string,
   description: string,
-  datePublished: string
+  datePublished: string,
+  imageOverride?: { src: string; alt: string }
 ): Metadata {
   const pathWithoutLocale = `insights/${slug}`
   const canonical = canonicalUrl(locale, pathWithoutLocale)
   const ogLocale = locale === 'id' ? 'id_ID' : 'en_US'
+  const articleImage = imageOverride
+    ? { url: imageOverride.src, width: 1200, height: 630, alt: imageOverride.alt }
+    : ogImage
   return {
     title,
     description,
@@ -79,13 +83,13 @@ export function articlePageMetadata(
       locale: ogLocale,
       type: 'article',
       publishedTime: `${datePublished}T08:00:00.000Z`,
-      images: [ogImage],
+      images: [articleImage],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: [DEFAULT_OG_IMAGE_PATH],
+      images: [imageOverride?.src ?? DEFAULT_OG_IMAGE_PATH],
     },
   }
 }
