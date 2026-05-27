@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
@@ -39,28 +38,9 @@ export default async function InsightsIndexPage({
             {articles.map((article) => {
               const title = locale === 'en' ? article.title.en : article.title.id
               const description = locale === 'en' ? article.description.en : article.description.id
-              const imageAlt = article.image
-                ? locale === 'en'
-                  ? article.image.alt.en
-                  : article.image.alt.id
-                : title
               return (
                 <li key={article.slug}>
                   <article className="h-full flex flex-col bg-white rounded-2xl border border-gray-100 shadow-md hover:shadow-xl hover:border-brand-light transition-all duration-300 overflow-hidden">
-                    {article.image && (
-                      <Link
-                        href={`/${locale}/insights/${article.slug}`}
-                        className="relative block aspect-[16/9] w-full overflow-hidden bg-gray-100"
-                      >
-                        <Image
-                          src={article.image.src}
-                          alt={imageAlt}
-                          fill
-                          className="object-cover hover:scale-105 transition-transform duration-500"
-                          sizes="(max-width: 768px) 100vw, 50vw"
-                        />
-                      </Link>
-                    )}
                     <div className="p-8 flex flex-col flex-1">
                       <time
                         dateTime={article.datePublished}

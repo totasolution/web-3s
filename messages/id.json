@@ -13,10 +13,10 @@
     "careers": "Karir"
   },
   "hero": {
-    "badge": "Penyedia Tenaga Kerja & Perusahaan Alih Daya Sejak 2015",
-    "title": "Penyedia Tenaga Kerja Indonesia",
-    "subtitle": "Perusahaan Alih Daya & Jasa Outsourcing Terpercaya",
-    "description": "PT. Sigma Solusi Servis adalah penyedia tenaga kerja Indonesia, perusahaan alih daya, dan penyedia jasa outsourcing—dengan solusi HR, payroll, dan man power supply yang mengoptimalkan SDM dan efisiensi operasional Anda.",
+    "badge": "Sejak 2015",
+    "title": "Optimalkan Tenaga Kerja",
+    "subtitle": "& Operasional Anda",
+    "description": "Mitra HR, payroll, dan BPO untuk perusahaan modern di Indonesia—dengan proses yang terdokumentasi dan kepatuhan regulasi yang terjaga.",
     "cta": {
       "primary": "Jelajahi Layanan",
       "secondary": "Mulai Sekarang"
@@ -29,8 +29,8 @@
     }
   },
   "services": {
-    "title": "Layanan Kami",
-    "subtitle": "Jasa outsourcing, man power supply, solusi HR, dan BPO dari perusahaan alih daya tepercaya—diselaraskan dengan kebutuhan bisnis Anda",
+    "title": "Jasa Outsourcing & Layanan BPO Kami",
+    "subtitle": "Sebagai penyedia tenaga kerja Indonesia, kami menyelaraskan man power supply, solusi HR, dan BPO dengan kebutuhan bisnis Anda",
     "badge": "Yang Kami Tawarkan",
     "viewAll": "Lihat Semua Layanan",
     "learnMore": "Pelajari Lebih Lanjut",
@@ -346,7 +346,7 @@
   },
   "companyProfile": {
     "badge": "Profil Perusahaan",
-    "title": "Kenali Lebih Dekat",
+    "title": "Perusahaan Alih Daya Tepercaya Sejak 2015 —",
     "highlight": "Sigma Solusi Servis",
     "description": "Unduh profil perusahaan kami untuk mempelajari layanan tenaga kerja, BPO, solusi HR, dan bagaimana kami mendukung transformasi operasional bisnis Anda.",
     "viewButton": "Lihat Profil",

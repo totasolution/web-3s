@@ -13,10 +13,10 @@
     "careers": "Careers"
   },
   "hero": {
-    "badge": "Indonesian Manpower Provider & Outsourcing Company Since 2015",
-    "title": "Indonesian Manpower Provider",
-    "subtitle": "Outsourcing Company & Trusted Outsourcing Services",
-    "description": "PT. Sigma Solusi Servis is an Indonesian manpower provider, outsourcing company, and outsourcing services partner—with HR solutions, payroll, and man power supply that optimize your people and operational efficiency.",
+    "badge": "Since 2015",
+    "title": "Optimize Your Workforce",
+    "subtitle": "& Operations",
+    "description": "Your HR, payroll, and BPO partner for modern businesses in Indonesia—with documented processes and consistent regulatory compliance.",
     "cta": {
       "primary": "Explore Services",
       "secondary": "Get Started"
@@ -29,8 +29,8 @@
     }
   },
   "services": {
-    "title": "Our Services",
-    "subtitle": "Outsourcing services, man power supply, HR solutions, and BPO from a trusted outsourcing company—aligned with your business needs",
+    "title": "Our Outsourcing Services & BPO",
+    "subtitle": "As an Indonesian manpower provider, we align man power supply, HR solutions, and BPO with your business needs",
     "badge": "What We Offer",
     "viewAll": "View All Services",
     "learnMore": "Learn More",
@@ -378,7 +378,7 @@
   },
   "companyProfile": {
     "badge": "Company Profile",
-    "title": "Get to Know",
+    "title": "A Trusted Outsourcing Company Since 2015 —",
     "highlight": "Sigma Solusi Servis",
     "description": "Download our company profile to learn about workforce services, BPO, HR solutions, and how we support your operational transformation.",
     "viewButton": "View Profile",
