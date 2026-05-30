@@ -2,6 +2,900 @@ import type { Article } from './types'
 
 export const articles: Article[] = [
   {
+    slug: 'perusahaan-outsourcing-indonesia-panduan-2026',
+    datePublished: '2026-05-30',
+    title: {
+      id: 'Memilih Perusahaan Outsourcing di Indonesia: Panduan Lengkap 2026',
+      en: 'Choosing an Outsourcing Company in Indonesia: A Complete 2026 Guide',
+    },
+    description: {
+      id: 'Panduan top-funnel mengenal perusahaan outsourcing di Indonesia—jenis vendor, layanan yang ditawarkan, manfaat, kerangka pemilihan, biaya umum, dan kapan outsourcing justru tidak cocok untuk bisnis Anda.',
+      en: 'A top-funnel guide to outsourcing companies in Indonesia—vendor types, services offered, benefits, a selection framework, typical costs, and when outsourcing actually does not fit your business.',
+    },
+    body: {
+      id: [
+        {
+          type: 'p',
+          text: 'Ketika perusahaan mulai mempertimbangkan jasa outsourcing—entah untuk man power supply, payroll, atau administrasi HR—pertanyaan pertama biasanya bukan "vendor mana?", tapi "seperti apa sebenarnya lanskap perusahaan outsourcing di Indonesia?". Artikel ini menjawab pertanyaan itu: tipe vendor yang ada, layanan yang umum ditawarkan, kerangka untuk memilih, biaya umum, dan—yang sering tidak dibahas—kapan outsourcing justru tidak cocok untuk bisnis Anda.',
+        },
+        {
+          type: 'h2',
+          text: 'Apa itu perusahaan outsourcing?',
+        },
+        {
+          type: 'p',
+          text: 'Perusahaan outsourcing—atau dalam istilah hukum Indonesia disebut perusahaan alih daya—adalah badan usaha yang menerima sebagian proses bisnis dari perusahaan klien (perusahaan pengguna) dan menjalankannya melalui tenaga kerja yang mereka kelola sendiri. Sejak Permenaker Nomor 7 Tahun 2026 berlaku, ruang lingkup outsourcing di Indonesia dibatasi pada enam kategori penunjang: kebersihan, catering, keamanan, transportasi pekerja, penunjang operasional umum, dan penunjang sektor pertambangan. Ini berarti perusahaan pengguna ikut bertanggung jawab memastikan ruang lingkup pekerjaan yang dialihdayakan sesuai regulasi.',
+        },
+        {
+          type: 'h2',
+          text: 'Jenis perusahaan outsourcing di Indonesia',
+        },
+        {
+          type: 'p',
+          text: 'Vendor outsourcing di Indonesia tidak homogen—ada beberapa jenis dengan fokus dan skala layanan berbeda. Memahami klasifikasinya membantu Anda menyaring kandidat lebih cepat.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Penyedia tenaga kerja (man power supply / staffing): fokus utama menyalurkan SDM ke lokasi klien, mengelola kontrak kerja, payroll, dan administrasi BPJS tenaga yang ditempatkan.',
+            'Perusahaan alih daya (outsourcing company): menerima paket pekerjaan tertentu (misal cleaning service atau security) dan menjalankannya end-to-end dengan supervisi mereka sendiri.',
+            'Vendor BPO HR: fokus pada proses—payroll, administrasi BPJS, time & attendance, talent headhunting—bukan pada penempatan tenaga di lokasi klien.',
+            'Vendor niche industri: spesialis di sektor spesifik seperti ritel, manufaktur, perbankan, atau pertambangan, dengan pemahaman mendalam tentang karakteristik tenaga kerja di industri itu.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Layanan yang umum ditawarkan',
+        },
+        {
+          type: 'p',
+          text: 'Sebagian besar perusahaan outsourcing terpercaya di Indonesia menawarkan beberapa atau seluruh layanan berikut—dengan kedalaman dan kualitas yang bervariasi tergantung skala dan spesialisasi mereka.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Man power supply dan staffing untuk posisi kontrak atau permanen.',
+            'Payroll outsourcing: perhitungan gaji, PPh 21, dan transfer ke karyawan.',
+            'Administrasi BPJS Ketenagakerjaan dan Kesehatan: pendaftaran, pembayaran iuran, dan klaim.',
+            'Time & attendance management dengan platform digital.',
+            'Talent headhunting dan executive search untuk posisi strategis.',
+            'HR administration: pengurusan kontrak, dokumen, dan kepatuhan regulasi.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Skala vendor di pasar Indonesia',
+        },
+        {
+          type: 'p',
+          text: 'Secara skala, vendor outsourcing di Indonesia bisa dikelompokkan jadi tiga lapisan. Vendor nasional dengan kantor di Jabodetabek dan beberapa kota besar cocok untuk klien dengan operasi multi-lokasi yang butuh konsistensi proses. Vendor regional kuat di wilayah tertentu (misalnya Jawa Timur atau Sumatera) dan biasanya lebih responsif untuk kebutuhan lokal. Vendor niche/spesialis fokus pada vertikal industri tertentu dan menawarkan kedalaman pemahaman yang sulit ditandingi vendor generalist. Tidak ada jenis yang "lebih baik"—yang ada hanya kecocokan dengan kebutuhan Anda.',
+        },
+        {
+          type: 'h2',
+          text: 'Manfaat menggunakan perusahaan outsourcing',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Tim internal bisa fokus ke bisnis inti, sementara fungsi penunjang dikelola mitra dengan proses terstandarisasi.',
+            'Skalabilitas headcount lebih cepat—penambahan atau pengurangan tenaga kerja tidak terhambat siklus rekrutmen internal.',
+            'Risiko kepatuhan ketenagakerjaan dipindahkan ke mitra yang biasanya lebih update terhadap perubahan regulasi (Permenaker, UMP/UMK, BPJS).',
+            'Biaya tenaga kerja jadi predictable—Anda membayar paket, bukan menanggung surprise cost saat ada perubahan regulasi.',
+            'Akses ke platform digital (payroll, time & attendance) tanpa investasi tools sendiri.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Kerangka memilih perusahaan outsourcing yang tepat',
+        },
+        {
+          type: 'p',
+          text: 'Untuk perbandingan apel ke apel, evaluasi vendor lewat lima dimensi—dengan bobot yang Anda sesuaikan dengan prioritas bisnis. Kepatuhan dan kemampuan operasional umumnya layak dapat porsi lebih besar dibanding harga.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Legalitas & kepatuhan: izin alih daya aktif, NIB, dan rekam jejak kepatuhan terhadap Permenaker 7/2026.',
+            'Pengalaman & portofolio: lama beroperasi, industri yang dilayani, dan referensi klien yang bisa dikontak langsung.',
+            'Transparansi biaya: bersedia memecah komponen biaya (upah pokok, BPJS, THR, management fee) di proposal—bukan hanya angka all-in.',
+            'Teknologi & data: platform digital untuk payroll dan time & attendance dengan akses real-time bagi klien.',
+            'SLA & exit clause: komitmen kuantitatif untuk fill time, akurasi payroll, dan ketepatan pelaporan BPJS—dengan mekanisme exit yang adil.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Berapa biaya outsourcing di Indonesia?',
+        },
+        {
+          type: 'p',
+          text: 'Tidak ada satu "harga pasar" yang berlaku universal—tarif bergantung pada UMP/UMK lokasi, jenis pekerjaan, kompleksitas SLA, dan skala headcount. Sebagai referensi, total cost per head di Indonesia umumnya 1,35–1,55× dari upah pokok (sudah termasuk BPJS, THR, cadangan pesangon, dan management fee 8–18%). Untuk pembedahan komponen biaya yang lebih lengkap, lihat artikel kami tentang tarif & biaya jasa outsourcing.',
+        },
+        {
+          type: 'h2',
+          text: 'Red flag yang harus dihindari',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Harga jauh di bawah rata-rata pasar tanpa penjelasan—biasanya ada komponen kepatuhan yang dipangkas.',
+            'Vendor enggan memberi sampel kontrak kerja, SOP payroll, atau format pelaporan bulanan.',
+            'Tidak ada PIC dedicated; setiap kali Anda hubungi yang menjawab orang berbeda.',
+            'Ruang lingkup yang ditawarkan di luar enam kategori Permenaker 7/2026—risiko kepatuhan ada di Anda sebagai user company.',
+            'Klaim klien tanpa logo atau referensi yang bisa diverifikasi.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Kapan outsourcing tidak cocok untuk bisnis Anda',
+        },
+        {
+          type: 'p',
+          text: 'Outsourcing bukan solusi universal. Ada konteks ketika rekrutmen langsung atau membangun tim internal justru lebih masuk akal. Jujur menilai ini di awal lebih baik daripada masuk ke kontrak yang tidak sesuai.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Posisi yang Anda butuhkan adalah core business—pekerjaan inti yang menentukan diferensiasi kompetitif. Permenaker 7/2026 juga membatasi outsourcing pada kategori penunjang.',
+            'Volume headcount kecil dan stabil—biaya management fee jadi tidak sebanding dengan kompleksitas internal yang Anda hilangkan.',
+            'Anda butuh kontrol langsung yang sangat tinggi atas kultur, training, dan retention—lapisan vendor justru memperlambat eksekusi.',
+            'Lokasi operasional sangat unik (remote, lapangan khusus) yang sulit didukung infrastruktur vendor.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Langkah selanjutnya setelah punya gambaran umum',
+        },
+        {
+          type: 'p',
+          text: 'Setelah Anda paham lanskap perusahaan outsourcing di Indonesia, langkah berikutnya adalah eksekusi pemilihan—dari klarifikasi kebutuhan internal sampai onboarding 90 hari pertama. Kami merangkum prosesnya tahap demi tahap di artikel "Cara Memilih Vendor Outsourcing yang Tepat di Indonesia — Checklist Lengkap 2026", lengkap dengan template evaluasi dan red flag yang sering luput.',
+        },
+        {
+          type: 'p',
+          text: 'PT Sigma Solusi Servis adalah penyedia tenaga kerja Indonesia, perusahaan alih daya, dan penyedia jasa outsourcing yang beroperasi sejak 2015—dengan proses terdokumentasi, platform digital terbuka, dan tim yang biasa bekerja dengan klien lintas industri di Jabodetabek dan kota-kota besar lain. Jika Anda ingin sesi diskusi awal untuk memetakan kebutuhan tanpa komitmen, kami siap dihubungi.',
+        },
+        {
+          type: 'cta',
+          text: 'Diskusikan kebutuhan outsourcing Anda dengan Sigma',
+          href: '/id/services',
+        },
+      ],
+      en: [
+        {
+          type: 'p',
+          text: 'When a company starts considering outsourcing services—for manpower, payroll, or HR administration—the first question is usually not "which vendor?" but "what does the outsourcing landscape in Indonesia actually look like?". This article answers that: the types of vendors that exist, the services they typically offer, a selection framework, typical costs, and—often overlooked—when outsourcing simply does not fit your business.',
+        },
+        {
+          type: 'h2',
+          text: 'What is an outsourcing company?',
+        },
+        {
+          type: 'p',
+          text: 'An outsourcing company—called perusahaan alih daya in Indonesian regulation—is a business entity that takes over part of a client\'s business process and delivers it using its own workforce. Since Permenaker No. 7 of 2026 took effect, the scope of outsourcing in Indonesia is limited to six support categories: cleaning, catering, security, employee transportation, general operational support, and mining-sector support. That means the user company shares responsibility for ensuring the outsourced scope falls within the rules.',
+        },
+        {
+          type: 'h2',
+          text: 'Types of outsourcing companies in Indonesia',
+        },
+        {
+          type: 'p',
+          text: 'Indonesia\'s outsourcing vendors are not homogeneous—several types exist, with different focus and service depth. Understanding the classification helps you shortlist faster.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Manpower providers (man power supply / staffing): focused on placing workers at client sites, managing employment contracts, payroll, and BPJS for placed staff.',
+            'Outsourcing companies (perusahaan alih daya): take on a defined work package (e.g. cleaning or security) and deliver it end-to-end under their own supervision.',
+            'HR BPO vendors: focused on processes—payroll, BPJS administration, time & attendance, talent headhunting—rather than placing workers at client locations.',
+            'Industry-niche vendors: specialists in specific sectors such as retail, manufacturing, banking, or mining, with deep understanding of that industry\'s workforce profile.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Services typically offered',
+        },
+        {
+          type: 'p',
+          text: 'Most reputable outsourcing companies in Indonesia offer some or all of the following—with depth and quality varying by scale and specialization.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Man power supply and staffing for contract or permanent roles.',
+            'Payroll outsourcing: salary calculation, PPh 21 tax, and transfer to employees.',
+            'BPJS Ketenagakerjaan and Kesehatan administration: registration, contributions, and claims.',
+            'Time & attendance management on a digital platform.',
+            'Talent headhunting and executive search for strategic roles.',
+            'HR administration: contracts, documents, and regulatory compliance.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Vendor scale in the Indonesian market',
+        },
+        {
+          type: 'p',
+          text: 'By scale, outsourcing vendors in Indonesia fall into three layers. National vendors with offices in Jabodetabek and major cities suit clients with multi-location operations needing process consistency. Regional vendors are strong in specific areas (e.g. East Java or Sumatra) and usually more responsive to local needs. Niche/specialist vendors focus on a single industry vertical and offer depth a generalist vendor cannot match. No type is "better"—only fit with your needs matters.',
+        },
+        {
+          type: 'h2',
+          text: 'Benefits of using an outsourcing company',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Internal teams stay focused on the core business while support functions run on a standardized process.',
+            'Faster headcount scalability—adding or trimming workers is not bottlenecked by internal recruitment cycles.',
+            'Compliance risk shifts to a partner typically more current on regulatory change (Permenaker, UMP/UMK, BPJS).',
+            'Labour cost becomes predictable—you pay for a package, not surprise costs when regulations shift.',
+            'Access to digital platforms (payroll, time & attendance) without investing in the tools yourself.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'A framework for choosing the right outsourcing company',
+        },
+        {
+          type: 'p',
+          text: 'For apples-to-apples comparison, evaluate vendors across five dimensions—weighted to your priorities. Compliance and operational capability usually deserve a larger share than price.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Legal & compliance: active outsourcing license, NIB, and track record against Permenaker 7/2026.',
+            'Experience & portfolio: years in operation, industries served, and references you can contact directly.',
+            'Cost transparency: willing to break down components (base wage, BPJS, THR, management fee) in the proposal—not just an all-in number.',
+            'Technology & data: digital platform for payroll and time & attendance with real-time client access.',
+            'SLA & exit clause: quantitative commitments on fill time, payroll accuracy, and BPJS reporting—with a fair exit mechanism.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'What does outsourcing cost in Indonesia?',
+        },
+        {
+          type: 'p',
+          text: 'There is no single universal "market price"—rates depend on location UMP/UMK, role type, SLA complexity, and headcount scale. As a benchmark, total cost per head in Indonesia typically lands at 1.35–1.55× the base wage (including BPJS, THR, severance reserve, and an 8–18% management fee). For a full breakdown of cost components, see our article on outsourcing service pricing.',
+        },
+        {
+          type: 'h2',
+          text: 'Red flags to avoid',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Pricing well below market with no explanation—a compliance component is usually being trimmed.',
+            'Vendor unwilling to share sample contracts, payroll SOPs, or monthly reporting formats.',
+            'No dedicated PIC; a different person answers each time you reach out.',
+            'Scope offered outside the six Permenaker 7/2026 categories—compliance risk lands on you as the user company.',
+            'Client claims with no verifiable logo or reference.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'When outsourcing does not fit your business',
+        },
+        {
+          type: 'p',
+          text: 'Outsourcing is not a universal solution. Sometimes direct hiring or building an internal team makes more sense. Being honest about this upfront beats signing into a contract that does not fit.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'The role is core business—work that defines your competitive differentiation. Permenaker 7/2026 also limits outsourcing to support categories.',
+            'Headcount is small and stable—the management fee outweighs the internal complexity you save.',
+            'You need very high direct control over culture, training, and retention—a vendor layer slows execution.',
+            'Operational locations are unusual (remote, specialised field sites) that vendor infrastructure cannot reach.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Next step after the overview',
+        },
+        {
+          type: 'p',
+          text: 'Once you understand the landscape, the next step is execution—from clarifying internal needs through the first 90 days of onboarding. We map the process stage by stage in our article "How to Choose the Right Outsourcing Vendor in Indonesia — Complete 2026 Checklist", including the evaluation template and red flags that often go unnoticed.',
+        },
+        {
+          type: 'p',
+          text: 'PT Sigma Solusi Servis is an Indonesian manpower provider, outsourcing company, and outsourcing services partner operating since 2015—with documented processes, an open digital platform, and a team experienced with clients across industries in Jabodetabek and major cities. If you would like an exploratory conversation to map needs with no commitment, we are happy to chat.',
+        },
+        {
+          type: 'cta',
+          text: 'Discuss your outsourcing needs with Sigma',
+          href: '/en/services',
+        },
+      ],
+    },
+  },
+  {
+    slug: 'cara-memilih-vendor-outsourcing-checklist-2026',
+    datePublished: '2026-05-30',
+    title: {
+      id: 'Cara Memilih Vendor Outsourcing yang Tepat di Indonesia — Checklist Lengkap 2026',
+      en: 'How to Choose the Right Outsourcing Vendor in Indonesia — Complete 2026 Checklist',
+    },
+    description: {
+      id: 'Panduan proses memilih perusahaan alih daya dan jasa outsourcing—tahap identifikasi kebutuhan, RFP, evaluasi, due diligence, negosiasi kontrak, hingga onboarding 90 hari pertama.',
+      en: 'A step-by-step playbook for selecting an outsourcing company in Indonesia—needs scoping, RFP, evaluation, due diligence, contract negotiation, and the first 90 days of onboarding.',
+    },
+    body: {
+      id: [
+        {
+          type: 'p',
+          text: 'Memilih vendor outsourcing yang tepat bukan keputusan satu pertemuan. Prosesnya berlapis: klarifikasi kebutuhan internal, penyusunan long-list dan short-list, RFP, evaluasi proposal, due diligence, negosiasi kontrak, dan onboarding. Artikel ini merangkum checklist tahap demi tahap yang bisa langsung dipakai tim procurement dan HR—lebih dari sekadar daftar kriteria, ini adalah alur kerja yang teruji.',
+        },
+        {
+          type: 'h2',
+          text: 'Tahap 1 — Klarifikasi kebutuhan internal sebelum mencari vendor',
+        },
+        {
+          type: 'p',
+          text: 'Sebelum menghubungi vendor mana pun, kuncinya adalah memetakan kebutuhan internal secara konkret. Vendor tidak bisa memberikan proposal yang baik jika spesifikasinya kabur, dan Anda akan kesulitan membandingkan apel ke apel di tahap berikutnya.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Berapa headcount yang dibutuhkan—per posisi, per lokasi, per shift?',
+            'Apakah kebutuhan ini permanen, musiman, atau berbasis proyek dengan tenggat?',
+            'Posisi mana saja yang masuk kategori penunjang menurut Permenaker 7/2026 dan mana yang sebenarnya core business?',
+            'Apa SLA operasional yang non-negotiable (waktu fill posisi kosong, akurasi payroll, ketepatan pelaporan BPJS)?',
+            'Berapa anggaran maksimal—dan apakah anggaran itu mencakup management fee, atau hanya cost of labour?',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Tahap 2 — Susun long-list dan short-list',
+        },
+        {
+          type: 'p',
+          text: 'Long-list ideal berisi 8–12 vendor yang memenuhi syarat dasar: izin sebagai perusahaan alih daya, beroperasi minimal 3–5 tahun, dan memiliki pengalaman di skala bisnis serupa. Saring ke short-list 3–5 vendor berdasarkan kecocokan vertikal industri dan kapasitas geografis. Tahap ini biasanya selesai dalam 1–2 minggu.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Cek legalitas: NIB, izin alih daya, dan rekam jejak kepatuhan ketenagakerjaan.',
+            'Filter berdasarkan pengalaman di industri Anda—FMCG berbeda dari ritel, ritel berbeda dari manufaktur.',
+            'Verifikasi kapasitas operasional di lokasi spesifik Anda; sebagian penyedia tenaga kerja Indonesia kuat di Jabodetabek namun terbatas di daerah.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Tahap 3 — Susun RFP yang menggali, bukan sekadar form',
+        },
+        {
+          type: 'p',
+          text: 'Banyak RFP berakhir sebagai pertukaran dokumen template—padahal RFP yang baik justru memaksa vendor menunjukkan cara berpikir mereka. Sertakan studi kasus mini dan minta mereka memberi pendekatan, bukan jawaban kosmetik.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Lampirkan skenario nyata (misal "isi 30 posisi kasir di 5 cabang dalam 14 hari") dan minta gambaran proses mereka.',
+            'Minta sampel kontrak kerja, SOP payroll, dan format pelaporan bulanan—bukan brosur.',
+            'Tanyakan platform teknologi yang dipakai untuk time & attendance, akses klien, dan audit trail.',
+            'Sertakan template harga yang mengisolasi komponen biaya: upah pokok, BPJS, tunjangan, management fee.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Tahap 4 — Evaluasi proposal dengan matriks bobot',
+        },
+        {
+          type: 'p',
+          text: 'Hindari memilih berdasarkan kesan saat presentasi. Susun matriks evaluasi dengan bobot eksplisit—biasanya kepatuhan dan operasional dapat porsi lebih besar dibanding harga, karena risiko salah pilih sangat mahal.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Kepatuhan & legalitas: 25–30%',
+            'Kemampuan operasional & SLA: 25–30%',
+            'Pengalaman industri & referensi: 15–20%',
+            'Teknologi & transparansi data: 10–15%',
+            'Harga & komersial: 15–20% (bukan dominan)',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Tahap 5 — Due diligence dan cek referensi',
+        },
+        {
+          type: 'p',
+          text: 'Tahap ini paling sering dilewati—dan paling sering disesali kemudian. Vendor outsourcing yang kredibel akan terbuka memberikan kontak klien aktif, bukan sekadar logo di brosur. Hubungi minimal 2–3 referensi langsung, lebih baik di industri serupa.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Tanyakan ke referensi: berapa lama mereka pakai vendor ini dan apa kasus operasional yang pernah meleset?',
+            'Cek apakah vendor pernah terlibat sengketa ketenagakerjaan yang melibatkan pekerja yang ditempatkan.',
+            'Kunjungi kantor vendor (atau lakukan video call panjang) untuk lihat operasional, bukan sekadar ruang meeting.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Tahap 6 — Negosiasi kontrak: SLA, penalti, dan exit clause',
+        },
+        {
+          type: 'p',
+          text: 'Kontrak yang baik melindungi kedua pihak, bukan menjebak salah satunya. Tiga klausul yang sering kurang dicermati: SLA dengan penalti kuantitatif (bukan komitmen verbal), prosedur eskalasi, dan exit clause yang adil.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'SLA dengan metrik terukur: waktu fill posisi, akurasi payroll (misal ≥99,5%), ketepatan pelaporan BPJS bulanan.',
+            'Penalti kuantitatif bila SLA tidak terpenuhi—bukan sekadar "akan diperbaiki".',
+            'Exit clause: berapa hari notice, mekanisme alih kelola tenaga kerja, dan biaya peralihan.',
+            'Klausul kepatuhan pekerja: penegasan tanggung jawab vendor atas upah, BPJS, K3, dan hak PHK sesuai Permenaker 7/2026.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Tahap 7 — Onboarding 90 hari pertama',
+        },
+        {
+          type: 'p',
+          text: 'Pemilihan vendor selesai bukan saat kontrak ditandatangani, melainkan saat 90 hari pertama berjalan tanpa kejutan besar. Bentuk kerangka monitoring sejak hari pertama agar masalah operasional muncul ke permukaan sebelum jadi sengketa.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Tetapkan PIC dari kedua sisi dan jadwal review mingguan untuk 4 minggu pertama, lalu bulanan.',
+            'Pantau metrik SLA dengan dashboard yang sama-sama bisa diakses—bukan laporan PDF satu arah.',
+            'Lakukan retrospektif 30 hari dan 90 hari untuk mengkalibrasi proses sebelum jadi kebiasaan.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Red flag yang sering luput',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Harga jauh di bawah rata-rata pasar—kemungkinan ada komponen biaya (BPJS, tunjangan) yang nantinya muncul sebagai surprise charge.',
+            'Vendor enggan memberi sampel kontrak kerja atau format pelaporan—indikasi proses tidak terdokumentasi.',
+            'Tidak ada PIC dedicated; setiap kali Anda hubungi, yang menjawab orang berbeda.',
+            'Ruang lingkup pekerjaan yang ditawarkan di luar enam kategori penunjang Permenaker 7/2026—risiko kepatuhan ada di Anda sebagai user company.',
+            'Klaim klien tanpa logo atau referensi yang bisa diverifikasi.',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'PT Sigma Solusi Servis adalah penyedia tenaga kerja Indonesia dan perusahaan alih daya yang beroperasi sejak 2015—dengan proses terdokumentasi, platform digital terbuka, dan pengalaman menjalani siklus seleksi vendor seperti ini bersama klien lintas industri. Jika Anda ingin diskusi pendahuluan, kami siap berbagi pengalaman tanpa komitmen.',
+        },
+        {
+          type: 'cta',
+          text: 'Diskusikan kebutuhan outsourcing Anda',
+          href: '/id/services',
+        },
+      ],
+      en: [
+        {
+          type: 'p',
+          text: 'Choosing the right outsourcing vendor is not a one-meeting decision. The process is layered: clarifying internal needs, building a long-list and short-list, running an RFP, evaluating proposals, due diligence, contract negotiation, and onboarding. This article maps the playbook stage by stage—more than a list of criteria, this is a working procurement flow.',
+        },
+        {
+          type: 'h2',
+          text: 'Stage 1 — Clarify internal needs before approaching vendors',
+        },
+        {
+          type: 'p',
+          text: 'Before contacting any vendor, map your internal requirements concretely. Vendors cannot produce strong proposals against vague specs, and you will struggle to compare apples to apples downstream.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'How many headcount do you need—by role, by location, by shift?',
+            'Is this need permanent, seasonal, or project-based with a deadline?',
+            'Which roles fall under permitted support categories per Permenaker 7/2026 and which are actually core business?',
+            'Which operational SLAs are non-negotiable (fill time, payroll accuracy, BPJS reporting timeliness)?',
+            'What is the maximum budget—and does it include management fee, or only cost of labour?',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Stage 2 — Build a long-list and short-list',
+        },
+        {
+          type: 'p',
+          text: 'A solid long-list contains 8–12 vendors meeting the baseline: outsourcing company license, 3–5+ years of operation, and experience at a comparable scale. Narrow to a short-list of 3–5 vendors based on industry vertical fit and geographic capacity. This stage typically takes 1–2 weeks.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Check legal standing: NIB, outsourcing license, and labour compliance record.',
+            'Filter by industry experience—FMCG differs from retail, retail differs from manufacturing.',
+            'Verify operational capacity at your specific locations; some Indonesian manpower providers are strong in Jabodetabek but thin elsewhere.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Stage 3 — Build an RFP that probes, not just a form to fill in',
+        },
+        {
+          type: 'p',
+          text: 'Many RFPs end as template exchanges—but a strong RFP forces vendors to show how they think. Include a mini case study and ask for an approach, not cosmetic answers.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Attach a real scenario (e.g. "fill 30 cashier roles across 5 branches in 14 days") and ask for their process.',
+            'Request sample employment contracts, payroll SOPs, and monthly reporting formats—not brochures.',
+            'Ask about the technology platform used for time & attendance, client access, and audit trail.',
+            'Provide a pricing template that isolates components: base wage, BPJS, allowances, management fee.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Stage 4 — Evaluate proposals with a weighted matrix',
+        },
+        {
+          type: 'p',
+          text: 'Avoid choosing based on presentation impression. Build an evaluation matrix with explicit weights—compliance and operations usually deserve a larger share than price, because the cost of a bad choice is high.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Compliance & legal: 25–30%',
+            'Operational capability & SLAs: 25–30%',
+            'Industry experience & references: 15–20%',
+            'Technology & data transparency: 10–15%',
+            'Price & commercial: 15–20% (not dominant)',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Stage 5 — Due diligence and reference checks',
+        },
+        {
+          type: 'p',
+          text: 'This stage gets skipped most often—and regretted most often. A credible outsourcing vendor will openly share active client contacts, not just logos in a brochure. Contact at least 2–3 references directly, preferably in a similar industry.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Ask references: how long have they used this vendor and what operational case has slipped?',
+            'Check whether the vendor has been involved in labour disputes related to placed workers.',
+            'Visit the vendor\'s office (or run a long video call) to see operations, not just a meeting room.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Stage 6 — Contract negotiation: SLAs, penalties, exit clause',
+        },
+        {
+          type: 'p',
+          text: 'A good contract protects both sides, not traps one. Three clauses that are often under-scrutinized: SLAs with quantitative penalties (not verbal commitments), escalation procedures, and a fair exit clause.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'SLAs with measurable metrics: fill time, payroll accuracy (e.g. ≥99.5%), monthly BPJS reporting timeliness.',
+            'Quantitative penalties when SLAs are missed—not just "will be improved".',
+            'Exit clause: notice period, workforce handover mechanism, and transition cost.',
+            'Worker compliance clause: explicit vendor responsibility for wages, BPJS, K3, and termination rights per Permenaker 7/2026.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Stage 7 — The first 90 days of onboarding',
+        },
+        {
+          type: 'p',
+          text: 'Vendor selection is not done when the contract is signed—it is done when the first 90 days run without major surprises. Set up a monitoring frame from day one so operational issues surface before they become disputes.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Assign a PIC on each side and run weekly reviews for the first 4 weeks, then monthly.',
+            'Track SLA metrics on a dashboard both sides can access—not one-way PDF reports.',
+            'Run 30-day and 90-day retrospectives to calibrate the process before it becomes habit.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Red flags that often go unnoticed',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Pricing well below market—components (BPJS, allowances) may surface later as surprise charges.',
+            'Vendor unwilling to share sample contracts or reporting formats—signal of undocumented process.',
+            'No dedicated PIC; a different person answers each time you call.',
+            'Scope of work offered outside the six permitted Permenaker 7/2026 categories—compliance risk lands on you as the user company.',
+            'Client claims with no verifiable logo or reference.',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'PT Sigma Solusi Servis is an Indonesian manpower provider and outsourcing company operating since 2015—with documented processes, an open digital platform, and the experience of running this kind of selection cycle alongside clients across industries. If you want an exploratory conversation, we are happy to share notes with no commitment.',
+        },
+        {
+          type: 'cta',
+          text: 'Discuss your outsourcing needs with us',
+          href: '/en/services',
+        },
+      ],
+    },
+  },
+  {
+    slug: 'tarif-biaya-jasa-outsourcing-indonesia',
+    datePublished: '2026-05-29',
+    title: {
+      id: 'Tarif & Biaya Jasa Outsourcing di Indonesia: Komponen, Model Pricing, dan Hidden Cost',
+      en: 'Outsourcing Service Pricing in Indonesia: Cost Components, Pricing Models, and Hidden Costs',
+    },
+    description: {
+      id: 'Pembedahan transparan komponen biaya jasa outsourcing di Indonesia—dari upah pokok, BPJS, dan THR hingga management fee, plus tiga model pricing yang umum dipakai dan hidden cost yang sering luput dari proposal.',
+      en: 'A transparent breakdown of outsourcing service costs in Indonesia—base wages, BPJS, THR, and management fees—plus the three common pricing models and the hidden costs proposals often omit.',
+    },
+    body: {
+      id: [
+        {
+          type: 'p',
+          text: 'Salah satu pertanyaan paling sering dari perusahaan yang mempertimbangkan jasa outsourcing: "Berapa sebenarnya tarif vendor?" Jawabannya jarang sederhana karena pricing outsourcing terdiri dari banyak komponen yang sering tidak disajikan secara transparan. Artikel ini membedah komponen biaya, model pricing yang umum dipakai perusahaan alih daya di Indonesia, dan hidden cost yang sering luput—agar Anda bisa membandingkan proposal apel ke apel.',
+        },
+        {
+          type: 'h2',
+          text: 'Komponen biaya jasa outsourcing',
+        },
+        {
+          type: 'p',
+          text: 'Total biaya yang Anda bayar ke vendor outsourcing umumnya terdiri dari enam komponen utama. Tidak semua proposal memisahkannya secara eksplisit—justru di situ letak kesulitan membandingkan harga antar vendor.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Upah pokok tenaga kerja sesuai UMP/UMK lokasi penempatan—ini komponen terbesar dan harus mengikuti regulasi terbaru (lihat artikel kami tentang UMP 2026).',
+            'Tunjangan tetap dan tidak tetap (transport, makan, uang lembur) sesuai struktur upah klien atau standar vendor.',
+            'Iuran BPJS Ketenagakerjaan (JKK, JKM, JHT, JP) dan BPJS Kesehatan—porsi perusahaan, sekitar 10–11% dari upah pokok.',
+            'THR Keagamaan, dialokasikan 1/12 per bulan agar tidak menjadi beban kejut tahunan.',
+            'Cadangan pesangon sesuai PP 35/2021—biasanya 5–8% dari upah, tergantung kebijakan vendor.',
+            'Management fee vendor: kompensasi atas rekrutmen, payroll, administrasi BPJS, dan supervisi—umumnya 8–18% dari total cost of labour.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Model pricing yang umum dipakai vendor outsourcing Indonesia',
+        },
+        {
+          type: 'p',
+          text: 'Ada tiga model pricing yang umum di pasar Indonesia. Masing-masing memiliki kelebihan dan risiko yang berbeda untuk klien.',
+        },
+        {
+          type: 'h2',
+          text: 'Model 1 — Cost-plus dengan management fee terbuka',
+        },
+        {
+          type: 'p',
+          text: 'Vendor menampilkan semua komponen cost of labour (upah, BPJS, THR, pesangon) secara transparan, lalu menambahkan management fee sebagai persentase atau angka tetap. Ini model paling transparan dan termudah diaudit. Cocok untuk klien yang ingin kontrol penuh atas komposisi biaya dan siap menanggung penyesuaian saat UMP/UMK berubah.',
+        },
+        {
+          type: 'h2',
+          text: 'Model 2 — All-in per head per bulan',
+        },
+        {
+          type: 'p',
+          text: 'Vendor menawarkan satu angka tetap per kepala per bulan yang sudah mencakup semua komponen. Lebih mudah dianggarkan, tapi sulit dipastikan apakah komponen kepatuhan (BPJS, pesangon, THR) sudah terhitung wajar. Pastikan kontrak mendefinisikan eksplisit apa yang termasuk dan apa yang menjadi pass-through cost saat regulasi berubah.',
+        },
+        {
+          type: 'h2',
+          text: 'Model 3 — Persentase dari payroll',
+        },
+        {
+          type: 'p',
+          text: 'Vendor mengelola payroll klien dan mengenakan management fee sebagai persentase dari total payroll—umum di skenario BPO payroll murni, bukan man power supply. Sederhana untuk klien dengan headcount besar, tapi insentifnya tidak selalu sejalan: vendor diuntungkan bila total payroll naik.',
+        },
+        {
+          type: 'h2',
+          text: 'Indikator harga yang wajar — dan yang mencurigakan',
+        },
+        {
+          type: 'p',
+          text: 'Tidak ada satu angka "harga pasar" yang berlaku universal; tarif bergantung pada UMP/UMK lokasi, jenis pekerjaan, kompleksitas SLA, dan skala headcount. Tetapi ada beberapa sinyal yang bisa Anda pakai untuk menilai kewajaran.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Total cost per head biasanya 1,35–1,55× dari upah pokok di lokasi tersebut (sudah mencakup BPJS, THR, pesangon, dan management fee).',
+            'Management fee di bawah 5% patut dipertanyakan—sangat tipis untuk menutup biaya rekrutmen, payroll, dan supervisi.',
+            'Vendor yang langsung memberi "harga terendah" tanpa menggali kebutuhan biasanya bermain di volume tipis; risiko kepatuhan biasanya muncul kemudian.',
+            'Bandingkan dengan minimal 3 proposal—deviasi >15% dari median patut diaudit lebih dalam.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Hidden cost yang sering tidak masuk proposal awal',
+        },
+        {
+          type: 'p',
+          text: 'Inilah yang sering memicu friksi 3–6 bulan setelah kontrak berjalan. Pastikan komponen berikut dibahas eksplisit sejak awal.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Penyesuaian otomatis saat UMP/UMK berubah (siapa yang menanggung selisihnya?).',
+            'Biaya rekrutmen ulang bila terjadi turnover tinggi di luar batas wajar.',
+            'Biaya pelatihan awal, APD, dan seragam—kadang dipisahkan dari management fee.',
+            'Biaya alih kelola (handover) bila kontrak berakhir—termasuk dokumentasi dan transfer payroll history.',
+            'Pajak (PPN) di atas management fee—bukan komponen kecil bila skala besar.',
+            'Biaya overtime, lembur akhir pekan, dan tunjangan hari libur—pastikan dihitung sesuai aturan, bukan diakali.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Cara compare proposal apel ke apel',
+        },
+        {
+          type: 'p',
+          text: 'Karena vendor menyajikan harga dengan format berbeda-beda, sulit membandingkan langsung. Trik praktisnya: minta semua vendor mengisi template yang sama, dengan komponen biaya dipecah eksplisit.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Buat template Excel yang memisahkan: upah pokok, tunjangan, BPJS (per kategori), THR (alokasi bulanan), pesangon (alokasi bulanan), management fee, PPN.',
+            'Minta proposal disajikan per posisi per lokasi—agar perbedaan UMP/UMK terisolasi.',
+            'Hitung total annualized cost per head untuk masing-masing vendor; ini metrik yang fair untuk komparasi.',
+            'Periksa asumsi turnover dan biaya rekrutmen ulang—ini sering jadi tempat sembunyi biaya tambahan.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Pertanyaan agar Anda dapat harga transparan',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Apakah harga ini sudah mencakup PPN, atau ditambahkan di akhir?',
+            'Bila UMP/UMK naik di tengah kontrak, bagaimana mekanisme penyesuaiannya?',
+            'Komponen apa yang dianggap pass-through (dibayar at-cost) dan mana yang management fee?',
+            'Bila tenaga kerja mengundurkan diri di bulan pertama, siapa yang menanggung biaya rekrutmen pengganti?',
+            'Apakah proposal mencakup cadangan pesangon sesuai PP 35/2021, atau ditagih terpisah saat PHK?',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'Transparansi biaya adalah indikator kuat dari vendor yang siap bertanggung jawab di seluruh siklus kerja sama. Sigma Solusi Servis menyajikan komponen biaya secara eksplisit di setiap proposal, agar tim finance dan HR Anda bisa mengaudit dan membandingkan tanpa kejutan di pertengahan kontrak.',
+        },
+        {
+          type: 'cta',
+          text: 'Minta proposal transparan dari Sigma',
+          href: '/id/services',
+        },
+      ],
+      en: [
+        {
+          type: 'p',
+          text: 'One of the most common questions from companies considering outsourcing services: "What does it actually cost?" The answer is rarely simple because outsourcing pricing has many components that are often not presented transparently. This article unpacks the cost components, the pricing models commonly used by outsourcing companies in Indonesia, and the hidden costs that often slip through—so you can compare proposals apples to apples.',
+        },
+        {
+          type: 'h2',
+          text: 'Cost components of outsourcing services',
+        },
+        {
+          type: 'p',
+          text: 'The total you pay an outsourcing vendor generally consists of six main components. Not every proposal separates them explicitly—and that is exactly where price comparison breaks down.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Base wages per UMP/UMK at the placement location—the largest component, must follow current regulation (see our article on UMP 2026).',
+            'Fixed and variable allowances (transport, meals, overtime) per the client\'s wage structure or vendor standard.',
+            'BPJS Ketenagakerjaan (JKK, JKM, JHT, JP) and BPJS Kesehatan employer contributions—roughly 10–11% of base wages.',
+            'Religious holiday allowance (THR), allocated 1/12 per month to avoid an annual shock.',
+            'Severance reserve per PP 35/2021—typically 5–8% of wages, depending on vendor policy.',
+            'Vendor management fee: compensation for recruitment, payroll, BPJS administration, and supervision—generally 8–18% of total cost of labour.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Pricing models commonly used by outsourcing vendors in Indonesia',
+        },
+        {
+          type: 'p',
+          text: 'Three pricing models are common in the Indonesian market. Each carries different upsides and risks for the client.',
+        },
+        {
+          type: 'h2',
+          text: 'Model 1 — Cost-plus with open management fee',
+        },
+        {
+          type: 'p',
+          text: 'The vendor exposes every cost-of-labour component (wages, BPJS, THR, severance) transparently, then adds a management fee as a percentage or flat figure. The most transparent and auditable model. Suits clients who want full control over cost composition and accept adjustments when UMP/UMK changes.',
+        },
+        {
+          type: 'h2',
+          text: 'Model 2 — All-in per head per month',
+        },
+        {
+          type: 'p',
+          text: 'The vendor offers a single fixed figure per head per month that includes everything. Easier to budget, but harder to verify whether compliance components (BPJS, severance, THR) are fairly accounted for. Make sure the contract explicitly defines what is included and what becomes a pass-through when regulations change.',
+        },
+        {
+          type: 'h2',
+          text: 'Model 3 — Percentage of payroll',
+        },
+        {
+          type: 'p',
+          text: 'The vendor manages the client\'s payroll and charges a management fee as a percentage of total payroll—common in pure payroll BPO, not in manpower supply. Simple for clients with large headcount, but incentives are not always aligned: the vendor benefits when total payroll grows.',
+        },
+        {
+          type: 'h2',
+          text: 'Signals of fair pricing — and of suspicious pricing',
+        },
+        {
+          type: 'p',
+          text: 'There is no single universal "market price"; rates depend on location UMP/UMK, role type, SLA complexity, and headcount scale. But several signals help judge what is reasonable.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Total cost per head typically lands at 1.35–1.55× base wage at that location (including BPJS, THR, severance, and management fee).',
+            'Management fee below 5% is worth questioning—too thin to cover recruitment, payroll, and supervision.',
+            'A vendor that immediately offers the "lowest price" without exploring needs is usually working on thin volume; compliance risk tends to surface later.',
+            'Compare at least 3 proposals—deviations of >15% from the median deserve deeper audit.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Hidden costs that often miss the initial proposal',
+        },
+        {
+          type: 'p',
+          text: 'These are the items that cause friction 3–6 months into the contract. Make sure the following are discussed explicitly from the start.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Automatic adjustments when UMP/UMK changes (who absorbs the delta?).',
+            'Re-recruitment cost when turnover exceeds a reasonable threshold.',
+            'Initial training, PPE, and uniform costs—sometimes separated from the management fee.',
+            'Handover cost at contract end—including documentation and payroll-history transfer.',
+            'VAT (PPN) on the management fee—not a small line at scale.',
+            'Overtime, weekend pay, and public holiday allowances—make sure they are calculated by the book, not finessed.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'How to compare proposals apples to apples',
+        },
+        {
+          type: 'p',
+          text: 'Because vendors present pricing in different formats, direct comparison is hard. The practical trick: require every vendor to fill in the same template, with cost components broken down explicitly.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Build an Excel template that separates: base wage, allowances, BPJS (per category), THR (monthly allocation), severance (monthly allocation), management fee, VAT.',
+            'Ask for proposals per role per location—isolating UMP/UMK differences.',
+            'Compute the annualized cost per head for each vendor; that is the fair metric for comparison.',
+            'Examine turnover assumptions and re-recruitment cost—a frequent hiding spot for extra charges.',
+          ],
+        },
+        {
+          type: 'h2',
+          text: 'Questions that surface a transparent quote',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Is this price inclusive of VAT, or added at the end?',
+            'When UMP/UMK rises mid-contract, what is the adjustment mechanism?',
+            'Which components are pass-through (billed at cost) and which sit inside the management fee?',
+            'If a worker resigns in the first month, who bears the replacement cost?',
+            'Does the proposal include a severance reserve per PP 35/2021, or is it billed separately at termination?',
+          ],
+        },
+        {
+          type: 'p',
+          text: 'Cost transparency is a strong indicator that a vendor is ready to be accountable across the entire engagement. Sigma Solusi Servis presents cost components explicitly in every proposal, so your finance and HR teams can audit and compare without mid-contract surprises.',
+        },
+        {
+          type: 'cta',
+          text: 'Request a transparent proposal from Sigma',
+          href: '/en/services',
+        },
+      ],
+    },
+  },
+  {
     slug: 'penyedia-tenaga-kerja-perusahaan-alih-daya-jasa-outsourcing',
     datePublished: '2026-05-26',
     title: {

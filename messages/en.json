@@ -18,12 +18,12 @@
     "subtitle": "& Operations",
     "description": "Your HR, payroll, and BPO partner for modern businesses in Indonesia—with documented processes and consistent regulatory compliance.",
     "cta": {
-      "primary": "Explore Services",
-      "secondary": "Get Started"
+      "primary": "Explore Our Services",
+      "secondary": "Free Consultation"
     },
     "stats": {
       "clients": "Happy Clients",
-      "clientsDesc": "Trusted Worldwide",
+      "clientsDesc": "Trusted Across Industries",
       "experience": "Years Experience",
       "experienceDesc": "Since 2015"
     }
@@ -383,6 +383,45 @@
     "description": "Download our company profile to learn about workforce services, BPO, HR solutions, and how we support your operational transformation.",
     "viewButton": "View Profile",
     "downloadButton": "Download PDF"
+  },
+  "latestInsights": {
+    "badge": "Latest Insights",
+    "title": "Learn More About Outsourcing in Indonesia",
+    "subtitle": "Practical guides, vendor selection frameworks, and regulatory updates—to help you make better-informed workforce decisions.",
+    "readArticle": "Read Article",
+    "viewAll": "View All Insights",
+    "published": "Published"
+  },
+  "faq": {
+    "badge": "Frequently Asked",
+    "title": "Common Questions About Our Services",
+    "subtitle": "Short answers to the questions we most often hear from prospective clients.",
+    "items": [
+      {
+        "q": "What services does PT. Sigma Solusi Servis offer?",
+        "a": "We provide man power supply, HR services (talent headhunting, HR development, administration), and BPO for payroll, BPJS, and time & attendance. As an Indonesian manpower provider and outsourcing company operating since 2015, we serve clients across industries in Jabodetabek and other major cities."
+      },
+      {
+        "q": "How much does outsourcing cost in Indonesia?",
+        "a": "Total cost per head typically lands at 1.35–1.55× the base wage (per UMP/UMK at the location), including BPJS, THR, severance reserve, and an 8–18% management fee. Final rates depend on role type, location, SLA complexity, and headcount scale. See our article on outsourcing service pricing for a full cost-component breakdown."
+      },
+      {
+        "q": "Does Sigma comply with Permenaker No. 7 of 2026?",
+        "a": "Yes. The outsourcing scopes we serve—cleaning, security, catering, employee transportation, general operational support, and mining-sector support—fall within the six categories permitted under Permenaker 7/2026. Worker rights (wages, THR, overtime, K3, BPJS, termination) are met per current regulation."
+      },
+      {
+        "q": "How long does the onboarding process take?",
+        "a": "For standard support roles with clear specifications, typically 7–14 working days from contract signing to workers ready at site. For mass recruitment or specialist roles, the timeline can be longer and will be agreed upfront as part of the SLA."
+      },
+      {
+        "q": "Which industries does Sigma serve?",
+        "a": "We have cross-industry experience—retail, FMCG, banking, technology, and F&B—with an understanding of workforce profiles and compliance requirements that differ by sector. Our clients include Biznet, Klikit, and Bang Churros, among others."
+      },
+      {
+        "q": "How do I start working with Sigma?",
+        "a": "Contact us for a free 30-minute consultation—we will map your needs and send a proposal with transparent cost components. No commitment at this stage; you can compare with other vendors before deciding."
+      }
+    ]
   },
   "notFound": {
     "title": "Page Not Found",

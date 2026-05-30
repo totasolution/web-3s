@@ -18,12 +18,12 @@
     "subtitle": "& Operasional Anda",
     "description": "Mitra HR, payroll, dan BPO untuk perusahaan modern di Indonesia—dengan proses yang terdokumentasi dan kepatuhan regulasi yang terjaga.",
     "cta": {
-      "primary": "Jelajahi Layanan",
-      "secondary": "Mulai Sekarang"
+      "primary": "Lihat Layanan Kami",
+      "secondary": "Konsultasi Gratis"
     },
     "stats": {
       "clients": "Klien Puas",
-      "clientsDesc": "Dipercaya Secara Global",
+      "clientsDesc": "Dipercaya Lintas Industri",
       "experience": "Tahun Pengalaman",
       "experienceDesc": "Sejak 2015"
     }
@@ -351,6 +351,45 @@
     "description": "Unduh profil perusahaan kami untuk mempelajari layanan tenaga kerja, BPO, solusi HR, dan bagaimana kami mendukung transformasi operasional bisnis Anda.",
     "viewButton": "Lihat Profil",
     "downloadButton": "Unduh PDF"
+  },
+  "latestInsights": {
+    "badge": "Wawasan Terbaru",
+    "title": "Pelajari Lebih Lanjut Tentang Outsourcing di Indonesia",
+    "subtitle": "Panduan praktis, kerangka pemilihan vendor, dan update regulasi—untuk membantu keputusan ketenagakerjaan Anda lebih terinformasi.",
+    "readArticle": "Baca Artikel",
+    "viewAll": "Lihat Semua Wawasan",
+    "published": "Dipublikasikan"
+  },
+  "faq": {
+    "badge": "Pertanyaan Umum",
+    "title": "Yang Sering Ditanyakan Tentang Layanan Kami",
+    "subtitle": "Jawaban singkat untuk pertanyaan yang paling sering kami terima dari calon klien.",
+    "items": [
+      {
+        "q": "Apa saja layanan yang ditawarkan PT. Sigma Solusi Servis?",
+        "a": "Kami menyediakan man power supply, layanan HR (talent headhunting, HR development, administrasi), serta BPO untuk payroll, BPJS, time & attendance. Sebagai penyedia tenaga kerja Indonesia dan perusahaan alih daya yang beroperasi sejak 2015, kami melayani perusahaan lintas industri di Jabodetabek dan kota-kota besar lainnya."
+      },
+      {
+        "q": "Berapa biaya jasa outsourcing di Indonesia?",
+        "a": "Total cost per head umumnya 1,35–1,55× dari upah pokok (UMP/UMK lokasi), sudah termasuk BPJS, THR, cadangan pesangon, dan management fee 8–18%. Tarif final tergantung jenis posisi, lokasi, kompleksitas SLA, dan skala headcount. Lihat artikel kami tentang tarif & biaya jasa outsourcing untuk pembedahan komponen biaya yang lebih lengkap."
+      },
+      {
+        "q": "Apakah Sigma mematuhi Permenaker No. 7 Tahun 2026?",
+        "a": "Ya. Seluruh ruang lingkup alih daya yang kami layani—kebersihan, keamanan, catering, transportasi pekerja, penunjang operasional, dan penunjang pertambangan—masuk dalam enam kategori yang diizinkan Permenaker 7/2026. Hak pekerja (upah, THR, lembur, K3, BPJS, hak PHK) dipenuhi sesuai regulasi terkini."
+      },
+      {
+        "q": "Berapa lama proses onboarding tenaga kerja outsource?",
+        "a": "Untuk posisi penunjang standar dengan spesifikasi jelas, biasanya 7–14 hari kerja dari penandatanganan kontrak hingga tenaga kerja siap di lokasi. Untuk rekrutmen massal atau posisi spesialis, timeline dapat lebih panjang dan akan disepakati di awal sebagai bagian dari SLA."
+      },
+      {
+        "q": "Industri apa saja yang dilayani Sigma?",
+        "a": "Kami memiliki pengalaman lintas industri—ritel, FMCG, perbankan, teknologi, dan F&B—dengan pemahaman karakteristik tenaga kerja dan kepatuhan regulasi yang berbeda di setiap sektor. Klien kami termasuk Biznet, Klikit, dan Bang Churros, di antaranya."
+      },
+      {
+        "q": "Bagaimana cara mulai bekerja sama dengan Sigma?",
+        "a": "Hubungi kami untuk sesi konsultasi gratis 30 menit—kami petakan kebutuhan Anda dan kirim proposal dengan komponen biaya terbuka. Tanpa komitmen di tahap awal; Anda bisa membandingkan dengan vendor lain sebelum memutuskan."
+      }
+    ]
   },
   "notFound": {
     "title": "Halaman Tidak Ditemukan",
