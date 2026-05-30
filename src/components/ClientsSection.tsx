@@ -26,9 +26,14 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
   }
 
   const clientLogos = [
-    { name: 'Biznet', logo: '/biznet.png' },
-    { name: 'Klikit', logo: '/klikit.png' },
-    { name: 'BangChurros', logo: '/bang_churros.png' },
+    { name: 'Biznet', logo: '/clients/biznet.png' },
+    { name: 'Klikit', logo: '/clients/klikit.png' },
+    { name: 'Bang Churros', logo: '/clients/bang-churros.png' },
+    { name: 'Alchemo Teknologi Indonesia', logo: '/clients/alchemo.png' },
+    { name: 'BukuWarung', logo: '/clients/bw-icon.png' },
+    { name: 'seIndonesia', logo: '/clients/seindonesia.png' },
+    { name: 'Axiata Digital Labs', logo: '/clients/axiata.png' },
+    { name: 'BFI Multifinance', logo: '/clients/bfi.png' },
   ]
 
   const stats = [
@@ -134,28 +139,35 @@ const ClientsSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-            {clientLogos.slice(0, isHomePage ? 6 : 12).map((client, index) => (
-              <motion.div
-                key={index}
-                className="group bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex items-center justify-center border border-gray-100 hover:border-brand-light min-h-[150px] aspect-square"
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.4, delay: index * 0.05 }}
-                viewport={{ once: true }}
-              >
-                <div className="relative w-full h-full min-h-[100px] flex items-center justify-center">
-                  <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/20 to-brand-light/20 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  <Image
-                    src={client.logo}
-                    alt={`${client.name} company logo`}
-                    width={180}
-                    height={100}
-                    className="relative z-[1] w-auto max-h-[72px] h-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
-                  />
-                </div>
-              </motion.div>
-            ))}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {clientLogos.slice(0, isHomePage ? 8 : 12).map((client, index) => {
+              const altText =
+                locale === 'en'
+                  ? `${client.name} logo — PT. Sigma Solusi Servis client for outsourcing and BPO services`
+                  : `Logo ${client.name} — klien PT. Sigma Solusi Servis untuk jasa outsourcing dan BPO`
+              return (
+                <motion.div
+                  key={index}
+                  className="group bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex items-center justify-center border border-gray-100 hover:border-brand-light min-h-[150px] aspect-square"
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.4, delay: index * 0.05 }}
+                  viewport={{ once: true }}
+                >
+                  <div className="relative w-full h-full min-h-[100px] flex items-center justify-center">
+                    <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/20 to-brand-light/20 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <Image
+                      src={client.logo}
+                      alt={altText}
+                      title={client.name}
+                      width={180}
+                      height={100}
+                      className="relative z-[1] w-auto max-h-[72px] h-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
+                    />
+                  </div>
+                </motion.div>
+              )
+            })}
           </div>
 
           {isHomePage && (

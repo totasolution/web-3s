@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import SetHtmlLangFromPath from '@/components/SetHtmlLangFromPath'
 import StructuredData from '@/components/StructuredData'
+import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 const locales = ['en', 'id'] as const
 
@@ -48,6 +49,7 @@ export default async function LocaleLayout({
       <SetHtmlLangFromPath />
       <StructuredData />
       {children}
+      <FloatingWhatsApp />
     </>
   )
 }

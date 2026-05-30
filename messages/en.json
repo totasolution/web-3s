@@ -384,6 +384,10 @@
     "viewButton": "View Profile",
     "downloadButton": "Download PDF"
   },
+  "whatsapp": {
+    "label": "Chat on WhatsApp",
+    "prefilled": "Hello Sigma Solusi Servis, I'm interested in your outsourcing services. Can we discuss?"
+  },
   "latestInsights": {
     "badge": "Latest Insights",
     "title": "Learn More About Outsourcing in Indonesia",
