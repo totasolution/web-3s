@@ -124,7 +124,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="text-5xl md:text-6xl font-extrabold text-brand-dark mb-6 font-headline"
           >
-            {t('about.hero.title')} <span className="bg-gradient-to-r from-brand-primary to-brand-light bg-clip-text text-transparent">3S</span>
+            {t('about.hero.title')} <span className="bg-gradient-to-r from-brand-primary to-brand-light bg-clip-text text-transparent">Sigma Solusi Servis</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}

@@ -13,10 +13,10 @@
     "careers": "Karir"
   },
   "hero": {
-    "badge": "Sejak 2015",
-    "title": "Optimalkan Tenaga Kerja",
-    "subtitle": "& Operasional Anda",
-    "description": "Mitra HR, payroll, dan BPO untuk perusahaan modern di seluruh Indonesia—dengan jangkauan eksekusi di Jabodetabek, Surabaya, Bandung, dan Medan.",
+    "badge": "11+ Tahun Pengalaman",
+    "title": "Mitra Outsourcing Tenaga Kerja & BPO",
+    "subtitle": "Berpengalaman Sejak 2015",
+    "description": "PT. Sigma Solusi Servis—mengelola tenaga kerja outsourcing dan layanan BPO untuk perusahaan Indonesia sejak 2015. Dipercaya Biznet, Klikit, BukuWarung, dan klien lintas industri. Jangkauan eksekusi Jabodetabek, Surabaya, Bandung, Medan.",
     "cta": {
       "primary": "Lihat Layanan Kami",
       "secondary": "Konsultasi Gratis"
@@ -147,15 +147,15 @@
     "hero": {
       "badge": "Tentang Kami",
       "title": "Tentang",
-      "subtitle": "Penyedia layanan tenaga kerja dan BPO di Indonesia, berkomitmen pada solusi HR dan operasional yang mendorong kesuksesan bisnis Anda"
+      "subtitle": "PT. Sigma Solusi Servis adalah penyedia tenaga kerja Indonesia, perusahaan alih daya, dan jasa outsourcing yang berdiri sejak 2015—dengan layanan man power supply, BPO, dan solusi HR untuk perusahaan di seluruh Indonesia."
     },
     "section": {
-      "title": "Mitra Tenaga Kerja, HR & BPO Anda",
-      "description": "Sejak 2015, PT. Sigma Solusi Servis membantu perusahaan memenuhi kebutuhan tenaga kerja, menyederhanakan proses melalui business process outsourcing (BPO), dan memperkuat fungsi HR. Kami memahami setiap organisasi unik, sehingga layanan kami disesuaikan untuk efisiensi, produktivitas, dan kepuasan karyawan.",
-      "bullet1": "Track record sukses yang terbukti dengan 500+ klien puas",
-      "bullet2": "Keahlian industri dan best practice dari 10+ tahun pengalaman",
-      "bullet3": "Pendekatan personal untuk solusi dengan dukungan berkelanjutan",
-      "statsTitle": "Mengapa Memilih 3S?",
+      "title": "Penyedia Tenaga Kerja, Perusahaan Alih Daya & Mitra BPO Anda",
+      "description": "PT. Sigma Solusi Servis (3S) adalah penyedia tenaga kerja Indonesia, perusahaan alih daya, dan penyedia jasa outsourcing yang berdiri sejak 2015. Kami menyediakan man power supply, payroll & BPJS, time & attendance, talent headhunting, dan layanan HR—melayani perusahaan lintas industri di seluruh Indonesia dengan jangkauan eksekusi di Jabodetabek, Surabaya, Bandung, dan Medan.",
+      "bullet1": "Track record konsisten dengan klien lintas industri sejak 2015",
+      "bullet2": "Keahlian operasional & kepatuhan regulasi dari 10+ tahun pengalaman",
+      "bullet3": "Pendekatan personal dengan dukungan berkelanjutan sepanjang kontrak",
+      "statsTitle": "Mengapa Memilih Sigma?",
       "stats": {
         "clients": "Klien Puas",
         "placements": "Penempatan Sukses",
@@ -440,32 +440,32 @@
   "seo": {
     "pages": {
       "home": {
-        "title": "Penyedia Tenaga Kerja Indonesia | Perusahaan Alih Daya & Jasa Outsourcing",
+        "title": "PT. Sigma Solusi Servis — Outsourcing & Tenaga Kerja Indonesia",
         "description": "PT. Sigma Solusi Servis — penyedia tenaga kerja, perusahaan alih daya, dan jasa outsourcing seluruh Indonesia sejak 2015. Jangkauan Jabodetabek, Surabaya, Bandung, Medan. Layanan man power supply, payroll, BPJS, dan BPO."
       },
       "about": {
-        "title": "Tentang Kami",
-        "description": "Tentang PT. Sigma Solusi Servis: layanan tenaga kerja, BPO, solusi HR, nilai perusahaan, profil, dan testimoni klien di Indonesia."
+        "title": "Tentang PT. Sigma Solusi Servis — Perusahaan Alih Daya",
+        "description": "Tentang PT. Sigma Solusi Servis: penyedia tenaga kerja Indonesia & perusahaan alih daya sejak 2015. Layanan outsourcing, BPO, HR. Profil, nilai, dan testimoni klien."
       },
       "contact": {
-        "title": "Kontak",
-        "description": "Hubungi PT. Sigma Solusi Servis di Jakarta: telepon, email, dan jam operasional. Konsultasi untuk tenaga kerja, BPO, dan layanan HR."
+        "title": "Kontak PT. Sigma Solusi Servis — Konsultasi Outsourcing",
+        "description": "Hubungi PT. Sigma Solusi Servis untuk konsultasi gratis layanan outsourcing, tenaga kerja, BPO, dan HR. Telepon, email, WhatsApp, dan jam operasional."
       },
       "services": {
-        "title": "Jasa Outsourcing & Penyedia Tenaga Kerja — Perusahaan Alih Daya Indonesia",
-        "description": "Jasa outsourcing dari perusahaan alih daya seluruh Indonesia: man power supply, payroll, administrasi BPJS, time & attendance, dan solusi HR komprehensif dari PT. Sigma Solusi Servis. Layanan tersedia di Jabodetabek, Surabaya, Bandung, Medan. Terpercaya sejak 2015."
+        "title": "Layanan Outsourcing & BPO — PT. Sigma Solusi Servis",
+        "description": "Layanan jasa outsourcing dari PT. Sigma Solusi Servis: man power supply, payroll, BPJS, time & attendance, talent headhunting. Seluruh Indonesia, sejak 2015."
       },
       "clients": {
-        "title": "Klien",
-        "description": "Klien yang mempercayai PT. Sigma Solusi Servis untuk layanan tenaga kerja, BPO, dan solusi HR di Indonesia—logo, hasil, dan kisah sukses."
+        "title": "Klien PT. Sigma Solusi Servis — Perusahaan yang Dilayani",
+        "description": "Klien yang mempercayai PT. Sigma Solusi Servis untuk layanan outsourcing, tenaga kerja, BPO, dan HR di Indonesia. Logo, hasil, dan kisah sukses lintas industri."
       },
       "insights": {
-        "title": "Wawasan",
-        "description": "Artikel singkat tentang BPO, tenaga kerja, payroll, BPJS, dan produktivitas operasional dari PT. Sigma Solusi Servis."
+        "title": "Wawasan Outsourcing & HR — PT. Sigma Solusi Servis",
+        "description": "Artikel wawasan tentang outsourcing, BPO, tenaga kerja, payroll, BPJS, dan regulasi ketenagakerjaan Indonesia—dari PT. Sigma Solusi Servis."
       },
       "careers": {
-        "title": "Karir",
-        "description": "Informasi karir dan lowongan kerja di PT. Sigma Solusi Servis untuk layanan tenaga kerja, HR, dan BPO."
+        "title": "Karir di PT. Sigma Solusi Servis — Lowongan Outsourcing",
+        "description": "Karir dan lowongan kerja di PT. Sigma Solusi Servis. Peluang kerja di sektor outsourcing, BPO, dan layanan HR seluruh Indonesia."
       }
     }
   }

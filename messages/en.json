@@ -13,10 +13,10 @@
     "careers": "Careers"
   },
   "hero": {
-    "badge": "Since 2015",
-    "title": "Optimize Your Workforce",
-    "subtitle": "& Operations",
-    "description": "Your HR, payroll, and BPO partner for modern businesses across Indonesia—with execution coverage in Jabodetabek, Surabaya, Bandung, and Medan.",
+    "badge": "11+ Years of Experience",
+    "title": "Your Manpower Outsourcing & BPO Partner",
+    "subtitle": "Experienced Since 2015",
+    "description": "PT. Sigma Solusi Servis—managing manpower outsourcing and BPO services for Indonesian businesses since 2015. Trusted by Biznet, Klikit, BukuWarung, and cross-industry clients. Execution coverage in Jabodetabek, Surabaya, Bandung, and Medan.",
     "cta": {
       "primary": "Explore Our Services",
       "secondary": "Free Consultation"
@@ -214,15 +214,15 @@
     "hero": {
       "badge": "About Us",
       "title": "About",
-      "subtitle": "Workforce and BPO provider in Indonesia, committed to HR and operational solutions that drive your business forward"
+      "subtitle": "PT. Sigma Solusi Servis is an Indonesian manpower provider, outsourcing company, and outsourcing services partner founded in 2015—with man power supply, BPO, and HR solutions for businesses across Indonesia."
     },
     "section": {
-      "title": "Your Partner for Workforce, HR & BPO",
-      "description": "Since 2015, PT. Sigma Solusi Servis has helped companies meet workforce needs, simplify operations through business process outsourcing (BPO), and strengthen HR. Every organization is unique, so our services are tailored to efficiency, productivity, and employee satisfaction.",
-      "bullet1": "Proven track record of success with 500+ satisfied clients",
-      "bullet2": "Industry expertise and best practices from 10+ years of experience",
-      "bullet3": "Personalized approach to solutions with ongoing support",
-      "statsTitle": "Why Choose 3S?",
+      "title": "Your Manpower Provider, Outsourcing Company & BPO Partner",
+      "description": "PT. Sigma Solusi Servis (3S) is an Indonesian manpower provider, outsourcing company, and outsourcing services partner founded in 2015. We deliver man power supply, payroll & BPJS, time & attendance, talent headhunting, and HR services—serving businesses across industries in Indonesia, with execution coverage in Jabodetabek, Surabaya, Bandung, and Medan.",
+      "bullet1": "Consistent track record with cross-industry clients since 2015",
+      "bullet2": "Operational expertise & regulatory compliance from 10+ years",
+      "bullet3": "Personalized approach with ongoing support throughout the contract",
+      "statsTitle": "Why Choose Sigma?",
       "stats": {
         "clients": "Happy Clients",
         "placements": "Successful Placements",
@@ -440,32 +440,32 @@
   "seo": {
     "pages": {
       "home": {
-        "title": "Indonesian Manpower Provider | Outsourcing Company & Services",
+        "title": "PT. Sigma Solusi Servis — Indonesian Manpower & Outsourcing",
         "description": "PT. Sigma Solusi Servis — Indonesian manpower provider, outsourcing company, and outsourcing services partner serving businesses across Indonesia since 2015. Coverage in Jabodetabek, Surabaya, Bandung, Medan. Man power supply, payroll, BPJS, HR & BPO."
       },
       "about": {
-        "title": "About Us",
-        "description": "About PT. Sigma Solusi Servis: workforce services, BPO, HR solutions, values, company profile, and client testimonials in Indonesia."
+        "title": "About PT. Sigma Solusi Servis — Indonesian Outsourcing",
+        "description": "About PT. Sigma Solusi Servis: Indonesian manpower provider & outsourcing company since 2015. Workforce services, BPO, HR solutions, values, and client testimonials."
       },
       "contact": {
-        "title": "Contact",
-        "description": "Contact PT. Sigma Solusi Servis in Jakarta: phone, email, and business hours. Consultations for workforce, BPO, and HR services."
+        "title": "Contact PT. Sigma Solusi Servis — Free Consultation",
+        "description": "Contact PT. Sigma Solusi Servis for a free outsourcing consultation. Phone, email, WhatsApp, and business hours. Workforce, BPO, and HR services across Indonesia."
       },
       "services": {
-        "title": "Outsourcing Services & Manpower Provider — Indonesian Outsourcing Company",
-        "description": "Outsourcing services from a leading Indonesian outsourcing company serving businesses nationwide: man power supply, payroll, BPJS administration, time & attendance, and comprehensive HR solutions from PT. Sigma Solusi Servis. Available across Jabodetabek, Surabaya, Bandung, and Medan. Trusted since 2015."
+        "title": "Outsourcing & BPO Services — PT. Sigma Solusi Servis",
+        "description": "Outsourcing services from PT. Sigma Solusi Servis: man power supply, payroll, BPJS, time & attendance, talent headhunting. Across Indonesia, trusted since 2015."
       },
       "clients": {
-        "title": "Clients",
-        "description": "Clients that trust PT. Sigma Solusi Servis for workforce services, BPO, and HR solutions in Indonesia—logos, results, and success stories."
+        "title": "Clients of PT. Sigma Solusi Servis — Companies Served",
+        "description": "Clients that trust PT. Sigma Solusi Servis for outsourcing, workforce, BPO, and HR solutions in Indonesia. Logos, results, and success stories across industries."
       },
       "insights": {
-        "title": "Insights",
-        "description": "Short articles on BPO, workforce, payroll, BPJS, and operational productivity from PT. Sigma Solusi Servis."
+        "title": "Outsourcing & HR Insights — PT. Sigma Solusi Servis",
+        "description": "Insight articles on outsourcing, BPO, workforce, payroll, BPJS, and Indonesian employment regulations—from PT. Sigma Solusi Servis."
       },
       "careers": {
-        "title": "Careers",
-        "description": "Career information and job openings at PT. Sigma Solusi Servis for workforce, HR, and BPO services."
+        "title": "Careers at PT. Sigma Solusi Servis — Outsourcing Jobs",
+        "description": "Careers and job openings at PT. Sigma Solusi Servis. Opportunities in outsourcing, BPO, and HR services across Indonesia."
       }
     }
   }

@@ -1,12 +1,13 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { 
-  Users, 
-  Briefcase, 
+import {
+  Users,
+  Briefcase,
   Cog,
   CheckCircle,
-  ArrowRight
+  ArrowRight,
+  Calculator
 } from 'lucide-react'
 import Link from 'next/link'
 import { useLocale } from '../hooks/useLocale'
@@ -35,26 +36,29 @@ const ServicesSection = () => {
   }
   
   const services = [
-    { 
-      icon: Users, 
-      title: t('services.manPowerSupply.title'), 
-      description: t('services.manPowerSupply.description'), 
+    {
+      icon: Users,
+      title: t('services.manPowerSupply.title'),
+      description: t('services.manPowerSupply.description'),
       features: t('services.manPowerSupply.features') || [],
-      color: 'from-brand-primary to-brand-light'
+      color: 'from-brand-primary to-brand-light',
+      href: `/${locale}/man-power-outsourcing`
     },
-    { 
-      icon: Briefcase, 
-      title: t('services.humanResource.title'), 
-      description: t('services.humanResource.description'), 
+    {
+      icon: Briefcase,
+      title: t('services.humanResource.title'),
+      description: t('services.humanResource.description'),
       features: t('services.humanResource.features') || [],
-      color: 'from-brand-light to-brand-primary'
+      color: 'from-brand-light to-brand-primary',
+      href: `/${locale}/services`
     },
-    { 
-      icon: Cog, 
-      title: t('services.bpo.title'), 
-      description: t('services.bpo.description'), 
+    {
+      icon: Cog,
+      title: t('services.bpo.title'),
+      description: t('services.bpo.description'),
       features: t('services.bpo.features') || [],
-      color: 'from-brand-primary to-brand-light'
+      color: 'from-brand-primary to-brand-light',
+      href: `/${locale}/jasa-bpo-indonesia`
     }
   ]
 
@@ -140,7 +144,7 @@ const ServicesSection = () => {
                   </ul>
                   
                   <Link
-                    href={`/${locale}/services`}
+                    href={service.href}
                     className="inline-flex items-center space-x-2 text-brand-primary hover:text-brand-light font-bold group/link"
                   >
                     <span>{t('common.learnMore')}</span>
@@ -161,14 +165,21 @@ const ServicesSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.5 }}
-          className="text-center mt-16"
+          className="text-center mt-16 flex flex-col sm:flex-row gap-4 justify-center"
         >
           <Link
             href={`/${locale}/services`}
-            className="inline-flex items-center space-x-2 bg-brand-primary hover:bg-brand-light text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
+            className="inline-flex items-center justify-center space-x-2 bg-brand-primary hover:bg-brand-light text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
           >
             <span>{t('services.viewAll')}</span>
             <ArrowRight className="w-5 h-5" />
+          </Link>
+          <Link
+            href={`/${locale}/kalkulator-biaya-outsourcing`}
+            className="inline-flex items-center justify-center space-x-2 bg-white border-2 border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-md hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
+          >
+            <Calculator className="w-5 h-5" />
+            <span>{locale === 'en' ? 'Cost Calculator' : 'Hitung Biaya'}</span>
           </Link>
         </motion.div>
       </div>

@@ -1,10 +1,22 @@
 import type { MetadataRoute } from 'next'
 import { getAllArticles } from '@/content/articles/posts'
 import { getActiveVacancies } from '@/content/careers/query'
+import { allCities } from '@/content/locations/cities'
 import { SITE_URL } from '@/lib/site'
 
 const locales = ['id', 'en'] as const
-const paths = ['', 'about', 'contact', 'services', 'clients', 'insights', 'careers'] as const
+const paths = [
+  '',
+  'about',
+  'contact',
+  'services',
+  'clients',
+  'insights',
+  'careers',
+  'man-power-outsourcing',
+  'jasa-bpo-indonesia',
+  'kalkulator-biaya-outsourcing',
+] as const
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = []
@@ -17,11 +29,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const path of paths) {
       const pathname = path ? `/${locale}/${path}` : `/${locale}`
       const isInsights = path === 'insights'
+      const isCommercialLanding =
+        path === 'man-power-outsourcing' || path === 'jasa-bpo-indonesia'
+      const isTool = path === 'kalkulator-biaya-outsourcing'
       entries.push({
         url: `${SITE_URL}${pathname}`,
         lastModified: now,
         changeFrequency: path === '' ? 'weekly' : isInsights ? 'weekly' : 'monthly',
-        priority: path === '' ? 1 : isInsights ? 0.85 : 0.8,
+        priority:
+          path === ''
+            ? 1
+            : isCommercialLanding
+              ? 0.95
+              : isInsights
+                ? 0.85
+                : isTool
+                  ? 0.85
+                  : 0.8,
       })
     }
     for (const article of articles) {
@@ -39,6 +63,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: now,
         changeFrequency: 'weekly',
         priority: 0.78,
+      })
+    }
+
+    for (const city of allCities) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/outsourcing-${city.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.9,
       })
     }
   }

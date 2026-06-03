@@ -15,5 +15,7 @@ export type Article = {
   title: { id: string; en: string }
   description: { id: string; en: string }
   image?: ArticleImage
+  /** Pin to top of "Latest Insights" on home. Use sparingly — pick high-CTR / high-intent guides. */
+  featured?: boolean
   body: { id: ArticleBlock[]; en: ArticleBlock[] }
 }

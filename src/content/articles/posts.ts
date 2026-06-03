@@ -1077,6 +1077,7 @@ export const articles: Article[] = [
   {
     slug: 'vendor-bpo-indonesia-panduan-lengkap',
     datePublished: '2026-05-14',
+    featured: true,
     title: {
       id: 'Apa itu Vendor BPO? Panduan Memilih Mitra Outsourcing Terpercaya di Indonesia',
       en: 'What is a BPO Vendor? A Guide to Choosing a Trusted Outsourcing Partner in Indonesia',
@@ -1951,6 +1952,7 @@ export const articles: Article[] = [
   {
     slug: 'permenaker-7-tahun-2026-outsourcing',
     datePublished: '2026-05-06',
+    featured: true,
     title: {
       id: 'Permenaker Nomor 7 Tahun 2026: Apa yang Perlu Diketahui Perusahaan tentang Alih Daya',
       en: 'Permenaker No. 7 of 2026: What Companies Need to Know About Outsourcing',

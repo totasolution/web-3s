@@ -26,7 +26,13 @@ const LatestInsightsSection = () => {
     return typeof value === 'string' ? value : key
   }
 
-  const articles = getAllArticles().slice(0, 3)
+  // Pin up to 2 featured (high-CTR / high-intent) guides to the front, then fill
+  // the remaining slot with the most recent article that isn't already featured.
+  const all = getAllArticles()
+  const featured = all.filter((a) => a.featured).slice(0, 2)
+  const featuredSlugs = new Set(featured.map((a) => a.slug))
+  const latestNonFeatured = all.find((a) => !featuredSlugs.has(a.slug))
+  const articles = [...featured, ...(latestNonFeatured ? [latestNonFeatured] : [])].slice(0, 3)
 
   const formatDate = (iso: string) =>
     new Intl.DateTimeFormat(locale === 'en' ? 'en-ID' : 'id-ID', {

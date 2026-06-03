@@ -32,7 +32,9 @@ export function pageSeoMetadata(
   const canonical = canonicalUrl(locale, pathWithoutLocale)
   const ogLocale = locale === 'id' ? 'id_ID' : 'en_US'
   return {
-    title,
+    // Use absolute title — each SEO title in messages includes brand inline,
+    // so the root layout `template` should not append it again.
+    title: { absolute: title },
     description,
     alternates: {
       canonical,

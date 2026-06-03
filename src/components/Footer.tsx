@@ -96,9 +96,46 @@ const Footer = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">{t('footer.ourServices')}</h4>
               <ul className="space-y-2 text-white/80">
-                <li><Link href={`/${locale}/services#manpower`} className="hover:text-white hover:pl-2 transition-all duration-200">{t('services.manPowerSupply.title')}</Link></li>
-                <li><Link href={`/${locale}/services#hr`} className="hover:text-white hover:pl-2 transition-all duration-200">{t('services.humanResource.title')}</Link></li>
-                <li><Link href={`/${locale}/services#bpo`} className="hover:text-white hover:pl-2 transition-all duration-200">{t('services.bpo.title')}</Link></li>
+                <li>
+                  <Link
+                    href={`/${locale}/man-power-outsourcing`}
+                    className="hover:text-white hover:pl-2 transition-all duration-200"
+                  >
+                    {locale === 'en' ? 'Manpower Outsourcing' : 'Man Power Outsourcing'}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={`/${locale}/jasa-bpo-indonesia`}
+                    className="hover:text-white hover:pl-2 transition-all duration-200"
+                  >
+                    {locale === 'en' ? 'BPO Services' : 'Jasa BPO Indonesia'}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={`/${locale}/kalkulator-biaya-outsourcing`}
+                    className="hover:text-white hover:pl-2 transition-all duration-200"
+                  >
+                    {locale === 'en' ? 'Cost Calculator' : 'Kalkulator Biaya'}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={`/${locale}/outsourcing-jakarta`}
+                    className="hover:text-white hover:pl-2 transition-all duration-200"
+                  >
+                    {locale === 'en' ? 'Outsourcing in Jakarta' : 'Outsourcing Jakarta'}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={`/${locale}/outsourcing-medan`}
+                    className="hover:text-white hover:pl-2 transition-all duration-200"
+                  >
+                    {locale === 'en' ? 'Outsourcing in Medan' : 'Outsourcing Medan'}
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
