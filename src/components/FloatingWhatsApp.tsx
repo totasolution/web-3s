@@ -2,7 +2,7 @@
 
 import { useLocale } from '../hooks/useLocale'
 
-const SIGMA_WA_NUMBER = process.env.NEXT_PUBLIC_SIGMA_WHATSAPP || '62217986083'
+const SIGMA_WA_NUMBER = process.env.NEXT_PUBLIC_SIGMA_WHATSAPP || '62818323452'
 
 const FloatingWhatsApp = () => {
   const locale = useLocale()
