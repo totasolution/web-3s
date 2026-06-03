@@ -3,9 +3,6 @@ import { NextRequest, NextResponse } from 'next/server'
 const locales = ['en', 'id']
 const defaultLocale = 'id'
 
-/** Canonical production host — non-www. Must match SITE_URL in lib/site.ts. */
-const CANONICAL_HOST = 'sigmasolusiservis.com'
-
 /** Paths served at site root by Next.js (MetadataRoute); must not get /id/ prefix. */
 const SKIP_LOCALE_PREFIX = new Set(['/sitemap.xml', '/robots.txt'])
 
@@ -47,14 +44,9 @@ function stripDiscardableSearchParams(url: URL): boolean {
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
 
-  // Redirect www → non-www to consolidate ranking signal.
-  // Skip for localhost/preview deploys (e.g. *.vercel.app).
-  const host = request.headers.get('host')?.toLowerCase()
-  if (host && host === `www.${CANONICAL_HOST}`) {
-    const target = request.nextUrl.clone()
-    target.host = CANONICAL_HOST
-    return NextResponse.redirect(target, 308)
-  }
+  // NOTE: www → non-www canonicalization is handled at the hosting layer
+  // (Vercel/Netlify primary-domain setting). Do NOT redirect here — adding
+  // a middleware redirect on top of the platform redirect creates a loop.
 
   if (shouldSkipLocalePrefix(pathname)) {
     return NextResponse.next()
