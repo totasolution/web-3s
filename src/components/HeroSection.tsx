@@ -63,19 +63,19 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight font-headline"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-5 md:mb-6 leading-[1.1] font-headline"
             >
               <span className="block bg-gradient-to-r from-brand-primary via-brand-light to-brand-primary bg-clip-text text-transparent">
                 {t('hero.title')}
               </span>
-              <span className="block text-brand-dark mt-2">{t('hero.subtitle')}</span>
+              <span className="block text-brand-dark mt-1 md:mt-2">{t('hero.subtitle')}</span>
             </motion.h1>
 
             <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl leading-relaxed font-medium"
+              className="text-base md:text-xl text-gray-600 mb-7 md:mb-10 max-w-2xl leading-relaxed font-medium"
             >
               {t('hero.description')}
             </motion.p>
@@ -100,6 +100,35 @@ const HeroSection = () => {
               >
                 <span>{ctaSecondary}</span>
               </Link>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              className="mt-10 md:mt-12 pt-6 border-t border-gray-200/70"
+            >
+              <p className="text-[11px] font-bold uppercase tracking-widest text-gray-500 mb-4">
+                {t('hero.trustedBy')}
+              </p>
+              <div className="flex items-center gap-6 md:gap-8 flex-wrap">
+                {[
+                  { name: 'Biznet', src: '/clients/biznet.png' },
+                  { name: 'Klikit', src: '/clients/klikit.png' },
+                  { name: 'BukuWarung', src: '/clients/bw-icon.png' },
+                  { name: 'Axiata Digital Labs', src: '/clients/axiata.png' },
+                  { name: 'BFI Multifinance', src: '/clients/bfi.png' },
+                ].map((c) => (
+                  <Image
+                    key={c.name}
+                    src={c.src}
+                    alt={`Logo ${c.name} — klien Sigma Solusi Servis`}
+                    width={100}
+                    height={32}
+                    className="h-7 md:h-8 w-auto object-contain grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  />
+                ))}
+              </div>
             </motion.div>
           </div>
 

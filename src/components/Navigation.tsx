@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ArrowRight, Menu, ChevronDown, MessageCircle, X } from 'lucide-react'
+import { Menu, ChevronDown, X } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useLocale } from '../hooks/useLocale'
@@ -80,7 +80,10 @@ const Navigation = () => {
                   priority
                 />
               </div>
-              <span className="text-lg md:text-xl font-bold text-brand-dark hidden sm:block">Sigma Solusi Servis</span>
+              <span className="text-base sm:text-lg md:text-xl font-bold text-brand-dark whitespace-nowrap">
+                <span className="sm:hidden">Sigma</span>
+                <span className="hidden sm:inline">Sigma Solusi Servis</span>
+              </span>
             </Link>
           </div>
 
@@ -147,27 +150,6 @@ const Navigation = () => {
             </div>
 
             <div className="relative shrink-0">
-              <Link
-                href={`/${locale}/contact`}
-                className="group/cta relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-brand-primary via-brand-primary to-brand-light px-4 py-2 sm:px-5 sm:py-2.5 text-sm sm:text-base font-bold text-white shadow-md shadow-brand-primary/25 ring-1 ring-white/25 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-brand-primary/35 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary focus-visible:ring-offset-2 whitespace-nowrap"
-              >
-                <span
-                  className="pointer-events-none absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 transition-opacity duration-500 group-hover/cta:opacity-100"
-                  aria-hidden
-                />
-                <MessageCircle
-                  className="relative z-10 h-4 w-4 shrink-0 opacity-95"
-                  aria-hidden
-                />
-                <span className="relative z-10">{contactCtaLabel}</span>
-                <ArrowRight
-                  className="relative z-10 h-4 w-4 shrink-0 transition-transform duration-300 group-hover/cta:translate-x-0.5"
-                  aria-hidden
-                />
-              </Link>
-            </div>
-
-            <div className="relative shrink-0">
               <LanguageSwitcher />
             </div>
           </div>
@@ -176,24 +158,6 @@ const Navigation = () => {
             <div className="relative shrink-0">
               <LanguageSwitcher />
             </div>
-            <Link
-              href={`/${locale}/contact`}
-              aria-label={contactCtaLabel}
-              title={contactCtaLabel}
-              className="group/mh relative inline-flex max-w-full shrink items-center justify-center gap-1.5 overflow-hidden rounded-full bg-gradient-to-r from-brand-primary via-brand-primary to-brand-light px-2.5 py-2 min-[360px]:px-3 min-[360px]:gap-2 text-[11px] min-[360px]:text-xs font-bold text-white shadow-md shadow-brand-primary/25 ring-1 ring-white/25 transition-all duration-300 active:scale-[0.98] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary focus-visible:ring-offset-2"
-            >
-              <span
-                className="pointer-events-none absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 transition-opacity duration-500 group-hover/mh:opacity-100"
-                aria-hidden
-              />
-              <MessageCircle
-                className="relative z-10 h-3.5 w-3.5 min-[360px]:h-4 min-[360px]:w-4 shrink-0"
-                aria-hidden
-              />
-              <span className="relative z-10 hidden min-[360px]:inline whitespace-nowrap">
-                {contactCtaLabel}
-              </span>
-            </Link>
             <button
               className="shrink-0 text-brand-dark hover:text-brand-primary transition-colors p-2 rounded-lg hover:bg-brand-lighter"
               onClick={toggleMenu}

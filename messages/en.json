@@ -22,11 +22,12 @@
       "secondary": "Free Consultation"
     },
     "stats": {
-      "clients": "Happy Clients",
-      "clientsDesc": "Trusted Across Industries",
+      "clients": "Companies Served",
+      "clientsDesc": "Across Indonesian Industries",
       "experience": "Years Experience",
       "experienceDesc": "Since 2015"
-    }
+    },
+    "trustedBy": "Trusted by"
   },
   "services": {
     "title": "Our Outsourcing Services & BPO",

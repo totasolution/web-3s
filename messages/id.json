@@ -22,11 +22,12 @@
       "secondary": "Konsultasi Gratis"
     },
     "stats": {
-      "clients": "Klien Puas",
-      "clientsDesc": "Dipercaya Lintas Industri",
+      "clients": "Perusahaan Dilayani",
+      "clientsDesc": "Lintas Industri Nasional",
       "experience": "Tahun Pengalaman",
       "experienceDesc": "Sejak 2015"
-    }
+    },
+    "trustedBy": "Dipercaya oleh"
   },
   "services": {
     "title": "Jasa Outsourcing & Layanan BPO Kami",
