@@ -9,7 +9,7 @@ type Item = { q: string; a: string }
 type Props = {
   title: string
   subtitle?: string
-  items: Item[]
+  items: readonly Item[]
 }
 
 const FAQAccordion = ({ title, subtitle, items }: Props) => {
